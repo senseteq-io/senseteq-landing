@@ -1,28 +1,11 @@
+import { LanguagesMenu, Menu } from '../../layout'
 import { useCallback, useEffect, useState } from 'react'
 
 import Image from 'next/image'
 import { getClassNames } from '../../../utils'
 
-const MENU_ITEMS = {
-  '/': { title: 'Hjem', href: '/' },
-  '/technologies': { title: 'Teknologi', href: '/technologies' },
-  '/customers': { title: 'Kunder', href: '/customers' },
-  '/pricing': { title: 'Priser', href: '/pricing' },
-  '/team': { title: 'Team', href: '/team' },
-  '/contact': { title: 'Kontakt', href: '/contact' }
-}
-const LANGUAGES_ITEMS = [
-  {
-    title: 'NO'
-  },
-  {
-    title: 'EN'
-  }
-]
-
 const Header = () => {
   // [COMPONENT_STATE_HOOKS]
-  const [activeMenuItem, setActiveMenuItem] = useState()
   const [isInverseHeader, setIsInverseHeader] = useState(false)
 
   // [HELPER_FUNCTIONS]
@@ -50,8 +33,6 @@ const Header = () => {
   })
 
   // [USE_EFFECTS]
-  useEffect(() => setActiveMenuItem(window?.location?.pathname), [])
-
   useEffect(() => {
     document?.addEventListener('scroll', documentScrollHandler)
 
@@ -81,24 +62,8 @@ const Header = () => {
             />
           </div>
         </div>
-        <div className="menu-wrapper">
-          {Object.values(MENU_ITEMS)?.map(({ href, title }) => (
-            <div
-              key={href}
-              className={`menu-item ${
-                activeMenuItem === href ? 'menu-item-active' : ''
-              }`}>
-              <a href={href}>{title}</a>
-            </div>
-          ))}
-        </div>
-        <div className="languages-wrapper">
-          {LANGUAGES_ITEMS?.map(({ title }) => (
-            <div className="language-item" key={title}>
-              {title}
-            </div>
-          ))}
-        </div>
+        <Menu />
+        <LanguagesMenu />
       </div>
     </header>
   )
