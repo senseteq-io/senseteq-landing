@@ -53,8 +53,8 @@ input {
 @import url("./lib/grid.css");
 @import url("./lib/typography.css");
 
+/* COMPONENTS */
 @import url("./components/header.css");
-
-/* ELEMENTS */
+@import url("./components/pageWrapper.css");
 
 /* PAGES */
