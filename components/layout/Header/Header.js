@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 
 import Image from 'next/image'
+import { getClassNames } from '../../../utils'
 
 const MENU_ITEMS = {
   '/': { title: 'Hjem', href: '/' },
@@ -42,6 +43,12 @@ const Header = () => {
     } else isScrollAtTop ? setIsInverseHeader(false) : setIsInverseHeader(true)
   }, [isInverseHeader])
 
+  // [COMPUTED PROPERTY]
+  const classNames = getClassNames({
+    header: true,
+    'header-inverse': isInverseHeader
+  })
+
   // [USE_EFFECTS]
   useEffect(() => setActiveMenuItem(window?.location?.pathname), [])
 
@@ -52,7 +59,7 @@ const Header = () => {
   }, [documentScrollHandler])
 
   return (
-    <header id="header" className={isInverseHeader ? 'header-inverse' : ''}>
+    <header id="header" className={classNames}>
       <div className="header-content">
         {/** layout for xs/sm */}
         <div className="subtitle">
