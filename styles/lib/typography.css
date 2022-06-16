@@ -13,7 +13,11 @@
   line-height: var(--line-height-caption);
   font-weight: var(--font-weight-caption);
 }
-
+.subtitle {
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height-subtitle);
+  font-weight: var(--font-weight-subtitle);
+}
 h1 {
   font-size: var(--font-size-h1);
   line-height: var(--line-height-h1);
