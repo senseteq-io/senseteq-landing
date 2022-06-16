@@ -57,6 +57,7 @@ input {
 
 /* COMPONENTS */
 @import url("./components/header.css");
+@import url("./components/footer.css");
 @import url("./components/pageWrapper.css");
 @import url("./components/section.css");
 
