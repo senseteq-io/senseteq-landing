@@ -49,12 +49,16 @@ input {
   font-display: swap;
 }
 
+/* LIB */
 @import url("./lib/vars.css");
 @import url("./lib/grid.css");
 @import url("./lib/typography.css");
+@import url("./lib/helpers.css");
 
 /* COMPONENTS */
 @import url("./components/header.css");
 @import url("./components/pageWrapper.css");
+@import url("./components/section.css");
 
 /* PAGES */
+@import url("./pages/main.css");

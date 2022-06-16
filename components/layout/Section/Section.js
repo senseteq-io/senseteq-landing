@@ -1,7 +1,7 @@
 import { getClassNames } from '../../../utils'
 
 const Section = (props) => {
-  const { children, className } = props
+  const { children, className, ...rest } = props
 
   // [COMPUTED PROPERTY]
   const classNames = getClassNames({
@@ -10,8 +10,10 @@ const Section = (props) => {
   })
 
   return (
-    <section className={classNames}>
-      <div className="section-content">{children}</div>
+    <section className={classNames} {...rest}>
+      <div className="section-content">
+        <div className="container">{children}</div>
+      </div>
     </section>
   )
 }
