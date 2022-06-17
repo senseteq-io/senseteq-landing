@@ -36,4 +36,23 @@
 
   --font-size-h4: 40px;
   --line-height-h4: 54px;
+
+  /* ELEMENTS */
+  /* BUTTON */
+  /* Button default */
+  --btn-default-height: 60px;
+  --btn-default-horizontal-padding: 60px;
+  --btn-default-font-size: 16px;
+  --btn-default-font-weight: 700;
+  --btn-default-font-weight: 700;
+  --btn-default-border-radius: calc(var(--btn-default-height) / 2);
+
+  --btn-lg-height: 80px;
+  --btn-lg-horizontal-padding: 80px;
+  --btn-lg-font-size: 26px;
+  --btn-lg-line-height: 28px;
+  --btn-lg-border-radius: calc(var(--btn-lg-height) / 2);
+
+  --btn-filled-dark-bg: var(--dark);
+  --btn-filled-dark-color: var(--white);
 }

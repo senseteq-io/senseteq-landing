@@ -14,9 +14,6 @@
   position: relative;
 }
 
-.main-page #prime-section .title-wrapper {
-  padding-bottom: 38px;
-}
 .main-page #prime-section h1 .regular {
   font-weight: 300;
 }
@@ -82,6 +79,9 @@
   font-size: 14px;
   line-height: 20px;
 }
+.main-page #services-section {
+  background-color: #fafafa;
+}
 .main-page #services-section .service-item-wrapper {
   margin-bottom: 40px;
 }
@@ -105,6 +105,76 @@
   height: 60px;
   margin-bottom: 24px;
 }
+.main-page #project-support-section h2 {
+  margin-bottom: 22px;
+}
+.main-page #project-support-section .reason-item-wrapper {
+  position: relative;
+  padding-top: 64px;
+  margin-bottom: 46px;
+}
+.main-page #project-support-section .reason-item-wrapper .number-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-page
+  #project-support-section
+  .reason-item-wrapper
+  .number-wrapper
+  .number {
+  color: #f4f4f4;
+  font-size: 200px;
+  line-height: 150px;
+  font-weight: var(--font-weight-title);
+  margin-bottom: 0;
+}
+.main-page #project-support-section .reason-item {
+  position: relative;
+}
+.main-page #project-support-section .reason-item-wrapper:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+.main-page #project-support-section .reason-item .title {
+  margin-bottom: 12px;
+}
+.main-page #project-support-section .reason-item .description {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main-page #project-support-section .project-count-wrapper {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-top: 1px solid var(--dark);
+  border-bottom: 1px solid var(--dark);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main-page #project-support-section .project-count-wrapper .title {
+  margin-bottom: 0;
+}
+.main-page #project-support-section .project-count-wrapper .uptitle {
+  position: absolute;
+  top: -20px;
+  left: calc(100% / 2 - 94px);
+  background-color: var(--dark);
+  color: var(--white);
+  padding: 10px 44px;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-title);
+  font-size: 12px;
+  letter-spacing: 2px;
+  width: fit-content;
+}
+.main-page #project-support-section .apply-button {
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 640px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
@@ -124,6 +194,12 @@
   .main-page #services-section .service-item .caption {
     font-size: 18px;
     line-height: 24px;
+  }
+  .main-page #project-support-section h2 {
+    margin-bottom: 22px;
+  }
+  .main-page #project-support-section .uptitle {
+    font-size: 14px;
   }
 }
 
