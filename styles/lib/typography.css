@@ -43,6 +43,7 @@ h5 {
   font-size: var(--font-size-h5);
   line-height: var(--line-height-h5);
   font-weight: var(--font-weight-h5);
+  margin-top: 0;
 }
 
 @media (max-width: 1200px) {
@@ -55,6 +56,16 @@ h5 {
     font-size: 68px;
     line-height: 80px;
   }
+  h2 {
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 0;
+    margin-bottom: 90px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 @media (max-width: 640px) {
   p,
@@ -62,12 +73,25 @@ h5 {
     font-size: 14px;
     line-height: 20px;
   }
+  .caption {
+    font-size: 16px;
+    line-height: 26px;
+  }
   h1 {
     font-size: 32px;
     line-height: 38px;
   }
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 76px;
+  }
   h4 {
     font-size: 26px;
     line-height: 36px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
