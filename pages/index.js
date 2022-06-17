@@ -1,4 +1,4 @@
-import { PageWrapper, Section } from '../components'
+import { Button, PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -56,6 +56,23 @@ const SERVICES_ITEMS = [
   { title: 'Prosjektstyring', icon: '/project_managment.svg' }
 ]
 
+const REASONS_ITEMS = [
+  {
+    title: 'Du er gründer',
+    description:
+      'Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma.'
+  },
+  {
+    title: 'Du vil gjøre en forskjell',
+    description:
+      'Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv.'
+  },
+  {
+    title: 'Du bryr deg',
+    description:
+      'Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem.'
+  }
+]
 export default function Home() {
   return (
     <PageWrapper className="main-page">
@@ -134,6 +151,52 @@ export default function Home() {
               </div>
             </div>
           ))}
+        </div>
+      </Section>
+      <Section id="project-support-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              <span className="regular">
+                Vi utvikler og supporterer maksimalt{' '}
+              </span>{' '}
+              12 prosjekter i året
+              <span className="c-primary">.</span>
+            </h2>
+            <div className="col-12">
+              <p className="subtitle">Du kan bli vår kunde dersom:</p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          {REASONS_ITEMS?.map(({ title, description }, index) => (
+            <div
+              key={title}
+              className="reason-item-wrapper col-12 col-md-6 col-lg-4">
+              <div className="number-wrapper">
+                <p className="number">{index + 1}</p>
+              </div>
+              <div className="reason-item">
+                <h4 className="title">{title}</h4>
+                <p className="description">{description}</p>
+              </div>
+            </div>
+          ))}
+          <div className="row">
+            <div className="col-12">
+              <div className="project-count-wrapper">
+                <div className="uptitle">Ledig i 2022</div>
+                <h3 className="title">
+                  6 prosjekter<span className="c-primary">.</span>
+                </h3>
+              </div>
+            </div>
+            <div className="apply-button col-12">
+              <Button className="btn-lg btn-dark" href="/apply">
+                Søk nå
+              </Button>
+            </div>
+          </div>
         </div>
       </Section>
     </PageWrapper>
