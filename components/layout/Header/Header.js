@@ -43,9 +43,7 @@ const Header = () => {
     <header id="header" className={classNames}>
       <div className="header-content">
         {/** layout for xs/sm */}
-        <div className="subtitle">
-          <p className="subtitle-wrapper">Senseteq</p>
-        </div>
+        <p className="subtitle">Senseteq</p>
 
         <div className="menu-icon-wrapper">
           <div className="icon">
