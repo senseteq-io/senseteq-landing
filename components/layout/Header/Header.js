@@ -34,6 +34,8 @@ const Header = () => {
 
   // [USE_EFFECTS]
   useEffect(() => {
+    documentScrollHandler?.()
+
     document?.addEventListener('scroll', documentScrollHandler)
 
     return () => document?.removeEventListener('scroll', documentScrollHandler)
