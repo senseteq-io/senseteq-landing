@@ -1,4 +1,4 @@
-import { Header } from '../../layout'
+import { Footer, Header } from '../../layout'
 
 const PageWrapper = (props) => {
   const { className, children } = props
@@ -7,6 +7,7 @@ const PageWrapper = (props) => {
     <div id="page-wrapper" className={className}>
       <Header />
       {children}
+      <Footer />
     </div>
   )
 }
