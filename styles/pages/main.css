@@ -1,4 +1,4 @@
-.main-page .section.first-section {
+.main-page #prime-section {
   color: var(--white);
   background-image: url("/main-page-cover.jpg");
   height: 100vh;
@@ -8,20 +8,20 @@
   background-size: cover;
   -webkit-background-size: cover;
 }
-.main-page .section.first-section .container {
+.main-page #prime-section .container {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.main-page .section.first-section .title-wrapper {
+.main-page #prime-section .title-wrapper {
   padding-bottom: 38px;
 }
-.main-page .section.first-section h1 .regular {
+.main-page #prime-section h1 .regular {
   font-weight: 300;
 }
 
-.main-page .section.first-section .section-content {
+.main-page #prime-section .section-content {
   background-image: -webkit-linear-gradient(
     top,
     rgba(0, 0, 0, 0.7),
@@ -29,12 +29,12 @@
   );
   height: inherit;
 }
-.main-page .section.first-section .down-arrow-wrapper .down-arrow-icon {
+.main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
   width: 26px;
   height: 14px;
   position: relative;
 }
-.main-page .section.first-section .down-arrow-wrapper {
+.main-page #prime-section .down-arrow-wrapper {
   position: absolute;
   bottom: 14px;
   left: calc(100% / 2 - 13px);
@@ -57,52 +57,100 @@
     transform: translateY(-10px);
   }
 }
-.main-page .section.second-section .how-we-do-it-item-wrapper {
+.main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
   margin-bottom: 20px;
 }
 .main-page
-  .section.second-section
+  #how-we-do-it-section
   .how-we-do-it-item-wrapper:nth-last-of-type(1) {
   margin-bottom: 0;
 }
-.main-page .section.second-section .how-we-do-it-item {
+.main-page #how-we-do-it-section .how-we-do-it-item {
   background-color: var(--dark);
   color: var(--white);
   padding: 30px 30px 40px;
   height: 100%;
 }
-.main-page .section.second-section .how-we-do-it-item:hover {
+.main-page #how-we-do-it-section .how-we-do-it-item:hover {
   background-color: var(--primary);
   color: var(--white);
 }
-.main-page .section.second-section .how-we-do-it-item .title {
+.main-page #how-we-do-it-section .how-we-do-it-item .title {
   margin-bottom: 16px;
 }
-.main-page .section.second-section .how-we-do-it-item .description {
+.main-page #how-we-do-it-section .how-we-do-it-item .description {
   font-size: 14px;
   line-height: 20px;
 }
+.main-page #services-section .service-item-wrapper {
+  margin-bottom: 40px;
+}
+.main-page #services-section .service-item-wrapper:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+.main-page #services-section .service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-page #services-section .service-item .caption {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.main-page #services-section .service-item-wrapper .service-icon-wrapper {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 24px;
+}
 @media (min-width: 640px) {
-  .main-page .section.first-section .down-arrow-wrapper .down-arrow-icon {
+  .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
     height: 20px;
   }
 
-  .main-page .section.first-section .down-arrow-wrapper {
+  .main-page #prime-section .down-arrow-wrapper {
     position: absolute;
     bottom: 40px;
     left: calc(100% / 2 - 20px);
   }
 
-  .main-page .section.second-section .how-we-do-it-item .description {
+  .main-page #how-we-do-it-section .how-we-do-it-item .description {
     font-size: 16px;
+    line-height: 24px;
+  }
+  .main-page #services-section .service-item .caption {
+    font-size: 18px;
     line-height: 24px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
+  .main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
+    margin-bottom: 32px;
+  }
+
   .main-page
-    .section.second-section
+    #how-we-do-it-section
+    .how-we-do-it-item-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .main-page #services-section .service-item .caption {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
+    margin-bottom: 36px;
+  }
+
+  .main-page
+    #how-we-do-it-section
     .how-we-do-it-item-wrapper:nth-last-of-type(-n + 3) {
     margin-bottom: 0;
   }
