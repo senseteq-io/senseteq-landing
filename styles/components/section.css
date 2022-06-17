@@ -1,3 +1,11 @@
 .section .container {
   height: 100%;
+  padding-top: 105px;
+  padding-bottom: 90px;
+}
+
+@media (min-width: 640px) {
+  .section .container {
+    padding-bottom: 120px;
+  }
 }
