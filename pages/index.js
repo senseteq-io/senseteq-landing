@@ -1,5 +1,6 @@
 import { Button, PageWrapper, Section } from '../components'
 import {
+  COMPANIES_SUPPORT_ITEMS,
   GUARANTEES_ITEMS,
   HOW_WE_DO_IT_ITEMS,
   INDUSTRIES_ITEMS,
@@ -229,6 +230,26 @@ export default function Home() {
               Klikk for å lære mer
             </Button>
           </div>
+        </div>
+      </Section>
+      <Section id="companies-support-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              Støttet <span className="regular">av</span>
+              <span className="c-primary">.</span>
+            </h2>
+          </div>
+        </div>
+        <div className="row">
+          {COMPANIES_SUPPORT_ITEMS?.map(({ src, name }) => (
+            <div key={name} className="company-support-wrapper col-12 col-lg-6">
+              <div className="company-support-image">
+                <Image src={src} alt={name} layout="fill" />
+              </div>
+              <p className="subtitle-wrapper">{name}</p>
+            </div>
+          ))}
         </div>
       </Section>
     </PageWrapper>
