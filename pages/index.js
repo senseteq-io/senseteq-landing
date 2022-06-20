@@ -84,6 +84,58 @@ const GUARANTEES_ITEMS = [
   'Kvalitetssikring',
   'Beste utvalg av teknologier'
 ]
+
+const INDUSTRIES_ITEMS = [
+  {
+    subtitle: 'Helse',
+    description:
+      'Vi digitaliserer helse- og velferdssektoren. Vi har betydelig erfaring i denne sektoren.',
+    src: '/industry-healthcare.jpg'
+  },
+  {
+    subtitle: 'Handel og distribusjon',
+    description:
+      'Vi digitaliserer handel og distribusjon. Vi har betydelig erfaring i denne sektoren.',
+    src: '/industry-retail.jpg'
+  },
+  {
+    subtitle: 'Forretningsutvikling og automatisering',
+    description: 'Vi digitaliserer Forretningsutvikling og automatisering.',
+    src: '/industry-business-development.jpg'
+  },
+  {
+    subtitle: 'Hotell og reiseliv',
+    description: 'Vi digitaliserer reiselivsbransjen.',
+    src: '/industry-hotels.jpg'
+  },
+  {
+    subtitle: 'Utdanning',
+    description: 'Vi digitaliserer utdanningssektoren.',
+    src: '/industry-education.jpg'
+  },
+  {
+    subtitle: 'Olje og energi',
+    description:
+      'Vi digitalierer olje- og energisektoren. Vi har betydelig erfaring.',
+    src: '/industry-energy.jpg'
+  },
+  {
+    subtitle: 'Bil og transport',
+    description: 'Vi digitaliserer bilbransjen. Vi har betydelig erfaring.',
+    src: '/industry-transport.jpg'
+  },
+  {
+    subtitle: 'Produksjon',
+    description: 'Vi digitaliserer produksjonssektoren.',
+    src: '/industry-production.jpg'
+  },
+  {
+    subtitle: 'Finner du ikke din bransje?',
+    description: 'Vi ønsker likevel å høre fra deg.',
+    src: '/industry-question.jpg'
+  }
+]
+
 export default function Home() {
   return (
     <PageWrapper className="main-page">
@@ -225,6 +277,36 @@ export default function Home() {
               key={guarantee}
               className="guarantee-item-wrapper col-12 col-lg-3">
               <div className="guarantee-item">{guarantee}</div>
+            </div>
+          ))}
+        </div>
+      </Section>
+      <Section id="industries-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              <span className="regular">Vi </span> garanterer
+              <span className="c-primary">.</span>
+            </h2>
+          </div>
+        </div>
+        <div className="row">
+          {INDUSTRIES_ITEMS?.map(({ src, subtitle, description }) => (
+            <div
+              key={subtitle}
+              className="industry-item-wrapper col-12 col-lg-4">
+              <div
+                className="industry-item"
+                style={{
+                  background: `url(${src}) center center / cover no-repeat`
+                }}>
+                <div className="industry-item-blackout">
+                  <div className="industry-item-content">
+                    <p className="subtitle">{subtitle}</p>
+                    <p className="description">{description}</p>
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
         </div>
