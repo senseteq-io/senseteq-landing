@@ -293,9 +293,11 @@
 
 .main-page #ukranian-developers-section h2 {
   margin-bottom: 22px;
+  text-align: center;
 }
 .main-page #ukranian-developers-section .subtitle-wrapper {
   margin-bottom: 46px;
+  text-align: center;
 }
 
 .main-page #ukranian-developers-section .advantage-item-wrapper {
@@ -319,6 +321,16 @@
 }
 .main-page #ukranian-developers-section .advantage-item-wrapper p {
   text-align: center;
+}
+.main-page #about-senseteq-section {
+  background-color: var(--dark);
+  color: var(--white);
+}
+.main-page #about-senseteq-section h2 {
+  margin-bottom: 22px;
+}
+.main-page #about-senseteq-section .subtitle-wrapper {
+  margin-bottom: 14px;
 }
 @media (min-width: 640px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {

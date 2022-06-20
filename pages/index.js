@@ -254,7 +254,7 @@ export default function Home() {
         </div>
       </Section>
       <Section id="ukranian-developers-section">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-12">
             <h2>
               <span className="regular"> Hvorfor </span>
@@ -262,7 +262,7 @@ export default function Home() {
               <span className="c-primary">?</span>
             </h2>
           </div>
-          <div className="col-12">
+          <div className="col-12 col-lg-8">
             <p className="subtitle-wrapper">
               Ukrainske utviklere rangeres som de dyktigste og mest erfarne
               utøvere innen tilpasset programvare, nett- og apputvikling. På
@@ -278,6 +278,32 @@ export default function Home() {
               <p className="body2">{description}</p>
             </div>
           ))}
+        </div>
+      </Section>
+
+      <Section id="about-senseteq-section">
+        <div className="row">
+          <div className="col-12 col-md-6"></div>
+          <div className="col-12 col-md-6">
+            <h2>
+              <span className="regular">Om </span>
+              Senseteq
+              <span className="c-primary">.</span>
+            </h2>
+            <p className="subtitle-wrapper">
+              Vi er et norsk-ukrainsk selskap som revolusjonerer måten
+              webutvikling foregår. Vår misjon er å være med på å gjøre verden
+              til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av
+              mennesker. Vi vil gjøre en forskjell for våre kunder og for våre
+              ansatte.
+            </p>
+            <p className="subtitle-wrapper">
+              Vi krever det samme av våre kunder. De er dedikerte
+              oppstartsbedrifter som vil gjøre en forskjell for mennesker, i
+              alle deler av livet.
+            </p>
+            <p>Vi inviterer alle til å bli med. Come join us and make Sense!</p>
+          </div>
         </div>
       </Section>
     </PageWrapper>
