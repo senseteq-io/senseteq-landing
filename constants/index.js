@@ -1,3 +1,4 @@
+import ADVANTAGES_UKRAINIAN_DEVELOPERS from './advantagesUkrainianDevelopers'
 import COMPANIES_SUPPORT_ITEMS from './companiesSupport'
 import GUARANTEES_ITEMS from './guarantees'
 import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
@@ -11,5 +12,6 @@ export {
   SERVICES_ITEMS,
   REASONS_ITEMS,
   HOW_WE_DO_IT_ITEMS,
-  COMPANIES_SUPPORT_ITEMS
+  COMPANIES_SUPPORT_ITEMS,
+  ADVANTAGES_UKRAINIAN_DEVELOPERS
 }
