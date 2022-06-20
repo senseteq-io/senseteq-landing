@@ -1,6 +1,9 @@
 .c-primary {
   color: var(--primary);
 }
+.c-white {
+  color: var(--white);
+}
 .regular {
   font-weight: 300;
 }

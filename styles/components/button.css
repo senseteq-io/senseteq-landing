@@ -26,6 +26,10 @@
   background-color: var(--btn-filled-dark-bg);
 }
 @media (max-width: 639px) {
+  .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .btn.btn-lg {
     height: 60px;
     font-size: 18px;

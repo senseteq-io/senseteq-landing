@@ -25,7 +25,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-12 col-lg-8">
-            <p className="subtitle">
+            <p>
               Tenker du at det er umulig? Les videre for å se hvordan vi jobber.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
               className="how-we-do-it-item-wrapper col-12 col-lg-6 col-xxl-4">
               <div className="how-we-do-it-item">
                 <h3 className="title">{title}</h3>
-                <p className="description">{description}</p>
+                <p>{description}</p>
               </div>
             </div>
           ))}
@@ -101,7 +101,7 @@ export default function Home() {
               <span className="c-primary">.</span>
             </h2>
             <div className="col-12">
-              <p className="subtitle">Du kan bli vår kunde dersom:</p>
+              <p>Du kan bli vår kunde dersom:</p>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
               <div className="reason-item">
                 <h4 className="title">{title}</h4>
-                <p className="description">{description}</p>
+                <p className="body2">{description}</p>
               </div>
             </div>
           ))}
@@ -176,13 +176,36 @@ export default function Home() {
                 }}>
                 <div className="industry-item-blackout">
                   <div className="industry-item-content">
-                    <p className="subtitle">{subtitle}</p>
-                    <p className="description">{description}</p>
+                    <p className="subtitle-wrapper">{subtitle}</p>
+                    <p className="body2">{description}</p>
                   </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      </Section>
+      <Section id="technologies-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              Teknologier
+              <span className="regular"> og innovasjoner</span>
+              <span className="c-white">.</span>
+            </h2>
+          </div>
+          <div className="col-12">
+            <p className="subtitle-wrapper">
+              Vår erfaring med teknologier i toppklassen og vår evne til raskt å
+              ta i bruk nye, gjør oss i stand til å bygge applikasjoner av
+              enhver størrelse og kompleksitet.
+            </p>
+          </div>
+          <div className="col-auto">
+            <Button className="btn-dark" href="/technologies">
+              Klikk for å lære mer
+            </Button>
+          </div>
         </div>
       </Section>
     </PageWrapper>
