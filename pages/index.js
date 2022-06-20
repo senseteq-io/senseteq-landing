@@ -208,6 +208,29 @@ export default function Home() {
           </div>
         </div>
       </Section>
+      <Section id="how-it-works-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              <span className="regular">Hvordan er det </span>
+              mulig
+              <span className="c-primary">?</span>
+            </h2>
+          </div>
+          <div className="col-12">
+            <p className="subtitle-wrapper">
+              Vår erfaring med teknologier i toppklassen og vår evne til raskt å
+              ta i bruk nye, gjør oss i stand til å bygge applikasjoner av
+              enhver størrelse og kompleksitet.
+            </p>
+          </div>
+          <div className="col-12 col-md-auto">
+            <Button className="btn-dark" href="/process">
+              Klikk for å lære mer
+            </Button>
+          </div>
+        </div>
+      </Section>
     </PageWrapper>
   )
 }

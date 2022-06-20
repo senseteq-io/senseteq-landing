@@ -252,12 +252,15 @@
   background: url("/technologies-cover.jpg") center center / cover no-repeat;
 }
 
-.main-page #technologies-section h2 {
+.main-page #technologies-section h2,
+.main-page #how-it-works-section h2 {
   margin-bottom: 22px;
 }
-.main-page #technologies-section .subtitle-wrapper {
+.main-page #technologies-section .subtitle-wrapper,
+.main-page #how-it-works-section .subtitle-wrapper {
   margin-bottom: 28px;
 }
+
 @media (min-width: 640px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
