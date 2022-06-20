@@ -290,6 +290,36 @@
   .subtitle-wrapper {
   font-weight: var(--font-weight-title);
 }
+
+.main-page #ukranian-developers-section h2 {
+  margin-bottom: 22px;
+}
+.main-page #ukranian-developers-section .subtitle-wrapper {
+  margin-bottom: 46px;
+}
+
+.main-page #ukranian-developers-section .advantage-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.main-page
+  #ukranian-developers-section
+  .advantage-item-wrapper:nth-last-of-type(-n + 1) {
+  margin-bottom: 0;
+}
+.main-page #ukranian-developers-section .advantage-item-wrapper h2 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--primary);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.main-page #ukranian-developers-section .advantage-item-wrapper p {
+  text-align: center;
+}
 @media (min-width: 640px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
@@ -337,6 +367,10 @@
   .main-page #companies-support-section .company-support-wrapper {
     margin-bottom: 0;
   }
+
+  .main-page #ukranian-developers-section .advantage-item-wrapper {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -348,6 +382,10 @@
   .main-page #services-section .service-item .caption {
     font-size: 20px;
     line-height: 28px;
+  }
+  .main-page #ukranian-developers-section .advantage-item-wrapper h2 {
+    font-size: 38px;
+    line-height: 46px;
   }
 }
 

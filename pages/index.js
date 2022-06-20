@@ -1,5 +1,5 @@
-import { Button, PageWrapper, Section } from '../components'
 import {
+  ADVANTAGES_UKRAINIAN_DEVELOPERS,
   COMPANIES_SUPPORT_ITEMS,
   GUARANTEES_ITEMS,
   HOW_WE_DO_IT_ITEMS,
@@ -7,6 +7,7 @@ import {
   REASONS_ITEMS,
   SERVICES_ITEMS
 } from '../constants'
+import { Button, PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -248,6 +249,33 @@ export default function Home() {
                 <Image src={src} alt={name} layout="fill" />
               </div>
               <p className="subtitle-wrapper">{name}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+      <Section id="ukranian-developers-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              <span className="regular"> Hvorfor </span>
+              Ukrainske utviklere
+              <span className="c-primary">?</span>
+            </h2>
+          </div>
+          <div className="col-12">
+            <p className="subtitle-wrapper">
+              Ukrainske utviklere rangeres som de dyktigste og mest erfarne
+              utøvere innen tilpasset programvare, nett- og apputvikling. På
+              TopCoder og Hackerrank er Ukraina rangert høytt på topplistene
+              over de mest avanserte egenskapene for programvareutvikling.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          {ADVANTAGES_UKRAINIAN_DEVELOPERS?.map(({ title, description }) => (
+            <div key={title} className="advantage-item-wrapper col-12 col-lg-3">
+              <h2>{title}</h2>
+              <p className="body2">{description}</p>
             </div>
           ))}
         </div>
