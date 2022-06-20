@@ -55,4 +55,7 @@
 
   --btn-filled-dark-bg: var(--dark);
   --btn-filled-dark-color: var(--white);
+
+  /* BORDER */
+  --border-radius-default: 2px;
 }
