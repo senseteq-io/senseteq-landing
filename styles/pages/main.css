@@ -78,10 +78,6 @@
 .main-page #how-we-do-it-section .how-we-do-it-item .title {
   margin-bottom: 16px;
 }
-.main-page #how-we-do-it-section .how-we-do-it-item .description {
-  font-size: 14px;
-  line-height: 20px;
-}
 .main-page #services-section {
   background-color: #fafafa;
 }
@@ -142,10 +138,6 @@
 }
 .main-page #project-support-section .reason-item .title {
   margin-bottom: 12px;
-}
-.main-page #project-support-section .reason-item .description {
-  font-size: 18px;
-  line-height: 30px;
 }
 
 .main-page #project-support-section .project-count-wrapper {
@@ -226,7 +218,7 @@
     rgba(0, 0, 0, 0.7)
   );
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   position: absolute;
   top: 0;
   right: 0;
@@ -249,16 +241,23 @@
   .industry-item-wrapper
   .industry-item
   .industry-item-content
-  .subtitle {
+  .subtitle-wrapper {
   display: block;
-  font-size: 18px;
-  line-height: 24px;
   font-weight: var(--font-weight-title);
   padding-bottom: 14px;
   border-bottom: 1px solid var(--primary);
   margin-bottom: 14px;
 }
+.main-page #technologies-section {
+  background: url("/technologies-cover.jpg") center center / cover no-repeat;
+}
 
+.main-page #technologies-section h2 {
+  margin-bottom: 22px;
+}
+.main-page #technologies-section .subtitle-wrapper {
+  margin-bottom: 28px;
+}
 @media (min-width: 640px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
