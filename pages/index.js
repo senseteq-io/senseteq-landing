@@ -73,6 +73,17 @@ const REASONS_ITEMS = [
       'Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem.'
   }
 ]
+
+const GUARANTEES_ITEMS = [
+  'Lynrask utvikling av en førsteversjon',
+  'Raskt og enkelt å gjøre endringer i prosjektet',
+  'Enkel oppskalering',
+  'Applikasjoner med høy ytelse',
+  'Fokus på brukeropplevelse',
+  'Fokus på sikkerhet og verning av sensitive data',
+  'Kvalitetssikring',
+  'Beste utvalg av teknologier'
+]
 export default function Home() {
   return (
     <PageWrapper className="main-page">
@@ -120,7 +131,7 @@ export default function Home() {
           {HOW_WE_DO_IT_ITEMS?.map(({ title, description }) => (
             <div
               key={title}
-              className="how-we-do-it-item-wrapper col-12 col-xl-6 col-xxl-4">
+              className="how-we-do-it-item-wrapper col-12 col-lg-6 col-xxl-4">
               <div className="how-we-do-it-item">
                 <h3 className="title">{title}</h3>
                 <p className="description">{description}</p>
@@ -197,6 +208,25 @@ export default function Home() {
               </Button>
             </div>
           </div>
+        </div>
+      </Section>
+      <Section id="guarantees-section">
+        <div className="row">
+          <div className="col-12">
+            <h2>
+              <span className="regular">Vi </span> garanterer
+              <span className="c-primary">.</span>
+            </h2>
+          </div>
+        </div>
+        <div className="row">
+          {GUARANTEES_ITEMS?.map((guarantee) => (
+            <div
+              key={guarantee}
+              className="guarantee-item-wrapper col-12 col-lg-3">
+              <div className="guarantee-item">{guarantee}</div>
+            </div>
+          ))}
         </div>
       </Section>
     </PageWrapper>
