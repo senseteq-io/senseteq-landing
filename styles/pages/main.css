@@ -288,6 +288,15 @@
 }
 
 @media (min-width: 1024px) {
+  .main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
+    margin-bottom: 32px;
+  }
+
+  .main-page
+    #how-we-do-it-section
+    .how-we-do-it-item-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
   .main-page
     #guarantees-section
     .guarantee-item-wrapper:nth-last-of-type(-n + 4) {
@@ -300,16 +309,6 @@
   }
 }
 @media (min-width: 1200px) {
-  .main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
-    margin-bottom: 32px;
-  }
-
-  .main-page
-    #how-we-do-it-section
-    .how-we-do-it-item-wrapper:nth-last-of-type(-n + 2) {
-    margin-bottom: 0;
-  }
-
   .main-page #services-section .service-item .caption {
     font-size: 20px;
     line-height: 28px;

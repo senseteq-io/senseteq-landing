@@ -1,140 +1,14 @@
 import { Button, PageWrapper, Section } from '../components'
+import {
+  GUARANTEES_ITEMS,
+  HOW_WE_DO_IT_ITEMS,
+  INDUSTRIES_ITEMS,
+  REASONS_ITEMS,
+  SERVICES_ITEMS
+} from '../constants'
 
 import Image from 'next/image'
 import Link from 'next/link'
-
-const HOW_WE_DO_IT_ITEMS = [
-  {
-    title: 'Det repetitive arbeidet er automatisert',
-    description:
-      'Vi klassifiserte alle typer av oppgaver som utføres i et prosjekt. Så identifiserte vi de mest ressurskrevende og automatiserte implementeringen av dem en etter en.'
-  },
-  {
-    title: 'Automatisk idéoversetter',
-    description:
-      'Vi utviklet et eget verktøy som automatisk konverterer en idébeskrivelse av et prosjekt eller ny funksjonalitet om til en datastruktur. Dette hjelper oss til raskt å finne bedre løsninger og å forstå forretningskonsept og å hjelpe å forbedre det.'
-  },
-  {
-    title: 'Verktøy for å bygge prosjekt-arkitektur',
-    description:
-      'Vi har utviklet et verktøy som genererer databasestrukturer, APIér samt de individuelle brukerflyt beskrivelser og skjema.'
-  },
-
-  {
-    title: 'Kodegenerator',
-    description:
-      'Takket være vår måte å klassifisere og strukturere data på, i tillegg til verktøyene nevnt ovenfor, så genereres en stor del av applikasjonene helt automatisk. Og uten feil.'
-  },
-  {
-    title: 'Oppgave-generator',
-    description:
-      'Vi har minimalisert arbeidet som må gjøres i prosessen med å opprette oppgaver for utviklere. Det genereres automatisk oppgaver som er avgrenset nok til at de fleste av dem vil ha en estimert gjennomføringstid med en presisjon ned mot 10 minutter.'
-  },
-  {
-    title: 'Modulbasert utvikling',
-    description:
-      'Vi har et bibliotek av egenutviklede moduler som vi raskt kan integrere i nye prosjekter. Å endre dem til nye applikasjoners behov går fort og vi slipper å utvikle funksjonaliteten fra grunn.'
-  }
-]
-
-const SERVICES_ITEMS = [
-  {
-    title: 'Komplekse back-end applikasjoner',
-    icon: '/complex_backend_app.svg'
-  },
-  {
-    title: 'Front-end web applikasjoner',
-    icon: '/front_end_web_apps.svg'
-  },
-  { title: 'Mobilapplikasjoner', icon: '/mobile_apps.svg' },
-  {
-    title: 'Invividuell teknologikonsultasjon',
-    icon: '/custom_technology.svg'
-  },
-  { title: 'Utvikling av prototype', icon: '/prototyping.svg' },
-  { title: 'UI/UX design', icon: '/ui_ux_design.svg' },
-  { title: 'Prosjektstyring', icon: '/project_managment.svg' }
-]
-
-const REASONS_ITEMS = [
-  {
-    title: 'Du er gründer',
-    description:
-      'Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma.'
-  },
-  {
-    title: 'Du vil gjøre en forskjell',
-    description:
-      'Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv.'
-  },
-  {
-    title: 'Du bryr deg',
-    description:
-      'Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem.'
-  }
-]
-
-const GUARANTEES_ITEMS = [
-  'Lynrask utvikling av en førsteversjon',
-  'Raskt og enkelt å gjøre endringer i prosjektet',
-  'Enkel oppskalering',
-  'Applikasjoner med høy ytelse',
-  'Fokus på brukeropplevelse',
-  'Fokus på sikkerhet og verning av sensitive data',
-  'Kvalitetssikring',
-  'Beste utvalg av teknologier'
-]
-
-const INDUSTRIES_ITEMS = [
-  {
-    subtitle: 'Helse',
-    description:
-      'Vi digitaliserer helse- og velferdssektoren. Vi har betydelig erfaring i denne sektoren.',
-    src: '/industry-healthcare.jpg'
-  },
-  {
-    subtitle: 'Handel og distribusjon',
-    description:
-      'Vi digitaliserer handel og distribusjon. Vi har betydelig erfaring i denne sektoren.',
-    src: '/industry-retail.jpg'
-  },
-  {
-    subtitle: 'Forretningsutvikling og automatisering',
-    description: 'Vi digitaliserer Forretningsutvikling og automatisering.',
-    src: '/industry-business-development.jpg'
-  },
-  {
-    subtitle: 'Hotell og reiseliv',
-    description: 'Vi digitaliserer reiselivsbransjen.',
-    src: '/industry-hotels.jpg'
-  },
-  {
-    subtitle: 'Utdanning',
-    description: 'Vi digitaliserer utdanningssektoren.',
-    src: '/industry-education.jpg'
-  },
-  {
-    subtitle: 'Olje og energi',
-    description:
-      'Vi digitalierer olje- og energisektoren. Vi har betydelig erfaring.',
-    src: '/industry-energy.jpg'
-  },
-  {
-    subtitle: 'Bil og transport',
-    description: 'Vi digitaliserer bilbransjen. Vi har betydelig erfaring.',
-    src: '/industry-transport.jpg'
-  },
-  {
-    subtitle: 'Produksjon',
-    description: 'Vi digitaliserer produksjonssektoren.',
-    src: '/industry-production.jpg'
-  },
-  {
-    subtitle: 'Finner du ikke din bransje?',
-    description: 'Vi ønsker likevel å høre fra deg.',
-    src: '/industry-question.jpg'
-  }
-]
 
 export default function Home() {
   return (
