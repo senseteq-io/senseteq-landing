@@ -83,7 +83,7 @@ export default function Home() {
             <div
               data-aos="fade-left"
               key={title}
-              className="service-item-wrapper col-12 col-lg-4 col-xl-">
+              className="service-item-wrapper col-12 col-lg-4">
               <div className="service-item">
                 <div className="service-icon-wrapper">
                   <Image src={icon} alt={title} layout="fill" />

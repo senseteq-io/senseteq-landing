@@ -13,7 +13,9 @@ const PageWrapper = (props) => {
     // init labrary for animations
     AOS &&
       AOS.init({
-        duration: 1200
+        duration: 1200,
+        once: true,
+        anchorPlacement: 'top'
       })
   }, [])
 

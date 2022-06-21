@@ -5,6 +5,7 @@ import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
 import INDUSTRIES_ITEMS from './industrues'
 import REASONS_ITEMS from './reasons'
 import SERVICES_ITEMS from './services'
+import TECHNOLOGIES_ITEMS from './technologies'
 
 export {
   INDUSTRIES_ITEMS,
@@ -13,5 +14,6 @@ export {
   REASONS_ITEMS,
   HOW_WE_DO_IT_ITEMS,
   COMPANIES_SUPPORT_ITEMS,
-  ADVANTAGES_UKRAINIAN_DEVELOPERS
+  ADVANTAGES_UKRAINIAN_DEVELOPERS,
+  TECHNOLOGIES_ITEMS
 }
