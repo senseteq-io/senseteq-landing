@@ -1,12 +1,13 @@
 import { getClassNames } from '../../../utils'
 
 const Section = (props) => {
-  const { children, className, ...rest } = props
+  const { children, dark, className, ...rest } = props
 
   // [COMPUTED PROPERTY]
   const classNames = getClassNames({
     section: true,
-    [className]: className
+    [className]: className,
+    'section-dark': dark
   })
 
   return (

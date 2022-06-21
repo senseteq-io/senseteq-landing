@@ -171,11 +171,6 @@
   justify-content: center;
 }
 
-.main-page #guarantees-section {
-  background-color: var(--dark);
-  color: var(--white);
-}
-
 .main-page #guarantees-section .guarantee-item-wrapper {
   margin-bottom: 20px;
 }
@@ -260,10 +255,6 @@
 .main-page #how-it-works-section .subtitle-wrapper {
   margin-bottom: 28px;
 }
-.main-page #companies-support-section {
-  background: var(--dark);
-  color: var(--white);
-}
 .main-page #companies-support-section .company-support-wrapper {
   display: flex;
   flex-direction: column;
@@ -324,11 +315,6 @@
 .main-page #ukranian-developers-section .advantage-item-wrapper p {
   text-align: center;
 }
-.main-page #about-senseteq-section {
-  background-color: var(--dark);
-  color: var(--white);
-}
-
 .main-page #about-senseteq-section .images-wrapper {
   display: flex;
   flex-wrap: wrap;
