@@ -53,6 +53,7 @@ input {
 }
 
 /* LIB */
+@import url("aos/dist/aos.css");
 @import url("./lib/vars.css");
 @import url("./lib/grid.css");
 @import url("./lib/typography.css");
