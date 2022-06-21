@@ -144,7 +144,7 @@ export default function Home() {
           </div>
         </div>
       </Section>
-      <Section id="guarantees-section">
+      <Section dark id="guarantees-section">
         <div className="row">
           <div className="col-12">
             <h2 data-aos="fade-down">
@@ -242,7 +242,7 @@ export default function Home() {
           </div>
         </div>
       </Section>
-      <Section id="companies-support-section">
+      <Section dark id="companies-support-section">
         <div className="row">
           <div className="col-12">
             <h2 data-aos="fade-left">
@@ -296,7 +296,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section id="about-senseteq-section">
+      <Section dark id="about-senseteq-section">
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="images-wrapper" data-aos="fade-down">

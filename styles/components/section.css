@@ -3,6 +3,10 @@
   padding-top: 105px;
   padding-bottom: 90px;
 }
+.section.section-dark {
+  background-color: var(--dark);
+  color: var(--white);
+}
 
 @media (min-width: 640px) {
   .section .container {
