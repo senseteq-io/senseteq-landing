@@ -6,6 +6,7 @@ import INDUSTRIES_ITEMS from './industrues'
 import PRICES_AND_PACKAGES from './pricesAndPackages'
 import REASONS_ITEMS from './reasons'
 import SERVICES_ITEMS from './services'
+import TEAM from './team'
 import TECHNOLOGIES_ITEMS from './technologies'
 
 export {
@@ -17,5 +18,6 @@ export {
   COMPANIES_SUPPORT_ITEMS,
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   TECHNOLOGIES_ITEMS,
-  PRICES_AND_PACKAGES
+  PRICES_AND_PACKAGES,
+  TEAM
 }
