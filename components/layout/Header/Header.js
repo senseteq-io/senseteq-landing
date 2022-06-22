@@ -1,11 +1,13 @@
-import { LanguagesMenu, Menu } from '../../layout'
+import { LanguagesMenu, SimpleMenu } from '../../layout'
 import { useCallback, useEffect, useState } from 'react'
 
 import Image from 'next/image'
 import Link from 'next/link'
 import { getClassNames } from '../../../utils'
 
-const Header = () => {
+const Header = (props) => {
+  const { setIsMenuOpened, isMenuOpened, activeMenuItem } = props
+
   // [COMPONENT_STATE_HOOKS]
   const [isInverseHeader, setIsInverseHeader] = useState(false)
 
@@ -24,13 +26,15 @@ const Header = () => {
     */
     if (isInverseHeader && isScrollAtTop) {
       setIsInverseHeader(false)
-    } else isScrollAtTop ? setIsInverseHeader(false) : setIsInverseHeader(true)
+    } //else if (isScrollAtTop && isMenuOpened) setIsInverseHeader(false)
+    else isScrollAtTop ? setIsInverseHeader(false) : setIsInverseHeader(true)
   }, [isInverseHeader])
+  const handleClickMenu = () => setIsMenuOpened(!isMenuOpened)
 
   // [COMPUTED PROPERTY]
   const classNames = getClassNames({
     header: true,
-    'header-inverse': isInverseHeader
+    'header-inverse': isInverseHeader || isMenuOpened
   })
 
   // [USE_EFFECTS]
@@ -52,7 +56,7 @@ const Header = () => {
           </a>
         </Link>
 
-        <div className="menu-icon-wrapper">
+        <div className="menu-icon-wrapper" onClick={handleClickMenu}>
           <div className="icon">
             <Image alt="Menu" src="/menu.svg" layout="fill" />
           </div>
@@ -73,7 +77,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <Menu />
+        <SimpleMenu activeMenuItem={activeMenuItem} />
         <LanguagesMenu />
       </div>
     </header>

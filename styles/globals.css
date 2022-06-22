@@ -65,6 +65,8 @@ input {
 @import url("./components/pageWrapper.css");
 @import url("./components/section.css");
 @import url("./components/button.css");
+@import url("./components/menu.css");
+@import url("./components/languagesMenu.css");
 
 /* PAGES */
 @import url("./pages/main.css");
