@@ -3,6 +3,7 @@ import COMPANIES_SUPPORT_ITEMS from './companiesSupport'
 import GUARANTEES_ITEMS from './guarantees'
 import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
 import INDUSTRIES_ITEMS from './industrues'
+import MENU_ITEMS from './menuItems'
 import PRICES_AND_PACKAGES from './pricesAndPackages'
 import REASONS_ITEMS from './reasons'
 import SERVICES_ITEMS from './services'
@@ -19,5 +20,6 @@ export {
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   TECHNOLOGIES_ITEMS,
   PRICES_AND_PACKAGES,
-  TEAM
+  TEAM,
+  MENU_ITEMS
 }

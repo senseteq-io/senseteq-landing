@@ -9,7 +9,7 @@ const LANGUAGES_ITEMS = [
 
 const LanguagesMenu = () => {
   return (
-    <div className="languages-wrapper">
+    <div id="languages-menu">
       {LANGUAGES_ITEMS?.map(({ title }) => (
         <div className="language-item" key={title}>
           {title}
