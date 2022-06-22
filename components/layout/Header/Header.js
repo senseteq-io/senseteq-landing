@@ -2,6 +2,7 @@ import { LanguagesMenu, Menu } from '../../layout'
 import { useCallback, useEffect, useState } from 'react'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { getClassNames } from '../../../utils'
 
 const Header = () => {
@@ -45,7 +46,11 @@ const Header = () => {
     <header id="header" className={classNames}>
       <div className="header-content">
         {/** layout for xs/sm */}
-        <p className="subtitle">Senseteq</p>
+        <Link href="/">
+          <a>
+            <p className="subtitle">Senseteq</p>
+          </a>
+        </Link>
 
         <div className="menu-icon-wrapper">
           <div className="icon">
@@ -55,11 +60,17 @@ const Header = () => {
         {/** layout for > sm  */}
         <div className="logo-wrapper">
           <div className="logo">
-            <Image
-              alt="Menu"
-              src={isInverseHeader ? '/senseteq_inverse.svg' : '/senseteq.svg'}
-              layout="fill"
-            />
+            <Link href="/">
+              <a>
+                <Image
+                  alt="Menu"
+                  src={
+                    isInverseHeader ? '/senseteq_inverse.svg' : '/senseteq.svg'
+                  }
+                  layout="fill"
+                />
+              </a>
+            </Link>
           </div>
         </div>
         <Menu />

@@ -339,6 +339,10 @@
     flex: 0 0 auto;
     width: auto;
   }
+  .col-xxl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .col-xxl-4 {
     flex: 0 0 auto;
     width: 33.33%;

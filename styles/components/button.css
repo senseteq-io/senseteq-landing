@@ -25,6 +25,10 @@
   color: var(--btn-filled-dark-color);
   background-color: var(--btn-filled-dark-bg);
 }
+.btn.btn-primary {
+  color: var(--btn-filled-primary-color);
+  background-color: var(--btn-filled-primary-bg);
+}
 @media (max-width: 639px) {
   .btn {
     padding-left: 30px;

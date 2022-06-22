@@ -7,7 +7,7 @@ const Footer = () => {
         <p className="subtitle">Kontakt</p>
       </div>
       <div className="title-wrapper">
-        <h4>
+        <h4 data-aos="zoom-in">
           Vi inviterer alle oppstartsselskaper til å ta kontakt
           <span className="c-primary">!</span>
         </h4>
