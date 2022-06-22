@@ -53,7 +53,10 @@
 
   --btn-filled-dark-bg: var(--dark);
   --btn-filled-dark-color: var(--white);
+  --btn-filled-primary-bg: var(--primary);
+  --btn-filled-primary-color: var(--white);
 
   /* BORDER */
   --border-radius-default: 2px;
+  --border-radius-lg: 8px;
 }
