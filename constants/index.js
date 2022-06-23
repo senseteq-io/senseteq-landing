@@ -1,5 +1,6 @@
 import ADVANTAGES_UKRAINIAN_DEVELOPERS from './advantagesUkrainianDevelopers'
 import COMPANIES_SUPPORT_ITEMS from './companiesSupport'
+import CUSTOMERS from './customers'
 import GUARANTEES_ITEMS from './guarantees'
 import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
 import INDUSTRIES_ITEMS from './industrues'
@@ -21,5 +22,6 @@ export {
   TECHNOLOGIES_ITEMS,
   PRICES_AND_PACKAGES,
   TEAM,
-  MENU_ITEMS
+  MENU_ITEMS,
+  CUSTOMERS
 }
