@@ -1,6 +1,5 @@
 import { PageWrapper, Section } from '../components'
 
-import Image from 'next/image'
 import { TEAM } from '../constants'
 
 export default function Team() {

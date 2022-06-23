@@ -67,6 +67,7 @@ input {
 @import url("./components/button.css");
 @import url("./components/menu.css");
 @import url("./components/languagesMenu.css");
+@import url("./components/customersSlider.css");
 
 /* PAGES */
 @import url("./pages/main.css");

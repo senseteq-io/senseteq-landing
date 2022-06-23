@@ -54,6 +54,8 @@
 
   --btn-filled-dark-bg: var(--dark);
   --btn-filled-dark-color: var(--white);
+  --btn-filled-white-bg: var(--white);
+  --btn-filled-white-color: var(--dark);
   --btn-filled-primary-bg: var(--primary);
   --btn-filled-primary-color: var(--white);
 

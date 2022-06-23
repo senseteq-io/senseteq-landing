@@ -25,6 +25,10 @@
   color: var(--btn-filled-dark-color);
   background-color: var(--btn-filled-dark-bg);
 }
+.btn.btn-white {
+  color: var(--btn-filled-white-color);
+  background-color: var(--btn-filled-white-bg);
+}
 .btn.btn-primary {
   color: var(--btn-filled-primary-color);
   background-color: var(--btn-filled-primary-bg);
