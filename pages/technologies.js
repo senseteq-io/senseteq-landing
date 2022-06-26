@@ -42,6 +42,26 @@ export default function Technologies() {
           ))}
         </div>
       </Section>
+      <Section dark id="secret-weapon-section">
+        <div className="row align-items-center">
+          <div className="description-wrapper col-12 offset-md-1 col-md-7">
+            <p className="subtitle">Our secret weapon</p>
+            <h3 className="title">
+              Qonsoll builder <span className="c-primary">.</span>
+            </h3>
+            <p className="body2 description">
+              Our developers perform like superstars. Yes they are brilliant,
+              but the main reason why they can deliver fast and always have a
+              meaningful workday is also this: they have access to our own
+              Qonsoll builder. Qonsoll eliminates the need for doing time
+              consuming repetitive work. It reduces time and increases quality.
+            </p>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="qonsoll-logo-wrapper" />
+          </div>
+        </div>
+      </Section>
     </PageWrapper>
   )
 }
