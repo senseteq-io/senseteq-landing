@@ -40,7 +40,7 @@ export default function Team() {
                     background: `url(${src}) center center / cover no-repeat`
                   }}
                 />
-                <p className="body name">{name}</p>
+                <p className="name">{name}</p>
                 <p className="role">{role}</p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Team() {
                     background: `url(${src}) center center / cover no-repeat`
                   }}
                 />
-                <p className="body name">{name}</p>
+                <p className="name">{name}</p>
                 <p className="role">{role}</p>
               </div>
             </div>

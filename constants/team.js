@@ -19,7 +19,7 @@ const TEAM = {
     {
       name: 'Arthur Pochinok',
       role: 'Full stack utvikler',
-      src: '/Evgeniy_Bogdanov.webp'
+      src: '/Arthur_Pochinok.webp'
     },
     {
       name: 'Vlad Bogach',
