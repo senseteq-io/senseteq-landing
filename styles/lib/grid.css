@@ -171,7 +171,7 @@
 
   .col-sm-4 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 33.3333333%;
   }
 
   .col-sm-6 {
@@ -219,7 +219,10 @@
     flex: 0 0 auto;
     width: 83.3333334%;
   }
-
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
   .col-md-12 {
     flex: 0 0 auto;
     width: 100%;
