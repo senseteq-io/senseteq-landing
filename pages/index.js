@@ -15,7 +15,19 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <PageWrapper className="main-page">
-      <Section id="prime-section">
+      <Section
+        id="prime-section"
+        sectionBackground={[
+          <video
+            key="video-cover"
+            autoPlay
+            muted
+            loop
+            className="prime-section-video-bg">
+            <source src="/prime-section-cover.mp4" type="video/mp4" />
+          </video>,
+          <div key="gradient-cover" className="prime-section-gradient-bg" />
+        ]}>
         <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
             <div className="title-wrapper">
@@ -197,7 +209,18 @@ export default function Home() {
           ))}
         </div>
       </Section>
-      <Section id="technologies-section">
+      <Section
+        id="technologies-section"
+        sectionBackground={
+          <video
+            key="video-cover"
+            autoPlay
+            muted
+            loop
+            className="technologies-section-video-bg">
+            <source src="/teknologier-section-cover.mp4" type="video/mp4" />
+          </video>
+        }>
         <div className="row">
           <div className="col-12 col-md-6">
             <h2 data-aos="fade-left">
