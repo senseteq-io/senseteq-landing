@@ -37,6 +37,7 @@ export default function Home() {
           <Link href="/#how-we-do-it-section">
             <a className="down-arrow-icon">
               <Image
+                aria-label="go to next section"
                 src="/down_arrow.svg"
                 alt="Arrow"
                 layout="fill"
@@ -135,6 +136,7 @@ export default function Home() {
             </div>
             <div className="apply-button col-12">
               <Button
+                aria-label="søk nå"
                 className="btn-lg btn-dark"
                 href="/apply"
                 data-aos="zoom-out">
@@ -215,6 +217,7 @@ export default function Home() {
             <Button
               className="btn-dark"
               href="/technologies"
+              aria-label="go to technologies page"
               data-aos="fade-left">
               Klikk for å lære mer
             </Button>
