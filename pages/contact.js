@@ -5,7 +5,12 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <PageWrapper className="contact-page">
+    <PageWrapper
+      className="contact-page"
+      pageMetaProps={{
+        title: 'Kontact',
+        keywords: 'kontact'
+      }}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
