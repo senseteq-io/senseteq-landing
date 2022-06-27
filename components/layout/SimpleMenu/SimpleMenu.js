@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { MENU_ITEMS } from '../../../constants'
 
 /**
@@ -14,7 +15,9 @@ const SimpleMenu = (props) => {
           className={`menu-item ${
             activeMenuItem === href ? 'menu-item-active' : ''
           }`}>
-          <a href={href}>{title}</a>
+          <Link href={href}>
+            <a aria-label={`go to ${title} page`}>{title}</a>
+          </Link>
         </div>
       ))}
     </div>

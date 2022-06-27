@@ -1,17 +1,19 @@
 const LANGUAGES_ITEMS = [
   {
-    title: 'NO'
+    title: 'NO',
+    ariaLabel: 'change language to Norwegian'
   },
   {
-    title: 'EN'
+    title: 'EN',
+    ariaLabel: 'change language to English'
   }
 ]
 
 const LanguagesMenu = () => {
   return (
     <div id="languages-menu">
-      {LANGUAGES_ITEMS?.map(({ title }) => (
-        <div className="language-item" key={title}>
+      {LANGUAGES_ITEMS?.map(({ title, ariaLabel }) => (
+        <div className="language-item" key={title} aria-label={ariaLabel}>
           {title}
         </div>
       ))}

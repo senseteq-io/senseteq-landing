@@ -19,15 +19,29 @@ const Footer = () => {
             href="https://www.facebook.com/senseteq"
             target="_blank"
             rel="noreferrer">
-            <Image src="/facebook.png" alt="Facebook" layout="fill" />
+            <Image
+              src="/facebook.png"
+              alt="Facebook"
+              layout="fill"
+              aria-label="facebook page"
+            />
           </a>
           <a className="button-icon" href="tel:+4755181900" rel="noreferrer">
-            <Image src="/whatsApp.png" alt="Facebook" layout="fill" />
+            <Image
+              src="/whatsApp.png"
+              alt="Facebook"
+              layout="fill"
+              aria-label="whats app contact"
+            />
           </a>
         </div>
-        <p className="contact">hello@senseteq.io</p>
+        <p aria-label="email" className="contact">
+          hello@senseteq.io
+        </p>
 
-        <p className="contact">+47 55 18 19 00</p>
+        <p aria-label="phone" className="contact">
+          +47 55 18 19 00
+        </p>
       </div>
     </footer>
   )

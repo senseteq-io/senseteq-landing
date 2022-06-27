@@ -45,20 +45,25 @@ export default function Technologies() {
       <Section dark id="secret-weapon-section">
         <div className="row align-items-center">
           <div className="description-wrapper col-12 offset-md-1 col-md-7">
-            <p className="subtitle">Our secret weapon</p>
-            <h3 className="title">
-              Qonsoll builder <span className="c-primary">.</span>
+            <p className="subtitle" data-aos="fade-down">
+              Vårt HEMMELIGE VÅPEN
+            </p>
+            <h3 className="title" data-aos="fade-down">
+              Qonsoll applikasjonsbygger
+              <span className="c-primary">.</span>
             </h3>
-            <p className="body2 description">
-              Our developers perform like superstars. Yes they are brilliant,
-              but the main reason why they can deliver fast and always have a
-              meaningful workday is also this: they have access to our own
-              Qonsoll builder. Qonsoll eliminates the need for doing time
-              consuming repetitive work. It reduces time and increases quality.
+            <p className="body2 description" data-aos="fade-left">
+              I tillegg til vårt sammensveisede og voksende utviklerteam er vår
+              egenutviklede applikasjonsbygger - Qonsoll - en av hovedgrunnene
+              til at vi kan levere applikasjoner raskere og mer feilfrie enn
+              andre. Qonsoll muliggjør også rask tilegning av kompetanse på nye
+              teknologier samtidig som det gir våre utviklere mulighet til å
+              jobbe kreativt og involvert i prosjekter uten å drukne i monotone
+              og repetitive oppgaver.
             </p>
           </div>
-          <div className="col-12 col-md-4">
-            <div className="qonsoll-logo-wrapper" />
+          <div className="col-12 col-md-4" data-aos="fade-left">
+            <div className="qonsoll-logo-wrapper" aria-label="Qonsoll logo" />
           </div>
         </div>
       </Section>

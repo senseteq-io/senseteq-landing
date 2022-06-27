@@ -48,17 +48,24 @@ const Header = (props) => {
 
   return (
     <header id="header" className={classNames}>
-      <div className="header-content">
+      <div className="header-content" aria-label="site іnavigation">
         {/** layout for xs/sm */}
         <Link href="/">
           <a>
-            <p className="subtitle">Senseteq</p>
+            <p className="subtitle" aria-label="go to home page">
+              Senseteq
+            </p>
           </a>
         </Link>
 
         <div className="menu-icon-wrapper" onClick={handleClickMenu}>
           <div className="icon">
-            <Image alt="Menu" src="/menu.svg" layout="fill" />
+            <Image
+              alt="Menu"
+              src="/menu.svg"
+              layout="fill"
+              aria-label={isMenuOpened ? 'close menu' : 'open menu'}
+            />
           </div>
         </div>
         {/** layout for > sm  */}
@@ -67,7 +74,8 @@ const Header = (props) => {
             <Link href="/">
               <a>
                 <Image
-                  alt="Menu"
+                  aria-label="go to home page"
+                  alt="Logo"
                   src={
                     isInverseHeader ? '/senseteq_inverse.svg' : '/senseteq.svg'
                   }

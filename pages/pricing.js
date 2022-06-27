@@ -61,7 +61,10 @@ export default function Pricing() {
                     </p>
                   </div>
                   <div className="search-now-button-wrapper">
-                    <Button className="btn-primary" href="/apply">
+                    <Button
+                      className="btn-primary"
+                      href="/apply"
+                      aria-label="søk nå">
                       Søk nå
                     </Button>
                   </div>

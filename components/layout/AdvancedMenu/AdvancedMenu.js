@@ -1,4 +1,5 @@
 import { LanguagesMenu } from '../../../components'
+import Link from 'next/link'
 import { MENU_ITEMS } from '../../../constants'
 
 const AdvancedMenu = (props) => {
@@ -9,13 +10,15 @@ const AdvancedMenu = (props) => {
       <div className="advanced-menu-content row">
         {Object.values(MENU_ITEMS)?.map(({ href, title }) => (
           <div key={href} className="menu-item-wrapper col-12">
-            <a
-              href={href}
-              className={`menu-item ${
-                activeMenuItem === href ? 'menu-item-active' : ''
-              }`}>
-              {title}
-            </a>
+            <Link href={href}>
+              <a
+                className={`menu-item ${
+                  activeMenuItem === href ? 'menu-item-active' : ''
+                }`}
+                aria-label={`go to ${title} page`}>
+                {title}
+              </a>
+            </Link>
           </div>
         ))}
         <div className="col-12">

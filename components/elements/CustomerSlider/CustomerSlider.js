@@ -48,7 +48,7 @@ const CustomerSlider = () => {
 
         for (let i = 0; i < dots.length; i++)
           dots[i].className = dots[i].className.replace(' active', '')
-        console.log({ dots }, dots[slideIndex - 1])
+
         slides[slideIndex - 1].style.display = 'block'
         dots[slideIndex - 1].className += ' active'
       }
@@ -85,12 +85,13 @@ const CustomerSlider = () => {
         </div>
       ))}
       <div className="dots-wrapper">
-        <div className="dots">
-          {CUSTOMERS?.map((_, index) => (
+        <div className="dots" aria-label="navigation between slides">
+          {CUSTOMERS?.map(({ ariaLabel }, index) => (
             <span
               key={`dot_${index}`}
               className="dot"
               onClick={() => currentSlide(index + 1)}
+              aria-label={ariaLabel}
             />
           ))}
         </div>
@@ -98,12 +99,22 @@ const CustomerSlider = () => {
       <div className="arrows-wrapper">
         <div className="prev-slide-icon-wrapper" onClick={() => plusSlides(1)}>
           <div className="prev-slide-icon">
-            <Image src="/left_arrow.svg" layout="fill" alt="Previous slide" />
+            <Image
+              src="/left_arrow.svg"
+              layout="fill"
+              alt="Previous slide"
+              aria-label="show previous slide"
+            />
           </div>
         </div>
         <div className="next-slide-icon-wrapper" onClick={() => plusSlides(1)}>
           <div className="next-slide-icon">
-            <Image src="/right_arrow.svg" layout="fill" alt="Next slide" />
+            <Image
+              src="/right_arrow.svg"
+              layout="fill"
+              alt="Next slide"
+              aria-label="show next slide"
+            />
           </div>
         </div>
       </div>
