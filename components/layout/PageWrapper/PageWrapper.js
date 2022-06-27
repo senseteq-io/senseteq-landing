@@ -1,12 +1,12 @@
 import 'aos/dist/aos.css'
 
-import { AdvancedMenu, Footer, Header } from '../../layout'
+import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
 import { useEffect, useState } from 'react'
 
 import AOS from 'aos'
 
 const PageWrapper = (props) => {
-  const { className, children } = props
+  const { className, children, pageMetaProps } = props
 
   // [COMPONENT_STATE_HOOKS]
   const [activeMenuItem, setActiveMenuItem] = useState()
@@ -26,16 +26,19 @@ const PageWrapper = (props) => {
   useEffect(() => setActiveMenuItem(window?.location?.pathname), [])
 
   return (
-    <div id="page-wrapper" className={className}>
-      <Header
-        setIsMenuOpened={setIsMenuOpened}
-        isMenuOpened={isMenuOpened}
-        activeMenuItem={activeMenuItem}
-      />
-      {isMenuOpened && <AdvancedMenu activeMenuItem={activeMenuItem} />}
-      {children}
-      <Footer />
-    </div>
+    <>
+      <PageMeta {...pageMetaProps} />
+      <div id="page-wrapper" className={className}>
+        <Header
+          setIsMenuOpened={setIsMenuOpened}
+          isMenuOpened={isMenuOpened}
+          activeMenuItem={activeMenuItem}
+        />
+        {isMenuOpened && <AdvancedMenu activeMenuItem={activeMenuItem} />}
+        {children}
+        <Footer />
+      </div>
+    </>
   )
 }
 
