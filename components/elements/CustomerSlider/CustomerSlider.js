@@ -84,7 +84,7 @@ const CustomerSlider = () => {
           </div>
         </div>
       ))}
-      <div className="dots-wrapper" aria-label="navigation between slides">
+      <div className="dots-wrapper">
         <div className="dots" aria-label="navigation between slides">
           {CUSTOMERS?.map(({ ariaLabel }, index) => (
             <span
