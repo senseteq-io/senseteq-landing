@@ -3,8 +3,17 @@ import { Button, PageWrapper, Section } from '../components'
 import { PRICES_AND_PACKAGES } from '../constants'
 
 export default function Pricing() {
+  // [COMPUTED_PROPERTIES]
+  const sectionsConfig = [
+    { title: 'Timepriser', idSection: 'prime-section' },
+    { title: 'Priser og pakker', idSection: 'packages-section' }
+  ]
+
   return (
-    <PageWrapper className="pricing-page" disableHeaderInversing>
+    <PageWrapper
+      className="pricing-page"
+      disableHeaderInversing
+      sectionsConfig={sectionsConfig}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

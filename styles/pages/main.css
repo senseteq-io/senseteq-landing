@@ -1,4 +1,4 @@
-.main-page #prime-section {
+.main-page .section#prime-section {
   color: var(--white);
   height: 100vh;
 }
