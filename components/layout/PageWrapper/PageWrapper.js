@@ -4,9 +4,10 @@ import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
 import { useEffect, useState } from 'react'
 
 import AOS from 'aos'
+import { SectionNavigationDots } from '../../elements'
 
 const PageWrapper = (props) => {
-  const { className, children, pageMetaProps } = props
+  const { className, sectionsConfig, pageMetaProps, children } = props
 
   // [COMPONENT_STATE_HOOKS]
   const [activeMenuItem, setActiveMenuItem] = useState()
@@ -15,7 +16,7 @@ const PageWrapper = (props) => {
 
   // [USE_EFFECTS]
   useEffect(() => {
-    // init labrary for animations
+    // init library for animations
     AOS &&
       AOS.init({
         duration: 1200,
@@ -35,6 +36,9 @@ const PageWrapper = (props) => {
           activeMenuItem={activeMenuItem}
         />
         {isMenuOpened && <AdvancedMenu activeMenuItem={activeMenuItem} />}
+        {sectionsConfig && (
+          <SectionNavigationDots sectionsConfig={sectionsConfig} />
+        )}
         {children}
         <Footer />
       </div>

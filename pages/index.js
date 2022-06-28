@@ -13,6 +13,27 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  // [COMPUTED_PROPERTIES]
+  const sectionsConfig = [
+    { title: 'Førsteversjon på 19 dager', idSection: 'prime-section' },
+    { title: 'Hvordan er det mulig?', idSection: 'how-we-do-it-section' },
+    { title: 'Våre tjenester', idSection: 'services-section' },
+    {
+      title: 'Antall prosjekter',
+      idSection: 'project-support-section'
+    },
+    { title: 'Vi garanterer', idSection: 'guarantees-section' },
+    { title: 'Bransjer', idSection: 'industries-section' },
+    { title: 'Teknologier', idSection: 'technologies-section' },
+    { title: 'Prosessen', idSection: 'how-it-works-section' },
+    { title: 'Støttet av', idSection: 'companies-support-section' },
+    {
+      title: 'Om Ukrainske utviklere',
+      idSection: 'ukranian-developers-section'
+    },
+    { title: 'Om Senseteq', idSection: 'about-senseteq-section' }
+  ]
+
   return (
     <PageWrapper
       className="main-page"
@@ -22,7 +43,8 @@ export default function Home() {
           'Senseteq utvikler programvareapplikasjoner raskere og rimeligere. Mennesker er viktigst, og vi velger kunder som føler det samme.',
         keywords:
           'utvikling, den første versjonen av produktet, modulbasert utvikling, back-end, front-end, mobilapplikasjoner, teknologikonsultasjon, Utvikling av prototype, UI, UX, design, prosjektstyring'
-      }}>
+      }}
+      sectionsConfig={sectionsConfig}>
       <Section
         id="prime-section"
         sectionBackground={[
@@ -40,7 +62,7 @@ export default function Home() {
           <div className="col-12 col-lg-8 col-xl-10">
             <div className="title-wrapper">
               <h1>
-                <span className="regular"> Vi leverer en </span> førsteversjon{' '}
+                <span className="regular">Vi leverer en </span> førsteversjon{' '}
                 <span className="regular">av din applikasjon</span> på 19 dager
                 <span className="c-primary">.</span>
               </h1>
@@ -54,7 +76,7 @@ export default function Home() {
         </div>
 
         <div className="down-arrow-wrapper">
-          <Link href="/#how-we-do-it-section">
+          <Link href="#how-we-do-it-section">
             <a className="down-arrow-icon">
               <Image
                 aria-label="go to next section"
@@ -67,6 +89,7 @@ export default function Home() {
           </Link>
         </div>
       </Section>
+
       <Section id="how-we-do-it-section">
         <div className="row">
           <div className="col-12">
@@ -303,7 +326,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-12">
             <h2 data-aos="fade-down">
-              <span className="regular"> Hvorfor </span>
+              <span className="regular">Hvorfor </span>
               Ukrainske utviklere
               <span className="c-primary">?</span>
             </h2>
@@ -329,7 +352,6 @@ export default function Home() {
           ))}
         </div>
       </Section>
-
       <Section dark id="about-senseteq-section">
         <div className="row">
           <div className="col-12 col-lg-6">

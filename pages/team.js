@@ -5,6 +5,12 @@ import { TEAM } from '../constants'
 export default function Team() {
   const { RISING_STARS, MAIN } = TEAM
 
+  // [COMPUTED_PROPERTIES]
+  const sectionsConfig = [
+    { title: 'Hvem er vi?', idSection: 'prime-section' },
+    { title: 'Kommende stjerner', idSection: 'rising-stars-section' }
+  ]
+
   return (
     <PageWrapper
       className="team-page"
@@ -13,7 +19,8 @@ export default function Team() {
         description:
           'Vi er et sammensveiset team som stortrives på jobb. Vi feirer hverandres fremgang og hjelper når det trengs.',
         keywords: 'team, utviklere'
-      }}>
+      }}
+      sectionsConfig={sectionsConfig}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

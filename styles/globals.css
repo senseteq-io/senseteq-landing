@@ -19,8 +19,10 @@ a {
   text-decoration: none;
   display: flex;
 }
-input {
+input,
+ul {
   padding: 0;
+  margin: 0;
 }
 * {
   box-sizing: border-box;
@@ -68,6 +70,7 @@ input {
 @import url("./components/menu.css");
 @import url("./components/languagesMenu.css");
 @import url("./components/customersSlider.css");
+@import url("./components/sectionNavigationDots.css");
 
 /* PAGES */
 @import url("./pages/main.css");

@@ -3,6 +3,12 @@ import { Button, PageWrapper, Section } from '../components'
 import { PRICES_AND_PACKAGES } from '../constants'
 
 export default function Pricing() {
+  // [COMPUTED_PROPERTIES]
+  const sectionsConfig = [
+    { title: 'Timepriser', idSection: 'prime-section' },
+    { title: 'Priser og pakker', idSection: 'packages-section' }
+  ]
+
   return (
     <PageWrapper
       className="pricing-page"
@@ -13,7 +19,8 @@ export default function Pricing() {
           'Vi vet hvor viktig det er med høy fart og kontroll på kostnadene. Det er gunstig å bli kunde hos oss. Vi gir deg raskt en svært fordelaktig fastpris på prosjektet ditt.',
         keywords:
           'gunstige priser, tjenester, fullt skalerbar, høyeste ytelse, enkel branding og profil, førsteversjon'
-      }}>
+      }}
+      sectionsConfig={sectionsConfig}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
