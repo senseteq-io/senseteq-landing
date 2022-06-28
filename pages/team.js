@@ -12,7 +12,15 @@ export default function Team() {
   ]
 
   return (
-    <PageWrapper className="team-page" sectionsConfig={sectionsConfig}>
+    <PageWrapper
+      className="team-page"
+      pageMetaProps={{
+        title: 'Team',
+        description:
+          'Vi er et sammensveiset team som stortrives på jobb. Vi feirer hverandres fremgang og hjelper når det trengs.',
+        keywords: 'team, utviklere'
+      }}
+      sectionsConfig={sectionsConfig}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

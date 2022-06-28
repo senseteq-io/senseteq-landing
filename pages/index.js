@@ -35,7 +35,16 @@ export default function Home() {
   ]
 
   return (
-    <PageWrapper className="main-page" sectionsConfig={sectionsConfig}>
+    <PageWrapper
+      className="main-page"
+      pageMetaProps={{
+        title: 'Senseteq - utviklerselskapet for gründere',
+        description:
+          'Senseteq utvikler programvareapplikasjoner raskere og rimeligere. Mennesker er viktigst, og vi velger kunder som føler det samme.',
+        keywords:
+          'utvikling, den første versjonen av produktet, modulbasert utvikling, back-end, front-end, mobilapplikasjoner, teknologikonsultasjon, Utvikling av prototype, UI, UX, design, prosjektstyring'
+      }}
+      sectionsConfig={sectionsConfig}>
       <Section
         id="prime-section"
         sectionBackground={[

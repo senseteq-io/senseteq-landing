@@ -4,8 +4,20 @@ import Image from 'next/image'
 import { TECHNOLOGIES_ITEMS } from '../constants'
 
 export default function Technologies() {
+  // [COMPUTED_PROPS]
+  const computedKeyWords = TECHNOLOGIES_ITEMS?.map(({ name }) => name)?.join(
+    ', '
+  )
+
   return (
-    <PageWrapper className="technologies-page">
+    <PageWrapper
+      className="technologies-page"
+      pageMetaProps={{
+        title: 'Teknologier',
+        description:
+          'Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet.',
+        keywords: computedKeyWords
+      }}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
@@ -46,7 +58,7 @@ export default function Technologies() {
         <div className="row align-items-center">
           <div className="description-wrapper col-12 offset-md-1 col-md-7">
             <p className="subtitle" data-aos="fade-down">
-              Vårt HEMMELIGE VÅPEN
+              Vårt hemmelige våpen
             </p>
             <h3 className="title" data-aos="fade-down">
               Qonsoll applikasjonsbygger

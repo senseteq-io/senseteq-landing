@@ -13,6 +13,13 @@ export default function Pricing() {
     <PageWrapper
       className="pricing-page"
       disableHeaderInversing
+      pageMetaProps={{
+        title: 'Priser',
+        description:
+          'Vi vet hvor viktig det er med høy fart og kontroll på kostnadene. Det er gunstig å bli kunde hos oss. Vi gir deg raskt en svært fordelaktig fastpris på prosjektet ditt.',
+        keywords:
+          'gunstige priser, tjenester, fullt skalerbar, høyeste ytelse, enkel branding og profil, førsteversjon'
+      }}
       sectionsConfig={sectionsConfig}>
       <Section dark id="prime-section">
         <div className="row">

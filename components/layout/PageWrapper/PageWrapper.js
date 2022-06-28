@@ -1,13 +1,13 @@
 import 'aos/dist/aos.css'
 
-import { AdvancedMenu, Footer, Header } from '../../layout'
+import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
 import { useEffect, useState } from 'react'
 
 import AOS from 'aos'
 import { SectionNavigationDots } from '../../elements'
 
 const PageWrapper = (props) => {
-  const { className, sectionsConfig, children } = props
+  const { className, sectionsConfig, pageMetaProps, children } = props
 
   // [COMPONENT_STATE_HOOKS]
   const [activeMenuItem, setActiveMenuItem] = useState()
@@ -27,19 +27,22 @@ const PageWrapper = (props) => {
   useEffect(() => setActiveMenuItem(window?.location?.pathname), [])
 
   return (
-    <div id="page-wrapper" className={className}>
-      <Header
-        setIsMenuOpened={setIsMenuOpened}
-        isMenuOpened={isMenuOpened}
-        activeMenuItem={activeMenuItem}
-      />
-      {isMenuOpened && <AdvancedMenu activeMenuItem={activeMenuItem} />}
-      {sectionsConfig && (
-        <SectionNavigationDots sectionsConfig={sectionsConfig} />
-      )}
-      {children}
-      <Footer />
-    </div>
+    <>
+      <PageMeta {...pageMetaProps} />
+      <div id="page-wrapper" className={className}>
+        <Header
+          setIsMenuOpened={setIsMenuOpened}
+          isMenuOpened={isMenuOpened}
+          activeMenuItem={activeMenuItem}
+        />
+        {isMenuOpened && <AdvancedMenu activeMenuItem={activeMenuItem} />}
+        {sectionsConfig && (
+          <SectionNavigationDots sectionsConfig={sectionsConfig} />
+        )}
+        {children}
+        <Footer />
+      </div>
+    </>
   )
 }
 
