@@ -13,8 +13,18 @@ const Header = (props) => {
 
   // [HELPER_FUNCTIONS]
   const documentScrollHandler = useCallback(() => {
+    // get position of scroll on page
+    const scrollPosition = window?.scrollY
     // check where is position of scroll
-    const isScrollAtTop = !window?.scrollY
+    const isScrollAtTop = !scrollPosition
+    // get element of progress in Header
+    const headerProgressElenemt = document?.getElementById('header-progress')
+    // get width of indicator progress
+    const progressIndicatorWidth =
+      (scrollPosition / (document.body.scrollHeight - window.innerHeight)) * 100
+    // set width and background for progress
+    headerProgressElenemt.style.width = `${progressIndicatorWidth}%`
+    headerProgressElenemt.style.background = 'var(--primary)'
 
     /* check previous position of scroll
        (help to prevent a lot of excessive rerenders),
@@ -26,9 +36,9 @@ const Header = (props) => {
     */
     if (isInverseHeader && isScrollAtTop) {
       setIsInverseHeader(false)
-    } //else if (isScrollAtTop && isMenuOpened) setIsInverseHeader(false)
-    else isScrollAtTop ? setIsInverseHeader(false) : setIsInverseHeader(true)
+    } else isScrollAtTop ? setIsInverseHeader(false) : setIsInverseHeader(true)
   }, [isInverseHeader])
+
   const handleClickMenu = () => setIsMenuOpened(!isMenuOpened)
 
   // [COMPUTED PROPERTY]
@@ -48,6 +58,7 @@ const Header = (props) => {
 
   return (
     <header id="header" className={classNames}>
+      <div id="header-progress" />
       <div className="header-content" aria-label="site іnavigation">
         {/** layout for xs/sm */}
         <Link href="/">
