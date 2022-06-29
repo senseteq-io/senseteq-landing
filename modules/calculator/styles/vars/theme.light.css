@@ -2,7 +2,7 @@
   /* Colors */
   /* Accent */
   --accent-darken: #238f50;
-  --accent: #2DB867;
+  --accent: #2db867;
   --accent-lighten1: #6fdc9d;
   --accent-lighten2: #eafaf1;
 
@@ -62,22 +62,26 @@
   --action-secondary-hover-bg: var(--black);
 
   /* BUTTONS */
-  --btn-default-bg: var(--action-primary-bg);
-  --btn-default-hover-bg: var(--action-primary-hover-bg);
-  --btn-default-color: var(--action-primary-color);
-  --btn-default-hover-color: var(--action-primary-hover-color);
+  --calc-module-btn-default-bg: var(--action-primary-bg);
+  --calc-module-btn-default-hover-bg: var(--action-primary-hover-bg);
+  --calc-module-btn-default-color: var(--action-primary-color);
+  --calc-module-btn-default-hover-color: var(--action-primary-hover-color);
 
-  --btn-primary-bg: var(--action-primary-bg);
-  --btn-primary-hover-bg: var(--action-primary-hover-bg);
-  --btn-primary-color: var(--action-primary-color);
-  --btn-primary-hover-color: var(--action-primary-hover-color);
+  --calc-module-btn-primary-bg: var(--action-primary-bg);
+  --calc-module-btn-primary-hover-bg: var(--action-primary-hover-bg);
+  --calc-module-btn-primary-color: var(--action-primary-color);
+  --calc-module-btn-primary-hover-color: var(--action-primary-hover-color);
 
-  --btn-outlined-bg: transparent;
-  --btn-outlined-color: var(--action-secondary-color);
-  --btn-outlined-border-color: var(--action-secondary-default-border);
-  --btn-outlined-hover-border-color: var(--action-secondary-hover-border);
-  --btn-outlined-hover-color: var(--action-secondary-hover-color);
-  --btn-outlined-hover-bg: var(--action-secondary-hover-bg);
+  --calc-module-btn-outlined-bg: transparent;
+  --calc-module-btn-outlined-color: var(--action-secondary-color);
+  --calc-module-btn-outlined-border-color: var(
+    --action-secondary-default-border
+  );
+  --calc-module-btn-outlined-hover-border-color: var(
+    --action-secondary-hover-border
+  );
+  --calc-module-btn-outlined-hover-color: var(--action-secondary-hover-color);
+  --calc-module-btn-outlined-hover-bg: var(--action-secondary-hover-bg);
 
   /* OPTIONS */
   --option-default-selected-background: var(--bg-primary);
@@ -86,5 +90,6 @@
   --option-default-hover-color: var(--white);
   --option-default-border: 1px solid var(--action-primary-default-border);
   --option-default-hover-border: 1px solid var(--action-primary-hover-border);
-  --option-default-selected-border: 1px solid var(--action-primary-selected-border);
+  --option-default-selected-border: 1px solid
+    var(--action-primary-selected-border);
 }

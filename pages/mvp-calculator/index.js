@@ -42,6 +42,13 @@ export default function Calculator() {
 
   return (
     <>
+      <style global jsx>{`
+        body {
+          height: 100vh;
+          width: 100vw;
+          font-family: 'Public Sans', sans-serif;
+        }
+      `}</style>
       <Head
         title={metaData.title}
         description={metaData.description}

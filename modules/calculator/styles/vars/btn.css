@@ -1,25 +1,25 @@
 :root {
-  --btn-font-family: var(--body-font-family);
-  --btn-border-width: 1px;
-  --btn-border-color: transparent;
-  --btn-border-radius: 0.375rem;
+  --calc-module-btn-font-family: var(--body-font-family);
+  --calc-module-btn-border-width: 1px;
+  --calc-module-btn-border-color: transparent;
+  --calc-module-btn-border-radius: 0.375rem;
 
-  --btn-md-font-size: var(--body1-fs);
-  --btn-md-line-height: var(--body1-lh);
-  --btn-md-font-weight: var(--fw-normal);
-  --btn-md-padding-x: 0.75rem;
-  --btn-md-padding-y: 0.375rem;
+  --calc-module-btn-md-font-size: var(--body1-fs);
+  --calc-module-btn-md-line-height: var(--body1-lh);
+  --calc-module-btn-md-font-weight: var(--fw-normal);
+  --calc-module-btn-md-padding-x: 0.75rem;
+  --calc-module-btn-md-padding-y: 0.375rem;
 
-  --btn-lg-font-size: var(--body1-fs);
-  --btn-lg-line-height: var(--body1-lh);
-  --btn-lg-padding-x: 1rem;
-  --btn-lg-padding-y: 0.75rem;
+  --calc-module-btn-lg-font-size: var(--body1-fs);
+  --calc-module-btn-lg-line-height: var(--body1-lh);
+  --calc-module-btn-lg-padding-x: 1rem;
+  --calc-module-btn-lg-padding-y: 0.75rem;
 
-  --btn-default-font-size: var(--btn-md-font-size);
-  --btn-default-line-height: var(--btn-md-line-height);
-  --btn-default-font-weight: var(--btn-md-font-weight);
-  --btn-default-padding-x: var(--btn-md-padding-x);
-  --btn-default-padding-y: var(--btn-md-padding-y);
+  --calc-module-btn-default-font-size: var(--calc-module-btn-md-font-size);
+  --calc-module-btn-default-line-height: var(--calc-module-btn-md-line-height);
+  --calc-module-btn-default-font-weight: var(--calc-module-btn-md-font-weight);
+  --calc-module-btn-default-padding-x: var(--calc-module-btn-md-padding-x);
+  --calc-module-btn-default-padding-y: var(--calc-module-btn-md-padding-y);
 
-  --btn-rounded-border-radius: 32px;
+  --calc-module-btn-rounded-border-radius: 32px;
 }
