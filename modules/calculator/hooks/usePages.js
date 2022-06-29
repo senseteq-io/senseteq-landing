@@ -18,6 +18,7 @@ import { AuthenticationQuestion } from '../domains/Authentication/components'
 import { BrandQuestion } from '../domains/Brand/components'
 import { ExternalServiceQuestion } from '../domains/ExternalService/components'
 import { LocalizationQuestion } from '../domains/Localization/components'
+import { ResultSimpleView } from '../domains/Result/components'
 import { RevenueQuestion } from '../domains/Revenue/components'
 import ls from '../utils/ls'
 
@@ -54,7 +55,8 @@ const usePages = (routes) => {
         external_services: <ExternalServiceQuestion />,
         appearance: <AppearanceQuestion />,
         brand: <BrandQuestion />,
-        revenue: <RevenueQuestion />
+        revenue: <RevenueQuestion />,
+        result: <ResultSimpleView />
       }
     }
   }, [isWelcomeSeen, options])

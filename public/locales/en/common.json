@@ -791,6 +791,7 @@
       "appearance": "appearance",
       "brand": "brand",
       "revenue": "revenue",
+      "result": "result",
       "mirror": {
         "mvp-calculator": "mvp_calculator",
         "platforms": "platforms",
@@ -841,7 +842,8 @@
         "external-services": "external_services",
         "appearance": "appearance",
         "brand": "brand",
-        "revenue": "revenue"
+        "revenue": "revenue",
+        "result": "result"
       }
     },
     "platforms": {

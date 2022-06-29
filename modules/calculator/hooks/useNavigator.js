@@ -12,7 +12,8 @@ const PAGE_ORDER = [
   'external_services',
   'appearance',
   'brand',
-  'revenue'
+  'revenue',
+  'result'
 ]
 
 const useNavigator = (calculatorData) => {
@@ -50,6 +51,9 @@ const useNavigator = (calculatorData) => {
       )}`,
       revenue: `/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.revenue'
+      )}`,
+      result: `/${t('calculator.paths.mvp_calculator')}/${t(
+        'calculator.paths.result'
       )}`
     }),
     [t]
