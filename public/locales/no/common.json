@@ -1,0 +1,9 @@
+{
+  "test": "Ololo",
+  "calculator": {
+    "type": {
+      "title": "What type of MVP are you building?",
+      "subtitle": "Is it for web, mobile or both?"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.calc-module-btn {
+  padding: var(--calc-module-btn-default-padding-y)
+    var(--calc-module-btn-default-padding-x);
+  font-family: var(--calc-module-btn-font-family);
+  font-size: var(--calc-module-btn-default-font-size);
+  font-weight: var(--calc-module-btn-default-font-weight);
+  line-height: var(--calc-module-btn-default-line-height);
+  color: var(--calc-module-btn-default-color);
+  border: var(--calc-module-btn-border-width) solid
+    var(--calc-module-btn-border-color);
+  border-radius: var(--calc-module-btn-border-radius);
+  background-color: var(--calc-module-btn-default-bg);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.calc-module-btn-lg {
+  padding: var(--calc-module-btn-lg-padding-y)
+    var(--calc-module-btn-lg-padding-x);
+  font-size: var(--calc-module-btn-lg-font-size);
+  line-height: var(--calc-module-btn-lg-line-height);
+}
+
+.calc-module-btn.calc-module-btn-primary {
+  color: var(--calc-module-btn-primary-color);
+  background-color: var(--calc-module-btn-primary-bg);
+}
+
+.calc-module-btn.calc-module-btn-primary:hover {
+  color: var(--calc-module-btn-primary-hover-color);
+  background-color: var(--calc-module-btn-primary-hover-bg);
+}
+
+.calc-module-btn.calc-module-btn-outlined {
+  border: 1px solid var(--calc-module-btn-outlined-border-color);
+  color: var(--calc-module-btn-outlined-color);
+  background-color: var(--calc-module-btn-outlined-bg);
+}
+
+.calc-module-btn.calc-module-btn-outlined:hover {
+  border: 1px solid var(--action-secondary-hover-border);
+  color: var(--calc-module-btn-outlined-hover-color);
+  background-color: var(--calc-module-btn-outlined-hover-bg);
+}
+
+.calc-module-btn.calc-module-btn-shape-circle {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-module-btn.calc-module-btn-shape-rounded {
+  border-radius: var(--calc-module-btn-rounded-border-radius);
+}

@@ -1,0 +1,39 @@
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fw-lighter {
+  font-weight: var(--fw-lighter) !important;
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular) !important;
+}
+
+.fw-semibold {
+  font-weight: var(--fw-semibold) !important;
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

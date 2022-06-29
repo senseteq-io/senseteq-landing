@@ -11,6 +11,7 @@ import { Button, PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
   // [COMPUTED_PROPERTIES]
@@ -414,4 +415,12 @@ export default function Home() {
       </Section>
     </PageWrapper>
   )
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common']))
+    }
+  }
 }
