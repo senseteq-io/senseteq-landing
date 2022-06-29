@@ -60,7 +60,7 @@ ul {
 @import url("./lib/grid.css");
 @import url("./lib/typography.css");
 @import url("./lib/helpers.css");
-
+@import url("../modules/calculator/styles/globals.css");
 /* COMPONENTS */
 @import url("./components/header.css");
 @import url("./components/footer.css");
