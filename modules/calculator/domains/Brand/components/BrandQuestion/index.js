@@ -1,3 +1,3 @@
-import BrandQuestion from "./BrandQuestion"
+import BrandQuestion from './BrandQuestion'
 
 export default BrandQuestion

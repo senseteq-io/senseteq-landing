@@ -8,7 +8,7 @@ const usePath = (routes, updateCalculatorFields) => {
 
   const [state, setState] = useState({})
 
-   useEffect(() => {
+  useEffect(() => {
     if (routes?.baseRoute && routes?.baseRouteValue) {
       setState((prev) => ({
         ...prev,

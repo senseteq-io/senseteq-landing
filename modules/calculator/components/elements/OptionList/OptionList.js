@@ -48,8 +48,7 @@ export default function OptionList({
             {options?.map((option, index) => (
               <div
                 key={`${option?.label}-${index}`}
-                className="col-12 col-md-4 justify-content-center align-items-center mb-3"
-              >
+                className="col-12 col-md-4 justify-content-center align-items-center mb-3">
                 <Option
                   src={option?.src}
                   value={option?.value}

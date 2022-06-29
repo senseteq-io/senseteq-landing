@@ -1,4 +1,4 @@
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 
 import { Button } from '../../../../components'
 

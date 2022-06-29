@@ -1,6 +1,15 @@
-import { AnalogueQuestion, AnalogueWelcome } from '../domains/Analogue/components'
-import { IndustryQuestion, IndustryWelcome } from '../domains/Industry/components'
-import { PlatformQuestion, PlatformWelcome } from '../domains/Platform/components'
+import {
+  AnalogueQuestion,
+  AnalogueWelcome
+} from '../domains/Analogue/components'
+import {
+  IndustryQuestion,
+  IndustryWelcome
+} from '../domains/Industry/components'
+import {
+  PlatformQuestion,
+  PlatformWelcome
+} from '../domains/Platform/components'
 import { useEffect, useMemo, useState } from 'react'
 
 import { AdministrationQuestion } from '../domains/Administration/components'
@@ -19,33 +28,33 @@ import ls from '../utils/ls'
  */
 const usePages = (routes) => {
   /* It's a React hook that allows us to use state in a functional component. */
-  const [ currentPage, setCurrentPage ] = useState()
+  const [currentPage, setCurrentPage] = useState()
 
   /* It's a React hook that allows us to use state in a functional component. */
-  const [ isWelcomeSeen, setIsWelcomeSeen ] = useState()
+  const [isWelcomeSeen, setIsWelcomeSeen] = useState()
 
   /* It's a React hook that allows us to use state in a functional component. */
-  const [ options, setOptions ] = useState({}) 
+  const [options, setOptions] = useState({})
 
   const pagesMap = useMemo(() => {
     if (!isWelcomeSeen) {
       return {
-        'platforms': <PlatformWelcome {...options} />,
-        'industries': <IndustryWelcome {...options} />,
-        'analogues': <AnalogueWelcome {...options} />
+        platforms: <PlatformWelcome {...options} />,
+        industries: <IndustryWelcome {...options} />,
+        analogues: <AnalogueWelcome {...options} />
       }
     } else {
       return {
-        'platforms': <PlatformQuestion />,
-        'industries': <IndustryQuestion />,
-        'analogues': <AnalogueQuestion />,
-        'administration': <AdministrationQuestion />,
-        'localization': <LocalizationQuestion />,
-        'authentication': <AuthenticationQuestion />,
-        'external_services': <ExternalServiceQuestion />,
-        'appearance': <AppearanceQuestion />,
-        'brand': <BrandQuestion />,
-        'revenue': <RevenueQuestion />
+        platforms: <PlatformQuestion />,
+        industries: <IndustryQuestion />,
+        analogues: <AnalogueQuestion />,
+        administration: <AdministrationQuestion />,
+        localization: <LocalizationQuestion />,
+        authentication: <AuthenticationQuestion />,
+        external_services: <ExternalServiceQuestion />,
+        appearance: <AppearanceQuestion />,
+        brand: <BrandQuestion />,
+        revenue: <RevenueQuestion />
       }
     }
   }, [isWelcomeSeen, options])
@@ -70,16 +79,12 @@ const usePages = (routes) => {
     /* It's setting the `options` state to the values of the `baseRoute` and `nestedRoute` in the
     `routes` object. */
     if (routes) {
-      const { 
-        baseRoute,
-        baseRouteValue,
-        nestedRoute,
-        nestedRouteValue
-      } = routes
+      const { baseRoute, baseRouteValue, nestedRoute, nestedRouteValue } =
+        routes
 
       setOptions({
         [baseRoute]: baseRouteValue,
-        [nestedRoute]: nestedRouteValue,
+        [nestedRoute]: nestedRouteValue
       })
     }
   }, [routes])

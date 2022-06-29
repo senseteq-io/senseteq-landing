@@ -12,11 +12,11 @@ the `calculatorPrefix` from the `router.asPath` string. It's splitting the `clea
 into an array. */
 const useTransformRoutes = () => {
   /* A hook that allows us to use the `t` function to translate our routes. */
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   /* It's creating a state object with the keys `baseRoute`, `baseRouteValue`, `nestedRoute`,
   `nestedRouteValue`, and `extraStepRoute`. */
-  const [ state, setState ] = useState({
+  const [state, setState] = useState({
     baseRoute: '',
     baseRouteValue: '',
     nestedRoute: '',
@@ -41,16 +41,21 @@ const useTransformRoutes = () => {
       const cleanPathArr = cleanPath.split('/')
 
       setState({
-        baseRoute: 
-          cleanPathArr[0] ? t(`calculator.paths.mirror.${cleanPathArr[0]}`) : null,
-        baseRouteValue:
-          cleanPathArr[1] ? t(`calculator.paths.mirror.${cleanPathArr[1]}`) : null,
-        nestedRoute:
-          cleanPathArr[2] ? t(`calculator.paths.mirror.${cleanPathArr[2]}`) : null,
-        nestedRouteValue:
-          cleanPathArr[3] ? t(`calculator.paths.mirror.${cleanPathArr[3]}`) : null,
-        extraStepRoute:
-          cleanPathArr[4] ? t(`calculator.paths.mirror.${cleanPathArr[4]}`) : null
+        baseRoute: cleanPathArr[0]
+          ? t(`calculator.paths.mirror.${cleanPathArr[0]}`)
+          : null,
+        baseRouteValue: cleanPathArr[1]
+          ? t(`calculator.paths.mirror.${cleanPathArr[1]}`)
+          : null,
+        nestedRoute: cleanPathArr[2]
+          ? t(`calculator.paths.mirror.${cleanPathArr[2]}`)
+          : null,
+        nestedRouteValue: cleanPathArr[3]
+          ? t(`calculator.paths.mirror.${cleanPathArr[3]}`)
+          : null,
+        extraStepRoute: cleanPathArr[4]
+          ? t(`calculator.paths.mirror.${cleanPathArr[4]}`)
+          : null
       })
     }
   }, [router, t])

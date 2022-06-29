@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next'
  */
 const useIndustryOptions = () => {
   /* A hook that allows us to use the translation function. */
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   /* A hook that allows us to use the translation function. */
   const options = useMemo(() => {

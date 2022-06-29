@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { createElement } from "react"
+import { createElement } from 'react'
 import helpers from '../TypographyHelpers.module.css'
 import styles from './Title.module.css'
 
@@ -10,15 +10,26 @@ const DEFAULT_TAG = 'h1'
  * the font weight, and the variant
  * @returns A function that takes in props and returns a React element.
  */
-export default function Title({ as, children, align, regular, lighter, variant }) {
+export default function Title({
+  as,
+  children,
+  align,
+  regular,
+  lighter,
+  variant
+}) {
   const tag = as || DEFAULT_TAG
-  return createElement(tag, {
-    className: cn({
-      [styles[tag]]: true,
-      [helpers[`text-${align}`]]: align,
-      [helpers['fw-regular']]: regular,
-      [helpers['fw-lighter']]: lighter,
-      [helpers[`text-${variant}`]]: variant
-    })
-  }, children)
+  return createElement(
+    tag,
+    {
+      className: cn({
+        [styles[tag]]: true,
+        [helpers[`text-${align}`]]: align,
+        [helpers['fw-regular']]: regular,
+        [helpers['fw-lighter']]: lighter,
+        [helpers[`text-${variant}`]]: variant
+      })
+    },
+    children
+  )
 }

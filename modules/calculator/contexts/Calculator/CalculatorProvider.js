@@ -23,12 +23,13 @@ const CalculatorProvider = ({
   }
 
   return (
-    <CalculatorContext.Provider value={{
-      onNext,
-      onPrev,
-      onSelect,
-      calculatorData
-    }}>
+    <CalculatorContext.Provider
+      value={{
+        onNext,
+        onPrev,
+        onSelect,
+        calculatorData
+      }}>
       {children}
     </CalculatorContext.Provider>
   )

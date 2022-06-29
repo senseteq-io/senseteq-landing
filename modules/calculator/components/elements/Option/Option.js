@@ -9,13 +9,12 @@ import styles from './Option.module.css'
  */
 export default function Option({ src, label, selected, value, onSelect }) {
   return (
-    <div 
+    <div
       onClick={() => onSelect(value)}
       className={cn({
         [styles.option]: true,
         [styles['option-selected']]: selected
-      })}
-    >
+      })}>
       <div className="row">
         {src ? (
           <div className="col-12 d-flex justify-content-center mb-4">
@@ -23,7 +22,9 @@ export default function Option({ src, label, selected, value, onSelect }) {
           </div>
         ) : null}
         <div className="col-12">
-          <Text align="center" semibold={selected}>{label}</Text>
+          <Text align="center" semibold={selected}>
+            {label}
+          </Text>
         </div>
       </div>
     </div>

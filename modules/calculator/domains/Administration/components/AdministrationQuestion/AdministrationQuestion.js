@@ -13,7 +13,7 @@ const AdministrationQuestion = () => {
   /* It's a custom hook that returns an array of objects. */
   const options = useAdministrationOptions()
 
- /* It's returning the QuestionContent component with the title, subtitle, options, and type props. */
+  /* It's returning the QuestionContent component with the title, subtitle, options, and type props. */
   return (
     <QuestionContent
       title={t('calculator.administration.title')}

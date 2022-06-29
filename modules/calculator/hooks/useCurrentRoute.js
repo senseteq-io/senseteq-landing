@@ -20,13 +20,20 @@ const useCurrentRoute = (routes) => {
   const path = useBuildPath(routes)
 
   /* Destructuring the routes object. */
-  const { baseRoute, baseRouteValue, nestedRoute, nestedRouteValue, extraStepRoute } = routes
+  const {
+    baseRoute,
+    baseRouteValue,
+    nestedRoute,
+    nestedRouteValue,
+    extraStepRoute
+  } = routes
 
   return {
     type: nestedRoute || baseRoute,
     selected: nestedRouteValue || baseRouteValue,
     parent: nestedRoute && baseRoute ? baseRoute : null,
-    parentSelected: nestedRoute && baseRoute && baseRouteValue ? baseRouteValue : null,
+    parentSelected:
+      nestedRoute && baseRoute && baseRouteValue ? baseRouteValue : null,
     extraStep: extraStepRoute,
     path: t(path)
   }

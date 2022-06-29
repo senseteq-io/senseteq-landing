@@ -11,11 +11,11 @@ const useWelcomeText = ({ platforms }) => {
   const { t } = useTranslation()
 
   /* Setting the initial state of the data object. */
-  const [ data, setData ] = useState({
+  const [data, setData] = useState({
     title: t('calculator.platforms.welcome.title'),
     descriptionLine1: t('calculator.platforms.welcome.descriptionLine1'),
     descriptionLine2: t('calculator.platforms.welcome.descriptionLine2'),
-    buttonText: t('calculator.platforms.welcome.buttonText'),
+    buttonText: t('calculator.platforms.welcome.buttonText')
   })
 
   /* A hook that is called when the component is mounted and when the `platforms` value changes. */
@@ -23,9 +23,15 @@ const useWelcomeText = ({ platforms }) => {
     if (platforms) {
       setData({
         title: t(`calculator.platforms.welcome.options.${platforms}.title`),
-        descriptionLine1: t(`calculator.platforms.welcome.options.${platforms}.descriptionLine1`),
-        descriptionLine2: t(`calculator.platforms.welcome.options.${platforms}.descriptionLine2`),
-        buttonText: t(`calculator.platforms.welcome.options.${platforms}.buttonText`),
+        descriptionLine1: t(
+          `calculator.platforms.welcome.options.${platforms}.descriptionLine1`
+        ),
+        descriptionLine2: t(
+          `calculator.platforms.welcome.options.${platforms}.descriptionLine2`
+        ),
+        buttonText: t(
+          `calculator.platforms.welcome.options.${platforms}.buttonText`
+        )
       })
     }
   }, [t, platforms])

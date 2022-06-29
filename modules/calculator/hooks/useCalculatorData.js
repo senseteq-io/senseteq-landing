@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react'
  */
 const useCalculatorData = (routes, initialData) => {
   /* Setting the initial state of the data object. */
-  const [ calculatorData, setCalculatorData ] = useState({
+  const [calculatorData, setCalculatorData] = useState({
     platforms: null,
     analogues: null,
     industries: null,
@@ -45,7 +45,7 @@ const useCalculatorData = (routes, initialData) => {
   }
 
   useEffect(() => {
-    setCalculatorData((prev) => ({...prev, ...initialData}))
+    setCalculatorData((prev) => ({ ...prev, ...initialData }))
   }, [initialData])
 
   // FIXME

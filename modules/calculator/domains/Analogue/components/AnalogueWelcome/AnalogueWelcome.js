@@ -15,13 +15,13 @@ export default function AnalogueWelcome({ analogues }) {
 
   /* Destructuring the `text` object. */
   const { title, descriptionLine1, descriptionLine2, buttonText } = text
-  
+
   /* Destructuring the `onGetStarted` function from the `useActions` hook. */
   const { onGetStarted } = useActions()
 
   /* It's returning a `Welcome` component with the text and `onGetStarted` function passed in as props. */
   return (
-    <Welcome 
+    <Welcome
       title={<span dangerouslySetInnerHTML={{ __html: title }} />}
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}

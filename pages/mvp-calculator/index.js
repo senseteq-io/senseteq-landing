@@ -46,7 +46,6 @@ export default function Calculator() {
         body {
           height: 100vh;
           width: 100vw;
-          font-family: 'Public Sans', sans-serif;
         }
       `}</style>
       <Head

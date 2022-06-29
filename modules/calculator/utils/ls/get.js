@@ -1,4 +1,4 @@
-import { LS_FIELD } from "./__constants__";
+import { LS_FIELD } from './__constants__'
 
 export default function get(type) {
   const ls = window?.localStorage

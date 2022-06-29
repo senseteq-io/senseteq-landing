@@ -18,7 +18,7 @@ export default function IndustryWelcome({ industries }) {
 
   /* Returning the `Welcome` component with the props that are passed to it. */
   return (
-    <Welcome 
+    <Welcome
       title={<span dangerouslySetInnerHTML={{ __html: title }} />}
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}

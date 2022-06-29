@@ -1,3 +1,3 @@
-import AuthenticationQuestion from "./AuthenticationQuestion"
+import AuthenticationQuestion from './AuthenticationQuestion'
 
 export default AuthenticationQuestion

@@ -1,3 +1,3 @@
-import IndustryQuestion from "./IndustryQuestion"
+import IndustryQuestion from './IndustryQuestion'
 
 export default IndustryQuestion

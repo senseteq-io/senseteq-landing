@@ -12,13 +12,17 @@ const useActions = () => {
    */
   const onGetStarted = () => {
     /* It's saving the value `true` to the `welcome` key in local storage. */
-    ls.save('welcome', true);
+    ls.save('welcome', true)
 
     /* It's redirecting the user to the `/mvp-calculator/platforms` page. */
-    Router.push(`/${t('calculator.paths.mvp_calculator')}/${t('calculator.paths.platforms')}`);
+    Router.push(
+      `/${t('calculator.paths.mvp_calculator')}/${t(
+        'calculator.paths.platforms'
+      )}`
+    )
   }
 
-  return { onGetStarted };
+  return { onGetStarted }
 }
 
 export default useActions

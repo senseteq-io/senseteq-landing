@@ -7,7 +7,7 @@ import { useTranslation } from 'next-i18next'
  */
 const useAdministrationOptions = () => {
   /* A hook that allows us to use the `t` function to translate strings. */
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   /* A hook that allows us to use the `t` function to translate strings. */
   const options = useMemo(() => {

@@ -1,3 +1,3 @@
-import LocalizationQuestion from "./LocalizationQuestion"
+import LocalizationQuestion from './LocalizationQuestion'
 
 export default LocalizationQuestion

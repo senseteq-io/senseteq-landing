@@ -18,7 +18,13 @@ const useBuildPath = (routes) => {
   const [path, setPath] = useState('')
 
   /* It's destructuring the `routes` object. */
-  const { baseRoute, baseRouteValue, nestedRoute, nestedRouteValue, extraStepRoute } = routes
+  const {
+    baseRoute,
+    baseRouteValue,
+    nestedRoute,
+    nestedRouteValue,
+    extraStepRoute
+  } = routes
 
   /* It's a hook that allows us to use the `t` function to translate strings. */
   useEffect(() => {

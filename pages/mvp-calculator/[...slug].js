@@ -48,7 +48,6 @@ export default function CalculatorAll() {
         body {
           height: 100vh;
           width: 100vw;
-          font-family: 'Public Sans', sans-serif;
         }
       `}</style>
       <Head

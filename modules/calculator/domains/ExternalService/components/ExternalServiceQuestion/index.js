@@ -1,3 +1,3 @@
-import ExternalServiceQuestion from "./ExternalServiceQuestion"
+import ExternalServiceQuestion from './ExternalServiceQuestion'
 
 export default ExternalServiceQuestion

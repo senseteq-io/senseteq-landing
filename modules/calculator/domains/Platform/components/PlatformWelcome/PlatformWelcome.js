@@ -19,7 +19,7 @@ export default function PlatformWelcome({ platforms }) {
   const { onGetStarted } = useActions()
 
   return (
-    <Welcome 
+    <Welcome
       title={<span dangerouslySetInnerHTML={{ __html: title }} />}
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}

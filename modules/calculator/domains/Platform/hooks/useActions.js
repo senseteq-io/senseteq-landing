@@ -11,13 +11,17 @@ const useActions = () => {
    */
   const onGetStarted = () => {
     /* It saves a value to the local storage and then redirects the user to the next page */
-    ls.save('welcome', true);
+    ls.save('welcome', true)
 
     /* Redirecting the user to the next page. */
-    Router.push(`/${t('calculator.paths.mvp_calculator')}/${t('calculator.paths.analogues')}`);
+    Router.push(
+      `/${t('calculator.paths.mvp_calculator')}/${t(
+        'calculator.paths.analogues'
+      )}`
+    )
   }
 
-  return { onGetStarted };
+  return { onGetStarted }
 }
 
 export default useActions

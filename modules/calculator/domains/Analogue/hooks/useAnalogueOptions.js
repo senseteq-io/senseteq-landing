@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next'
  */
 const useAnalogueOptions = () => {
   /* A hook that allows us to use the `t` function to translate our strings. */
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   /* A hook that allows us to use the `t` function to translate our strings. */
   const options = useMemo(() => {

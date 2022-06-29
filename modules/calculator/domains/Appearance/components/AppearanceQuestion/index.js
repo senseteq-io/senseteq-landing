@@ -1,3 +1,3 @@
-import AppearanceQuestion from "./AppearanceQuestion"
+import AppearanceQuestion from './AppearanceQuestion'
 
 export default AppearanceQuestion
