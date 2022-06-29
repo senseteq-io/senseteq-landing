@@ -6,21 +6,15 @@ import styles from './Button.module.css'
  * styles.btn-{variant} and styles.btn-shape-{shape} classes
  * @returns A button element with the className of btn, btn-variant, and btn-shape-shape.
  */
-export default function Button({
-  children,
-  variant,
-  shape,
-  onClick
-}) {
+export default function Button({ children, variant, shape, onClick }) {
   return (
     <button
       onClick={onClick}
       className={cn({
-        [styles.btn]: true,
-        [styles[`btn-${variant}`]]: !!variant,
-        [styles[`btn-shape-${shape}`]]: !!shape,
-      })}
-    >
+        [styles['calc-module-btn']]: true,
+        [styles[`calc-module-btn-${variant}`]]: !!variant,
+        [styles[`calc-module-btn-shape-${shape}`]]: !!shape
+      })}>
       {children}
     </button>
   )

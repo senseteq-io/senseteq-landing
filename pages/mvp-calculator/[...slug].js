@@ -44,6 +44,13 @@ export default function CalculatorAll() {
   /* Returning the head, header, content, and footer components. */
   return (
     <>
+      <style global jsx>{`
+        body {
+          height: 100vh;
+          width: 100vh;
+          font-family: 'Public Sans', sans-serif;
+        }
+      `}</style>
       <Head
         title={title}
         description={description}
