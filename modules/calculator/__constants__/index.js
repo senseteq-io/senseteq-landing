@@ -1,3 +1,7 @@
 export { default as ANALOGUES } from './analogues'
 export { default as INDUSTRIES } from './industries'
 export { default as PLATFORMS } from './platforms'
+export { default as ANALOG_MODELS } from './analogModels'
+export { default as USD_TO_NOK } from './usdToNok'
+export { default as MODEL_ESTIMATIONS } from './modelEstimations'
+export { default as HOUR_RATE } from './hourRate'

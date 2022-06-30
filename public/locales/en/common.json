@@ -732,6 +732,10 @@
       "revenue": {
         "title": "MVP Calculator | Revenue streams",
         "description": "Want to know how much the development of a mobile or web application costs? Please use a unique price calculator"
+      },
+      "result": {
+        "title": "MVP Calculator | Result",
+        "description": "Want to know how much the development of a mobile or web application costs? Please use a unique price calculator"
       }
     },
     "welcome": {
@@ -1199,7 +1203,7 @@
       }
     },
     "external_service": {
-      "title": "Do you need to use <string>third-party services</string>?",
+      "title": "Do you need to use <strong>third-party services</strong>?",
       "subtitle": "For example, do you need to attach your applications to services by the Google Maps, Google Vision type or other similar, but local services?",
       "options": {
         "yes": "Yes",
@@ -1224,6 +1228,93 @@
         "in_app": "🏬 In-app purchases",
         "another": "💰 Another",
         "not_sure": "🤷‍♂️ Not sure"
+      }
+    },
+    "result": {
+      "title": "Nice! Sounds great!",
+      "description": "Here is the short description of your MVP",
+      "second_title": "How long will the app take to build, and how much will it cost?",
+      "approximate_estimation": "Approximate estimation",
+      "approximate_cost": "Approximate cost",
+      "weeks": "weeks",
+      "options": {
+        "platforms": {
+          "web": "Web application only",
+          "mobile": "iOS and android applications",
+          "web_mobile": "Web, iOS and android applications"
+        },
+        "analogues": {
+          "uber": "Similar to the uber",
+          "uber_eats": "Similar to the uber eats",
+          "airbnb": "Similar to the airbnb",
+          "tinder": "Similar to the tinder",
+          "linkedin": "Similar to the linkedin",
+          "facebook": "Similar to the facebook",
+          "instagram": "Similar to the instagram",
+          "tiktok": "Similar to the tiktok",
+          "kickstarter": "Similar to the kickstarter",
+          "amazon": "Similar to the amazon",
+          "whatsapp": "Similar to the whatsapp",
+          "youtube": "Similar to the youtube",
+          "netflix": "Similar to the netflix",
+          "spotify": "Similar to the spotify",
+          "medium": "Similar to the medium",
+          "another": "Unique idea"
+        },
+        "industries": {
+          "e_commerce": "For e-commerce industry",
+          "sports_and_fitness": "For sports and fitness industry",
+          "media_and_entertainment": "For media and entertainment industry",
+          "food": "For food industry",
+          "education_and_training": "For ed-tech industry",
+          "healthcare": "For healthcare industry",
+          "automotive": "For automotive",
+          "finance_banking_insurance": "For fintech industry",
+          "travel": "For travel industry",
+          "real_estate": "For real estate industry",
+          "manufacturing": "For manufacturing industry",
+          "logistic": "For logistic industry",
+          "agritech": "For agritech industry",
+          "natural_resources": "For oil and gas industry",
+          "green_energy": "For green energy",
+          "internet_of_things": "For Internet of things",
+          "robotics": "For robotics",
+          "kids": "For kids",
+          "social_networking": "Social networking",
+          "dating": "For dating",
+          "productivity": "For productivity",
+          "another": "For X industry"
+        },
+        "administration": {
+          "yes": "Admin panel",
+          "not_sure": "May have admin panel"
+        },
+        "appearance": {
+          "basic": "Basic design",
+          "fantastic": "Fantastic design"
+        },
+        "authentication": {
+          "yes": "Users will be able to login",
+          "not_sure": "May have authentications methods"
+        },
+        "brand": {
+          "yes": "Brand development",
+          "not_sure": "May need brand development"
+        },
+        "external_service": {
+          "yes": "3rd party services integration",
+          "not_sure": "May integrate with an API"
+        },
+        "localization": {
+          "yes": "Multi-language support",
+          "not_sure": "May support several languages"
+        },
+        "revenue": {
+          "subscription": "Subscriptions",
+          "in_app": "In-app purchases",
+          "another": "May integrate purchases",
+          "not_sure": "May integrate purchases"
+        }
       }
     }
   }

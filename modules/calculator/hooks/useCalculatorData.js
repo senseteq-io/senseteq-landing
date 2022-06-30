@@ -16,7 +16,7 @@ const useCalculatorData = (routes, initialData) => {
     administration: null,
     localization: null,
     authentication: null,
-    externalServices: null,
+    external_service: null,
     appearance: null,
     brand: null,
     revenue: null,
