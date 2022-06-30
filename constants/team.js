@@ -1,72 +1,112 @@
 const TEAM = {
-  MAIN: [
-    { name: 'Trond Klæboe', role: 'Daglig leder', src: '/Trond_Kleboe.webp' },
+  EXPERIENCED: [
+    {
+      name: 'Trond Klæboe',
+      role: 'Daglig leder',
+      src: '/team/Trond_Kleboe.webp'
+    },
     {
       name: 'Oleksiy Pastukhov',
       role: 'Senior Full stack utvikler / Team lead',
-      src: '/Oleksiy_Pastukhov.webp'
+      src: '/team/Oleksiy_Pastukhov.webp'
     },
     {
       name: 'Oleg Makhynia',
       role: 'Senior Backend utvikler',
-      src: '/Oleg_Makhynia.webp'
+      src: '/team/Oleg_Makhynia.webp'
     },
     {
       name: 'Evgeniy Bogdanov',
       role: 'Designer UI/UX',
-      src: '/Evgeniy_Bogdanov.webp'
+      src: '/team/Evgeniy_Bogdanov.webp'
     },
     {
       name: 'Arthur Pochinok',
       role: 'Full stack utvikler',
-      src: '/Arthur_Pochinok.webp'
+      src: '/team/Arthur_Pochinok.webp'
     },
     {
       name: 'Vlad Bogach',
       role: 'Full stack utvikler',
-      src: '/Vlad_Bogach.webp'
+      src: '/team/Vlad_Bogach.webp'
     },
     {
       name: 'Slava Shamrelyuk',
       role: 'Full stack utvikler',
-      src: '/Slava_Shamrelyuk.webp'
+      src: '/team/Slava_Shamrelyuk.webp'
+    },
+    {
+      name: 'Maxim Makarov',
+      role: 'Full stack utvikler',
+      src: '/team/Maxim_Makarov.webp'
+    },
+    {
+      name: 'Rostyslav Marchuk',
+      role: 'Full stack utvikler',
+      src: '/team/Rostyslav_Marchuk.webp'
+    },
+    {
+      name: 'Olena Shevchuk',
+      role: 'Full stack utvikler',
+      src: '/team/Olena_Shevchuk.webp'
+    },
+    {
+      name: 'Ruslana Halkina',
+      role: 'Full stack utvikler',
+      src: '/team/Ruslana_Halkina.webp'
+    },
+    {
+      name: 'Oleksandr Holyk',
+      role: 'Full stack utvikler',
+      src: '/team/Oleksandr_Holyk.webp'
+    },
+    {
+      name: 'Dmytro Okrushko',
+      role: 'Full stack utvikler',
+      src: '/team/Dmytro_Okrushko.webp'
+    },
+    {
+      name: 'Oleksandr Kazhuro',
+      role: 'Full stack utvikler',
+      src: '/team/Oleksandr_Kazhuro.webp'
     }
   ],
   RISING_STARS: [
     {
-      name: 'Maxim Makarov',
-      role: 'Junior Fullstack utvikler',
-      src: '/Maxim_Makarov.webp'
+      name: '',
+      src: '/team/sasha2.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Rostyslav Marchuk',
-      role: 'Junior Fullstack utvikler',
-      src: '/Rostyslav_Marchuk.webp'
+      name: '',
+      src: '/team/anhelina.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Olena Shevchuk',
-      role: 'Junior Fullstack utvikler',
-      src: '/Olena_Shevchuk.webp'
+      name: '',
+      src: '/team/nastia.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Ruslana Halkina',
-      role: 'Junior Fullstack utvikler',
-      src: '/Ruslana_Halkina.webp'
+      name: '',
+      src: '/team/sasha1.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Oleksandr Holyk',
-      role: 'Junior Fullstack utvikler',
-      src: '/Oleksandr_Holyk.webp'
+      name: '',
+      src: '/team/andrey.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Dmytro Okrushko',
-      role: 'Junior Fullstack utvikler',
-      src: '/Dmytro_Okrushko.webp'
+      name: '',
+      src: '/team/danil.webp',
+      role: 'Junior Fullstack utvikler'
     },
     {
-      name: 'Oleksandr Kazhuro',
-      role: 'Junior Fullstack utvikler',
-      src: '/Oleksandr_Kazhuro.webp'
+      name: '',
+
+      src: '/team/artem.webp',
+      role: 'Junior Fullstack utvikler'
     }
   ]
 }
