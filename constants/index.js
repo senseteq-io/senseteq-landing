@@ -5,6 +5,7 @@ import CUSTOMERS from './customers'
 import GUARANTEES_ITEMS from './guarantees'
 import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
 import INDUSTRIES_ITEMS from './industrues'
+import LANGUAGES_ITEMS from './languagesItems'
 import MENU_ITEMS from './menuItems'
 import PRICES_AND_PACKAGES from './pricesAndPackages'
 import REASONS_ITEMS from './reasons'
@@ -25,5 +26,6 @@ export {
   TEAM,
   MENU_ITEMS,
   CUSTOMERS,
-  CONTACTS_ITEMS
+  CONTACTS_ITEMS,
+  LANGUAGES_ITEMS
 }
