@@ -67,7 +67,18 @@ const useNavigator = (calculatorData) => {
     return PAGE_ORDER[PAGE_ORDER.indexOf(calculatorData?.currentRoute) + 1]
   }, [calculatorData?.currentRoute])
 
-  return [paths[prev], paths[next]]
+  const progress = useMemo(() => {
+    if (
+      PAGE_ORDER.indexOf(calculatorData?.currentRoute) ===
+      PAGE_ORDER.length - 1
+    ) {
+      return 0
+    } else {
+      return PAGE_ORDER.indexOf(calculatorData?.currentRoute) * 9.09
+    }
+  }, [calculatorData?.currentRoute])
+
+  return [paths[prev], paths[next], progress]
 }
 
 export default useNavigator

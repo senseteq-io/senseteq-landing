@@ -1,4 +1,5 @@
 import CalculatorContext from './CalculatorContext'
+import { Progress } from '../../components'
 import Router from 'next/router'
 import { useNavigator } from '../../hooks'
 
@@ -12,7 +13,7 @@ const CalculatorProvider = ({
     It's using the `useCalculatorNavigator` hook to get the 
     previous and next routes. 
   */
-  const [prevRoute, nextRoute] = useNavigator(calculatorData)
+  const [prevRoute, nextRoute, progress] = useNavigator(calculatorData)
 
   // ACTIONS
   const onNext = () => Router.push(nextRoute)
@@ -30,6 +31,7 @@ const CalculatorProvider = ({
         onSelect,
         calculatorData
       }}>
+      <Progress progress={progress} />
       {children}
     </CalculatorContext.Provider>
   )
