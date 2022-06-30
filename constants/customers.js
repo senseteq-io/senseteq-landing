@@ -1,11 +1,11 @@
 const CUSTOMERS = [
   {
-    href: 'https://foihelse.com/',
-    buttonText: 'foihelse.com',
-    src: '/foi_helse.webp',
+    href: 'https://www.menta.no/',
+    buttonText: 'menta.no',
+    src: '/menta.webp',
     description:
-      'FOI Helse er en internasjonal satsing for å forbedre og effektivisere behandling av angst - og depresjonslidelser.',
-    ariaLabel: 'go to foihelse slide'
+      'Menta Helse er en internasjonal satsing for å forbedre og effektivisere behandling av angst - og depresjonslidelser.',
+    ariaLabel: 'go to menta slide'
   },
   {
     href: 'https://worktube.ai/',
