@@ -24,7 +24,13 @@ const PageWrapper = (props) => {
         anchorPlacement: 'top'
       })
   }, [])
-  useEffect(() => setActiveMenuItem(window?.location?.pathname), [])
+  useEffect(() => {
+    // get pathname without language indicator
+    const pathname = window?.location?.pathname?.split('/')?.[2]
+
+    // set '/' (Home menu item) active if there is no pathname
+    setActiveMenuItem(pathname ? `/${pathname}` : '/')
+  }, [])
 
   return (
     <>
