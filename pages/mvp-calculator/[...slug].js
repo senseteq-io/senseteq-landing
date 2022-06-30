@@ -9,6 +9,7 @@ import {
   useLS,
   useMetaData,
   usePages,
+  useParams,
   usePath,
   useTransformRoutes
 } from '../../modules/calculator/hooks'
@@ -41,6 +42,9 @@ export default function CalculatorAll() {
   /* Using the `useLS` hook to save the `calculatorData` to local storage. */
   useLS(calculatorData)
 
+  /* Using the `useParams` hook to get the params from the URL. geo - country, g - gender */
+  const { geo, g } = useParams()
+
   /* Returning the head, header, content, and footer components. */
   return (
     <>
@@ -59,6 +63,8 @@ export default function CalculatorAll() {
       <Header />
       <Content>
         <CalculatorProvider
+          geo={geo}
+          g={g}
           calculatorData={calculatorData}
           updateCalculatorField={updateCalculatorField}>
           {page}

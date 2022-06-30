@@ -1,6 +1,8 @@
 import { useActions, useWelcomeText } from '../../hooks'
 
 import { Welcome } from '../../../../components'
+import { useParams } from '../../../../hooks'
+import { useTranslation } from 'next-i18next'
 
 /**
  * We're using the `useWelcomeText` hook to get the text for the welcome component, destructuring the
@@ -10,6 +12,12 @@ import { Welcome } from '../../../../components'
  */
 
 export default function AnalogueWelcome({ analogues }) {
+  /* It's destructuring the `geo` and `g` values from the `useParams` hook. */
+  const { geo, g } = useParams()
+
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation()
+
   /* Using the `useWelcomeText` hook to get the text for the welcome component. */
   const text = useWelcomeText({ analogues })
 
@@ -26,6 +34,8 @@ export default function AnalogueWelcome({ analogues }) {
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}
       buttonText={buttonText}
+      geo={geo ? t(`calculator.welcome.geo.${geo}`) : null}
+      g={g === 'f' ? t('calculator.welcome.fff') : null}
       onClick={onGetStarted}
     />
   )

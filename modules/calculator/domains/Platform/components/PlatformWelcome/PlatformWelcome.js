@@ -1,6 +1,8 @@
 import { useActions, useWelcomeText } from '../../hooks'
 
 import { Welcome } from '../../../../components'
+import { useParams } from '../../../../hooks'
+import { useTranslation } from 'next-i18next'
 
 /**
  * We're using the `useWelcomeText` hook to get the welcome text for the industry, destructuring the
@@ -9,6 +11,12 @@ import { Welcome } from '../../../../components'
  * @returns A component that displays a welcome message.
  */
 export default function PlatformWelcome({ platforms }) {
+  /* It's destructuring the `geo` and `g` values from the `useParams` hook. */
+  const { geo, g } = useParams()
+
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation()
+
   /* Using the `useWelcomeText` hook to get the welcome text for the industry. */
   const text = useWelcomeText({ platforms })
 
@@ -24,6 +32,8 @@ export default function PlatformWelcome({ platforms }) {
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}
       buttonText={buttonText}
+      geo={geo ? t(`calculator.welcome.geo.${geo}`) : null}
+      g={g === 'f' ? t('calculator.welcome.fff') : null}
       onClick={onGetStarted}
     />
   )

@@ -45,13 +45,13 @@ const useTransformRoutes = () => {
           ? t(`calculator.paths.mirror.${cleanPathArr[0]}`)
           : null,
         baseRouteValue: cleanPathArr[1]
-          ? t(`calculator.paths.mirror.${cleanPathArr[1]}`)
+          ? t(`calculator.paths.mirror.${cleanPathArr[1].split('?')[0]}`)
           : null,
         nestedRoute: cleanPathArr[2]
           ? t(`calculator.paths.mirror.${cleanPathArr[2]}`)
           : null,
         nestedRouteValue: cleanPathArr[3]
-          ? t(`calculator.paths.mirror.${cleanPathArr[3]}`)
+          ? t(`calculator.paths.mirror.${cleanPathArr[3].split('?')[0]}`)
           : null,
         extraStepRoute: cleanPathArr[4]
           ? t(`calculator.paths.mirror.${cleanPathArr[4]}`)

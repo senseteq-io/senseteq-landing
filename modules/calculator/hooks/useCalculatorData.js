@@ -24,8 +24,6 @@ const useCalculatorData = (routes, initialData) => {
     ...initialData
   })
 
-  console.log(calculatorData)
-
   /**
    * It takes a field and a value, and then updates the calculatorData object with the new value
    * @param field - The field to update.

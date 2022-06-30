@@ -14,6 +14,8 @@ export default function Welcome({
   descriptionLine1,
   descriptionLine2,
   buttonText,
+  geo,
+  g,
   onClick
 }) {
   return (
@@ -29,9 +31,14 @@ export default function Welcome({
         </div>
         <div className="bs-col-12 bs-col-lg-6">
           <div className="bs-row">
+            {g ? (
+              <Text semibold style={{ color: '#9a1088' }}>
+                {g}
+              </Text>
+            ) : null}
             <div className="bs-col-12 bs-mb-3">
               <Title as="h3" regular>
-                {title}
+                {geo} {title}
               </Title>
             </div>
             <div className="bs-col-12 bs-mb-2">

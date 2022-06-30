@@ -5,12 +5,12 @@ import {
   Header,
   Welcome
 } from '../../modules/calculator/components'
+import { useMetaData, useParams } from '../../modules/calculator/hooks'
 
 import Router from 'next/router'
 import ls from '../../modules/calculator/utils/ls'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useEffect } from 'react'
-import { useMetaData } from '../../modules/calculator/hooks'
 import { useTranslation } from 'next-i18next'
 
 export default function Calculator() {
@@ -34,6 +34,9 @@ export default function Calculator() {
       )}`
     )
   }
+
+  /* Using the `useParams` hook to get the params from the URL. geo - country, g - gender */
+  const { geo, g } = useParams()
 
   useEffect(() => {
     /* It's clearing the local storage. */
@@ -67,6 +70,8 @@ export default function Calculator() {
           descriptionLine1={t('calculator.welcome.descriptionLine1')}
           descriptionLine2={t('calculator.welcome.descriptionLine2')}
           buttonText={t('calculator.welcome.buttonText')}
+          geo={geo ? t(`calculator.welcome.geo.${geo}`) : null}
+          g={g === 'f' ? t('calculator.welcome.fff') : null}
           onClick={onGetStarted}
         />
       </Content>

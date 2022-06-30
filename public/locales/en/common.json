@@ -742,7 +742,11 @@
       "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
       "descriptionLine1": "Do you have a unique idea that you want to bring to life? But you have many questions and you do not know where to start?",
       "descriptionLine2": "Please, use our calculator! Find out how much the development of web and a mobile application for your idea will cost in just 3 minutes",
-      "buttonText": "Get Started"
+      "buttonText": "Get Started",
+      "geo": {
+        "nor": "🇳🇴"
+      },
+      "fff": "* For Female Founders"
     },
     "paths": {
       "mvp_calculator": "mvp-calculator",

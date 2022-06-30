@@ -17,13 +17,15 @@ export default function Text({
   align,
   semibold,
   subtitle,
-  variant
+  variant,
+  style
 }) {
   const tag = as || DEFAULT_TAG
   const cls = size || DEFAULT_SIZE
   return createElement(
     tag,
     {
+      style,
       className: cn({
         [styles[cls]]: true,
         [helpers[`text-${align}`]]: align,
