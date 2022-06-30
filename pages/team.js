@@ -3,7 +3,7 @@ import { PageWrapper, Section } from '../components'
 import { TEAM } from '../constants'
 
 export default function Team() {
-  const { RISING_STARS, MAIN } = TEAM
+  const { RISING_STARS, EXPERIENCED } = TEAM
 
   // [COMPUTED_PROPERTIES]
   const sectionsConfig = [
@@ -42,7 +42,7 @@ export default function Team() {
           </div>
         </div>
         <div className="row">
-          {MAIN?.map(({ name, role, src }) => (
+          {EXPERIENCED?.map(({ name, role, src }) => (
             <div
               data-aos="fade-left"
               key="name"
