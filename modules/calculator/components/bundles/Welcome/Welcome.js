@@ -17,7 +17,7 @@ export default function Welcome({
   onClick
 }) {
   return (
-    <div className="container">
+    <div className="bootstrap-container">
       <div className="row">
         <div className="col-12 col-lg-6 align-items-center justify-content-center d-flex mb-4">
           <Image
