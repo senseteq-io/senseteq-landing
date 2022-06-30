@@ -5,7 +5,7 @@ const CUSTOMERS = [
     src: '/menta.webp',
     description:
       'Menta Helse er en internasjonal satsing for å forbedre og effektivisere behandling av angst - og depresjonslidelser.',
-    ariaLabel: 'go to foihelse slide'
+    ariaLabel: 'go to menta slide'
   },
   {
     href: 'https://worktube.ai/',
