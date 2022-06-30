@@ -11,27 +11,27 @@
 }
 
 .fw-lighter {
-  font-weight: var(--fw-lighter) !important;
+  font-weight: var(--calc-module-fw-lighter) !important;
 }
 
 .fw-regular {
-  font-weight: var(--fw-regular) !important;
+  font-weight: var(--calc-module-fw-regular) !important;
 }
 
 .fw-semibold {
-  font-weight: var(--fw-semibold) !important;
+  font-weight: var(--calc-module-fw-semibold) !important;
 }
 
 .text-primary {
-  color: var(--text-primary);
+  color: var(--calc-module-text-primary);
 }
 
 .text-secondary {
-  color: var(--text-secondary);
+  color: var(--calc-module-text-secondary);
 }
 
 .text-white {
-  color: var(--text-white);
+  color: var(--calc-module-text-white);
 }
 
 .uppercase {

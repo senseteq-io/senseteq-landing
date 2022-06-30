@@ -17,7 +17,7 @@ export default function Content({ title, subtitle, options, type }) {
     <div className={styles.fadeIn}>
       <Title title={title} subtitle={subtitle} />
       <OptionList
-        className="mb-3"
+        className="bs-mb-3"
         type={type}
         options={options}
         onSelect={onSelect}

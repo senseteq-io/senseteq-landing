@@ -1,48 +1,48 @@
 .body1 {
-  font-size: var(--text-body1-font-size);
-  line-height: var(--text-body1-line-height);
-  font-weight: var(--text-body1-font-weight);
-  margin-top: var(--text-body1-margin-top);
-  margin-bottom: var(--text-body1-margin-bottom);
-  letter-spacing: var(--text-body1-letter-spacing);
-  font-family: var(--text-body1-font-family);
+  font-size: var(--calc-module-text-body1-font-size);
+  line-height: var(--calc-module-text-body1-line-height);
+  font-weight: var(--calc-module-text-body1-font-weight);
+  margin-top: var(--calc-module-text-body1-margin-top);
+  margin-bottom: var(--calc-module-text-body1-margin-bottom);
+  letter-spacing: var(--calc-module-text-body1-letter-spacing);
+  font-family: var(--calc-module-text-body1-font-family);
 }
 
 .body2 {
-  font-size: var(--text-body2-font-size);
-  line-height: var(--text-body2-line-height);
-  font-weight: var(--text-body2-font-weight);
-  margin-top: var(--text-body2-margin-top);
-  margin-bottom: var(--text-body2-margin-bottom);
-  letter-spacing: var(--text-body2-letter-spacing);
-  font-family: var(--text-body2-font-family);
+  font-size: var(--calc-module-text-body2-font-size);
+  line-height: var(--calc-module-text-body2-line-height);
+  font-weight: var(--calc-module-text-body2-font-weight);
+  margin-top: var(--calc-module-text-body2-margin-top);
+  margin-bottom: var(--calc-module-text-body2-margin-bottom);
+  letter-spacing: var(--calc-module-text-body2-letter-spacing);
+  font-family: var(--calc-module-text-body2-font-family);
 }
 
 .caption1 {
-  font-size: var(--text-caption1-font-size);
-  line-height: var(--text-caption1-line-height);
-  font-weight: var(--text-caption1-font-weight);
-  margin-top: var(--text-caption1-margin-top);
-  margin-bottom: var(--text-caption1-margin-bottom);
-  letter-spacing: var(--text-caption1-letter-spacing);
-  font-family: var(--text-caption1-font-family);
+  font-size: var(--calc-module-text-caption1-font-size);
+  line-height: var(--calc-module-text-caption1-line-height);
+  font-weight: var(--calc-module-text-caption1-font-weight);
+  margin-top: var(--calc-module-text-caption1-margin-top);
+  margin-bottom: var(--calc-module-text-caption1-margin-bottom);
+  letter-spacing: var(--calc-module-text-caption1-letter-spacing);
+  font-family: var(--calc-module-text-caption1-font-family);
 }
 
 .caption2 {
-  font-size: var(--text-caption2-font-size);
-  line-height: var(--text-caption2-line-height);
-  font-weight: var(--text-caption2-font-weight);
-  margin-top: var(--text-caption2-margin-top);
-  margin-bottom: var(--text-caption2-margin-bottom);
-  letter-spacing: var(--text-caption2-letter-spacing);
-  font-family: var(--text-caption2-font-family);
+  font-size: var(--calc-module-text-caption2-font-size);
+  line-height: var(--calc-module-text-caption2-line-height);
+  font-weight: var(--calc-module-text-caption2-font-weight);
+  margin-top: var(--calc-module-text-caption2-margin-top);
+  margin-bottom: var(--calc-module-text-caption2-margin-bottom);
+  letter-spacing: var(--calc-module-text-caption2-letter-spacing);
+  font-family: var(--calc-module-text-caption2-font-family);
 }
 
 .subtitle {
-  font-size: var(--subtitle-font-size);
-  line-height: var(--subtitle-line-height);
-  font-weight: var(--subtitle-font-weight);
-  margin-top: var(--subtitle-margin-to);
-  margin-bottom: var(--subtitle-margin-bottom);
-  letter-spacing: var(--subtitle-letter-spacing);
+  font-size: var(--calc-module-subtitle-font-size);
+  line-height: var(--calc-module-subtitle-line-height);
+  font-weight: var(--calc-module-subtitle-font-weight);
+  margin-top: var(--calc-module-subtitle-margin-to);
+  margin-bottom: var(--calc-module-subtitle-margin-bottom);
+  letter-spacing: var(--calc-module-subtitle-letter-spacing);
 }

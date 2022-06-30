@@ -1,50 +1,50 @@
 .dark:root {
   /* Colors */
   /* Accent */
-  --accent-darken: #0093c4;
-  --accent: #4fc3f7;
-  --accent-lighten: #8bf6ff;
+  --calc-module-accent-darken: #0093c4;
+  --calc-module-accent: #4fc3f7;
+  --calc-module-accent-lighten: #8bf6ff;
 
   /* Secondary */
-  --secondary-darken: #0e7490;
-  --secondary: #06b6d4;
-  --secondary-lighten: #67e8f9;
+  --calc-module-secondary-darken: #0e7490;
+  --calc-module-secondary: #06b6d4;
+  --calc-module-secondary-lighten: #67e8f9;
 
   /* Success */
-  --success-darken: #15803d;
-  --success: #22c55e;
-  --success-lighten: #86efac;
+  --calc-module-success-darken: #15803d;
+  --calc-module-success: #22c55e;
+  --calc-module-success-lighten: #86efac;
 
   /* Warning */
-  --warning-darken: #c2410c;
-  --warning: #f97316;
-  --warning-lighten: #fdba74;
+  --calc-module-warning-darken: #c2410c;
+  --calc-module-warning: #f97316;
+  --calc-module-warning-lighten: #fdba74;
 
   /* Danger */
-  --danger-darken: #b91c1c;
-  --danger: #ef4444;
-  --danger-lighten: #fca5a5;
+  --calc-module-danger-darken: #b91c1c;
+  --calc-module-danger: #ef4444;
+  --calc-module-danger-lighten: #fca5a5;
 
   /* Gray */
-  --gray-darken: #3f3f46;
-  --gray: #71717a;
-  --gray-lighten: #d4d4d8;
+  --calc-module-gray-darken: #3f3f46;
+  --calc-module-gray: #71717a;
+  --calc-module-gray-lighten: #d4d4d8;
 
   /* Singletons */
-  --black: #000000;
-  --white: #ffffff;
+  --calc-module-black: #000000;
+  --calc-module-white: #ffffff;
 
   /* BODY */
-  --body-bg: var(--gray-darken);
+  --calc-module-body-bg: var(--calc-module-gray-darken);
 
   /* TYPOGRAPHY */
-  --title-h1-color: var(--white);
-  --title-h2-color: var(--white);
-  --title-h3-color: var(--white);
-  --title-h4-color: var(--white);
-  --title-h5-color: var(--white);
-  --title-h6-color: var(--white);
+  --calc-module-title-h1-color: var(--calc-module-white);
+  --calc-module-title-h2-color: var(--calc-module-white);
+  --calc-module-title-h3-color: var(--calc-module-white);
+  --calc-module-title-h4-color: var(--calc-module-white);
+  --calc-module-title-h5-color: var(--calc-module-white);
+  --calc-module-title-h6-color: var(--calc-module-white);
 
-  --text-default-color: var(--white);
-  --text-caption-color: var(--gray);
+  --calc-module-text-default-color: var(--calc-module-white);
+  --calc-module-text-caption-color: var(--calc-module-gray);
 }

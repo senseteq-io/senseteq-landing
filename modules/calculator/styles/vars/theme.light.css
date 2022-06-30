@@ -1,95 +1,113 @@
 :root {
   /* Colors */
   /* Accent */
-  --accent-darken: #238f50;
-  --accent: #2db867;
-  --accent-lighten1: #6fdc9d;
-  --accent-lighten2: #eafaf1;
+  --calc-module-accent-darken: #238f50;
+  --calc-module-accent: #2db867;
+  --calc-module-accent-lighten1: #6fdc9d;
+  --calc-module-accent-lighten2: #eafaf1;
 
   /* Secondary */
-  --secondary-darken: #0e7490;
-  --secondary: #06b6d4;
-  --secondary-lighten: #67e8f9;
+  --calc-module-secondary-darken: #0e7490;
+  --calc-module-secondary: #06b6d4;
+  --calc-module-secondary-lighten: #67e8f9;
 
   /* Success */
-  --success-darken: #15803d;
-  --success: #22c55e;
-  --success-lighten: #86efac;
+  --calc-module-success-darken: #15803d;
+  --calc-module-success: #22c55e;
+  --calc-module-success-lighten: #86efac;
 
   /* Warning */
-  --warning-darken: #c2410c;
-  --warning: #f97316;
-  --warning-lighten: #fdba74;
+  --calc-module-warning-darken: #c2410c;
+  --calc-module-warning: #f97316;
+  --calc-module-warning-lighten: #fdba74;
 
   /* Danger */
-  --danger-darken: #b91c1c;
-  --danger: #ef4444;
-  --danger-lighten: #fca5a5;
+  --calc-module-danger-darken: #b91c1c;
+  --calc-module-danger: #ef4444;
+  --calc-module-danger-lighten: #fca5a5;
 
   /* Gray */
-  --gray-darken: #3f3f46;
-  --gray: #808080;
-  --gray-lighten1: #b3b3b3;
-  --gray-lighten2: #e6e6e6;
+  --calc-module-gray-darken: #3f3f46;
+  --calc-module-gray: #808080;
+  --calc-module-gray-lighten1: #b3b3b3;
+  --calc-module-gray-lighten2: #e6e6e6;
 
   /* Singletons */
-  --black: #000000;
-  --white: #ffffff;
+  --calc-module-black: #000000;
+  --calc-module-white: #ffffff;
 
   /* BODY */
-  --body-bg: var(--gray-lighten);
+  --calc-module-body-bg: var(--calc-module-gray-lighten);
 
   /* TYPOGRAPHY */
-  --text-primary: var(--black);
-  --text-secondary: var(--gray);
-  --text-white: var(--white);
+  --calc-module-text-primary: var(--calc-module-black);
+  --calc-module-text-secondary: var(--calc-module-gray);
+  --calc-module-text-white: var(--calc-module-white);
 
   /* BACKGROUNDS */
-  --bg-primary: var(--accent);
+  --calc-module-bg-primary: var(--calc-module-accent);
 
   /* ACTIONS */
-  --action-primary-default-border: var(--gray-lighten2);
-  --action-primary-hover-border: var(--accent-lighten1);
-  --action-primary-selected-border: var(--accent);
-  --action-primary-bg: var(--black);
-  --action-primary-hover-bg: var(--gray-darken);
-  --action-primary-color: var(--white);
-  --action-primary-hover-color: var(--white);
-  --action-secondary-color: var(--gray-darken);
-  --action-secondary-default-border: var(--gray-lighten2);
-  --action-secondary-hover-border: var(--black);
-  --action-secondary-hover-color: var(--white);
-  --action-secondary-hover-bg: var(--black);
+  --calc-module-action-primary-default-border: var(--calc-module-gray-lighten2);
+  --calc-module-action-primary-hover-border: var(--calc-module-accent-lighten1);
+  --calc-module-action-primary-selected-border: var(--calc-module-accent);
+  --calc-module-action-primary-bg: var(--calc-module-black);
+  --calc-module-action-primary-hover-bg: var(--calc-module-gray-darken);
+  --calc-module-action-primary-color: var(--calc-module-white);
+  --calc-module-action-primary-hover-color: var(--calc-module-white);
+  --calc-module-action-secondary-color: var(--calc-module-gray-darken);
+  --calc-module-action-secondary-default-border: var(
+    --calc-module-gray-lighten2
+  );
+  --calc-module-action-secondary-hover-border: var(--calc-module-black);
+  --calc-module-action-secondary-hover-color: var(--calc-module-white);
+  --calc-module-action-secondary-hover-bg: var(--calc-module-black);
 
   /* BUTTONS */
-  --calc-module-btn-default-bg: var(--action-primary-bg);
-  --calc-module-btn-default-hover-bg: var(--action-primary-hover-bg);
-  --calc-module-btn-default-color: var(--action-primary-color);
-  --calc-module-btn-default-hover-color: var(--action-primary-hover-color);
+  --calc-module-btn-default-bg: var(--calc-module-action-primary-bg);
+  --calc-module-btn-default-hover-bg: var(
+    --calc-module-action-primary-hover-bg
+  );
+  --calc-module-btn-default-color: var(--calc-module-action-primary-color);
+  --calc-module-btn-default-hover-color: var(
+    --calc-module-action-primary-hover-color
+  );
 
-  --calc-module-btn-primary-bg: var(--action-primary-bg);
-  --calc-module-btn-primary-hover-bg: var(--action-primary-hover-bg);
-  --calc-module-btn-primary-color: var(--action-primary-color);
-  --calc-module-btn-primary-hover-color: var(--action-primary-hover-color);
+  --calc-module-btn-primary-bg: var(--calc-module-action-primary-bg);
+  --calc-module-btn-primary-hover-bg: var(
+    --calc-module-action-primary-hover-bg
+  );
+  --calc-module-btn-primary-color: var(--calc-module-action-primary-color);
+  --calc-module-btn-primary-hover-color: var(
+    --calc-module-action-primary-hover-color
+  );
 
   --calc-module-btn-outlined-bg: transparent;
-  --calc-module-btn-outlined-color: var(--action-secondary-color);
+  --calc-module-btn-outlined-color: var(--calc-module-action-secondary-color);
   --calc-module-btn-outlined-border-color: var(
-    --action-secondary-default-border
+    --calc-module-action-secondary-default-border
   );
   --calc-module-btn-outlined-hover-border-color: var(
-    --action-secondary-hover-border
+    --calc-module-action-secondary-hover-border
   );
-  --calc-module-btn-outlined-hover-color: var(--action-secondary-hover-color);
-  --calc-module-btn-outlined-hover-bg: var(--action-secondary-hover-bg);
+  --calc-module-btn-outlined-hover-color: var(
+    --calc-module-action-secondary-hover-color
+  );
+  --calc-module-btn-outlined-hover-bg: var(
+    --calc-module-action-secondary-hover-bg
+  );
 
   /* OPTIONS */
-  --option-default-selected-background: var(--bg-primary);
-  --option-default-hover-background: var(--bg-primary);
-  --option-default-selected-color: var(--white);
-  --option-default-hover-color: var(--white);
-  --option-default-border: 1px solid var(--action-primary-default-border);
-  --option-default-hover-border: 1px solid var(--action-primary-hover-border);
-  --option-default-selected-border: 1px solid
-    var(--action-primary-selected-border);
+  --calc-module-option-default-selected-background: var(
+    --calc-module-bg-primary
+  );
+  --calc-module-option-default-hover-background: var(--calc-module-bg-primary);
+  --calc-module-option-default-selected-color: var(--calc-module-white);
+  --calc-module-option-default-hover-color: var(--calc-module-white);
+  --calc-module-option-default-border: 1px solid
+    var(--calc-module-action-primary-default-border);
+  --calc-module-option-default-hover-border: 1px solid
+    var(--calc-module-action-primary-hover-border);
+  --calc-module-option-default-selected-border: 1px solid
+    var(--calc-module-action-primary-selected-border);
 }

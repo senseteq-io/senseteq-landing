@@ -9,16 +9,16 @@ import { Button } from '../../../../components'
  */
 export default function CalculatorQuestionNavigation({ onPrev, onNext }) {
   return (
-    <div className="bootstrap-container">
-      <div className="row align-items-center justify-content-center">
-        <div className="col-12 col-md-9">
-          <div className="row justify-content-end g-2">
-            <div className="col-auto ">
+    <div className="bs-container">
+      <div className="bs-row bs-align-items-center bs-justify-content-center">
+        <div className="bs-col-12 bs-col-md-9">
+          <div className="bs-row bs-justify-content-end bs-g-2">
+            <div className="bs-col-auto ">
               <Button variant="outlined" shape="circle" onClick={onPrev}>
                 <AiOutlineArrowLeft />
               </Button>
             </div>
-            <div className="col-auto">
+            <div className="bs-col-auto">
               <Button variant="outlined" shape="circle" onClick={onNext}>
                 <AiOutlineArrowRight />
               </Button>

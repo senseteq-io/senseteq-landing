@@ -11,9 +11,9 @@ export default function Button({ children, variant, shape, onClick }) {
     <button
       onClick={onClick}
       className={cn({
-        [styles['calc-module-btn']]: true,
-        [styles[`calc-module-btn-${variant}`]]: !!variant,
-        [styles[`calc-module-btn-shape-${shape}`]]: !!shape
+        [styles['btn']]: true,
+        [styles[`btn-${variant}`]]: !!variant,
+        [styles[`btn-shape-${shape}`]]: !!shape
       })}>
       {children}
     </button>

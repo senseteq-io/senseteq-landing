@@ -4,9 +4,9 @@ import styles from './Header.module.css'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className="bootstrap-container">
-        <div className="row">
-          <div className="col-auto">
+      <div className="bs-container">
+        <div className="bs-row">
+          <div className="bs-col-auto">
             <Image
               src="/assets/logo.svg"
               width="120px"
