@@ -41,14 +41,14 @@ export default function OptionList({
 
   /* Returning a component that renders a list of options. */
   return (
-    <div className={`bootstrap-container ${className}`}>
-      <div className="row justify-content-center">
-        <div className="col-12 col-md-9">
-          <div className="row justify-content-center">
+    <div className={`bs-container ${className}`}>
+      <div className="bs-row bs-justify-content-center">
+        <div className="bs-col-12 bs-col-md-9">
+          <div className="bs-row bs-justify-content-center">
             {options?.map((option, index) => (
               <div
                 key={`${option?.label}-${index}`}
-                className="col-12 col-md-4 justify-content-center align-items-center mb-3">
+                className="bs-col-12 bs-col-md-4 bs-justify-content-center bs-align-items-center bs-mb-3">
                 <Option
                   src={option?.src}
                   value={option?.value}

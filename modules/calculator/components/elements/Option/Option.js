@@ -15,13 +15,13 @@ export default function Option({ src, label, selected, value, onSelect }) {
         [styles.option]: true,
         [styles['option-selected']]: selected
       })}>
-      <div className="row">
+      <div className="bs-row">
         {src ? (
-          <div className="col-12 d-flex justify-content-center mb-4">
+          <div className="bs-col-12 bs-d-flex bs-justify-content-center bs-mb-4">
             <Image src={src} alt={label} width="100px" height="100px" />
           </div>
         ) : null}
-        <div className="col-12">
+        <div className="bs-col-12">
           <Text align="center" semibold={selected}>
             {label}
           </Text>

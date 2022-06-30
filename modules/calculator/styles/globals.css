@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Public Sans", sans-serif;
-  font-size: var(--root-font-size);
+  font-size: var(--calc-module-root-font-size);
 }
 
 #__next {
