@@ -73,39 +73,38 @@ const TEAM = {
   ],
   RISING_STARS: [
     {
-      name: '',
-      src: '/team/sasha2.webp',
+      name: 'Anhelina Bohdanova',
+      src: '/team/Anhelina_Bohdanova.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-      src: '/team/anhelina.webp',
+      name: 'Oleksandr Mushtyn',
+      src: '/team/Oleksandr_Mushtyn.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-      src: '/team/nastia.webp',
+      name: 'Anastasia Shapovalova',
+      src: '/team/Anastasia_Shapovalova.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-      src: '/team/sasha1.webp',
+      name: 'Oleksandr Voichyshyn',
+      src: '/team/Oleksandr_Voichyshyn.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-      src: '/team/andrey.webp',
+      name: 'Andrii Myrovitskyi',
+      src: '/team/Andrii_Myrovitskyi.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-      src: '/team/danil.webp',
+      name: 'Daniil Sheremeta',
+      src: '/team/Daniil_Sheremeta.webp',
       role: 'Junior Fullstack utvikler'
     },
     {
-      name: '',
-
-      src: '/team/artem.webp',
+      name: 'Artem Sukhiy',
+      src: '/team/Artem_Sukhiy.webp',
       role: 'Junior Fullstack utvikler'
     }
   ]
