@@ -21,12 +21,10 @@ export default function Technologies() {
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
-            <div className="title-wrapper">
-              <h2>
-                Teknologier og innovasjoner
-                <span className="c-primary">.</span>
-              </h2>
-            </div>
+            <h2>
+              Teknologier og innovasjoner
+              <span className="c-primary">.</span>
+            </h2>
           </div>
           <div className="col-12 col-lg-8">
             <p>

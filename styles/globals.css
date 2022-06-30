@@ -72,6 +72,7 @@ ul {
 @import url("./components/languagesMenu.css");
 @import url("./components/customersSlider.css");
 @import url("./components/sectionNavigationDots.css");
+@import url("./components/stepper.css");
 
 /* PAGES */
 @import url("./pages/main.css");
@@ -79,3 +80,4 @@ ul {
 @import url("./pages/pricing.css");
 @import url("./pages/team.css");
 @import url("./pages/contact.css");
+@import url("./pages/process.css");

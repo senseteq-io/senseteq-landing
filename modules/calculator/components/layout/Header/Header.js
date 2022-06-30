@@ -4,7 +4,7 @@ import styles from './Header.module.css'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className="container">
+      <div className="bootstrap-container">
         <div className="row">
           <div className="col-auto">
             <Image
