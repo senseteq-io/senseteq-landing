@@ -12,6 +12,11 @@
     "customers": {
       "title": "Kunder",
       "description": "Vi har laget prosjekter som er pålitelige, raske og enkle å bruke."
+    },
+    "pricing": {
+      "title": "Priser",
+      "description": "Vi vet hvor viktig det er med høy fart og kontroll på kostnadene. Det er gunstig å bli kunde hos oss. Vi gir deg raskt en svært fordelaktig fastpris på prosjektet ditt.",
+      "keywords": "gunstige priser, tjenester, fullt skalerbar, høyeste ytelse, enkel branding og profil, førsteversjon"
     }
   },
   "header": {
@@ -137,6 +142,21 @@
       "subtitle": "Vårt hemmelige våpen",
       "title": "Qonsoll applikasjonsbygger<span class='c-primary'>.</span>",
       "description": "I tillegg til vårt sammensveisede og voksende utviklerteam er vår egenutviklede applikasjonsbygger - Qonsoll - en av hovedgrunnene til at vi kan levere applikasjoner raskere og mer feilfrie enn andre. Qonsoll muliggjør også rask tilegning av kompetanse på nye teknologier samtidig som det gir våre utviklere mulighet til å jobbe kreativt og involvert i prosjekter uten å drukne i monotone og repetitive oppgaver."
+    }
+  },
+  "pricing": {
+    "prime_section": {
+      "title": "Priser og pakker<span class='c-primary'>.</span>",
+      "subtitleLine1": "Et av våre største fortrinn er utviklingshastighet, det vil si hvor mye våre utviklere får gjort pr. time. Vi ønsker derfor å gi en forhåndsavtalt og svært fordelaktig pris.",
+      "subtitleLine2": "Vi vet hvor viktig det er med høy fart og kontroll på kostnadene. Det er gunstig å bli kunde hos oss. Vi gir deg raskt en svært fordelaktig fastpris på prosjektet ditt. Prisene nedenfor kan gi deg en indikasjon, men du får en individuell vurdering."
+    },
+    "packages_section": {
+      "package_advantages": {
+        "descriptionLine1": "Fully scalable",
+        "descriptionLine2": "High performance",
+        "descriptionLine3": "Simple branding and profile"
+      },
+      "buttonText": "Apply now"
     }
   },
   "constants": {
@@ -299,6 +319,24 @@
       "fractal": {
         "description": "Fractal Academy er et fremtidsrettet akademi som underviser unge utviklere i dagens og morgendagens utviklingsverktøy. Gratis.",
         "aria": "Gå til Fractal Academy slide"
+      }
+    },
+    "pricing_packages_items": {
+      "small": {
+        "name": "Liten",
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>begrenset</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+      },
+      "medium": {
+        "name": "Medium",
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>medium</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+      },
+      "big": {
+        "name": "Stor",
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>stort</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+      },
+      "comprehensive": {
+        "name": "Omfattende",
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>omfattende</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
       }
     }
   }

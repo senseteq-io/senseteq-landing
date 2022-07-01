@@ -12,6 +12,11 @@
     "customers": {
       "title": "Customers",
       "description": "We have created projects that are reliable, fast and easy to use."
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "We know how important it is to have high speed and control over costs. It is beneficial to become a customer with us. We quickly give you a very advantageous fixed price on your project.",
+      "keywords": "favorable prices, services, fully scalable, highest performance, simple branding and profile, first version"
     }
   },
   "header": {
@@ -122,6 +127,21 @@
       "subtitle": "Our secret weapon",
       "title": "Qonsoll builder<span class='c-primary'>.</span>",
       "descripion": "Our developers perform like superstars. Yes they are brilliant, but the main reason why they can deliver fast and always have a meaningful workday is also this: they have access to our own Qonsoll builder. Qonsoll eliminates the need for doing time consuming repetitive work. It reduces time and increases quality."
+    }
+  },
+  "pricing": {
+    "prime_section": {
+      "title": "Prices pr. hour<span class='c-primary'>.</span>",
+      "subtitleLine1": "One of our biggest advantages is development speed, ie how much our developers get done per. hour. We therefore want to provide a pre-agreed and very favorable price.",
+      "subtitleLine2": "We know how important it is to have high speed and control over costs. It is beneficial to become a customer with us. We quickly give you a very advantageous fixed price on your project. The prices below may give you an indication, but you get an individual assessment."
+    },
+    "packages_section": {
+      "package_advantages": {
+        "descriptionLine1": "Fullt skalerbar",
+        "descriptionLine2": "Høyeste ytelse",
+        "descriptionLine3": "Enkel branding og profil"
+      },
+      "buttonText": "Søk nå"
     }
   },
   "constants": {
@@ -268,6 +288,24 @@
       "fractal": {
         "description": "Fractal Academy is a future-oriented academy that teaches young developers today's and tomorrow's development tools. Free.",
         "aria": "Go to Fractal Academy slide"
+      }
+    },
+    "pricing_packages_items": {
+      "small": {
+        "name": "Small",
+        "description": "Creating a MVP version of an applikasjon that has  <strong>limited</strong> size and complexity."
+      },
+      "medium": {
+        "name": "Medium",
+        "description": "Creating a MVP version of an applikasjon that has <strong>medium</strong> size and complexity. May include mobile apps (iOS and Android)."
+      },
+      "big": {
+        "name": "Big",
+        "description": "Creating a MVP version of an applikasjon that has <strong>large</strong> size and complexity. May include mobile apps (iOS and Android)."
+      },
+      "comprehensive": {
+        "name": "Comprehensive",
+        "description": "Creating a MVP version of an applikasjon that has <strong>comprehensive</strong> size and complexity. May include mobile apps (iOS and Android)."
       }
     }
   }
