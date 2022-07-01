@@ -8,6 +8,10 @@
     "technologies": {
       "title": "Teknologier",
       "description": "Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet."
+    },
+    "customers": {
+      "title": "Kunder",
+      "description": "Vi har laget prosjekter som er pålitelige, raske og enkle å bruke."
     }
   },
   "header": {
@@ -28,13 +32,41 @@
     "emailAria": "E-post",
     "phoneAria": "Telefon"
   },
+  "slider": {
+    "previous_slide_arrow": {
+      "alt": "Forrige lysbilde",
+      "aria": "Vis forrige lysbilde"
+    },
+    "next_slide_arrow": {
+      "alt": "Neste lysbilde",
+      "aria": "Vis neste lysbilde"
+    }
+  },
   "menu": {
-    "home": { "name": "Hjem", "aria": "Gå til hovedsiden" },
-    "technologies": { "name": "Teknologi", "aria": "Gå til teknologisiden" },
-    "customers": { "name": "Kunder", "aria": "Gå til kundesiden" },
-    "prices": { "name": "Priser", "aria": "Gå til prissiden" },
-    "team": { "name": "Team", "aria": "Gå til lagsiden" },
-    "contact": { "name": "Kontakt", "aria": "Gå til kontaktsiden" }
+    "home": {
+      "name": "Hjem",
+      "aria": "Gå til hovedsiden"
+    },
+    "technologies": {
+      "name": "Teknologi",
+      "aria": "Gå til teknologisiden"
+    },
+    "customers": {
+      "name": "Kunder",
+      "aria": "Gå til kundesiden"
+    },
+    "prices": {
+      "name": "Priser",
+      "aria": "Gå til prissiden"
+    },
+    "team": {
+      "name": "Team",
+      "aria": "Gå til lagsiden"
+    },
+    "contact": {
+      "name": "Kontakt",
+      "aria": "Gå til kontaktsiden"
+    }
   },
   "language_menu": {
     "no": {
@@ -158,18 +190,30 @@
       }
     },
     "guarantees_items": {
-      "fast_mvp": { "title": "Lynrask utvikling av en førsteversjon" },
+      "fast_mvp": {
+        "title": "Lynrask utvikling av en førsteversjon"
+      },
       "quickly_changes": {
         "title": "Raskt og enkelt å gjøre endringer i prosjektet"
       },
-      "scaling": { "title": "Enkel oppskalering" },
-      "high_performance": { "title": "Applikasjoner med høy ytelse" },
-      "user_experience": { "title": "Fokus på brukeropplevelse" },
+      "scaling": {
+        "title": "Enkel oppskalering"
+      },
+      "high_performance": {
+        "title": "Applikasjoner med høy ytelse"
+      },
+      "user_experience": {
+        "title": "Fokus på brukeropplevelse"
+      },
       "security": {
         "title": "Fokus på sikkerhet og verning av sensitive data"
       },
-      "quality": { "title": "Kvalitetssikring" },
-      "technology_stack": { "title": "Beste utvalg av teknologier" }
+      "quality": {
+        "title": "Kvalitetssikring"
+      },
+      "technology_stack": {
+        "title": "Beste utvalg av teknologier"
+      }
     },
     "industries_items": {
       "healthcare": {
@@ -233,6 +277,28 @@
       "ratio": {
         "title": "$",
         "subtitle": "Beste forhold mellom pris og kvalitet"
+      }
+    },
+    "customers_slides_items": {
+      "menta": {
+        "description": "Menta Helse er en internasjonal satsing for å forbedre og effektivisere behandling av angst - og depresjonslidelser.",
+        "aria": "Gå til Menta slide"
+      },
+      "worktube": {
+        "description": "Worktube er en automatisert rekrutterings- og bemanningstjeneste.",
+        "aria": "Gå til Worktube slide"
+      },
+      "b2g": {
+        "description": "Buy2gether er en app som gjør det enkelt og trygt å kjøpe leilighet sammen med andre.",
+        "aria": "Gå til Buy2gether slide"
+      },
+      "qonsoll": {
+        "description": "Qonsoll er en verktøykasse for utviklere, som automatiserer, forenkler og øker kvaliteten på utviklingsarbeid.",
+        "aria": "Gå til Qonsoll slide"
+      },
+      "fractal": {
+        "description": "Fractal Academy er et fremtidsrettet akademi som underviser unge utviklere i dagens og morgendagens utviklingsverktøy. Gratis.",
+        "aria": "Gå til Fractal Academy slide"
       }
     }
   }

@@ -1,10 +1,15 @@
 import { useCallback, useEffect, useState } from 'react'
 
 import { Button } from '../../../components'
-import { CUSTOMERS } from '../../../constants'
+import { CUSTOMERS_SLIDES_ITEMS } from '../../../constants'
 import Image from 'next/image'
+import { useTranslation } from 'next-i18next'
 
 const CustomerSlider = () => {
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
+
   // [COMPONENTS_STATE_HOOKS]
   const [slideIndex, setSlideIndex] = useState(1)
 
@@ -62,36 +67,39 @@ const CustomerSlider = () => {
   return (
     <div className="customers-slider-wrapper">
       <div className="cover-gradient" />
-      {CUSTOMERS?.map(({ href, src, buttonText, description }) => (
-        <div
-          key={href}
-          className="slider-item"
-          style={{
-            background: `url(${src}) center center / cover no-repeat`
-          }}>
-          <div className="content-wrapper">
-            <div className="content">
-              <p className="description">{description}</p>
-              {buttonText && (
-                <Button
-                  target="_blank"
-                  href={href}
-                  className="btn-white go-to-site">
-                  {buttonText}
-                </Button>
-              )}
+      {CUSTOMERS_SLIDES_ITEMS?.map(
+        ({ name, href, src, buttonText, description }) => (
+          <div
+            key={name}
+            className="slider-item"
+            style={{
+              background: `url(${src}) center center / cover no-repeat`
+            }}>
+            <div className="content-wrapper">
+              <div className="content">
+                <p className="description">{t(description)}</p>
+                {buttonText && (
+                  <Button
+                    target="_blank"
+                    href={href}
+                    className="btn-white go-to-site"
+                    aria-label={t(buttonText)}>
+                    {t(buttonText)}
+                  </Button>
+                )}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        )
+      )}
       <div className="dots-wrapper">
         <div className="dots" aria-label="navigation between slides">
-          {CUSTOMERS?.map(({ ariaLabel }, index) => (
+          {CUSTOMERS_SLIDES_ITEMS?.map(({ ariaLabel }, index) => (
             <span
               key={`dot_${index}`}
               className="dot"
               onClick={() => currentSlide(index + 1)}
-              aria-label={ariaLabel}
+              aria-label={t(ariaLabel)}
             />
           ))}
         </div>
@@ -102,8 +110,8 @@ const CustomerSlider = () => {
             <Image
               src="/left_arrow.svg"
               layout="fill"
-              alt="Previous slide"
-              aria-label="show previous slide"
+              alt={t('slider.previous_slide_arrow.alt')}
+              aria-label={t('slider.previous_slide_arrow.aria')}
             />
           </div>
         </div>
@@ -112,8 +120,8 @@ const CustomerSlider = () => {
             <Image
               src="/right_arrow.svg"
               layout="fill"
-              alt="Next slide"
-              aria-label="show next slide"
+              alt={t('slider.next_slide_arrow.alt')}
+              aria-label={t('slider.next_slide_arrow.aria')}
             />
           </div>
         </div>

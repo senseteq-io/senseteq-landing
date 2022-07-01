@@ -4,6 +4,14 @@
       "title": "Home",
       "description": "Senseteq develops software applications faster and cheaper. People are most important, and we choose customers who feel the same.",
       "keywords": "development, the first version of the product, modular development, back-end, front-end, mobile applications, technology consulting, Prototype development, UI, UX, design, project management"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "Our experience with top-class technologies and our ability to quickly adopt new ones enables us to build applications of any size and complexity."
+    },
+    "customers": {
+      "title": "Customers",
+      "description": "We have created projects that are reliable, fast and easy to use."
     }
   },
   "header": {
@@ -23,6 +31,16 @@
     "whatsAppAria": "Go to WhatsApp",
     "emailAria": "Email",
     "phoneAria": "Phone"
+  },
+  "slider": {
+    "previous_slide_arrow": {
+      "alt": "Previous slide",
+      "aria": "Show previous slide"
+    },
+    "next_slide_arrow": {
+      "alt": "Next slide",
+      "aria": "Show next slide"
+    }
   },
   "menu": {
     "home": { "name": "Home", "aria": "Go to home page" },
@@ -228,6 +246,28 @@
       "ratio": {
         "title": "$",
         "subtitle": "Best price/quality ratio"
+      }
+    },
+    "customers_slides_items": {
+      "menta": {
+        "description": "Menta Health is an international initiative to improve and streamline the treatment of anxiety and depression.",
+        "aria": "Go to Menta slide"
+      },
+      "worktube": {
+        "description": "Worktube is an automated recruitment and staffing service.",
+        "aria": "Go to Menta slide"
+      },
+      "b2g": {
+        "description": "Buy2gether is an app that makes it easy and safe to buy an apartment with others.",
+        "aria": "Go to Buy2gether slide"
+      },
+      "qonsoll": {
+        "description": "Qonsoll is a toolbox for developers, which automates, simplifies and increases the quality of development work.",
+        "aria": "Go to Qonsoll slide"
+      },
+      "fractal": {
+        "description": "Fractal Academy is a future-oriented academy that teaches young developers today's and tomorrow's development tools. Free.",
+        "aria": "Go to Fractal Academy slide"
       }
     }
   }
