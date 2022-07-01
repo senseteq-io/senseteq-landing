@@ -1,18 +1,15 @@
 const REASONS_ITEMS = [
   {
-    title: 'Du er gründer',
-    description:
-      'Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma.'
+    title: 'constants.reasons_items.startup.title',
+    description: 'constants.reasons_items.startup.description'
   },
   {
-    title: 'Du vil gjøre en forskjell',
-    description:
-      'Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv.'
+    title: 'constants.reasons_items.difference.title',
+    description: 'constants.reasons_items.difference.description'
   },
   {
-    title: 'Du bryr deg',
-    description:
-      'Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem.'
+    title: 'constants.reasons_items.care.title',
+    description: 'constants.reasons_items.care.description'
   }
 ]
 

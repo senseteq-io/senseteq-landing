@@ -1,0 +1,186 @@
+{
+  "head": {
+    "home": {
+      "title": "Home",
+      "description": "Senseteq develops software applications faster and cheaper. People are most important, and we choose customers who feel the same.",
+      "keywords": "development, the first version of the product, modular development, back-end, front-end, mobile applications, technology consulting, Prototype development, UI, UX, design, project management"
+    }
+  },
+  "home": {
+    "prime_section": {
+      "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days <span class='c-primary'>.</span>",
+      "subtitle": "Do you think this is impossible? Scroll down to see how we do it.",
+      "arrow_alt": "Arrow",
+      "arrow_aria": "Go to next section"
+    },
+    "how_we_do_it_section": {
+      "title": "<span class='regular'>How do we</span> do it<span class='c-primary'>?</span>"
+    },
+    "services_section": {
+      "title": "<span class='regular'>Our</span> Services<span class='c-primary'>.</span>"
+    },
+    "project_support_section": {
+      "title": "<span class='regular'>We can develop and support no more than</span> 24 projects per year<span class='c-primary'>.</span>",
+      "subtitle": "We will take your if:",
+      "uptitle": "LEFT IN 2022",
+      "subtitle2": "18 projects<span class='c-primary'>.</span>",
+      "buttonText": "Apply now"
+    },
+    "guarantees_section": {
+      "title": "<span class='regular'>We </span>guarantee<span class='c-primary'>.</span>"
+    },
+    "industries_section": {
+      "title": "Industries<span class='c-primary'>.</span>"
+    },
+    "technologies_section": {
+      "title": "Technologies <span class='regular'>and innovations<span class='c-primary'>.</span>",
+      "subtitle": "Our experience with modern technologies and our capability to quickly make use of new ones make us the ideal team to build applications of any size and complexity.",
+      "buttonText": "Learn more",
+      "buttonAria": "Learn more technologies"
+    },
+    "how_it_works_section": {
+      "title": "<span class='regular'>How does </span>it work<span class='c-primary'>?</span>",
+      "subtitle": "How is the process? What happens when I am taken on as a customer?",
+      "buttonText": "Learn more",
+      "buttonAria": "Learn more how it works"
+    },
+    "companies_support_section": {
+      "title": "Supported <span class='regular'>by</span><span class='c-primary'>.</span>"
+    },
+    "ukranian_developers_section": {
+      "title":"<span class='regular'>Why </span>Ukraine developers<span class='c-primary'>?</span>",
+      "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries’ top the list for most advanced software development skillset."
+    },
+    "about_senseteq_section": {
+      "title": "<span class='regular'>About </span>Senseteq<span class='c-primary'>.</span>",  
+      "descriptionLine1": "We are a Norwegian-Ukrainian company, which aims to revolutionize the approach to web development. Our mission is to make the world a better place through our contribution. We love people. We make a difference in the lives of our customers and our employees.",
+      "descriptionLine2": "We set the same standard for our customers. They are dedicated startups that wants to make a difference for people, in any part of their lives.",
+      "descriptionLine3": "We invite everyone to be part of it. Come join us and make Sense!"
+      }
+  },
+  "constants": {
+    "how_we_do_it_items": {
+      "repetitive_work": {
+        "title": "Repetitive work has been automated",
+        "description": "We classified the entire range of tasks that we had to work with, identified the most resource-intensive and automated their implementation."
+      },
+      "idea_parser": {
+        "title": "Idea parser",
+        "description": "We use our own tool that converts the description of a project or new functionality into a data structure. This helps us find better solutions to your business problem."
+      },
+      "architecture_tool": {
+        "title": "Project architecture tool",
+        "description": "This tool helps us to efficiently create the database structure, API and develop custom user flows."
+      },
+      "code_generator": {
+        "title": "Code generator",
+        "description": "Thanks to our approach to classifying and structuring data, as well as the previously mentioned applications, we generate a big part of the applications automatically."
+      },
+      "task_generator": {
+        "title": "Task generator",
+        "description": "We have minimized human intervention in the process of creating tasks for developers. Thus, we know the exact time of completion of most tasks with an accuracy of 10 minutes."
+      },
+      "modularity": {
+        "title": "Modularity",
+        "description": "We have created many modules that we can quickly integrate into the application and change to suit your needs without having to create this functionality from scratch."
+      }
+    },
+    "services_items": {
+      "back-end": "Complex back-end apps",
+      "front-end": "Front-end web apps",
+      "mobile_apps": "Mobile apps",
+      "consulting": "Custom technology consulting",
+      "prototyping": "Prototyping",
+      "design": "UI/UX design",
+      "management": "Project management"
+    },
+    "reasons_items": {
+      "startup": {
+        "title": "Your are a startup",
+        "description": "You are an entrepeneur in a startup, or you are head of a new project within an established company."
+      },
+      "difference": {
+        "title": "You make a difference",
+        "description": "Your idea or project will make a positive impact on peoples lives, in any part of their wellbeing."
+      },
+      "care": {
+        "title": "You care",
+        "description": "Business is done between people, not companies. We are a high trust company and we work together with companies that also take care of their employees and trust them."
+      }
+    },
+    "guarantees_items": {
+      "fast_mvp": { "title": "Fast creation of MVP version" },
+      "quickly_changes": { "title": "Quickly make any changes to the project" },
+      "scaling": { "title": "Easy scaling" },
+      "high_performance": { "title": "High app performance" },
+      "user_experience": { "title": "User experience" },
+      "security": { "title": "Serious about security and sensitive data" },
+      "quality": { "title": "Quality assurance" },
+      "technology_stack": { "title": "Best technology stack" }
+    },
+    "industries_items": {
+      "healthcare" : {
+        "title": "Healthcare",
+        "description": "Digitalizing the healthcare and welfare sector. Our experience in this sector is substantial."
+      },
+      "retail": {
+        "title": "Retail and distribution",
+        "description": "Digitalizing retail and distribution."
+      },
+      "business-development": {
+        "title": "Energy and utilities",
+        "description": "Digitalizing the energy sector."
+      },
+      "hotel": {
+        "title": "Hotels and tourism",
+        "description": "We are digitizing the tourism industry."
+      },
+      "education": {
+        "title": "Education",
+        "description": "We are digitizing the education sector."
+      },
+      "energy": {
+        "title": "Oil and energy",
+        "description": "We are digitizing the oil and energy sector. We have considerable experience."
+      },
+      "transport": {
+        "title": "Car and transport",
+        "description": "We are digitizing the car industry. We have considerable experience."
+      },
+      "production": {
+        "title": "Production",
+        "description": "We are digitizing the production sector."
+      },
+      "question": {
+        "title": "Can't find your industry?",
+        "description": "We still want to hear from you."
+      }      
+    },
+    "companies_support_items": {
+      "innovation_norway": {
+        "name": "Innovation Norway"
+      },
+      "norwegian_council_of_research": {
+        "name": "Norwegian Council of Research"
+      }
+    },
+    "advantages_ukranian_developers_items": {
+      "professionals": {
+        "title": "150 000+",
+        "subtitle": "Professionals"
+      },
+      "hackerrank": {
+        "title": "TOP 15",
+        "subtitle": "TopCoder and Hackerrank"
+      },
+      "outsourcing": {
+        "title": "TOP 3",
+        "subtitle": "Top outsourcing country in Eastern Europe"
+      },
+      "ratio": {
+        "title": "$",
+        "subtitle": "Best price/quality ratio"
+      }
+    }
+  }
+}

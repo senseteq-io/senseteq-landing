@@ -1,50 +1,47 @@
 const INDUSTRIES_ITEMS = [
   {
-    subtitle: 'Helse',
-    description:
-      'Vi digitaliserer helse- og velferdssektoren. Vi har betydelig erfaring i denne sektoren.',
+    subtitle: 'constants.industries_items.healthcare.title',
+    description: 'constants.industries_items.healthcare.description',
     src: '/industry-healthcare.jpg'
   },
   {
-    subtitle: 'Handel og distribusjon',
-    description:
-      'Vi digitaliserer handel og distribusjon. Vi har betydelig erfaring i denne sektoren.',
+    subtitle: 'constants.industries_items.retail.title',
+    description: 'constants.industries_items.retail.description',
     src: '/industry-retail.jpg'
   },
   {
-    subtitle: 'Forretningsutvikling og automatisering',
-    description: 'Vi digitaliserer Forretningsutvikling og automatisering.',
+    subtitle: 'constants.industries_items.business-development.title',
+    description: 'constants.industries_items.business-development.description',
     src: '/industry-business-development.jpg'
   },
   {
-    subtitle: 'Hotell og reiseliv',
-    description: 'Vi digitaliserer reiselivsbransjen.',
+    subtitle: 'constants.industries_items.hotel.title',
+    description: 'constants.industries_items.hotel.description',
     src: '/industry-hotels.jpg'
   },
   {
-    subtitle: 'Utdanning',
-    description: 'Vi digitaliserer utdanningssektoren.',
+    subtitle: 'constants.industries_items.education.title',
+    description: 'constants.industries_items.education.description',
     src: '/industry-education.jpg'
   },
   {
-    subtitle: 'Olje og energi',
-    description:
-      'Vi digitalierer olje- og energisektoren. Vi har betydelig erfaring.',
+    subtitle: 'constants.industries_items.energy.title',
+    description: 'constants.industries_items.energy.description',
     src: '/industry-energy.jpg'
   },
   {
-    subtitle: 'Bil og transport',
-    description: 'Vi digitaliserer bilbransjen. Vi har betydelig erfaring.',
+    subtitle: 'constants.industries_items.transport.title',
+    description: 'constants.industries_items.transport.description',
     src: '/industry-transport.jpg'
   },
   {
-    subtitle: 'Produksjon',
-    description: 'Vi digitaliserer produksjonssektoren.',
+    subtitle: 'constants.industries_items.production.title',
+    description: 'constants.industries_items.production.description',
     src: '/industry-production.jpg'
   },
   {
-    subtitle: 'Finner du ikke din bransje?',
-    description: 'Vi ønsker likevel å høre fra deg.',
+    subtitle: 'constants.industries_items.question.title',
+    description: 'constants.industries_items.question.description',
     src: '/industry-question.jpg'
   }
 ]
