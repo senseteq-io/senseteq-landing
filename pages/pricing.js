@@ -1,6 +1,7 @@
 import { Button, PageWrapper, Section } from '../components'
 
 import { PRICES_AND_PACKAGES } from '../constants'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Pricing() {
   // [COMPUTED_PROPERTIES]
@@ -92,4 +93,11 @@ export default function Pricing() {
       </Section>
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }

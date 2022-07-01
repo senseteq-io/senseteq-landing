@@ -1,5 +1,7 @@
 import { CustomerSlider, PageWrapper } from '../components'
 
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+
 export default function Customers() {
   return (
     <PageWrapper
@@ -14,4 +16,11 @@ export default function Customers() {
       <CustomerSlider />
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }

@@ -1,5 +1,7 @@
 import { PageWrapper, Section } from '../components'
 
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+
 export default function Apply() {
   return (
     <PageWrapper className="apply-page">
@@ -17,4 +19,11 @@ export default function Apply() {
       </Section>
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }

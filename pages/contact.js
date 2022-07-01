@@ -2,6 +2,7 @@ import { PageWrapper, Section } from '../components'
 
 import { CONTACTS_ITEMS } from '../constants'
 import Image from 'next/image'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Contact() {
   return (
@@ -45,4 +46,11 @@ export default function Contact() {
       </Section>
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }

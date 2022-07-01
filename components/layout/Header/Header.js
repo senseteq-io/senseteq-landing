@@ -4,9 +4,14 @@ import { useCallback, useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { getClassNames } from '../../../utils'
+import { useTranslation } from 'next-i18next'
 
 const Header = (props) => {
   const { setIsMenuOpened, isMenuOpened, activeMenuItem } = props
+
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
 
   // [COMPONENT_STATE_HOOKS]
   const [isInverseHeader, setIsInverseHeader] = useState(false)
@@ -59,11 +64,11 @@ const Header = (props) => {
   return (
     <header id="header" className={classNames}>
       <div id="header-progress" />
-      <div className="header-content" aria-label="site іnavigation">
+      <div className="header-content" aria-label={t('header.aria')}>
         {/** layout for xs/sm */}
         <Link href="/">
           <a>
-            <p className="subtitle" aria-label="go to home page">
+            <p className="subtitle" aria-label={t('header.subtitleAria')}>
               Senseteq
             </p>
           </a>
@@ -72,10 +77,14 @@ const Header = (props) => {
         <div className="menu-icon-wrapper" onClick={handleClickMenu}>
           <div className="icon">
             <Image
-              alt="Menu"
+              alt={t('header.menu_icon.alt')}
               src="/menu.svg"
               layout="fill"
-              aria-label={isMenuOpened ? 'close menu' : 'open menu'}
+              aria-label={
+                isMenuOpened
+                  ? t('header.menu_icon.closed_menu_aria')
+                  : t('header.menu_icon.opened_menu_aria')
+              }
             />
           </div>
         </div>
@@ -85,8 +94,8 @@ const Header = (props) => {
             <Link href="/">
               <a>
                 <Image
-                  aria-label="go to home page"
-                  alt="Logo"
+                  aria-label={t('header.logoAria')}
+                  alt="Senseteq"
                   src={
                     isInverseHeader ? '/senseteq_inverse.svg' : '/senseteq.svg'
                   }

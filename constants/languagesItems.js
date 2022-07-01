@@ -1,11 +1,11 @@
 const LANGUAGES_ITEMS = [
   {
     title: 'NO',
-    ariaLabel: 'change language to Norwegian'
+    ariaLabel: 'language_menu.no.aria'
   },
   {
     title: 'EN',
-    ariaLabel: 'change language to English'
+    ariaLabel: 'language_menu.en.aria'
   }
 ]
 export default LANGUAGES_ITEMS

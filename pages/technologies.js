@@ -2,6 +2,7 @@ import { PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import { TECHNOLOGIES_ITEMS } from '../constants'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Technologies() {
   // [COMPUTED_PROPS]
@@ -79,4 +80,11 @@ export default function Technologies() {
       </Section>
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }

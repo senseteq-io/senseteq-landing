@@ -6,6 +6,32 @@
       "keywords": "development, the first version of the product, modular development, back-end, front-end, mobile applications, technology consulting, Prototype development, UI, UX, design, project management"
     }
   },
+  "header": {
+    "aria": "Navigation bar",
+    "subtitleAria": "Go to home page",
+    "menu_icon": {
+      "alt": "Menu",
+      "opened_menu_aria": "Open the menu",
+      "closed_menu_aria": "Close the menu"
+    },
+    "logoAria": "Go to home page"
+  },
+  "menu": {
+    "home": { "name": "Home" , "aria": "Go to home page"},
+    "technologies": { "name": "Technologies", "aria": "Go to technologies page"  },
+    "customers": { "name": "Customers" , "aria": "Go to customers page" },
+    "prices": { "name": "Prices", "aria": "Go to prices page" },
+    "team": { "name": "Team", "aria": "Go to team page" },
+    "contact": { "name": "Contact", "aria": "Go to contact page"  }
+  },
+  "language_menu": {
+    "no": {
+      "aria": "Change language to Norwegian"
+    },
+    "en": {
+      "aria": "Change language to English"
+    }
+  },
   "home": {
     "prime_section": {
       "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days <span class='c-primary'>.</span>",

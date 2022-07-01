@@ -1,6 +1,7 @@
 import { PageWrapper, Section } from '../components'
 
 import { TEAM } from '../constants'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Team() {
   const { RISING_STARS, EXPERIENCED } = TEAM
@@ -101,4 +102,11 @@ export default function Team() {
       </Section>
     </PageWrapper>
   )
+}
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['landing']))
+    }
+  }
 }
