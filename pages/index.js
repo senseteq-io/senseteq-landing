@@ -11,11 +11,10 @@ import { Button, PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { createElement } from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
-export default function Home(props) {
+export default function Home() {
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
