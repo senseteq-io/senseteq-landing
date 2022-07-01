@@ -4,6 +4,10 @@
       "title": "Senseteq - utviklerselskapet for gründere",
       "description": "Senseteq utvikler programvareapplikasjoner raskere og rimeligere. Mennesker er viktigst, og vi velger kunder som føler det samme.",
       "keywords": "utvikling, den første versjonen av produktet, modulbasert utvikling, back-end, front-end, mobilapplikasjoner, teknologikonsultasjon, Utvikling av prototype, UI, UX, design, prosjektstyring"
+    },
+    "technologies": {
+      "title": "Teknologier",
+      "description": "Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet."
     }
   },
   "header": {
@@ -25,12 +29,12 @@
     "phoneAria": "Telefon"
   },
   "menu": {
-    "home": { "name": "Hjem" , "aria": "Gå til hovedsiden"},
-    "technologies": { "name": "Teknologi", "aria": "Gå til teknologisiden"  },
-    "customers": { "name": "Kunder" , "aria": "Gå til kundesiden" },
+    "home": { "name": "Hjem", "aria": "Gå til hovedsiden" },
+    "technologies": { "name": "Teknologi", "aria": "Gå til teknologisiden" },
+    "customers": { "name": "Kunder", "aria": "Gå til kundesiden" },
     "prices": { "name": "Priser", "aria": "Gå til prissiden" },
     "team": { "name": "Team", "aria": "Gå til lagsiden" },
-    "contact": { "name": "Kontakt", "aria": "Gå til kontaktsiden"  }
+    "contact": { "name": "Kontakt", "aria": "Gå til kontaktsiden" }
   },
   "language_menu": {
     "no": {
@@ -90,6 +94,17 @@
       "descriptionLine1": "Vi er et norsk-ukrainsk selskap som revolusjonerer måten webutvikling foregår. Vår misjon er å være med på å gjøre verden til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av mennesker. Vi vil gjøre en forskjell for våre kunder og for våre ansatte.",
       "descriptionLine2": "Vi krever det samme av våre kunder. De er dedikerte oppstartsbedrifter som vil gjøre en forskjell for mennesker, i alle deler av livet.",
       "descriptionLine3": "Vi inviterer alle til å bli med. Come join us and make Sense!"
+    }
+  },
+  "technologies": {
+    "prime_section": {
+      "title": "Teknologier og innovasjoner<span class='c-primary'>.</span>",
+      "subtitle": "Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet."
+    },
+    "secret_weapon_section": {
+      "subtitle": "Vårt hemmelige våpen",
+      "title": "Qonsoll applikasjonsbygger<span class='c-primary'>.</span>",
+      "description": "I tillegg til vårt sammensveisede og voksende utviklerteam er vår egenutviklede applikasjonsbygger - Qonsoll - en av hovedgrunnene til at vi kan levere applikasjoner raskere og mer feilfrie enn andre. Qonsoll muliggjør også rask tilegning av kompetanse på nye teknologier samtidig som det gir våre utviklere mulighet til å jobbe kreativt og involvert i prosjekter uten å drukne i monotone og repetitive oppgaver."
     }
   },
   "constants": {

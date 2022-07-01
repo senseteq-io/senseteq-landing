@@ -95,6 +95,17 @@
       "descriptionLine3": "We invite everyone to be part of it. Come join us and make Sense!"
     }
   },
+  "technologies": {
+    "prime_section": {
+      "title": "Technologies and innovations<span class='c-primary'>.</span>",
+      "subtitle": "Our experience with state of the art technologies and our capability to adapt to new standards fast make us the ideal team for building applications of any size and complexity."
+    },
+    "secret_weapon_section": {
+      "subtitle": "Our secret weapon",
+      "title": "Qonsoll builder<span class='c-primary'>.</span>",
+      "descripion": "Our developers perform like superstars. Yes they are brilliant, but the main reason why they can deliver fast and always have a meaningful workday is also this: they have access to our own Qonsoll builder. Qonsoll eliminates the need for doing time consuming repetitive work. It reduces time and increases quality."
+    }
+  },
   "constants": {
     "how_we_do_it_items": {
       "repetitive_work": {

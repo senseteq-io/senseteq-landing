@@ -3,8 +3,13 @@ import { PageWrapper, Section } from '../components'
 import Image from 'next/image'
 import { TECHNOLOGIES_ITEMS } from '../constants'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
 export default function Technologies() {
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
+
   // [COMPUTED_PROPS]
   const computedKeyWords = TECHNOLOGIES_ITEMS?.map(({ name }) => name)?.join(
     ', '
@@ -14,25 +19,21 @@ export default function Technologies() {
     <PageWrapper
       className="technologies-page"
       pageMetaProps={{
-        title: 'Teknologier',
-        description:
-          'Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet.',
+        title: t('head.technologies.title'),
+        description: t('head.technologies.description'),
         keywords: computedKeyWords
       }}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
-            <h2>
-              Teknologier og innovasjoner
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              dangerouslySetInnerHTML={{
+                __html: t('technologies.prime_section.title')
+              }}
+            />
           </div>
           <div className="col-12 col-lg-8">
-            <p>
-              Vår erfaring med teknologier i toppklassen og vår evne til raskt å
-              ta i bruk nye gjør oss i stand til å bygge applikasjoner av enhver
-              størrelse og kompleksitet.
-            </p>
+            <p>{t('technologies.prime_section.subtitle')}</p>
           </div>
         </div>
       </Section>
@@ -57,20 +58,18 @@ export default function Technologies() {
         <div className="row align-items-center">
           <div className="description-wrapper col-12 offset-md-1 col-md-7">
             <p className="subtitle" data-aos="fade-down">
-              Vårt hemmelige våpen
+              {t('technologies.secret_weapon_section.subtitle')}
             </p>
-            <h3 className="title" data-aos="fade-down">
-              Qonsoll applikasjonsbygger
-              <span className="c-primary">.</span>
-            </h3>
+            <h3
+              className="title"
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('technologies.secret_weapon_section.title')
+              }}
+            />
+
             <p className="body2 description" data-aos="fade-left">
-              I tillegg til vårt sammensveisede og voksende utviklerteam er vår
-              egenutviklede applikasjonsbygger - Qonsoll - en av hovedgrunnene
-              til at vi kan levere applikasjoner raskere og mer feilfrie enn
-              andre. Qonsoll muliggjør også rask tilegning av kompetanse på nye
-              teknologier samtidig som det gir våre utviklere mulighet til å
-              jobbe kreativt og involvert i prosjekter uten å drukne i monotone
-              og repetitive oppgaver.
+              {t('technologies.secret_weapon_section.description')}
             </p>
           </div>
           <div className="col-12 col-md-4" data-aos="fade-left">
