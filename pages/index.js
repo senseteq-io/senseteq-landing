@@ -11,9 +11,15 @@ import { Button, PageWrapper, Section } from '../components'
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { createElement } from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
-export default function Home() {
+export default function Home(props) {
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
+
   // [COMPUTED_PROPERTIES]
   const sectionsConfig = [
     { title: 'Førsteversjon på 19 dager', idSection: 'prime-section' },
@@ -39,11 +45,9 @@ export default function Home() {
     <PageWrapper
       className="main-page"
       pageMetaProps={{
-        title: 'Senseteq - utviklerselskapet for gründere',
-        description:
-          'Senseteq utvikler programvareapplikasjoner raskere og rimeligere. Mennesker er viktigst, og vi velger kunder som føler det samme.',
-        keywords:
-          'utvikling, den første versjonen av produktet, modulbasert utvikling, back-end, front-end, mobilapplikasjoner, teknologikonsultasjon, Utvikling av prototype, UI, UX, design, prosjektstyring'
+        title: t('head.home.title'),
+        description: t('head.home.description'),
+        keywords: t('head.home.keywords')
       }}
       sectionsConfig={sectionsConfig}>
       <Section
@@ -62,17 +66,15 @@ export default function Home() {
         <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
             <div className="title-wrapper">
-              <h1>
-                <span className="regular">Vi leverer en </span> førsteversjon{' '}
-                <span className="regular">av din applikasjon</span> på 19 dager
-                <span className="c-primary">.</span>
-              </h1>
+              <h1
+                dangerouslySetInnerHTML={{
+                  __html: t('home.prime_section.title')
+                }}
+              />
             </div>
           </div>
           <div className="col-12 col-lg-8">
-            <p>
-              Tenker du at det er umulig? Les videre for å se hvordan vi jobber.
-            </p>
+            <p>{t('home.prime_section.subtitle')}</p>
           </div>
         </div>
 
@@ -80,9 +82,9 @@ export default function Home() {
           <Link href="#how-we-do-it-section">
             <a className="down-arrow-icon">
               <Image
-                aria-label="go to next section"
+                aria-label={t('home.prime_section.arrow_aria')}
                 src="/down_arrow.svg"
-                alt="Arrow"
+                alt={t('home.prime_section.arrow_alt')}
                 layout="fill"
                 className="down-arrow-icon"
               />
@@ -94,10 +96,12 @@ export default function Home() {
       <Section id="how-we-do-it-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-down">
-              <span className="regular">Hvordan er det</span> mulig
-              <span className="c-primary">?</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.how_we_do_it_section.title')
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -107,8 +111,8 @@ export default function Home() {
               className="how-we-do-it-item-wrapper col-12 col-lg-6 col-xxl-4"
               data-aos="fade-right">
               <div className="how-we-do-it-item">
-                <h3 className="title">{title}</h3>
-                <p>{description}</p>
+                <h3 className="title">{t(title)}</h3>
+                <p>{t(description)}</p>
               </div>
             </div>
           ))}
@@ -117,10 +121,12 @@ export default function Home() {
       <Section id="services-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-right">
-              <span className="regular">Våre</span> tjenester
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-right"
+              dangerouslySetInnerHTML={{
+                __html: t('home.services_section.title')
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -131,9 +137,9 @@ export default function Home() {
               className="service-item-wrapper col-12 col-lg-4">
               <div className="service-item">
                 <div className="service-icon-wrapper">
-                  <Image src={icon} alt={title} layout="fill" />
+                  <Image src={icon} alt={t(title)} layout="fill" />
                 </div>
-                <p className="caption">{title}</p>
+                <p className="caption">{t(title)}</p>
               </div>
             </div>
           ))}
@@ -142,15 +148,16 @@ export default function Home() {
       <Section id="project-support-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-down">
-              <span className="regular">
-                Vi utvikler og supporterer maksimalt{' '}
-              </span>{' '}
-              12 prosjekter i året
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.project_support_section.title')
+              }}
+            />
             <div className="col-12">
-              <p data-aos="fade-right">Du kan bli vår kunde dersom:</p>
+              <p data-aos="fade-right">
+                {t('home.project_support_section.subtitle')}
+              </p>
             </div>
           </div>
         </div>
@@ -164,27 +171,32 @@ export default function Home() {
                 <p className="number">{index + 1}</p>
               </div>
               <div className="reason-item">
-                <h4 className="title">{title}</h4>
-                <p className="body2">{description}</p>
+                <h4 className="title">{t(title)}</h4>
+                <p className="body2">{t(description)}</p>
               </div>
             </div>
           ))}
           <div className="row">
             <div className="col-12">
               <div className="project-count-wrapper" data-aos="zoom-out">
-                <div className="uptitle">Ledig i 2022</div>
-                <h3 className="title">
-                  6 prosjekter<span className="c-primary">.</span>
-                </h3>
+                <div className="uptitle">
+                  {t('home.project_support_section.uptitle')}
+                </div>
+                <h3
+                  className="title"
+                  dangerouslySetInnerHTML={{
+                    __html: t('home.project_support_section.subtitle2')
+                  }}
+                />
               </div>
             </div>
             <div className="apply-button col-12">
               <Button
-                aria-label="søk nå"
+                aria-label={t('home.project_support_section.buttonText')}
                 className="btn-lg btn-dark"
                 href="/apply"
                 data-aos="zoom-out">
-                Søk nå
+                {t('home.project_support_section.buttonText')}
               </Button>
             </div>
           </div>
@@ -193,10 +205,12 @@ export default function Home() {
       <Section dark id="guarantees-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-down">
-              <span className="regular">Vi </span> garanterer
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.guarantees_section.title')
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -205,7 +219,7 @@ export default function Home() {
               data-aos="fade-right"
               key={guarantee}
               className="guarantee-item-wrapper col-12 col-lg-3">
-              <div className="guarantee-item">{guarantee}</div>
+              <div className="guarantee-item">{t(guarantee)}</div>
             </div>
           ))}
         </div>
@@ -213,10 +227,12 @@ export default function Home() {
       <Section id="industries-section">
         <div className="row">
           <div className="col-12">
-            <h2>
-              Bransjer
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.industries_section.title')
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -232,8 +248,8 @@ export default function Home() {
                 }}>
                 <div className="industry-item-blackout">
                   <div className="industry-item-content">
-                    <p className="subtitle-wrapper">{subtitle}</p>
-                    <p className="body2">{description}</p>
+                    <p className="subtitle-wrapper">{t(subtitle)}</p>
+                    <p className="body2">{t(description)}</p>
                   </div>
                 </div>
               </div>
@@ -254,27 +270,26 @@ export default function Home() {
           </video>
         }>
         <div className="row">
-          <div className="col-12 col-md-6">
-            <h2 data-aos="fade-left">
-              Teknologier
-              <span className="regular"> og innovasjoner</span>
-              <span className="c-white">.</span>
-            </h2>
+          <div className="col-12 col-md-8">
+            <h2
+              data-aos="fade-left"
+              dangerouslySetInnerHTML={{
+                __html: t('home.technologies_section.title')
+              }}
+            />
           </div>
           <div className="col-12">
             <p className="subtitle-wrapper" data-aos="fade-left">
-              Vår erfaring med teknologier i toppklassen og vår evne til raskt å
-              ta i bruk nye, gjør oss i stand til å bygge applikasjoner av
-              enhver størrelse og kompleksitet.
+              {t('home.technologies_section.subtitle')}
             </p>
           </div>
           <div className="col-auto">
             <Button
               className="btn-dark"
               href="/technologies"
-              aria-label="go to technologies page"
+              aria-label={t('home.technologies_section.buttonAria')}
               data-aos="fade-left">
-              Klikk for å lære mer
+              {t('home.technologies_section.buttonText')}
             </Button>
           </div>
         </div>
@@ -282,20 +297,25 @@ export default function Home() {
       <Section id="how-it-works-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-down">
-              <span className="regular">Hvordan er det </span>
-              mulig
-              <span className="c-primary">?</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.how_it_works_section.title')
+              }}
+            />
           </div>
           <div className="col-12">
             <p className="subtitle-wrapper" data-aos="fade-left">
-              Hvordan er prosessen? Hva skjer når jeg blir akseptert som kunde?
+              {t('home.how_it_works_section.subtitle')}
             </p>
           </div>
           <div className="col-12 col-md-auto">
-            <Button className="btn-dark" href="/process" data-aos="zoom-out">
-              Klikk for å lære mer
+            <Button
+              className="btn-dark"
+              href="/process"
+              aria-label={t('home.how_it_works_section.buttonAria')}
+              data-aos="zoom-out">
+              {t('home.how_it_works_section.buttonText')}
             </Button>
           </div>
         </div>
@@ -303,10 +323,12 @@ export default function Home() {
       <Section dark id="companies-support-section">
         <div className="row">
           <div className="col-12">
-            <h2 data-aos="fade-left">
-              Støttet <span className="regular">av</span>
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-left"
+              dangerouslySetInnerHTML={{
+                __html: t('home.companies_support_section.title')
+              }}
+            />
           </div>
         </div>
         <div className="row">
@@ -316,9 +338,9 @@ export default function Home() {
               className="company-support-wrapper col-12 col-lg-6"
               data-aos="fade-right">
               <div className="company-support-image">
-                <Image src={src} alt={name} layout="fill" />
+                <Image src={src} alt={t(name)} layout="fill" />
               </div>
-              <p className="subtitle-wrapper">{name}</p>
+              <p className="subtitle-wrapper">{t(name)}</p>
             </div>
           ))}
         </div>
@@ -326,29 +348,27 @@ export default function Home() {
       <Section id="ukranian-developers-section">
         <div className="row justify-content-center">
           <div className="col-12">
-            <h2 data-aos="fade-down">
-              <span className="regular">Hvorfor </span>
-              Ukrainske utviklere
-              <span className="c-primary">?</span>
-            </h2>
+            <h2
+              data-aos="fade-down"
+              dangerouslySetInnerHTML={{
+                __html: t('home.ukranian_developers_section.title')
+              }}
+            />
           </div>
           <div className="col-12 col-lg-6">
             <p className="subtitle-wrapper" data-aos="fade-right">
-              Ukrainske utviklere rangeres som de dyktigste og mest erfarne
-              utøvere innen tilpasset programvare, nett- og apputvikling. På
-              TopCoder og Hackerrank er Ukraina rangert høytt på topplistene
-              over de mest avanserte egenskapene for programvareutvikling.
+              {t('home.ukranian_developers_section.description')}
             </p>
           </div>
         </div>
         <div className="row">
-          {ADVANTAGES_UKRAINIAN_DEVELOPERS?.map(({ title, description }) => (
+          {ADVANTAGES_UKRAINIAN_DEVELOPERS?.map(({ title, subtitle }) => (
             <div
               key={title}
               className="advantage-item-wrapper col-12 col-lg-3"
               data-aos="fade-right">
-              <h2>{title}</h2>
-              <p className="body2">{description}</p>
+              <h2>{t(title)}</h2>
+              <p className="body2">{t(subtitle)}</p>
             </div>
           ))}
         </div>
@@ -390,25 +410,20 @@ export default function Home() {
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <h2 data-aos="fade-left">
-              <span className="regular">Om </span>
-              Senseteq
-              <span className="c-primary">.</span>
-            </h2>
+            <h2
+              data-aos="fade-left"
+              dangerouslySetInnerHTML={{
+                __html: t('home.about_senseteq_section.title')
+              }}
+            />
             <p className="subtitle-wrapper" data-aos="fade-left">
-              Vi er et norsk-ukrainsk selskap som revolusjonerer måten
-              webutvikling foregår. Vår misjon er å være med på å gjøre verden
-              til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av
-              mennesker. Vi vil gjøre en forskjell for våre kunder og for våre
-              ansatte.
+              {t('home.about_senseteq_section.descriptionLine1')}
             </p>
             <p className="subtitle-wrapper" data-aos="fade-left">
-              Vi krever det samme av våre kunder. De er dedikerte
-              oppstartsbedrifter som vil gjøre en forskjell for mennesker, i
-              alle deler av livet.
+              {t('home.about_senseteq_section.descriptionLine2')}
             </p>
             <p data-aos="fade-left">
-              Vi inviterer alle til å bli med. Come join us and make Sense!
+              {t('home.about_senseteq_section.descriptionLine3')}
             </p>
           </div>
         </div>
@@ -420,7 +435,7 @@ export default function Home() {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common']))
+      ...(await serverSideTranslations(locale, ['landing']))
     }
   }
 }

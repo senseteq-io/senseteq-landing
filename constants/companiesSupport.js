@@ -1,11 +1,11 @@
 const COMPANIES_SUPPORT_ITEMS = [
   {
     src: '/innovation-norway.svg',
-    name: 'Innovasjon Norge'
+    name: 'constants.companies_support_items.innovation_norway.name'
   },
   {
     src: '/norwegian-council-of-research.svg',
-    name: 'Forskningsrådet'
+    name: 'constants.companies_support_items.norwegian_council_of_research.name'
   }
 ]
 

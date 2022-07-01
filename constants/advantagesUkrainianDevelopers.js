@@ -1,19 +1,22 @@
 const ADVANTAGES_UKRAINIAN_DEVELOPERS = [
   {
-    title: '150 000+',
-    description: 'Profesjonelle'
+    title: 'constants.advantages_ukranian_developers_items.professionals.title',
+    subtitle:
+      'constants.advantages_ukranian_developers_items.professionals.subtitle'
   },
   {
-    title: 'TOPP 15',
-    description: 'TopCoder og Hackerrank'
+    title: 'constants.advantages_ukranian_developers_items.hackerrank.title',
+    subtitle:
+      'constants.advantages_ukranian_developers_items.hackerrank.subtitle'
   },
   {
-    title: 'TOPP 3',
-    description: 'Topp outsourcing land i Østeuropa'
+    title: 'constants.advantages_ukranian_developers_items.outsourcing.title',
+    subtitle:
+      'constants.advantages_ukranian_developers_items.outsourcing.subtitle'
   },
   {
-    title: '$',
-    description: 'Beste forhold mellom pris og kvalitet'
+    title: 'constants.advantages_ukranian_developers_items.ratio.title',
+    subtitle: 'constants.advantages_ukranian_developers_items.ratio.subtitle'
   }
 ]
 export default ADVANTAGES_UKRAINIAN_DEVELOPERS

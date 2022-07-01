@@ -1,0 +1,190 @@
+{
+  "head": {
+    "home": {
+      "title": "Senseteq - utviklerselskapet for gründere",
+      "description": "Senseteq utvikler programvareapplikasjoner raskere og rimeligere. Mennesker er viktigst, og vi velger kunder som føler det samme.",
+      "keywords": "utvikling, den første versjonen av produktet, modulbasert utvikling, back-end, front-end, mobilapplikasjoner, teknologikonsultasjon, Utvikling av prototype, UI, UX, design, prosjektstyring"
+    }
+  },
+  "home": {
+    "prime_section": {
+      "title": "<span class='regular'>Vi leverer en </span>førsteversjon<span class='regular'> av din applikasjon </span> på 19 dager <span class='c-primary'>.</span>",
+      "subtitle": "Tenker du at det er umulig? Les videre for å se hvordan vi jobber.",
+      "arrow_alt": "Pil",
+      "arrow_aria": "Gå til neste avsnitt"
+    },
+    "how_we_do_it_section": {
+      "title": "<span class='regular'>Hvordan er det</span> mulig<span class='c-primary'>?</span>"
+    },
+    "services_section": {
+      "title": "<span class='regular'>Våre</span> tjenester<span class='c-primary'>.</span>"
+    },
+    "project_support_section": {
+      "title": "<span class='regular'>Vi utvikler og supporterer maksimalt</span> 12 prosjekter i året<span class='c-primary'>.</span>",
+      "subtitle": "Du kan bli vår kunde dersom:",
+      "uptitle": "LEDIG I 2022",
+      "subtitle2": "6 prosjekter<span class='c-primary'>.</span>",
+      "buttonText": "Søk nå"
+    },
+    "guarantees_section": {
+      "title": "<span class='regular'>Vi </span>garanterer<span class='c-primary'>.</span>"
+    },
+    "industries_section": {
+      "title": "Bransjer<span class='c-primary'>.</span>"
+    },
+    "technologies_section": {
+      "title": "Teknologier <span class='regular'>og innovasjoner<span class='c-primary'>.</span>",
+      "subtitle": "Vår erfaring med teknologier i toppklassen og vår evne til raskt å ta i bruk nye, gjør oss i stand til å bygge applikasjoner av enhver størrelse og kompleksitet.",
+      "buttonText": "Klikk for å lære mer",
+      "buttonAria": "Lær flere teknologier"
+    },
+    "how_it_works_section": {
+      "title": "<span class='regular'>Hvordan er det </span>mulig<span class='c-primary'>?</span>",
+      "subtitle": "Hvordan er prosessen? Hva skjer når jeg blir akseptert som kunde?",
+      "buttonText": "Klikk for å lære mer",
+      "buttonAria": "Finn ut mer hvordan det fungerer"
+    },
+    "companies_support_section": {
+      "title": "Støttet <span class='regular'>av</span><span class='c-primary'>.</span>"
+    },
+    "ukranian_developers_section": {
+      "title": "<span class='regular'>Hvorfor</span>Ukrainske utviklere<span class='c-primary'>?</span>",
+      "description": "Ukrainske utviklere rangeres som de dyktigste og mest erfarne utøvere innen tilpasset programvare, nett- og apputvikling. På TopCoder og Hackerrank er Ukraina rangert høytt på topplistene over de mest avanserte egenskapene for programvareutvikling."
+    },
+    "about_senseteq_section": {
+      "title": "<span class='regular'>Om </span>Senseteq<span class='c-primary'>.</span>",  
+      "descriptionLine1": "Vi er et norsk-ukrainsk selskap som revolusjonerer måten webutvikling foregår. Vår misjon er å være med på å gjøre verden til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av mennesker. Vi vil gjøre en forskjell for våre kunder og for våre ansatte.",
+      "descriptionLine2": "Vi krever det samme av våre kunder. De er dedikerte oppstartsbedrifter som vil gjøre en forskjell for mennesker, i alle deler av livet.",
+      "descriptionLine3": "Vi inviterer alle til å bli med. Come join us and make Sense!"
+      }
+  },
+  "constants": {
+    "how_we_do_it_items": {
+      "repetitive_work": {
+        "title": "Det repetitive arbeidet er automatisert",
+        "description": "Vi klassifiserte alle typer av oppgaver som utføres i et prosjekt. Så identifiserte vi de mest ressurskrevende og automatiserte implementeringen av dem en etter en."
+      },
+      "idea_parser": {
+        "title": "Automatisk idéoversetter",
+        "description": "Vi utviklet et eget verktøy som automatisk konverterer en idébeskrivelse av et prosjekt eller ny funksjonalitet om til en datastruktur. Dette hjelper oss til raskt å finne bedre løsninger og å forstå forretningskonsept og å hjelpe å forbedre det."
+      },
+      "architecture_tool": {
+        "title": "Verktøy for å bygge prosjekt-arkitektur",
+        "description": "Vi har utviklet et verktøy som genererer databasestrukturer, APIér samt de individuelle brukerflyt beskrivelser og skjema."
+      },
+      "code_generator": {
+        "title": "Kodegenerator",
+        "description": "Takket være vår måte å klassifisere og strukturere data på, i tillegg til verktøyene nevnt ovenfor, så genereres en stor del av applikasjonene helt automatisk. Og uten feil."
+      },
+      "task_generator": {
+        "title": "Oppgave-generator",
+        "description": "Vi har minimalisert arbeidet som må gjøres i prosessen med å opprette oppgaver for utviklere. Det genereres automatisk oppgaver som er avgrenset nok til at de fleste av dem vil ha en estimert gjennomføringstid med en presisjon ned mot 10 minutter."
+      },
+      "modularity": {
+        "title": "Modulbasert utvikling",
+        "description": "Vi har et bibliotek av egenutviklede moduler som vi raskt kan integrere i nye prosjekter. Å endre dem til nye applikasjoners behov går fort og vi slipper å utvikle funksjonaliteten fra grunn."
+      }
+    },
+    "services_items": {
+      "back-end": "Komplekse back-end applikasjoner",
+      "front-end": "Front-end web applikasjoner",
+      "mobile_apps": "Mobilapplikasjoner",
+      "consulting": "Invividuell teknologikonsultasjon",
+      "prototyping": "Utvikling av prototype",
+      "design": "UI/UX design",
+      "management": "Prosjektstyring"
+    },
+    "reasons_items": {
+      "startup": {
+        "title": "Du er gründer",
+        "description": "Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma."
+      },
+      "difference": {
+        "title": "Du vil gjøre en forskjell",
+        "description": "Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv."
+      },
+      "care": {
+        "title": "Du bryr deg",
+        "description": "Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem."
+      }
+    },
+    "guarantees_items": {
+      "fast_mvp": { "title": "Lynrask utvikling av en førsteversjon" },
+      "quickly_changes": {
+        "title": "Raskt og enkelt å gjøre endringer i prosjektet"
+      },
+      "scaling": { "title": "Enkel oppskalering" },
+      "high_performance": { "title": "Applikasjoner med høy ytelse" },
+      "user_experience": { "title": "Fokus på brukeropplevelse" },
+      "security": {
+        "title": "Fokus på sikkerhet og verning av sensitive data"
+      },
+      "quality": { "title": "Kvalitetssikring" },
+      "technology_stack": { "title": "Beste utvalg av teknologier" }
+    },
+    "industries_items": {
+      "healthcare": {
+        "title": "Helse",
+        "description": "Vi digitaliserer helse- og velferdssektoren. Vi har betydelig erfaring i denne sektoren."
+      },
+      "retail": {
+        "title": "Handel og distribusjon",
+        "description": "Vi digitaliserer handel og distribusjon. Vi har betydelig erfaring i denne sektoren."
+      },
+      "business-development": {
+        "title": "Forretningsutvikling og automatisering",
+        "description": "Vi digitaliserer Forretningsutvikling og automatisering."
+      },
+      "hotel": {
+        "title": "Hotell og reiseliv",
+        "description": "Vi digitaliserer reiselivsbransjen."
+      },
+      "education": {
+        "title": "Utdanning",
+        "description": "Vi digitaliserer utdanningssektoren."
+      },
+      "energy": {
+        "title": "Olje og energi",
+        "description": "Vi digitalierer olje- og energisektoren. Vi har betydelig erfaring."
+      },
+      "transport": {
+        "title": "Bil og transport",
+        "description": "Vi digitaliserer bilbransjen. Vi har betydelig erfaring."
+      },
+      "production": {
+        "title": "Produksjon",
+        "description": "Vi digitaliserer produksjonssektoren."
+      },
+      "question": {
+        "title": "Finner du ikke din bransje?",
+        "description": "Vi ønsker likevel å høre fra deg."
+      }
+    },
+    "companies_support_items": {
+      "innovation_norway": {
+        "name": "Innovasjon Norge"
+      },
+      "norwegian_council_of_research": {
+        "name": "Forskningsrådet"
+      }
+    },
+    "advantages_ukranian_developers_items": {
+      "professionals": {
+        "title": "150 000+",
+        "subtitle": "Profesjonelle"
+      },
+      "hackerrank": {
+        "title": "TOPP 15",
+        "subtitle": "TopCoder og Hackerrank"
+      },
+      "outsourcing": {
+        "title": "TOPP 3",
+        "subtitle": "Topp outsourcing land i Østeuropa"
+      },
+      "ratio": {
+        "title": "$",
+        "subtitle": "Beste forhold mellom pris og kvalitet"
+      }
+    }
+  }
+}
