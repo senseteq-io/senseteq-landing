@@ -28,6 +28,9 @@
     },
     "apply": {
       "title": "Søke om"
+    },
+    "process": {
+      "title": "Prosess"
     }
   },
   "header": {
@@ -188,6 +191,34 @@
   "apply": {
     "prime_section": {
       "title": "Se om vi matcher<span class='c-primary'>.</span>"
+    }
+  },
+  "process": {
+    "prime_section": {
+      "title": "Hvordan er prosessen<span class='c-primary'>?</span>",
+      "subtitle": "Hva kan du forvente når du blir utvalgt som kunde hos oss?"
+    },
+    "steps_section": {
+      "selections": {
+        "title": "Utvelgelse",
+        "description": "Etter den første kontakten og å ha fått en beskrivelse av prosjektet, gjør vi en vurdering for å sikre at det er en god match for våre utviklerteam og at prosjektet har positiv innvirkning på menneskers liv."
+      },
+      "offer": {
+        "title": "Tilbud og spesifikasjon",
+        "description": "Etter å ha blitt enige om de ulike personas og scenarioer for dem, spesifiserer vi et tilbud til fast pris for et godt definert scope."
+      },
+      "start-up": {
+        "title": "Oppstart",
+        "description": "Ved godkjenning av tilbud vil et dedikert utviklerteam bli tildelt. Det er valgfritt hvor mye dere som kunde ønsker å være delaktig underveis."
+      },
+      "development": {
+        "title": "Utvikling",
+        "description": "I denne fasen vil du som kunde se veldig rask fremdrift, og det vil oppleves spennende å følge med fra dag til dag, dersom du ønsker det."
+      },
+      "launch": {
+        "title": "Lansering",
+        "description": "Vi anbefaler at applikasjonen lanseres og prøves på ekte kunder så raskt som mulig. Selv om det er planlagt både feilrettinger og enda bedre funksjonalitet. Den beste tilbakemeldingen får du hos brukerne. Alltid."
+      }
     }
   },
   "constants": {

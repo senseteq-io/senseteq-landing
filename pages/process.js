@@ -1,24 +1,30 @@
 import { PageWrapper, Section, Stepper } from '../components'
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
 export default function Process() {
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
+
   return (
     <PageWrapper
       className="process-page"
       pageMetaProps={{
-        title: 'Process'
+        title: t('head.process.title')
       }}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
-            <h2>
-              Hvordan er prosessen
-              <span className="c-primary">?</span>
-            </h2>
+            <h2
+              dangerouslySetInnerHTML={{
+                __html: t('process.prime_section.title')
+              }}
+            />
           </div>
           <div className="col-12 col-lg-8">
-            <p>Hva kan du forvente når du blir utvalgt som kunde hos oss?</p>
+            <p>{t('process.prime_section.subtitle')}</p>
           </div>
         </div>
       </Section>
@@ -28,29 +34,24 @@ export default function Process() {
             <Stepper
               stepperConfig={[
                 {
-                  name: 'Utvelgelse',
-                  description:
-                    'Etter den første kontakten og å ha fått en beskrivelse av prosjektet, gjør vi en vurdering for å sikre at det er en god match for våre utviklerteam og at prosjektet har positiv innvirkning på menneskers liv.'
+                  name: 'process.steps_section.selections.title',
+                  description: 'process.steps_section.selections.description'
                 },
                 {
-                  name: 'Tilbud og spesifikasjon',
-                  description:
-                    'Etter å ha blitt enige om de ulike personas og scenarioer for dem, spesifiserer vi et tilbud til fast pris for et godt definert scope.'
+                  name: 'process.steps_section.offer.title',
+                  description: 'process.steps_section.offer.description'
                 },
                 {
-                  name: 'Oppstart',
-                  description:
-                    'Ved godkjenning av tilbud vil et dedikert utviklerteam bli tildelt. Det er valgfritt hvor mye dere som kunde ønsker å være delaktig underveis.'
+                  name: 'process.steps_section.start-up.title',
+                  description: 'process.steps_section.start-up.description'
                 },
                 {
-                  name: 'Utvikling',
-                  description:
-                    'I denne fasen vil du som kunde se veldig rask fremdrift, og det vil oppleves spennende å følge med fra dag til dag, dersom du ønsker det.'
+                  name: 'process.steps_section.development.title',
+                  description: 'process.steps_section.development.description'
                 },
                 {
-                  name: 'Lansering',
-                  description:
-                    'Vi anbefaler at applikasjonen lanseres og prøves på ekte kunder så raskt som mulig. Selv om det er planlagt både feilrettinger og enda bedre funksjonalitet. Den beste tilbakemeldingen får du hos brukerne. Alltid.'
+                  name: 'process.steps_section.launch.title',
+                  description: 'process.steps_section.launch.description'
                 }
               ]}
             />

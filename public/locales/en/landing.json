@@ -28,6 +28,9 @@
     },
     "apply": {
       "title": "Apply"
+    },
+    "process": {
+      "title": "Process"
     }
   },
   "header": {
@@ -173,6 +176,34 @@
   "apply": {
     "prime_section": {
       "title": "Let's talk<span class='c-primary'>.</span>"
+    }
+  },
+  "process": {
+    "prime_section": {
+      "title": "How is the process<span class='c-primary'>?</span>",
+      "subtitle": "What can you expect when you are selected as a customer with us?"
+    },
+    "steps_section": {
+      "selections": {
+        "title": "Selection",
+        "description": "After the first contact and having received a description of the project, we make an assessment to ensure that it is a good match for our development teams and that the project has a positive impact on people's lives."
+      },
+      "offer": {
+        "title": "Offer and specification",
+        "description": "After agreeing on the different personas and scenarios for them, we specify an offer at a fixed price for a well-defined scope."
+      },
+      "start-up": {
+        "title": "Start-up",
+        "description": "Upon approval of the offer, a dedicated development team will be assigned. It is optional how much you as a customer want to be involved along the way."
+      },
+      "development": {
+        "title": "Development",
+        "description": "In this phase, you as a customer will see very fast progress, and it will be exciting to follow from day to day, if you wish."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "We recommend that the application is launched and tested on real customers as soon as possible. Although both bug fixes and even better functionality are planned. You get the best feedback from users. Always."
+      }
     }
   },
   "constants": {
