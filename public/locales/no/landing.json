@@ -25,6 +25,9 @@
     },
     "contact": {
       "title": "Kontact"
+    },
+    "apply": {
+      "title": "Søke om"
     }
   },
   "header": {
@@ -180,6 +183,11 @@
   "contact": {
     "prime_section": {
       "title": "Snakk med oss<span class='c-primary'>.</span>"
+    }
+  },
+  "apply": {
+    "prime_section": {
+      "title": "Se om vi matcher<span class='c-primary'>.</span>"
     }
   },
   "constants": {

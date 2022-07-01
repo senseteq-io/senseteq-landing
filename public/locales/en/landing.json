@@ -25,6 +25,9 @@
     },
     "contact": {
       "title": "Contact"
+    },
+    "apply": {
+      "title": "Apply"
     }
   },
   "header": {
@@ -163,6 +166,11 @@
     }
   },
   "contact": {
+    "prime_section": {
+      "title": "Let's talk<span class='c-primary'>.</span>"
+    }
+  },
+  "apply": {
     "prime_section": {
       "title": "Let's talk<span class='c-primary'>.</span>"
     }
