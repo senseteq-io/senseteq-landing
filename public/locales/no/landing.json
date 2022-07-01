@@ -17,6 +17,11 @@
       "title": "Priser",
       "description": "Vi vet hvor viktig det er med høy fart og kontroll på kostnadene. Det er gunstig å bli kunde hos oss. Vi gir deg raskt en svært fordelaktig fastpris på prosjektet ditt.",
       "keywords": "gunstige priser, tjenester, fullt skalerbar, høyeste ytelse, enkel branding og profil, førsteversjon"
+    },
+    "team": {
+      "title": "Team",
+      "description": "Vi er et sammensveiset team som stortrives på jobb. Vi feirer hverandres fremgang og hjelper når det trengs.",
+      "keywords": "team, utviklere"
     }
   },
   "header": {
@@ -157,6 +162,16 @@
         "descriptionLine3": "Simple branding and profile"
       },
       "buttonText": "Apply now"
+    }
+  },
+  "team": {
+    "prime_section": {
+      "title": "Hvem er vi<span class='c-primary'>?</span>",
+      "subtitle": "Vi er et sammensveiset team som stortrives på jobb. Vi feirer hverandres fremgang og hjelper når det trengs. Vi har en flat struktur i selskapet, bygget på tillit og kompetanse. Alle våre utviklere er engasjerte og føler raskt eierskap til nye prosjekter."
+    },
+    "rising_stars_section": {
+      "title": "Våre kommende stjerner<span class='c-primary'>.</span>",
+      "subtitle":"Jeg må innrømme det, vi ser på dem som stjerner allerede. De er dedikerte, lidenskapelige og de elsker å utvikle produkter som betyr noe. Gled deg til å lytte til deres idéer og bli inspirert av deres innspill. Og selvfølgelig: De leverer fantastisk kode, som bygger fantastiske produkter."
     }
   },
   "constants": {
@@ -338,6 +353,15 @@
         "name": "Omfattende",
         "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>omfattende</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
       }
+    },
+    "roles_items": {
+      "ceo": "Daglig leder",
+      "senior_full_stack_and_team_lead": "Senior Full stack utvikler / Team lead",
+      "team_lead": "Team lead",
+      "senior_backend": "Senior Backend utvikler",
+      "designer": "Designer UI/UX",
+      "full_stask": "Full stack utvikler",
+      "junior": "Junior Fullstack utvikler"
     }
   }
 }
