@@ -22,6 +22,9 @@
       "title": "Team",
       "description": "We are a close-knit team that thrives on work. We celebrate each other's progress and help when needed.",
       "keywords": "team, developers"
+    },
+    "contact": {
+      "title": "Contact"
     }
   },
   "header": {
@@ -156,7 +159,12 @@
     },
     "rising_stars_section": {
       "title": "Our rising stars<span class='c-primary'>.</span>",
-      "subtitle":"I have to admit, we look at them as stars already. They are dedicated, passionate and they love to develop products that matter. Look forward to listening to their ideas and being inspired by their input. And of course: They deliver great code that builds great products."
+      "subtitle": "I have to admit, we look at them as stars already. They are dedicated, passionate and they love to develop products that matter. Look forward to listening to their ideas and being inspired by their input. And of course: They deliver great code that builds great products."
+    }
+  },
+  "contact": {
+    "prime_section": {
+      "title": "Let's talk<span class='c-primary'>.</span>"
     }
   },
   "constants": {
@@ -331,6 +339,17 @@
       "designer": "Designer UI/UX",
       "full_stask": "Full stack developer",
       "junior": "Junior Fullstack developer"
+    },
+    "contact_items": {
+      "customer_service": {
+        "name": "Customer service"
+      },
+      "norway": {
+        "name": "Senseteq Norway"
+      },
+      "ukraine": {
+        "name": "Senseteq Ukraine"
+      }
     }
   }
 }

@@ -22,6 +22,9 @@
       "title": "Team",
       "description": "Vi er et sammensveiset team som stortrives på jobb. Vi feirer hverandres fremgang og hjelper når det trengs.",
       "keywords": "team, utviklere"
+    },
+    "contact": {
+      "title": "Kontact"
     }
   },
   "header": {
@@ -171,7 +174,12 @@
     },
     "rising_stars_section": {
       "title": "Våre kommende stjerner<span class='c-primary'>.</span>",
-      "subtitle":"Jeg må innrømme det, vi ser på dem som stjerner allerede. De er dedikerte, lidenskapelige og de elsker å utvikle produkter som betyr noe. Gled deg til å lytte til deres idéer og bli inspirert av deres innspill. Og selvfølgelig: De leverer fantastisk kode, som bygger fantastiske produkter."
+      "subtitle": "Jeg må innrømme det, vi ser på dem som stjerner allerede. De er dedikerte, lidenskapelige og de elsker å utvikle produkter som betyr noe. Gled deg til å lytte til deres idéer og bli inspirert av deres innspill. Og selvfølgelig: De leverer fantastisk kode, som bygger fantastiske produkter."
+    }
+  },
+  "contact": {
+    "prime_section": {
+      "title": "Snakk med oss<span class='c-primary'>.</span>"
     }
   },
   "constants": {
@@ -362,6 +370,17 @@
       "designer": "Designer UI/UX",
       "full_stask": "Full stack utvikler",
       "junior": "Junior Fullstack utvikler"
+    },
+    "contact_items": {
+      "customer_service": {
+        "name": "Kundeservice"
+      },
+      "norway": {
+        "name": "Senseteq Norge"
+      },
+      "ukraine": {
+        "name": "Senseteq Ukraina"
+      }
     }
   }
 }
