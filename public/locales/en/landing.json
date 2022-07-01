@@ -16,13 +16,24 @@
     },
     "logoAria": "Go to home page"
   },
+  "footer": {
+    "subtitle": "Contact",
+    "title": "We invite all start-up companies to get in touch<span class='c-primary'>!</span>",
+    "facebookAria": "Go to Facebook page",
+    "whatsAppAria": "Go to WhatsApp",
+    "emailAria": "Email",
+    "phoneAria": "Phone"
+  },
   "menu": {
-    "home": { "name": "Home" , "aria": "Go to home page"},
-    "technologies": { "name": "Technologies", "aria": "Go to technologies page"  },
-    "customers": { "name": "Customers" , "aria": "Go to customers page" },
+    "home": { "name": "Home", "aria": "Go to home page" },
+    "technologies": {
+      "name": "Technologies",
+      "aria": "Go to technologies page"
+    },
+    "customers": { "name": "Customers", "aria": "Go to customers page" },
     "prices": { "name": "Prices", "aria": "Go to prices page" },
     "team": { "name": "Team", "aria": "Go to team page" },
-    "contact": { "name": "Contact", "aria": "Go to contact page"  }
+    "contact": { "name": "Contact", "aria": "Go to contact page" }
   },
   "language_menu": {
     "no": {
@@ -74,15 +85,15 @@
       "title": "Supported <span class='regular'>by</span><span class='c-primary'>.</span>"
     },
     "ukranian_developers_section": {
-      "title":"<span class='regular'>Why </span>Ukraine developers<span class='c-primary'>?</span>",
+      "title": "<span class='regular'>Why </span>Ukraine developers<span class='c-primary'>?</span>",
       "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries’ top the list for most advanced software development skillset."
     },
     "about_senseteq_section": {
-      "title": "<span class='regular'>About </span>Senseteq<span class='c-primary'>.</span>",  
+      "title": "<span class='regular'>About </span>Senseteq<span class='c-primary'>.</span>",
       "descriptionLine1": "We are a Norwegian-Ukrainian company, which aims to revolutionize the approach to web development. Our mission is to make the world a better place through our contribution. We love people. We make a difference in the lives of our customers and our employees.",
       "descriptionLine2": "We set the same standard for our customers. They are dedicated startups that wants to make a difference for people, in any part of their lives.",
       "descriptionLine3": "We invite everyone to be part of it. Come join us and make Sense!"
-      }
+    }
   },
   "constants": {
     "how_we_do_it_items": {
@@ -145,7 +156,7 @@
       "technology_stack": { "title": "Best technology stack" }
     },
     "industries_items": {
-      "healthcare" : {
+      "healthcare": {
         "title": "Healthcare",
         "description": "Digitalizing the healthcare and welfare sector. Our experience in this sector is substantial."
       },
@@ -180,7 +191,7 @@
       "question": {
         "title": "Can't find your industry?",
         "description": "We still want to hear from you."
-      }      
+      }
     },
     "companies_support_items": {
       "innovation_norway": {

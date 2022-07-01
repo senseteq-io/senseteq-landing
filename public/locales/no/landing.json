@@ -16,6 +16,14 @@
     },
     "logoAria": "Gå til hovedsiden"
   },
+  "footer": {
+    "subtitle": "Kontakt",
+    "title": "Vi inviterer alle oppstartsselskaper til å ta kontakt<span class='c-primary'>!</span>",
+    "facebookAria": "Gå til Facebook-siden",
+    "whatsAppAria": "Gå til WhatsApp",
+    "emailAria": "E-post",
+    "phoneAria": "Telefon"
+  },
   "menu": {
     "home": { "name": "Hjem" , "aria": "Gå til hovedsiden"},
     "technologies": { "name": "Teknologi", "aria": "Gå til teknologisiden"  },
@@ -46,10 +54,10 @@
       "title": "<span class='regular'>Våre</span> tjenester<span class='c-primary'>.</span>"
     },
     "project_support_section": {
-      "title": "<span class='regular'>Vi utvikler og supporterer maksimalt</span> 12 prosjekter i året<span class='c-primary'>.</span>",
+      "title": "<span class='regular'>Vi utvikler og supporterer maksimalt</span> 24 prosjekter i året<span class='c-primary'>.</span>",
       "subtitle": "Du kan bli vår kunde dersom:",
       "uptitle": "LEDIG I 2022",
-      "subtitle2": "6 prosjekter<span class='c-primary'>.</span>",
+      "subtitle2": "18 prosjekter<span class='c-primary'>.</span>",
       "buttonText": "Søk nå"
     },
     "guarantees_section": {
