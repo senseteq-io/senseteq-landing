@@ -35,7 +35,7 @@
   left: 0;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .stepper {
     padding: 0;
   }
@@ -74,12 +74,12 @@
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 992px) {
   .stepper .step-wrapper .step-content {
     width: 390px;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1200px) {
   .stepper .step-wrapper .step-content {
     width: 480px;
   }

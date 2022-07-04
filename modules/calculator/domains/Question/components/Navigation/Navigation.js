@@ -11,11 +11,11 @@ import { useRouter } from 'next/router'
 export default function CalculatorQuestionNavigation({ onPrev, onNext }) {
   const router = useRouter()
   return (
-    <div className="bs-container">
-      <div className="bs-row bs-align-items-center bs-justify-content-center">
-        <div className="bs-col-12 bs-col-md-9">
-          <div className="bs-row bs-justify-content-end bs-g-2">
-            <div className="bs-col-auto ">
+    <div className="container">
+      <div className="row align-items-center justify-content-center">
+        <div className="col-12 col-md-9">
+          <div className="row justify-content-end g-2">
+            <div className="col-auto ">
               <Button
                 variant="outlined"
                 shape="circle"
@@ -23,7 +23,7 @@ export default function CalculatorQuestionNavigation({ onPrev, onNext }) {
                 <AiOutlineArrowLeft />
               </Button>
             </div>
-            <div className="bs-col-auto">
+            <div className="col-auto">
               <Button variant="outlined" shape="circle" onClick={onNext}>
                 <AiOutlineArrowRight />
               </Button>

@@ -90,7 +90,7 @@ export default function Home() {
           {HOW_WE_DO_IT_ITEMS?.map(({ title, description }) => (
             <div
               key={title}
-              className="how-we-do-it-item-wrapper col-12 col-lg-6 col-xxl-4"
+              className="how-we-do-it-item-wrapper col-12 col-md-6 col-xxl-4"
               data-aos="fade-right">
               <div className="how-we-do-it-item">
                 <h3 className="title">{t(title)}</h3>
@@ -116,7 +116,7 @@ export default function Home() {
             <div
               data-aos="fade-left"
               key={title}
-              className="service-item-wrapper col-12 col-lg-4">
+              className="service-item-wrapper col-12  col-md-6 col-lg-4">
               <div className="service-item">
                 <div className="service-icon-wrapper">
                   <Image src={icon} alt={t(title)} layout="fill" />
@@ -222,7 +222,7 @@ export default function Home() {
             <div
               data-aos="fade-right"
               key={subtitle}
-              className="industry-item-wrapper col-12 col-lg-4">
+              className="industry-item-wrapper col-12 col-md-6 col-lg-4">
               <div
                 className="industry-item"
                 style={{
@@ -294,7 +294,7 @@ export default function Home() {
               {t('home.how_it_works_section.subtitle')}
             </p>
           </div>
-          <div className="col-12 col-md-auto">
+          <div className="col-auto">
             <Button
               className="btn-dark"
               href="/process"

@@ -43,7 +43,7 @@ export default function Team() {
             <div
               data-aos="fade-left"
               key="name"
-              className="person-view-wrapper col-12 col-md-6 col-lg-3">
+              className="person-view-wrapper col-12 col-sm-6 col-lg-3">
               <div className="person-view-item">
                 <div
                   className="person-view-image"
@@ -79,7 +79,7 @@ export default function Team() {
             <div
               data-aos="fade-left"
               key="name"
-              className="person-view-wrapper col-12 col-md-6 col-lg-3">
+              className="person-view-wrapper col-12 col-sm-6 col-lg-3">
               <div className="person-view-item">
                 <div
                   className="person-view-image"

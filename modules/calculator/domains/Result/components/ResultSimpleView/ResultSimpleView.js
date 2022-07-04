@@ -11,23 +11,23 @@ const ResultSimpleView = () => {
   const { price, weeks } = usePrice()
 
   return (
-    <div className="bs-container">
-      <div className="bs-row bs-justify-content-center bs-mb-4">
-        <div className="bs-col-9">
-          <div className="bs-row bs-mb-4">
-            <div className="bs-col-12">
+    <div className="container">
+      <div className="row justify-content-center mb-4">
+        <div className="col-9">
+          <div className="row mb-4">
+            <div className="col-12">
               <Title as="h3" align="center">
                 {t('calculator.result.title')}
               </Title>
             </div>
-            <div className="bs-col-12">
+            <div className="col-12">
               <Text variant="secondary" align="center" subtitle>
                 {t('calculator.result.description')}
               </Text>
             </div>
           </div>
-          <div className="bs-row bs-mb-5">
-            <div className="bs-col-12 bs-col-md-6 bs-d-flex bs-align-items-center bs-justify-content-center bs-mb-4">
+          <div className="row mb-5">
+            <div className="col-12 col-md-6 d-flex align-items-center justify-content-center mb-4">
               <div>
                 <Image
                   src="/assets/result.svg"
@@ -37,25 +37,23 @@ const ResultSimpleView = () => {
                 />
               </div>
             </div>
-            <div className="bs-col-12 bs-col-md-6">
-              <div className="bs-row">
+            <div className="col-12 col-md-6">
+              <div className="row">
                 {features.map((feature, index) => (
-                  <div
-                    key={feature.replace(' ', '-')}
-                    className="bs-col-12 bs-mb-2">
+                  <div key={feature.replace(' ', '-')} className="col-12 mb-2">
                     <Text variant="secondary">✅ {feature}</Text>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-          <div className="bs-row">
-            <div className="bs-col-12 bs-mb-4">
+          <div className="row">
+            <div className="col-12 mb-4">
               <Title as="h4" align="center">
                 {t('calculator.result.second_title')}
               </Title>
             </div>
-            <div className="bs-col-12 bs-col-md-6 bs-mb-4">
+            <div className="col-12 col-md-6 mb-4">
               <div>
                 <Text variant="secondary" align="center">
                   {t('calculator.result.approximate_estimation')}
@@ -65,7 +63,7 @@ const ResultSimpleView = () => {
                 </Title>
               </div>
             </div>
-            <div className="bs-col-12 bs-col-md-6 bs-mb-4">
+            <div className="col-12 col-md-6 mb-4">
               <div>
                 <Text variant="secondary" align="center">
                   {t('calculator.result.approximate_cost')}

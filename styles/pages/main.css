@@ -382,7 +382,7 @@
 .main-page #about-senseteq-section .subtitle-wrapper {
   margin-bottom: 14px;
 }
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
     height: 20px;
@@ -461,12 +461,18 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .main-page
     #how-we-do-it-section
     .how-we-do-it-item-wrapper:nth-last-of-type(-n + 2) {
     margin-bottom: 0;
   }
+
+  .main-page #project-support-section .reason-item-wrapper {
+    margin-bottom: 46px;
+  }
+}
+@media (min-width: 992px) {
   .main-page
     #guarantees-section
     .guarantee-item-wrapper:nth-last-of-type(-n + 4) {
@@ -502,7 +508,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
   .main-page #how-we-do-it-section .how-we-do-it-item-wrapper {
     margin-bottom: 36px;
   }

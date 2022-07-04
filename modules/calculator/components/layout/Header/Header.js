@@ -5,9 +5,9 @@ import styles from './Header.module.css'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className="bs-container">
-        <div className="bs-row">
-          <div className="bs-col-auto">
+      <div className="container">
+        <div className="row">
+          <div className="col-auto">
             <Link href="/mvp-calculator">
               <a>
                 <Image

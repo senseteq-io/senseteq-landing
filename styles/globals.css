@@ -56,8 +56,8 @@ ul {
 
 /* LIB */
 @import url("aos/dist/aos.css");
+@import url("./bootstrap-grid.css");
 @import url("./lib/vars.css");
-@import url("./lib/grid.css");
 @import url("./lib/typography.css");
 @import url("./lib/helpers.css");
 @import url("../modules/calculator/styles/globals.css");

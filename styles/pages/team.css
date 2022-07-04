@@ -36,7 +36,7 @@
 .team-page #rising-stars-section .subtitle-wrapper {
   margin-bottom: 48px;
 }
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .team-page .person-view-item {
     max-width: 220px;
   }
@@ -47,13 +47,18 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .team-page #prime-section .person-view-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+  .team-page
+    #rising-stars-section
+    .person-view-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
 }
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .team-page .person-view-wrapper {
     margin-bottom: 32px;
-  }
-  .team-page .person-view-wrapper:nth-last-of-type(-n + 3) {
-    margin-bottom: 0;
   }
 }
 @media (min-width: 1200px) {
