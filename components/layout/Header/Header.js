@@ -78,7 +78,7 @@ const Header = (props) => {
           <div className="icon">
             <Image
               alt={t('header.menu_icon.alt')}
-              src="/menu.svg"
+              src="/assets/menu.svg"
               layout="fill"
               aria-label={
                 isMenuOpened
@@ -97,7 +97,9 @@ const Header = (props) => {
                   aria-label={t('header.logoAria')}
                   alt="Senseteq"
                   src={
-                    isInverseHeader ? '/senseteq_inverse.svg' : '/senseteq.svg'
+                    isInverseHeader
+                      ? '/assets/logo.svg'
+                      : '/assets/logo_inverse.svg'
                   }
                   layout="fill"
                 />

@@ -108,7 +108,7 @@ const CustomerSlider = () => {
         <div className="prev-slide-icon-wrapper" onClick={() => plusSlides(1)}>
           <div className="prev-slide-icon">
             <Image
-              src="/left_arrow.svg"
+              src="/assets/left_arrow.svg"
               layout="fill"
               alt={t('slider.previous_slide_arrow.alt')}
               aria-label={t('slider.previous_slide_arrow.aria')}
@@ -118,7 +118,7 @@ const CustomerSlider = () => {
         <div className="next-slide-icon-wrapper" onClick={() => plusSlides(1)}>
           <div className="next-slide-icon">
             <Image
-              src="/right_arrow.svg"
+              src="/assets/right_arrow.svg"
               layout="fill"
               alt={t('slider.next_slide_arrow.alt')}
               aria-label={t('slider.next_slide_arrow.aria')}

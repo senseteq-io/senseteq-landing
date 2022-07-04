@@ -290,7 +290,8 @@
   font-weight: var(--font-weight-title);
 }
 .main-page #ukranian-developers-section {
-  background: url("/ukranian-devs-cover.png") bottom center / cover no-repeat;
+  background: url("/backgrounds/ukranian-devs-cover.png") bottom center / cover
+    no-repeat;
 }
 .main-page #ukranian-developers-section h2 {
   margin-bottom: 22px;

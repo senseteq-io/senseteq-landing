@@ -42,7 +42,7 @@
   margin-bottom: 28px;
 }
 .technologies-page #secret-weapon-section .qonsoll-logo-wrapper {
-  background: url(/qonsoll_logo.png) center center / cover no-repeat;
+  background: url(/assets/qonsoll_logo.png) center center / cover no-repeat;
   position: relative;
   padding-top: 100%;
 }
