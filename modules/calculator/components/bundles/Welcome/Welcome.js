@@ -19,9 +19,9 @@ export default function Welcome({
   onClick
 }) {
   return (
-    <div className="bs-container">
-      <div className="bs-row">
-        <div className="bs-col-12 bs-col-lg-6 bs-align-items-center bs-justify-content-center bs-d-flex bs-mb-4">
+    <div className="container">
+      <div className="row">
+        <div className="col-12 col-lg-6 align-items-center justify-content-center d-flex mb-4">
           <Image
             src="/assets/welcome.svg"
             width="380px"
@@ -29,25 +29,25 @@ export default function Welcome({
             alt="Build MVP"
           />
         </div>
-        <div className="bs-col-12 bs-col-lg-6">
-          <div className="bs-row">
+        <div className="col-12 col-lg-6">
+          <div className="row">
             {g ? (
               <Text semibold style={{ color: '#9a1088' }}>
                 {g}
               </Text>
             ) : null}
-            <div className="bs-col-12 bs-mb-3">
+            <div className="col-12 mb-3">
               <Title as="h3" regular>
                 {geo} {title}
               </Title>
             </div>
-            <div className="bs-col-12 bs-mb-2">
+            <div className="col-12 mb-2">
               <Text>{descriptionLine1}</Text>
             </div>
-            <div className="bs-col-12 bs-mb-4">
+            <div className="col-12 mb-4">
               <Text>{descriptionLine2}</Text>
             </div>
-            <div className="bs-col-12 bs-mb-4">
+            <div className="col-12 mb-4">
               <Button variant="lg" shape="rounded" onClick={onClick}>
                 {buttonText}
               </Button>
