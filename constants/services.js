@@ -1,22 +1,31 @@
 const SERVICES_ITEMS = [
   {
     title: 'constants.services_items.back-end',
-    icon: '/complex_backend_app.svg'
+    icon: '/services/complex_backend_app.svg'
   },
   {
     title: 'constants.services_items.front-end',
-    icon: '/front_end_web_apps.svg'
+    icon: '/services/front_end_web_apps.svg'
   },
-  { title: 'constants.services_items.mobile_apps', icon: '/mobile_apps.svg' },
+  {
+    title: 'constants.services_items.mobile_apps',
+    icon: '/services/mobile_apps.svg'
+  },
   {
     title: 'constants.services_items.consulting',
-    icon: '/custom_technology.svg'
+    icon: '/services/custom_technology.svg'
   },
-  { title: 'constants.services_items.prototyping', icon: '/prototyping.svg' },
-  { title: 'constants.services_items.design', icon: '/ui_ux_design.svg' },
+  {
+    title: 'constants.services_items.prototyping',
+    icon: '/services/prototyping.svg'
+  },
+  {
+    title: 'constants.services_items.design',
+    icon: '/services/ui_ux_design.svg'
+  },
   {
     title: 'constants.services_items.management',
-    icon: '/project_managment.svg'
+    icon: '/services/project_managment.svg'
   }
 ]
 
