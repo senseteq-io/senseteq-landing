@@ -12,7 +12,7 @@ const PageWrapper = (props) => {
 
   // [ADDITIONAL_HOOKS]
   const router = useRouter()
-  console.log(router.pathname)
+
   // [COMPONENT_STATE_HOOKS]
   const [activeMenuItem, setActiveMenuItem] = useState()
   const [isMenuOpened, setIsMenuOpened] = useState(false)

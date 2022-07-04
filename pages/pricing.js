@@ -44,7 +44,7 @@ export default function Pricing() {
               <div
                 data-aos="fade-left"
                 key={name}
-                className="package-item-wrapper col-12 col-lg-6 col-xxl-3">
+                className="package-item-wrapper col-12 col-lg-6">
                 <div className="package-item">
                   <div className="package-item-content">
                     <h4 className="name">{t(name)}</h4>

@@ -73,10 +73,7 @@
   }
 }
 @media (min-width: 1440px) {
-  .pricing-page #packages-section .package-item-wrapper:nth-last-of-type(n) {
-    margin-bottom: 0;
-  }
   .pricing-page #packages-section .package-item-content {
-    max-width: 250px;
+    max-width: 320px;
   }
 }
