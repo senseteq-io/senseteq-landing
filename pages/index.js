@@ -38,7 +38,10 @@ export default function Home() {
             muted
             loop
             className="prime-section-video-bg">
-            <source src="/prime-section-cover.mp4" type="video/mp4" />
+            <source
+              src="/backgrounds/prime-section-cover.mp4"
+              type="video/mp4"
+            />
           </video>,
           <div key="gradient-cover" className="prime-section-gradient-bg" />
         ]}>
@@ -245,7 +248,10 @@ export default function Home() {
             muted
             loop
             className="technologies-section-video-bg">
-            <source src="/teknologier-section-cover.mp4" type="video/mp4" />
+            <source
+              src="/backgrounds/teknologier-section-cover.mp4"
+              type="video/mp4"
+            />
           </video>
         }>
         <div className="row">
