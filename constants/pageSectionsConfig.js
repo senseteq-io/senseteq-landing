@@ -1,7 +1,7 @@
 const PAGE_SECTIONS_CONFIG = {
   HOME_PAGE: [
     {
-      title: 'constants.page_sections_config.home.prime_section.title',
+      title: 'constants.page_sections_config.home.prime-section.title',
       idSection: 'prime-section'
     },
     {
@@ -50,11 +50,11 @@ const PAGE_SECTIONS_CONFIG = {
   ],
   PRICING_PAGE: [
     {
-      title: 'constants.page_sections_config.pricing.prime_section.title',
+      title: 'constants.page_sections_config.pricing.prime-section.title',
       idSection: 'prime-section'
     },
     {
-      title: 'constants.page_sections_config.pricing.packages_section.title',
+      title: 'constants.page_sections_config.pricing.packages-section.title',
       idSection: 'packages-section'
     }
   ],
@@ -64,8 +64,8 @@ const PAGE_SECTIONS_CONFIG = {
       idSection: 'prime-section'
     },
     {
-      title: 'constants.page_sections_config.team.rising_stars_section.title',
-      idSection: 'rising-stars-section'
+      title: 'constants.page_sections_config.team.prime_section.title',
+      idSection: 'rising-stars_section'
     }
   ]
 }

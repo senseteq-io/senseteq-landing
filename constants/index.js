@@ -7,7 +7,7 @@ import HOW_WE_DO_IT_ITEMS from './howWeDoIt'
 import INDUSTRIES_ITEMS from './industrues'
 import LANGUAGES_ITEMS from './languagesItems'
 import MENU_ITEMS from './menuItems'
-import PAGE_SECTION_CONFIG from './pageSectionsConfig'
+import PAGE_SECTIONS_CONFIG from './pageSectionsConfig'
 import PRICES_AND_PACKAGES_ITEMS from './pricesAndPackagesItems'
 import REASONS_ITEMS from './reasons'
 import SERVICES_ITEMS from './services'
@@ -29,5 +29,5 @@ export {
   CUSTOMERS_SLIDES_ITEMS,
   CONTACTS_ITEMS,
   LANGUAGES_ITEMS,
-  PAGE_SECTION_CONFIG
+  PAGE_SECTIONS_CONFIG
 }

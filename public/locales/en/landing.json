@@ -80,6 +80,19 @@
       "aria": "Change language to English"
     }
   },
+  "navigation_dots": {
+    "aria": {
+      "text": "Navigation between sections"
+    },
+    "dots": {
+      "go_to": {
+        "text": "Go to"
+      },
+      "section": {
+        "text": "section"
+      }
+    }
+  },
   "home": {
     "prime_section": {
       "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days <span class='c-primary'>.</span>",

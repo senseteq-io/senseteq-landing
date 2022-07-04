@@ -28,9 +28,12 @@ const SectionNavigationDots = (props) => {
   }
 
   return (
-    <ul id="navigation-dots">
+    <ul id="navigation-dots" aria-label={t('navigation_dots.aria.text')}>
       {sectionsConfig?.map(({ title, idSection }) => (
         <li
+          aria-label={`${t('navigation_dots.dots.go_to.text')} ${t(title)} ${t(
+            'navigation_dots.dots.section.text'
+          )}`}
           key={idSection}
           className="navigation-dot"
           id={`navigation-${idSection}`}

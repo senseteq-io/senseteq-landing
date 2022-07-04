@@ -1,4 +1,4 @@
-import { PAGE_SECTION_CONFIG, TEAM } from '../constants'
+import { PAGE_SECTIONS_CONFIG, TEAM } from '../constants'
 import { PageWrapper, Section } from '../components'
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -11,10 +11,6 @@ export default function Team() {
 
   // [COMPUTED_PROPERTIES]
   const { RISING_STARS, EXPERIENCED } = TEAM
-  const sectionsConfig = [
-    { title: 'Hvem er vi?', idSection: 'prime-section' },
-    { title: 'Kommende stjerner', idSection: 'rising-stars-section' }
-  ]
 
   return (
     <PageWrapper
@@ -24,7 +20,7 @@ export default function Team() {
         description: t('head.team.description'),
         keywords: t('head.team.keywords')
       }}
-      sectionsConfig={PAGE_SECTION_CONFIG?.TEAM_PAGE}>
+      sectionsConfig={PAGE_SECTIONS_CONFIG?.TEAM_PAGE}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

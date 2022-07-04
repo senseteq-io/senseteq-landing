@@ -4,7 +4,7 @@ import {
   GUARANTEES_ITEMS,
   HOW_WE_DO_IT_ITEMS,
   INDUSTRIES_ITEMS,
-  PAGE_SECTION_CONFIG,
+  PAGE_SECTIONS_CONFIG,
   REASONS_ITEMS,
   SERVICES_ITEMS
 } from '../constants'
@@ -28,7 +28,7 @@ export default function Home() {
         description: t('head.home.description'),
         keywords: t('head.home.keywords')
       }}
-      sectionsConfig={PAGE_SECTION_CONFIG?.HOME_PAGE}>
+      sectionsConfig={PAGE_SECTIONS_CONFIG?.HOME_PAGE}>
       <Section
         id="prime-section"
         sectionBackground={[

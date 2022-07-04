@@ -95,6 +95,19 @@
       "aria": "Bytt språk til engelsk"
     }
   },
+  "navigation_dots": {
+    "aria": {
+      "text": "Navigering mellom seksjoner"
+    },
+    "dots": {
+      "go_to": {
+        "text": "Gå til"
+      },
+      "section": {
+        "text": "seksjon"
+      }
+    }
+  },
   "home": {
     "prime_section": {
       "title": "<span class='regular'>Vi leverer en </span>førsteversjon<span class='regular'> av din applikasjon </span> på 19 dager <span class='c-primary'>.</span>",
@@ -441,7 +454,7 @@
       },
       "team": {
         "prime_section": { "title": "Hvem er vi?" },
-        "rising_stars_section":  { "title": "Kommende stjerner" }
+        "rising_stars_section": { "title": "Kommende stjerner" }
       }
     }
   }

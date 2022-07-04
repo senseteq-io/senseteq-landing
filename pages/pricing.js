@@ -1,5 +1,5 @@
 import { Button, PageWrapper, Section } from '../components'
-import { PAGE_SECTION_CONFIG, PRICES_AND_PACKAGES_ITEMS } from '../constants'
+import { PAGE_SECTIONS_CONFIG, PRICES_AND_PACKAGES_ITEMS } from '../constants'
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
@@ -18,7 +18,7 @@ export default function Pricing() {
         description: t('head.pricing.description'),
         keywords: t('head.pricing.keywords')
       }}
-      sectionsConfig={PAGE_SECTION_CONFIG?.PRICING_PAGE}>
+      sectionsConfig={PAGE_SECTIONS_CONFIG?.PRICING_PAGE}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
