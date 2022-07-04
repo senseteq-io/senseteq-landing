@@ -17,7 +17,7 @@ const TEAM = {
     },
     {
       name: 'Evgeniy Bogdanov',
-      role: 'constants.roles_items..designer',
+      role: 'constants.roles_items.designer',
       src: '/team/Evgeniy_Bogdanov.webp'
     },
     {

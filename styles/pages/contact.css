@@ -25,7 +25,7 @@
   text-align: center;
   margin-bottom: 8px;
 }
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .contact-page #contacts-section .contact-item-wrapper {
     margin-bottom: 0 !important;
   }

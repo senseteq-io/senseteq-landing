@@ -46,7 +46,7 @@
   position: relative;
   padding-top: 100%;
 }
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .technologies-page
     #technologies-section
     .technology-item-wrapper:nth-last-of-type(2) {
@@ -56,7 +56,7 @@
     margin-bottom: 0;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .technologies-page #technologies-section .technology-item-wrapper {
     margin-bottom: 58px;
   }

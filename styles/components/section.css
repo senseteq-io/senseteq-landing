@@ -16,7 +16,7 @@
   background-color: var(--dark);
   color: var(--white);
 }
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .section .container {
     padding-bottom: 120px;
   }

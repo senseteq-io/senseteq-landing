@@ -43,7 +43,7 @@ export default function Technologies() {
             <div
               data-aos="fade-left"
               key={name}
-              className="technology-item-wrapper col-12 col-md-4 col-lg-3">
+              className="technology-item-wrapper col-12 col-sm-6 col-md-4 col-lg-3">
               <div className="technology-item">
                 <div className="technology-image-wrapper">
                   <Image src={src} alt={name} layout="fill" />
