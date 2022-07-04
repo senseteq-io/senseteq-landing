@@ -1,143 +1,143 @@
 const TECHNOLOGIES_ITEMS = [
   {
     name: 'D3/C3',
-    src: '/d3.svg'
+    src: '/technologies/d3.svg'
   },
   {
     name: 'React',
-    src: '/react.svg'
+    src: '/technologies/react.svg'
   },
   {
     name: 'React Native',
-    src: '/react_native.svg'
+    src: '/technologies/react_native.svg'
   },
   {
     name: 'Java',
-    src: '/java.svg'
+    src: '/technologies/java.svg'
   },
   {
     name: 'GraphQL',
-    src: '/graphql.svg'
+    src: '/technologies/graphql.svg'
   },
   {
     name: 'NodeJS',
-    src: '/node.webp'
+    src: '/technologies/node.webp'
   },
   {
     name: 'AWS',
-    src: '/aws.svg'
+    src: '/technologies/aws.svg'
   },
   {
     name: 'ElasticSearch',
-    src: '/elasticsearch.svg'
+    src: '/technologies/elasticsearch.svg'
   },
   {
     name: 'TypeScript',
-    src: '/typescript.svg'
+    src: '/technologies/typescript.svg'
   },
   {
     name: 'Material design',
-    src: '/mui.svg'
+    src: '/technologies/mui.svg'
   },
   {
     name: 'AntDesign',
-    src: '/antd.svg'
+    src: '/technologies/antd.svg'
   },
   {
     name: 'SCSS',
-    src: '/scss.svg'
+    src: '/technologies/scss.svg'
   },
   {
     name: 'LESS',
-    src: '/less.svg'
+    src: '/technologies/less.svg'
   },
   {
     name: 'Webpack',
-    src: '/webpack.svg'
+    src: '/technologies/webpack.svg'
   },
   {
     name: 'Rollup',
-    src: '/rollup.svg'
+    src: '/technologies/rollup.svg'
   },
   {
     name: 'Gulp',
-    src: '/gulp.svg'
+    src: '/technologies/gulp.svg'
   },
   {
     name: 'Jest',
-    src: '/jest.svg'
+    src: '/technologies/jest.svg'
   },
   {
     name: 'Karma',
-    src: '/karma.svg'
+    src: '/technologies/karma.svg'
   },
   {
     name: 'PWA',
-    src: '/pwa.svg'
+    src: '/technologies/pwa.svg'
   },
   {
     name: 'AMP',
-    src: '/amp.svg'
+    src: '/technologies/amp.svg'
   },
   {
     name: 'MySQL',
-    src: '/mysql.svg'
+    src: '/technologies/mysql.svg'
   },
   {
     name: 'PostgreSQL',
-    src: '/postgres.svg'
+    src: '/technologies/postgres.svg'
   },
   {
     name: 'MongoDB',
-    src: '/mongo.svg'
+    src: '/technologies/mongo.svg'
   },
   {
     name: 'Google Cloud',
-    src: '/google_cloud.svg'
+    src: '/technologies/google_cloud.svg'
   },
   {
     name: 'Heroku',
-    src: '/heroku.svg'
+    src: '/technologies/heroku.svg'
   },
   {
     name: 'RabbitMQ',
-    src: '/rabbitmq.svg'
+    src: '/technologies/rabbitmq.svg'
   },
   {
     name: 'Redis',
-    src: '/redis.svg'
+    src: '/technologies/redis.svg'
   },
   {
     name: 'Expres.js',
-    src: '/express.svg'
+    src: '/technologies/express.svg'
   },
   {
     name: 'Yarn',
-    src: '/yarn.svg'
+    src: '/technologies/yarn.svg'
   },
   {
     name: 'Linux',
-    src: '/linux.svg'
+    src: '/technologies/linux.svg'
   },
   {
     name: 'Git',
-    src: '/git.svg'
+    src: '/technologies/git.svg'
   },
   {
     name: 'Rest',
-    src: '/rest.svg'
+    src: '/technologies/rest.svg'
   },
   {
     name: 'noSQL',
-    src: '/nosql.webp'
+    src: '/technologies/nosql.webp'
   },
   {
     name: 'Open API',
-    src: '/openapi.svg'
+    src: '/technologies/openapi.svg'
   },
   {
     name: 'Swagger',
-    src: '/swagger.svg'
+    src: '/technologies/swagger.svg'
   }
 ]
 

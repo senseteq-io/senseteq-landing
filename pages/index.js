@@ -38,7 +38,10 @@ export default function Home() {
             muted
             loop
             className="prime-section-video-bg">
-            <source src="/prime-section-cover.mp4" type="video/mp4" />
+            <source
+              src="/backgrounds/prime-section-cover.mp4"
+              type="video/mp4"
+            />
           </video>,
           <div key="gradient-cover" className="prime-section-gradient-bg" />
         ]}>
@@ -62,7 +65,7 @@ export default function Home() {
             <a className="down-arrow-icon">
               <Image
                 aria-label={t('home.prime_section.arrow_aria')}
-                src="/down_arrow.svg"
+                src="/assets/down_arrow.svg"
                 alt={t('home.prime_section.arrow_alt')}
                 layout="fill"
                 className="down-arrow-icon"
@@ -245,7 +248,10 @@ export default function Home() {
             muted
             loop
             className="technologies-section-video-bg">
-            <source src="/teknologier-section-cover.mp4" type="video/mp4" />
+            <source
+              src="/backgrounds/teknologier-section-cover.mp4"
+              type="video/mp4"
+            />
           </video>
         }>
         <div className="row">
@@ -359,7 +365,7 @@ export default function Home() {
               <div className="fractal2-image-wrapper">
                 <div className="fractal2-image">
                   <Image
-                    src="/fractal2.webp"
+                    src="/team/fractal2.webp"
                     alt="Fractal"
                     layout="fill"
                     objectFit="cover"
@@ -369,7 +375,7 @@ export default function Home() {
               <div className="fractal-image-wrapper">
                 <div className="fractal-image">
                   <Image
-                    src="/fractal.jpg"
+                    src="/team/fractal.jpg"
                     alt="Fractal"
                     layout="fill"
                     objectFit="cover"
@@ -379,7 +385,7 @@ export default function Home() {
               <div className="fractal2-prom-image-wrapper">
                 <div className="fractal2-prom-image">
                   <Image
-                    src="/fractal2_prom.webp"
+                    src="/team/fractal2_prom.webp"
                     alt="Fractal prom"
                     layout="fill"
                     objectFit="cover"
