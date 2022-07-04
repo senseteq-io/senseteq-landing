@@ -65,7 +65,7 @@ const PAGE_SECTIONS_CONFIG = {
     },
     {
       title: 'constants.page_sections_config.team.prime_section.title',
-      idSection: 'rising-stars_section'
+      idSection: 'rising-stars-section'
     }
   ]
 }
