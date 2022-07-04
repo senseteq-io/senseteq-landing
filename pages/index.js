@@ -65,7 +65,7 @@ export default function Home() {
             <a className="down-arrow-icon">
               <Image
                 aria-label={t('home.prime_section.arrow_aria')}
-                src="/down_arrow.svg"
+                src="/assets/down_arrow.svg"
                 alt={t('home.prime_section.arrow_alt')}
                 layout="fill"
                 className="down-arrow-icon"

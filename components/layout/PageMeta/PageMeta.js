@@ -9,11 +9,11 @@ const PageMeta = (props) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* <!-- Basic --> */}
-      <link rel="icon" href="/senseteq.jpg" />
+      <link rel="icon" href="/assets/senseteq.jpg" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta name="title" content={title} />
-      <meta name="image" content="/senseteq.jpg" />
+      <meta name="image" content="/assets/senseteq.jpg" />
       <meta name="theme-color" content="var(--primary)" />
       {author && <meta name="author" content={author} />}
 

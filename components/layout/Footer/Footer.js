@@ -27,7 +27,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer">
             <Image
-              src="/facebook.png"
+              src="/assets/facebook.webp"
               alt="Facebook"
               layout="fill"
               aria-label={t('footer.facebookAria')}
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
           <a className="button-icon" href="tel:+4755181900" rel="noreferrer">
             <Image
-              src="/whatsApp.png"
+              src="/assets/whatsApp.png"
               alt="WhatsApp"
               layout="fill"
               aria-label={t('footer.whatsAppAria')}
