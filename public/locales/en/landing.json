@@ -389,6 +389,29 @@
       "ukraine": {
         "name": "Senseteq Ukraine"
       }
+    },
+    "page_sections_config": {
+      "home": {
+        "prime_section": { "title": "First version in 19 days" },
+        "how_we_do_it_section": { "title": "How do we do it?" },
+        "services_section": { "title": "Our services" },
+        "project_support_section": { "title": "Number of projects" },
+        "guarantees_section": { "title": "We guarantee" },
+        "industries_section": { "title": "Industries" },
+        "technologies_section": { "title": "Technologies" },
+        "how_it_works_section": { "title": "The process" },
+        "companies_support_section": { "title": "Supported by" },
+        "ukranian_developers_section": { "title": "About Ukrainian developers" },
+        "about_senseteq_section": { "title": "About Senseteq" }
+      },
+      "pricing": {
+        "prime_section": { "title": "Hourly rates" },
+        "packages-section": { "title": "Prices and packages" }
+      },
+      "team": {
+        "prime_section": { "title": "Who are we?" },
+        "rising_stars_section":  { "title": "Rising stars" }
+      }
     }
   }
 }

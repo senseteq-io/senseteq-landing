@@ -5,13 +5,16 @@ import { useEffect, useState } from 'react'
 
 import AOS from 'aos'
 import { SectionNavigationDots } from '../../elements'
+import { useRouter } from 'next/router'
 
 const PageWrapper = (props) => {
   const { className, sectionsConfig, pageMetaProps, children } = props
 
+  // [ADDITIONAL_HOOKS]
+  const router = useRouter()
+  console.log(router.pathname)
   // [COMPONENT_STATE_HOOKS]
   const [activeMenuItem, setActiveMenuItem] = useState()
-
   const [isMenuOpened, setIsMenuOpened] = useState(false)
 
   // [USE_EFFECTS]
@@ -26,11 +29,11 @@ const PageWrapper = (props) => {
   }, [])
   useEffect(() => {
     // get pathname without language indicator
-    const pathname = window?.location?.pathname?.split('/')?.[2]
+    const pathname = router.pathname
 
-    // set '/' (Home menu item) active if there is no pathname
-    setActiveMenuItem(pathname ? `/${pathname}` : '/')
-  }, [])
+    // set current pathname like active menu items
+    setActiveMenuItem(pathname)
+  }, [router])
 
   return (
     <>

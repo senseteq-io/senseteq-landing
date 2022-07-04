@@ -4,6 +4,7 @@ import {
   GUARANTEES_ITEMS,
   HOW_WE_DO_IT_ITEMS,
   INDUSTRIES_ITEMS,
+  PAGE_SECTION_CONFIG,
   REASONS_ITEMS,
   SERVICES_ITEMS
 } from '../constants'
@@ -19,27 +20,6 @@ export default function Home() {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
 
-  // [COMPUTED_PROPERTIES]
-  const sectionsConfig = [
-    { title: 'Førsteversjon på 19 dager', idSection: 'prime-section' },
-    { title: 'Hvordan er det mulig?', idSection: 'how-we-do-it-section' },
-    { title: 'Våre tjenester', idSection: 'services-section' },
-    {
-      title: 'Antall prosjekter',
-      idSection: 'project-support-section'
-    },
-    { title: 'Vi garanterer', idSection: 'guarantees-section' },
-    { title: 'Bransjer', idSection: 'industries-section' },
-    { title: 'Teknologier', idSection: 'technologies-section' },
-    { title: 'Prosessen', idSection: 'how-it-works-section' },
-    { title: 'Støttet av', idSection: 'companies-support-section' },
-    {
-      title: 'Om Ukrainske utviklere',
-      idSection: 'ukranian-developers-section'
-    },
-    { title: 'Om Senseteq', idSection: 'about-senseteq-section' }
-  ]
-
   return (
     <PageWrapper
       className="main-page"
@@ -48,7 +28,7 @@ export default function Home() {
         description: t('head.home.description'),
         keywords: t('head.home.keywords')
       }}
-      sectionsConfig={sectionsConfig}>
+      sectionsConfig={PAGE_SECTION_CONFIG?.HOME_PAGE}>
       <Section
         id="prime-section"
         sectionBackground={[

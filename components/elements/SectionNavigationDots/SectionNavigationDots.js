@@ -1,5 +1,11 @@
+import { useTranslation } from 'next-i18next'
+
 const SectionNavigationDots = (props) => {
   const { sectionsConfig } = props
+
+  // [ADDITIONAL_HOOKS]
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
 
   // [HELPER_FUNCTIONS]
   /**
@@ -32,7 +38,7 @@ const SectionNavigationDots = (props) => {
           onMouseMove={() => handleMouseMoveDot(idSection)}
           onMouseLeave={() => handleMouseLeaveDot(idSection)}>
           <div className="navigation-dot-tooltip">
-            <p className="title">{title}</p>
+            <p className="title">{t(title)}</p>
           </div>
         </li>
       ))}

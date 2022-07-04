@@ -1,6 +1,6 @@
 import { Button, PageWrapper, Section } from '../components'
+import { PAGE_SECTION_CONFIG, PRICES_AND_PACKAGES_ITEMS } from '../constants'
 
-import { PRICES_AND_PACKAGES_ITEMS } from '../constants'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
@@ -8,12 +8,6 @@ export default function Pricing() {
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
-
-  // [COMPUTED_PROPERTIES]
-  const sectionsConfig = [
-    { title: 'Timepriser', idSection: 'prime-section' },
-    { title: 'Priser og pakker', idSection: 'packages-section' }
-  ]
 
   return (
     <PageWrapper
@@ -24,7 +18,7 @@ export default function Pricing() {
         description: t('head.pricing.description'),
         keywords: t('head.pricing.keywords')
       }}
-      sectionsConfig={sectionsConfig}>
+      sectionsConfig={PAGE_SECTION_CONFIG?.PRICING_PAGE}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

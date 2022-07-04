@@ -1,6 +1,6 @@
+import { PAGE_SECTION_CONFIG, TEAM } from '../constants'
 import { PageWrapper, Section } from '../components'
 
-import { TEAM } from '../constants'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
@@ -24,7 +24,7 @@ export default function Team() {
         description: t('head.team.description'),
         keywords: t('head.team.keywords')
       }}
-      sectionsConfig={sectionsConfig}>
+      sectionsConfig={PAGE_SECTION_CONFIG?.TEAM_PAGE}>
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">

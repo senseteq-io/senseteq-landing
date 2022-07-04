@@ -420,6 +420,29 @@
       "ukraine": {
         "name": "Senseteq Ukraina"
       }
+    },
+    "page_sections_config": {
+      "home": {
+        "prime_section": { "title": "Førsteversjon på 19 dager" },
+        "how_we_do_it_section": { "title": "Hvordan er det mulig?" },
+        "services_section": { "title": "Våre tjenester" },
+        "project_support_section": { "title": "Antall prosjekter" },
+        "guarantees_section": { "title": "Vi garanterer" },
+        "industries_section": { "title": "Bransjer" },
+        "technologies_section": { "title": "Teknologier" },
+        "how_it_works_section": { "title": "Prosessen" },
+        "companies_support_section": { "title": "Støttet av" },
+        "ukranian_developers_section": { "title": "Om Ukrainske utviklere" },
+        "about_senseteq_section": { "title": "Om Senseteq" }
+      },
+      "pricing": {
+        "prime_section": { "title": "Timepriser" },
+        "packages_section": { "title": "Priser og pakker" }
+      },
+      "team": {
+        "prime_section": { "title": "Hvem er vi?" },
+        "rising_stars_section":  { "title": "Kommende stjerner" }
+      }
     }
   }
 }
