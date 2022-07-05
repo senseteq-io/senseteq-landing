@@ -5,7 +5,7 @@
   --title-font-family: "GalanoGrotesque", Arial, sans-serif;
 
   /* Font size */
-  --h1-fs: 5rem;
+  --h1-fs: 5.75rem;
   --h2-fs: 4.5rem;
   --h3-fs: 2.875rem;
   --h4-fs: 2.5rem;
@@ -15,13 +15,13 @@
   --description-fs: 1.5rem;
 
   /* Line height */
-  --h1-lh: 8.625rem;
-  --h2-lh: 6.75rem;
-  --h3-lh: 4.3125rem;
-  --h4-lh: 3.75rem;
-  --h5-lh: 1.6875rem;
-  --body-lh: 1.6875rem;
-  --caption-lh: 1.3125rem;
+  --h1-lh: 6.6875rem;
+  --h2-lh: 5.5rem;
+  --h3-lh: 5.25rem;
+  --h4-lh: 3.375rem;
+  --h5-lh: 1.75rem;
+  --body-lh: 1.75rem;
+  --caption-lh: 0.75rem;
   --description-lh: 2.25rem;
 
   /* Font weight */
