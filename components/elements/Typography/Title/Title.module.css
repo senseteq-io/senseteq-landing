@@ -1,0 +1,35 @@
+.h1 {
+  font-size: var(--title-h1-font-size);
+  line-height: var(--title-h1-line-height);
+  font-weight: var(--title-h1-font-weight);
+  margin-top: var(--title-h1-margin-top);
+  margin-bottom: var(--title-h1-margin-bottom);
+  font-family: var(--title-h1-font-family);
+}
+
+.h2 {
+  font-size: var(--title-h2-font-size);
+  line-height: var(--title-h2-line-height);
+  font-weight: var(--title-h2-font-weight);
+  margin-top: var(--title-h2-margin-top);
+  margin-bottom: var(--title-h2-margin-bottom);
+  font-family: var(--title-h2-font-family);
+}
+
+.h3 {
+  font-size: var(--title-h3-font-size);
+  line-height: var(--title-h3-line-height);
+  font-weight: var(--title-h3-font-weight);
+  margin-top: var(--title-h3-margin-top);
+  margin-bottom: var(--title-h3-margin-bottom);
+  font-family: var(--title-h3-font-family);
+}
+
+.h4 {
+  font-size: var(--title-h4-font-size);
+  line-height: var(--title-h4-line-height);
+  font-weight: var(--title-h4-font-weight);
+  margin-top: var(--title-h4-margin-top);
+  margin-bottom: var(--title-h4-margin-bottom);
+  font-family: var(--title-h4-font-family);
+}
