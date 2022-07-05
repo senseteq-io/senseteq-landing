@@ -95,7 +95,7 @@
   },
   "home": {
     "prime_section": {
-      "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days <span class='c-primary'>.</span>",
+      "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days<span class='c-primary'>.</span>",
       "subtitle": "Do you think this is impossible? Scroll down to see how we do it.",
       "arrow_alt": "Arrow",
       "arrow_aria": "Go to next section"
@@ -220,7 +220,7 @@
     }
   },
   "constants": {
-    "how_we_do_it_items": {
+    "accessary_tools": {
       "repetitive_work": {
         "title": "Repetitive work has been automated",
         "description": "We classified the entire range of tasks that we had to work with, identified the most resource-intensive and automated their implementation."

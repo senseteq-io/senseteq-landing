@@ -110,7 +110,7 @@
   },
   "home": {
     "prime_section": {
-      "title": "<span class='regular'>Vi leverer en </span>førsteversjon<span class='regular'> av din applikasjon </span> på 19 dager <span class='c-primary'>.</span>",
+      "title": "<span class='regular'>Vi leverer en </span>førsteversjon<span class='regular'> av din applikasjon </span> på 19 dager<span class='c-primary'>.</span>",
       "subtitle": "Tenker du at det er umulig? Les videre for å se hvordan vi jobber.",
       "arrow_alt": "Pil",
       "arrow_aria": "Gå til neste avsnitt"
@@ -235,7 +235,7 @@
     }
   },
   "constants": {
-    "how_we_do_it_items": {
+    "accessary_tools": {
       "repetitive_work": {
         "title": "Det repetitive arbeidet er automatisert",
         "description": "Vi klassifiserte alle typer av oppgaver som utføres i et prosjekt. Så identifiserte vi de mest ressurskrevende og automatiserte implementeringen av dem en etter en."

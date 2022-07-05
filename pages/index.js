@@ -1,15 +1,16 @@
 import {
+  ACCESSARY_TOOLS,
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   COMPANIES_SUPPORT_ITEMS,
   GUARANTEES_ITEMS,
-  HOW_WE_DO_IT_ITEMS,
   INDUSTRIES_ITEMS,
   PAGE_SECTIONS_CONFIG,
   REASONS_ITEMS,
   SERVICES_ITEMS
 } from '../constants'
-import { Button, PageWrapper, Section } from '../components'
+import { Button, PageWrapper, Section, Text, Title } from '../components'
 
+import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import Image from 'next/image'
 import Link from 'next/link'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -48,15 +49,11 @@ export default function Home() {
         <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
             <div className="title-wrapper">
-              <h1
-                dangerouslySetInnerHTML={{
-                  __html: t('home.prime_section.title')
-                }}
-              />
+              <Title>{t('home.prime_section.title')}</Title>
             </div>
           </div>
           <div className="col-12 col-lg-8">
-            <p>{t('home.prime_section.subtitle')}</p>
+            <Text description>{t('home.prime_section.subtitle')}</Text>
           </div>
         </div>
 
@@ -77,27 +74,14 @@ export default function Home() {
 
       <Section id="how-we-do-it-section">
         <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.how_we_do_it_section.title')
-              }}
-            />
+          <div className="col-12" data-aos="fade-down">
+            <Title as="h2">{t('home.how_we_do_it_section.title')}</Title>
           </div>
         </div>
         <div className="row">
-          {HOW_WE_DO_IT_ITEMS?.map(({ title, description }) => (
-            <div
-              key={title}
-              className="how-we-do-it-item-wrapper col-12 col-md-6 col-xxl-4"
-              data-aos="fade-right">
-              <div className="how-we-do-it-item">
-                <h3 className="title">{t(title)}</h3>
-                <p>{t(description)}</p>
-              </div>
-            </div>
-          ))}
+          <div className="col-12">
+            <AccessaryToolList />
+          </div>
         </div>
       </Section>
       <Section id="services-section">
