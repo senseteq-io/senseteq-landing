@@ -1,40 +1,10 @@
 :root {
+  /* FIXME: put in order */
   /* Color scheme */
   --dark: #000000;
   --white: #ffffff;
   --primary: #2db867;
   --secondary: #7a7a7a;
-
-  /* Typography */
-  --font-family: "GalanoGrotesque", Arial, sans-serif;
-  --font-weight-title: 700;
-
-  --font-size-body: 22px;
-  --line-height-body: 32px;
-
-  --font-size-body2: 18px;
-  --line-height-body2: 28px;
-
-  --font-size-caption: 18px;
-  --line-height-caption: 28px;
-  --font-weight-caption: 400;
-
-  --font-size-subtitle: 16px;
-  --line-height-subtitle: 22px;
-  --font-weight-subtitle: 700;
-
-  --font-size-h1: 92px;
-  --letter-spacing-h1: 0.5px;
-  --line-height-h1: 108px;
-
-  --font-size-h2: 72px;
-  --line-height-h2: 88px;
-
-  --font-size-h3: 45px;
-  --line-height-h3: 64px;
-
-  --font-size-h4: 40px;
-  --line-height-h4: 54px;
 
   /* ELEMENTS */
   /* BUTTON */

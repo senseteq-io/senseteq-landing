@@ -1,0 +1,26 @@
+.body {
+  font-size: var(--text-body-font-size);
+  line-height: var(--text-body-line-height);
+  font-weight: var(--text-body-font-weight);
+  margin-top: var(--text-body-margin-top);
+  margin-bottom: var(--text-body-margin-bottom);
+  font-family: var(--text-body-font-family);
+}
+
+.caption {
+  font-size: var(--text-caption-font-size);
+  line-height: var(--text-caption-line-height);
+  font-weight: var(--text-caption-font-weight);
+  margin-top: var(--text-caption-margin-top);
+  margin-bottom: var(--text-caption-margin-bottom);
+  letter-spacing: var(--text-caption-letter-spacing);
+  font-family: var(--text-caption-font-family);
+}
+
+.description {
+  font-size: var(--text-description-font-size);
+  line-height: var(--text-description-line-height);
+  font-weight: var(--text-description-font-weight);
+  margin-top: var(--text-description-margin-top);
+  margin-bottom: var(--text-description-margin-bottom);
+}

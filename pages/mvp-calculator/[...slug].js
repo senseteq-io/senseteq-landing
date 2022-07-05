@@ -52,6 +52,8 @@ export default function CalculatorAll() {
         body {
           height: 100vh;
           width: 100vw;
+          font-family: var(--calc-module-body-font-family);
+          font-size: var(--calc-module-root-font-size);
         }
       `}</style>
       <Head

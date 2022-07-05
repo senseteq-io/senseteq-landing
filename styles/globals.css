@@ -1,8 +1,11 @@
+@import url("./vars/index.css");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--font-family);
+  font-family: var(--body-font-family);
+  font-size: var(--root-font-size);
 }
 h1,
 h2,
@@ -58,7 +61,6 @@ ul {
 @import url("aos/dist/aos.css");
 @import url("./bootstrap-grid.css");
 @import url("./lib/vars.css");
-@import url("./lib/typography.css");
 @import url("./lib/helpers.css");
 @import url("../modules/calculator/styles/globals.css");
 
