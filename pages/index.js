@@ -1,13 +1,13 @@
 import {
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   COMPANIES_SUPPORT_ITEMS,
-  GUARANTEES_ITEMS,
   INDUSTRIES_ITEMS,
   PAGE_SECTIONS_CONFIG
 } from '../constants'
 import { Button, PageWrapper, Section, Text, Title } from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
+import { GuaranteeList } from '../domains/Guarantee/components'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ReasonList } from '../domains/Reason/components'
@@ -82,7 +82,9 @@ export default function Home() {
         <ServiceList />
       </Section>
       <Section id="project-support-section">
-        <Title as="h2">{t('home.project_support_section.title')}</Title>
+        <Title dataAos="fade-down" as="h2">
+          {t('home.project_support_section.title')}
+        </Title>
         <Text description dataAos="fade-right">
           {t('home.project_support_section.subtitle')}
         </Text>
@@ -113,26 +115,10 @@ export default function Home() {
         </div>
       </Section>
       <Section dark id="guarantees-section">
-        <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.guarantees_section.title')
-              }}
-            />
-          </div>
-        </div>
-        <div className="row">
-          {GUARANTEES_ITEMS?.map((guarantee) => (
-            <div
-              data-aos="fade-right"
-              key={guarantee}
-              className="guarantee-item-wrapper col-12 col-lg-3">
-              <div className="guarantee-item">{t(guarantee)}</div>
-            </div>
-          ))}
-        </div>
+        <Title as="h2" dataAos="fade-down">
+          {t('home.guarantees_section.title')}
+        </Title>
+        <GuaranteeList dataAos="fade-right" />
       </Section>
       <Section id="industries-section">
         <div className="row">
