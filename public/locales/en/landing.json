@@ -279,7 +279,7 @@
       "quality": { "title": "Quality assurance" },
       "technology_stack": { "title": "Best technology stack" }
     },
-    "industries_items": {
+    "industries": {
       "healthcare": {
         "title": "Healthcare",
         "description": "Digitalizing the healthcare and welfare sector. Our experience in this sector is substantial."

@@ -9,6 +9,7 @@ import { Button, PageWrapper, Section, Text, Title } from '../components'
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
 import Image from 'next/image'
+import { IndustryList } from '../domains/Industry/components'
 import Link from 'next/link'
 import { ReasonList } from '../domains/Reason/components'
 import { ServiceList } from '../domains/Service/components'
@@ -121,37 +122,10 @@ export default function Home() {
         <GuaranteeList dataAos="fade-right" />
       </Section>
       <Section id="industries-section">
-        <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.industries_section.title')
-              }}
-            />
-          </div>
-        </div>
-        <div className="row">
-          {INDUSTRIES_ITEMS?.map(({ src, subtitle, description }) => (
-            <div
-              data-aos="fade-right"
-              key={subtitle}
-              className="industry-item-wrapper col-12 col-md-6 col-lg-4">
-              <div
-                className="industry-item"
-                style={{
-                  background: `url(${src}) center center / cover no-repeat`
-                }}>
-                <div className="industry-item-blackout">
-                  <div className="industry-item-content">
-                    <p className="subtitle-wrapper">{t(subtitle)}</p>
-                    <p className="body2">{t(description)}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <Title as="h2" dataAos="fade-down">
+          {t('home.industries_section.title')}
+        </Title>
+        <IndustryList dataAos="fade-left" />
       </Section>
       <Section
         id="technologies-section"
