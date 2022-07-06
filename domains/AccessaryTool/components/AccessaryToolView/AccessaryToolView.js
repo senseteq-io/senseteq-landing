@@ -1,7 +1,5 @@
 import { Text, Title } from '../../../../components'
 
-import cn from 'classnames'
-import styles from '../../AccessaryTool.module.css'
 import { useTranslation } from 'next-i18next'
 
 /**
@@ -17,11 +15,8 @@ const AccessaryToolView = (props) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
 
-  // [COMPUTED PROPERTIES]
-  const className = cn({ [styles['accessary-tool']]: true })
-
   return (
-    <div className={className}>
+    <div className="accessary-tool">
       <Title as="h3">{t(title)}</Title>
       <Text>{t(description)}</Text>
     </div>
