@@ -10,11 +10,7 @@
 }
 
 .main-page #prime-section .prime-section-gradient-bg {
-  background-image: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  );
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;

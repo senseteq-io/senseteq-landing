@@ -7,11 +7,7 @@
 }
 
 .industry-item-wrapper .industry-item .industry-item-blackout {
-  background: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  );
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: flex-end;
   position: absolute;
