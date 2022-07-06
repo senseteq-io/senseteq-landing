@@ -284,7 +284,7 @@
         "description": "Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem."
       }
     },
-    "guarantees_items": {
+    "guarantees": {
       "fast_mvp": {
         "title": "Lynrask utvikling av en førsteversjon"
       },

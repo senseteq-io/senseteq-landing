@@ -269,7 +269,7 @@
         "description": "Business is done between people, not companies. We are a high trust company and we work together with companies that also take care of their employees and trust them."
       }
     },
-    "guarantees_items": {
+    "guarantees": {
       "fast_mvp": { "title": "Fast creation of MVP version" },
       "quickly_changes": { "title": "Quickly make any changes to the project" },
       "scaling": { "title": "Easy scaling" },
