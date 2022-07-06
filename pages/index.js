@@ -4,7 +4,14 @@ import {
   INDUSTRIES_ITEMS,
   PAGE_SECTIONS_CONFIG
 } from '../constants'
-import { Button, PageWrapper, Section, Text, Title } from '../components'
+import {
+  Button,
+  PageWrapper,
+  ProjectCount,
+  Section,
+  Text,
+  Title
+} from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
@@ -89,21 +96,12 @@ export default function Home() {
           {t('home.project_support_section.subtitle')}
         </Text>
         <ReasonList />
-        <div className="row">
-          <div className="col-12">
-            <div className="project-count-wrapper" data-aos="zoom-out">
-              <div className="uptitle">
-                {t('home.project_support_section.uptitle')}
-              </div>
-              <h3
-                className="title"
-                dangerouslySetInnerHTML={{
-                  __html: t('home.project_support_section.subtitle2')
-                }}
-              />
-            </div>
-          </div>
-          <div className="apply-button col-12">
+        <ProjectCount
+          title={t('home.project_support_section.subtitle2')}
+          uptitle={t('home.project_support_section.uptitle')}
+        />
+        <div className="row justify-content-center">
+          <div className="col-auto">
             <Button
               aria-label={t('home.project_support_section.buttonText')}
               className="btn-lg btn-dark"
