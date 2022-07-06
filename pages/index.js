@@ -3,15 +3,15 @@ import {
   COMPANIES_SUPPORT_ITEMS,
   GUARANTEES_ITEMS,
   INDUSTRIES_ITEMS,
-  PAGE_SECTIONS_CONFIG,
-  REASONS_ITEMS
+  PAGE_SECTIONS_CONFIG
 } from '../constants'
 import { Button, PageWrapper, Section, Text, Title } from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import Image from 'next/image'
 import Link from 'next/link'
-import ServiceList from '../domains/Service/components/ServiceList'
+import { ReasonList } from '../domains/Reason/components'
+import { ServiceList } from '../domains/Service/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
@@ -47,9 +47,7 @@ export default function Home() {
         ]}>
         <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
-            <div className="title-wrapper">
-              <Title>{t('home.prime_section.title')}</Title>
-            </div>
+            <Title>{t('home.prime_section.title')}</Title>
           </div>
           <div className="col-12 col-lg-8">
             <Text description>{t('home.prime_section.subtitle')}</Text>
@@ -72,81 +70,45 @@ export default function Home() {
       </Section>
 
       <Section id="how-we-do-it-section">
-        <div className="row">
-          <div className="col-12" data-aos="fade-down">
-            <Title as="h2">{t('home.how_we_do_it_section.title')}</Title>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <AccessaryToolList />
-          </div>
-        </div>
+        <Title dataAos="fade-down" as="h2">
+          {t('home.how_we_do_it_section.title')}
+        </Title>
+        <AccessaryToolList />
       </Section>
       <Section id="services-section">
-        <div className="row">
-          <div className="col-12" data-aos="fade-right">
-            <Title as="h2">{t('home.services_section.title')}</Title>
-          </div>
-        </div>
-        <div className="row">
-          <ServiceList />
-        </div>
+        <Title dataAos="fade-down" as="h2">
+          {t('home.services_section.title')}
+        </Title>
+        <ServiceList />
       </Section>
       <Section id="project-support-section">
+        <Title as="h2">{t('home.project_support_section.title')}</Title>
+        <Text description dataAos="fade-right">
+          {t('home.project_support_section.subtitle')}
+        </Text>
+        <ReasonList />
         <div className="row">
           <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.project_support_section.title')
-              }}
-            />
-            <div className="col-12">
-              <p data-aos="fade-right">
-                {t('home.project_support_section.subtitle')}
-              </p>
+            <div className="project-count-wrapper" data-aos="zoom-out">
+              <div className="uptitle">
+                {t('home.project_support_section.uptitle')}
+              </div>
+              <h3
+                className="title"
+                dangerouslySetInnerHTML={{
+                  __html: t('home.project_support_section.subtitle2')
+                }}
+              />
             </div>
           </div>
-        </div>
-        <div className="row">
-          {REASONS_ITEMS?.map(({ title, description }, index) => (
-            <div
-              key={title}
-              className="reason-item-wrapper col-12 col-md-6 col-lg-4"
-              data-aos="fade-left">
-              <div className="number-wrapper">
-                <p className="number">{index + 1}</p>
-              </div>
-              <div className="reason-item">
-                <h4 className="title">{t(title)}</h4>
-                <p className="body2">{t(description)}</p>
-              </div>
-            </div>
-          ))}
-          <div className="row">
-            <div className="col-12">
-              <div className="project-count-wrapper" data-aos="zoom-out">
-                <div className="uptitle">
-                  {t('home.project_support_section.uptitle')}
-                </div>
-                <h3
-                  className="title"
-                  dangerouslySetInnerHTML={{
-                    __html: t('home.project_support_section.subtitle2')
-                  }}
-                />
-              </div>
-            </div>
-            <div className="apply-button col-12">
-              <Button
-                aria-label={t('home.project_support_section.buttonText')}
-                className="btn-lg btn-dark"
-                href="/apply"
-                data-aos="zoom-out">
-                {t('home.project_support_section.buttonText')}
-              </Button>
-            </div>
+          <div className="apply-button col-12">
+            <Button
+              aria-label={t('home.project_support_section.buttonText')}
+              className="btn-lg btn-dark"
+              href="/apply"
+              data-aos="zoom-out">
+              {t('home.project_support_section.buttonText')}
+            </Button>
           </div>
         </div>
       </Section>

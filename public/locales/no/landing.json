@@ -270,7 +270,7 @@
       "design": "UI/UX design",
       "management": "Prosjektstyring"
     },
-    "reasons_items": {
+    "reasons": {
       "startup": {
         "title": "Du er gründer",
         "description": "Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma."

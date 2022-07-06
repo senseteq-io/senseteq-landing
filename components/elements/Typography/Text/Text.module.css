@@ -23,4 +23,5 @@
   font-weight: var(--text-description-font-weight);
   margin-top: var(--text-description-margin-top);
   margin-bottom: var(--text-description-margin-bottom);
+  font-family: var(--text-description-font-family);
 }

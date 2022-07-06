@@ -10,8 +10,10 @@ const DEFAULT_SIZE = 'body'
  * @returns A function that takes in props and returns a React element.
  */
 export default function Text(props) {
-  const { children, size, style, description, caption } = props
+  const { children, size, style, description, caption, dataAos, className } =
+    props
 
+  // [COMPUTED PROPERTIES]
   const tag = DEFAULT_TAG
   const cls = size || DEFAULT_SIZE
 
@@ -22,7 +24,9 @@ export default function Text(props) {
       className: cn({
         [styles[cls]]: true,
         [styles.description]: description,
-        [styles.caption]: caption
+        [styles.caption]: caption,
+        ['data-aos']: dataAos,
+        [className]: className
       })
     },
     children

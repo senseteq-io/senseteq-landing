@@ -1,4 +1,4 @@
-const REASONS_ITEMS = [
+const REASONS = [
   {
     title: 'constants.reasons.startup.title',
     description: 'constants.reasons.startup.description'
@@ -13,4 +13,4 @@ const REASONS_ITEMS = [
   }
 ]
 
-export default REASONS_ITEMS
+export default REASONS

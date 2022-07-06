@@ -1,4 +1,5 @@
 @import url("./vars/index.css");
+@import url("./components/index.css");
 
 html,
 body {
@@ -63,18 +64,6 @@ ul {
 @import url("./lib/vars.css");
 @import url("./lib/helpers.css");
 @import url("../modules/calculator/styles/globals.css");
-
-/* COMPONENTS */
-@import url("./components/header.css");
-@import url("./components/footer.css");
-@import url("./components/pageWrapper.css");
-@import url("./components/section.css");
-@import url("./components/button.css");
-@import url("./components/menu.css");
-@import url("./components/languagesMenu.css");
-@import url("./components/customersSlider.css");
-@import url("./components/sectionNavigationDots.css");
-@import url("./components/stepper.css");
 
 /* PAGES */
 @import url("./pages/main.css");

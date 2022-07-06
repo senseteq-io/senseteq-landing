@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: var(--font-weight-title);
+  font-weight: var(--title-h3-font-family);
   left: -20px;
   top: -6px;
 }
