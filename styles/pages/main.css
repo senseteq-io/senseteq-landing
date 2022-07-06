@@ -63,27 +63,6 @@
   background-color: #fafafa;
 }
 
-.main-page #guarantees-section .guarantee-item-wrapper {
-  margin-bottom: 20px;
-}
-.main-page #guarantees-section .guarantee-item-wrapper:nth-last-of-type(1) {
-  margin-bottom: 0;
-}
-.main-page #guarantees-section .guarantee-item-wrapper .guarantee-item {
-  background-color: var(--white);
-  color: var(--dark);
-  padding: 30px;
-  height: 100%;
-  border-radius: var(--border-radius-default);
-  font-weight: var(--bold-fw);
-  font-size: 20px;
-  transition: all 0.4s ease-out;
-}
-.main-page #guarantees-section .guarantee-item-wrapper .guarantee-item:hover {
-  background-color: var(--primary);
-  transition: all 0.4s ease-out;
-}
-
 .main-page #industries-section .industry-item-wrapper {
   margin-bottom: 20px;
 }
@@ -281,12 +260,6 @@
     left: calc(100% / 2 - 20px);
   }
 
-  .main-page #project-support-section h2 {
-    margin-bottom: 22px;
-  }
-  .main-page #project-support-section .uptitle {
-    font-size: 14px;
-  }
   .main-page #about-senseteq-section .images-wrapper {
     position: relative;
     height: 500px;
@@ -341,11 +314,6 @@
 }
 
 @media (min-width: 992px) {
-  .main-page
-    #guarantees-section
-    .guarantee-item-wrapper:nth-last-of-type(-n + 4) {
-    margin-bottom: 0;
-  }
   .main-page
     #industries-section
     .industry-item-wrapper:nth-last-of-type(-n + 3) {

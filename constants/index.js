@@ -2,7 +2,6 @@ import ADVANTAGES_UKRAINIAN_DEVELOPERS from './advantagesUkrainianDevelopers'
 import COMPANIES_SUPPORT_ITEMS from './companiesSupport'
 import CONTACTS_ITEMS from './contacts'
 import CUSTOMERS_SLIDES_ITEMS from './customersSlidesItems'
-import GUARANTEES_ITEMS from './guarantees'
 import INDUSTRIES_ITEMS from './industrues'
 import LANGUAGES_ITEMS from './languagesItems'
 import MENU_ITEMS from './menuItems'
@@ -13,7 +12,6 @@ import TECHNOLOGIES_ITEMS from './technologies'
 
 export {
   INDUSTRIES_ITEMS,
-  GUARANTEES_ITEMS,
   COMPANIES_SUPPORT_ITEMS,
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   TECHNOLOGIES_ITEMS,
