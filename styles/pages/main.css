@@ -27,9 +27,6 @@
   position: relative;
 }
 
-.main-page #prime-section .section-content .title-wrapper {
-  margin-bottom: 16px;
-}
 .main-page #prime-section .section-content {
   height: inherit;
 }
@@ -61,12 +58,7 @@
     transform: translateY(-10px);
   }
 }
-.main-page #how-we-do-it-section h2 {
-  margin-bottom: 16px;
-}
-.main-page #services-section h2 {
-  margin-bottom: 16px;
-}
+
 .main-page #services-section {
   background-color: #fafafa;
 }
@@ -217,8 +209,7 @@
   height: 100%;
 }
 
-.main-page #technologies-section h2,
-.main-page #how-it-works-section h2 {
+.main-page #technologies-section h2 {
   margin-bottom: 22px;
 }
 .main-page #technologies-section .subtitle-wrapper,
@@ -345,10 +336,6 @@
   margin-bottom: 14px;
 }
 @media (min-width: 576px) {
-  .main-page #prime-section .section-content .title-wrapper {
-    margin-bottom: 24px;
-  }
-
   .main-page #prime-section .down-arrow-wrapper .down-arrow-icon {
     width: 40px;
     height: 20px;
@@ -360,12 +347,6 @@
     left: calc(100% / 2 - 20px);
   }
 
-  .main-page #how-we-do-it-section h2 {
-    margin-bottom: 22px;
-  }
-  .main-page #services-section h2 {
-    margin-bottom: 22px;
-  }
   .main-page #project-support-section h2 {
     margin-bottom: 22px;
   }
@@ -451,15 +432,6 @@
 }
 
 @media (min-width: 1200px) {
-  .main-page #prime-section .section-content .title-wrapper {
-    margin-bottom: 32px;
-  }
-  .main-page #how-we-do-it-section h2 {
-    margin-bottom: 24px;
-  }
-  .main-page #services-section h2 {
-    margin-bottom: 24px;
-  }
   .main-page #ukranian-developers-section .advantage-item-wrapper h2 {
     font-size: 38px;
     line-height: 46px;
