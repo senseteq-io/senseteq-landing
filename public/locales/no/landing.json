@@ -261,7 +261,7 @@
         "description": "Vi har et bibliotek av egenutviklede moduler som vi raskt kan integrere i nye prosjekter. Å endre dem til nye applikasjoners behov går fort og vi slipper å utvikle funksjonaliteten fra grunn."
       }
     },
-    "services_items": {
+    "services": {
       "back-end": "Komplekse back-end applikasjoner",
       "front-end": "Front-end web applikasjoner",
       "mobile_apps": "Mobilapplikasjoner",

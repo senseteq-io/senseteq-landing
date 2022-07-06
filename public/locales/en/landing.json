@@ -246,7 +246,7 @@
         "description": "We have created many modules that we can quickly integrate into the application and change to suit your needs without having to create this functionality from scratch."
       }
     },
-    "services_items": {
+    "services": {
       "back-end": "Complex back-end apps",
       "front-end": "Front-end web apps",
       "mobile_apps": "Mobile apps",

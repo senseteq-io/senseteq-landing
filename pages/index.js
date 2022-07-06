@@ -1,18 +1,17 @@
 import {
-  ACCESSARY_TOOLS,
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   COMPANIES_SUPPORT_ITEMS,
   GUARANTEES_ITEMS,
   INDUSTRIES_ITEMS,
   PAGE_SECTIONS_CONFIG,
-  REASONS_ITEMS,
-  SERVICES_ITEMS
+  REASONS_ITEMS
 } from '../constants'
 import { Button, PageWrapper, Section, Text, Title } from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import Image from 'next/image'
 import Link from 'next/link'
+import ServiceList from '../domains/Service/components/ServiceList'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
@@ -86,29 +85,12 @@ export default function Home() {
       </Section>
       <Section id="services-section">
         <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-right"
-              dangerouslySetInnerHTML={{
-                __html: t('home.services_section.title')
-              }}
-            />
+          <div className="col-12" data-aos="fade-right">
+            <Title as="h2">{t('home.services_section.title')}</Title>
           </div>
         </div>
         <div className="row">
-          {SERVICES_ITEMS?.map(({ icon, title }) => (
-            <div
-              data-aos="fade-left"
-              key={title}
-              className="service-item-wrapper col-12  col-md-6 col-lg-4">
-              <div className="service-item">
-                <div className="service-icon-wrapper">
-                  <Image src={icon} alt={t(title)} layout="fill" />
-                </div>
-                <p className="caption">{t(title)}</p>
-              </div>
-            </div>
-          ))}
+          <ServiceList />
         </div>
       </Section>
       <Section id="project-support-section">
