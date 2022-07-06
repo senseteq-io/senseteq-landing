@@ -66,32 +66,6 @@
   margin-bottom: 22px;
 }
 
-.main-page #project-support-section .project-count-wrapper {
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 50px;
-  border-top: 1px solid var(--dark);
-  border-bottom: 1px solid var(--dark);
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.main-page #project-support-section .project-count-wrapper .title {
-  margin-bottom: 0;
-}
-.main-page #project-support-section .project-count-wrapper .uptitle {
-  position: absolute;
-  top: -20px;
-  left: calc(100% / 2 - 94px);
-  background-color: var(--dark);
-  color: var(--white);
-  padding: 10px 44px;
-  text-transform: uppercase;
-  font-weight: var(--font-weight-title);
-  font-size: 12px;
-  letter-spacing: 2px;
-  width: fit-content;
-}
 .main-page #project-support-section .apply-button {
   display: flex;
   justify-content: center;
