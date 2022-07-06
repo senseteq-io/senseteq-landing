@@ -1,0 +1,14 @@
+.list-item-wrapper {
+  margin-bottom: 8px;
+}
+@media (min-width: 576px) {
+  .list-item-wrapper {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list-item-wrapper {
+    margin-bottom: 24px;
+  }
+}
