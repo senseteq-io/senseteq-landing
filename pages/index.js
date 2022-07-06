@@ -47,9 +47,7 @@ export default function Home() {
         ]}>
         <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
-            <div className="title-wrapper">
-              <Title>{t('home.prime_section.title')}</Title>
-            </div>
+            <Title>{t('home.prime_section.title')}</Title>
           </div>
           <div className="col-12 col-lg-8">
             <Text description>{t('home.prime_section.subtitle')}</Text>
@@ -72,26 +70,16 @@ export default function Home() {
       </Section>
 
       <Section id="how-we-do-it-section">
-        <div className="row">
-          <div className="col-12" data-aos="fade-down">
-            <Title as="h2">{t('home.how_we_do_it_section.title')}</Title>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <AccessaryToolList />
-          </div>
-        </div>
+        <Title dataAos="fade-down" as="h2">
+          {t('home.how_we_do_it_section.title')}
+        </Title>
+        <AccessaryToolList />
       </Section>
       <Section id="services-section">
-        <div className="row">
-          <div className="col-12" data-aos="fade-right">
-            <Title as="h2">{t('home.services_section.title')}</Title>
-          </div>
-        </div>
-        <div className="row">
-          <ServiceList />
-        </div>
+        <Title dataAos="fade-down" as="h2">
+          {t('home.services_section.title')}
+        </Title>
+        <ServiceList />
       </Section>
       <Section id="project-support-section">
         <div className="row">
