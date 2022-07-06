@@ -1,7 +1,7 @@
 const PAGE_SECTIONS_CONFIG = {
   HOME_PAGE: [
     {
-      title: 'constants.page_sections_config.home.prime-section.title',
+      title: 'constants.page_sections_config.home.prime_section.title',
       idSection: 'prime-section'
     },
     {
