@@ -62,14 +62,6 @@
 .main-page #services-section {
   background-color: #fafafa;
 }
-.main-page #project-support-section h2 {
-  margin-bottom: 22px;
-}
-
-.main-page #project-support-section .apply-button {
-  display: flex;
-  justify-content: center;
-}
 
 .main-page #guarantees-section .guarantee-item-wrapper {
   margin-bottom: 20px;

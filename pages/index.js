@@ -98,8 +98,8 @@ export default function Home() {
           title={t('home.project_support_section.subtitle2')}
           uptitle={t('home.project_support_section.uptitle')}
         />
-        <div className="row">
-          <div className="apply-button col-12">
+        <div className="row justify-content-center">
+          <div className="col-auto">
             <Button
               aria-label={t('home.project_support_section.buttonText')}
               className="btn-lg btn-dark"
