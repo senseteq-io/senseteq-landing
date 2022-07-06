@@ -10,11 +10,7 @@
 }
 
 .main-page #prime-section .prime-section-gradient-bg {
-  background-image: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  );
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -61,58 +57,6 @@
 
 .main-page #services-section {
   background-color: #fafafa;
-}
-
-.main-page #industries-section .industry-item-wrapper {
-  margin-bottom: 20px;
-}
-.main-page #industries-section .industry-item-wrapper:nth-last-of-type(1) {
-  margin-bottom: 0;
-}
-.main-page #industries-section .industry-item-wrapper .industry-item {
-  position: relative;
-  padding-bottom: 100%;
-}
-.main-page
-  #industries-section
-  .industry-item-wrapper
-  .industry-item
-  .industry-item-blackout {
-  background: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  );
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.main-page
-  #industries-section
-  .industry-item-wrapper
-  .industry-item
-  .industry-item-content {
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 36px;
-  color: var(--white);
-  width: 100%;
-}
-.main-page
-  #industries-section
-  .industry-item-wrapper
-  .industry-item
-  .industry-item-content
-  .subtitle-wrapper {
-  display: block;
-  font-weight: var(--bold-fw);
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--primary);
-  margin-bottom: 14px;
 }
 
 .main-page #technologies-section .technologies-section-video-bg {
@@ -314,11 +258,6 @@
 }
 
 @media (min-width: 992px) {
-  .main-page
-    #industries-section
-    .industry-item-wrapper:nth-last-of-type(-n + 3) {
-    margin-bottom: 0;
-  }
   .main-page #companies-support-section .company-support-wrapper {
     margin-bottom: 0;
   }

@@ -8,7 +8,11 @@ const GuaranteeView = (props) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
 
-  return <div className="guarantee-item">{t(title)}</div>
+  return (
+    <div className="guarantee-item">
+      <Title as="h4">{t(title)}</Title>
+    </div>
+  )
 }
 
 export default GuaranteeView
