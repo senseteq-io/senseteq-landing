@@ -29,7 +29,7 @@ const List = (props) => {
           key={item?.title || item?.name || index}
           className={_listItemWrapperClassName}
           data-aos="fade-right">
-          {createElement(listItemComponent, item)}
+          {createElement(listItemComponent, { ...item, index })}
         </div>
       ))}
     </div>

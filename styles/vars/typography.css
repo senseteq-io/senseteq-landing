@@ -39,6 +39,7 @@
   --text-body-font-weight: var(--regular-fw);
   --text-body-margin-top: 0;
   --text-body-margin-bottom: 0;
+  --text-body-font-family: var(--body-font-family);
 
   /* Caption */
   --text-caption-font-size: var(--caption-fs);
@@ -46,6 +47,7 @@
   --text-caption-font-weight: var(--bold-fw);
   --text-caption-margin-top: 0;
   --text-caption-margin-bottom: 0;
+  --text-caption-font-family: var(--title-font-family);
   --text-caption-letter-spasing: 2px;
 
   /* Description */
@@ -53,6 +55,7 @@
   --text-description-line-height: var(--description-lh);
   --text-description-font-weight: var(--regular-fw);
   --text-description-margin-top: 0;
+  --text-description-font-family: var(--body-font-family);
   --text-description-margin-bottom: 0;
 
   /* Title */

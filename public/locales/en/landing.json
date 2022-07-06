@@ -255,7 +255,7 @@
       "design": "UI/UX design",
       "management": "Project management"
     },
-    "reasons_items": {
+    "reasons": {
       "startup": {
         "title": "Your are a startup",
         "description": "You are an entrepeneur in a startup, or you are head of a new project within an established company."

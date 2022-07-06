@@ -1,15 +1,15 @@
 const REASONS_ITEMS = [
   {
-    title: 'constants.reasons_items.startup.title',
-    description: 'constants.reasons_items.startup.description'
+    title: 'constants.reasons.startup.title',
+    description: 'constants.reasons.startup.description'
   },
   {
-    title: 'constants.reasons_items.difference.title',
-    description: 'constants.reasons_items.difference.description'
+    title: 'constants.reasons.difference.title',
+    description: 'constants.reasons.difference.description'
   },
   {
-    title: 'constants.reasons_items.care.title',
-    description: 'constants.reasons_items.care.description'
+    title: 'constants.reasons.care.title',
+    description: 'constants.reasons.care.description'
   }
 ]
 

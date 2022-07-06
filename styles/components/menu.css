@@ -40,14 +40,14 @@
   line-height: 54px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  font-weight: var(--font-weight-title);
+  font-weight: var(--title-h3-font-family);
 }
 
 #advanced-menu .menu-item.menu-item-active {
   color: var(--primary);
 }
 #advanced-menu #languages-menu {
-  font-weight: var(--font-weight-title);
+  font-weight: var(--title-h3-font-family);
   justify-content: center;
 }
 #simple-menu {
