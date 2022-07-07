@@ -70,7 +70,7 @@ export default function Home() {
         <Title dataAos="fade-down" as="h2">
           {t('home.how_we_do_it_section.title')}
         </Title>
-        <AccessaryToolList />
+        <AccessaryToolList dataAos="fade-left" />
       </Section>
       <Section id="services-section">
         <Title dataAos="fade-down" as="h2">
@@ -85,7 +85,7 @@ export default function Home() {
         <Text description dataAos="fade-right">
           {t('home.project_support_section.subtitle')}
         </Text>
-        <ReasonList />
+        <ReasonList dataAos="fade-left" />
         <ProjectCount
           title={t('home.project_support_section.subtitle2')}
           uptitle={t('home.project_support_section.uptitle')}

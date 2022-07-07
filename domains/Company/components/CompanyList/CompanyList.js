@@ -6,12 +6,13 @@ import { SUPPORTING_COMPANIES } from '../../__constants__'
  * and returns an list of accessary tool views
  */
 
-const CompanyList = () => {
+const CompanyList = (props) => {
   return (
     <List
       data={SUPPORTING_COMPANIES}
       listItemComponent={CompanyView}
       listItemWrapperClassName="col-12 col-lg-6 company-wrapper"
+      {...prop}
     />
   )
 }
