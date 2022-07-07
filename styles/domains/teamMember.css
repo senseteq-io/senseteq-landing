@@ -1,0 +1,47 @@
+.team-member-wrapper {
+  padding-bottom: 12px;
+}
+
+.team-member-wrapper:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.team-member-item {
+  margin: 0 auto;
+}
+
+.team-member-item .team-member-image {
+  position: relative;
+  padding-top: 100%;
+  margin-bottom: 20px;
+}
+
+.team-member-item .role {
+  color: var(--secondary);
+}
+
+@media (min-width: 576px) {
+  .team-member-item {
+    max-width: 220px;
+  }
+  .team-member-image {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #prime-section .team-member-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  #rising-stars-section .team-member-wrapper:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-member-item {
+    max-width: 276px;
+  }
+}

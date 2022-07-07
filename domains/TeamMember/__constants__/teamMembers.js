@@ -1,4 +1,4 @@
-const TEAM = {
+const TEAM_MEMBERS = {
   EXPERIENCED: [
     {
       name: 'Trond Klæboe',
@@ -104,5 +104,4 @@ const TEAM = {
     }
   ]
 }
-
-export default TEAM
+export default TEAM_MEMBERS

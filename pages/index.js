@@ -189,7 +189,7 @@ export default function Home() {
         <AdvantageList dataAos="fade-left" />
       </Section>
       <Section dark id="about-senseteq-section">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-12 col-lg-6">
             <Collage
               images={[
