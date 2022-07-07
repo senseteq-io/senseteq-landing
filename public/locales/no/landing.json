@@ -348,7 +348,7 @@
         "description": "Vi ønsker likevel å høre fra deg."
       }
     },
-    "companies_support_items": {
+    "supporting_companies": {
       "innovation_norway": {
         "name": "Innovasjon Norge"
       },
@@ -356,7 +356,7 @@
         "name": "Forskningsrådet"
       }
     },
-    "advantages_ukranian_developers_items": {
+    "advantages_ukranian_developers": {
       "professionals": {
         "title": "150 000+",
         "subtitle": "Profesjonelle"

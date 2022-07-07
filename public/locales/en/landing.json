@@ -317,7 +317,7 @@
         "description": "We still want to hear from you."
       }
     },
-    "companies_support_items": {
+    "supporting_companies": {
       "innovation_norway": {
         "name": "Innovation Norway"
       },
@@ -325,7 +325,7 @@
         "name": "Norwegian Council of Research"
       }
     },
-    "advantages_ukranian_developers_items": {
+    "advantages_ukranian_developers": {
       "professionals": {
         "title": "150 000+",
         "subtitle": "Professionals"

@@ -12,14 +12,15 @@ const DEFAULT_TAG = 'h1'
  * prop, or `h1` if no `as` prop is provided. The component's class name is set to the tag name.
  */
 export default function Title(props) {
-  const { as, dataAos, children } = props
+  const { as, dataAos, center, children } = props
 
   // [COMPUTED PROPPERTIES]
   const tag = as || DEFAULT_TAG
 
   return createElement(tag, {
     className: cn({
-      [styles[tag]]: true
+      [styles[tag]]: true,
+      'text-center': center
     }),
     dangerouslySetInnerHTML: { __html: children },
     'data-aos': dataAos

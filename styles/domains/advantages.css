@@ -1,0 +1,26 @@
+.advantage-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+
+.advantage-item-wrapper:nth-last-of-type(-n + 1) {
+  margin-bottom: 0;
+}
+.advantage-item-wrapper h2 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--primary);
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .main-page #ukranian-developers-section .advantage-item-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-page #ukranian-developers-section .advantage-item-wrapper h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}

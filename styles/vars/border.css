@@ -1,0 +1,5 @@
+:root {
+  /* BORDER */
+  --border-radius-default: 2px;
+  --border-radius-lg: 8px;
+}

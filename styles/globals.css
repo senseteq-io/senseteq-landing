@@ -1,5 +1,41 @@
 @import url("./vars/index.css");
 @import url("./components/index.css");
+@import url("./domains/index.css");
+@import url("./pages/index.css");
+@import url("./bootstrap-grid.css");
+
+/* AOS library for animations */
+@import url("aos/dist/aos.css");
+/* styles from mvp-calculator */
+@import url("../modules/calculator/styles/globals.css");
+
+/* FONTS */
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: url("../fonts/GalanoGrotesqueAltLight.otf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: url("../fonts/GalanoGrotesqueAltRegular.otf");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: url("../fonts/GalanoGrotesqueAltMedium.otf");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: url("../fonts/GalanoGrotesqueAltBold.otf");
+  font-weight: 700;
+  font-display: swap;
+}
 
 html,
 body {
@@ -31,44 +67,22 @@ ul {
 * {
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "GalanoGrotesque";
-  src: url("../fonts/GalanoGrotesqueAltLight.otf");
+/* HELPERS */
+.c-primary {
+  color: var(--primary);
+}
+.c-white {
+  color: var(--white);
+}
+.c-secondary {
+  color: var(--secondary);
+}
+.regular {
   font-weight: 300;
-  font-display: swap;
 }
-
-@font-face {
-  font-family: "GalanoGrotesque";
-  src: url("../fonts/GalanoGrotesqueAltRegular.otf");
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "GalanoGrotesque";
-  src: url("../fonts/GalanoGrotesqueAltMedium.otf");
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "GalanoGrotesque";
-  src: url("../fonts/GalanoGrotesqueAltBold.otf");
+.bold {
   font-weight: 700;
-  font-display: swap;
 }
-
-/* LIB */
-@import url("aos/dist/aos.css");
-@import url("./bootstrap-grid.css");
-@import url("./lib/vars.css");
-@import url("./lib/helpers.css");
-@import url("../modules/calculator/styles/globals.css");
-
-/* PAGES */
-@import url("./pages/main.css");
-@import url("./pages/technologies.css");
-@import url("./pages/pricing.css");
-@import url("./pages/team.css");
-@import url("./pages/contact.css");
-@import url("./pages/process.css");
+.text-center {
+  text-align: center;
+}
