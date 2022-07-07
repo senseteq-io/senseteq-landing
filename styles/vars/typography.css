@@ -31,6 +31,7 @@
   --h2-mb: 24px;
   --h3-mb: 12px;
   --h4-mb: 8px;
+  --description-mb: 32px;
 
   /* Text */
   /* Body */
@@ -56,7 +57,7 @@
   --text-description-font-weight: var(--regular-fw);
   --text-description-margin-top: 0;
   --text-description-font-family: var(--body-font-family);
-  --text-description-margin-bottom: 0;
+  --text-description-margin-bottom: var(--description-mb);
 
   /* Title */
   /* H1 */
@@ -117,6 +118,7 @@
     --h2-mb: 22px;
     --h3-mb: 8px;
     --h4-mb: 4px;
+    --description-mb: 28px;
   }
 }
 
@@ -145,5 +147,6 @@
     --h2-mb: 16px;
     --h3-mb: 6px;
     --h4-mb: 4px;
+    --description-mb: 22px;
   }
 }

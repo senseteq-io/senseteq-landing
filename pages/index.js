@@ -140,20 +140,14 @@ export default function Home() {
             />
           </video>
         }>
+        <Title as="h2" dataAos="fade-left">
+          {t('home.technologies_section.title')}
+        </Title>
+
+        <Text description data-aos="fade-left">
+          {t('home.technologies_section.subtitle')}
+        </Text>
         <div className="row">
-          <div className="col-12 col-md-8">
-            <h2
-              data-aos="fade-left"
-              dangerouslySetInnerHTML={{
-                __html: t('home.technologies_section.title')
-              }}
-            />
-          </div>
-          <div className="col-12">
-            <p className="subtitle-wrapper" data-aos="fade-left">
-              {t('home.technologies_section.subtitle')}
-            </p>
-          </div>
           <div className="col-auto">
             <Button
               className="btn-dark"
@@ -166,20 +160,13 @@ export default function Home() {
         </div>
       </Section>
       <Section id="how-it-works-section">
+        <Title as="h2" dataAos="fade-down">
+          {t('home.how_it_works_section.title')}
+        </Title>
+        <Text description data-aos="fade-left">
+          {t('home.how_it_works_section.subtitle')}
+        </Text>
         <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.how_it_works_section.title')
-              }}
-            />
-          </div>
-          <div className="col-12">
-            <p className="subtitle-wrapper" data-aos="fade-left">
-              {t('home.how_it_works_section.subtitle')}
-            </p>
-          </div>
           <div className="col-auto">
             <Button
               className="btn-dark"
