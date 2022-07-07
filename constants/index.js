@@ -1,4 +1,3 @@
-import ADVANTAGES_UKRAINIAN_DEVELOPERS from './advantagesUkrainianDevelopers'
 import COMPANIES_SUPPORT_ITEMS from './companiesSupport'
 import CONTACTS_ITEMS from './contacts'
 import CUSTOMERS_SLIDES_ITEMS from './customersSlidesItems'
@@ -11,7 +10,6 @@ import TECHNOLOGIES_ITEMS from './technologies'
 
 export {
   COMPANIES_SUPPORT_ITEMS,
-  ADVANTAGES_UKRAINIAN_DEVELOPERS,
   TECHNOLOGIES_ITEMS,
   PRICES_AND_PACKAGES_ITEMS,
   TEAM,

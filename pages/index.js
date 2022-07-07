@@ -1,9 +1,4 @@
 import {
-  ADVANTAGES_UKRAINIAN_DEVELOPERS,
-  COMPANIES_SUPPORT_ITEMS,
-  PAGE_SECTIONS_CONFIG
-} from '../constants'
-import {
   ArrowDown,
   Button,
   PageWrapper,
@@ -14,10 +9,12 @@ import {
 } from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
+import { AdvantageList } from '../domains/Advantage/components'
 import { CompanyList } from '../domains/Company/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
 import Image from 'next/image'
 import { IndustryList } from '../domains/Industry/components'
+import { PAGE_SECTIONS_CONFIG } from '../constants'
 import { ReasonList } from '../domains/Reason/components'
 import { ServiceList } from '../domains/Service/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -178,30 +175,17 @@ export default function Home() {
       <Section id="ukranian-developers-section">
         <div className="row justify-content-center">
           <div className="col-12">
-            <h2
-              data-aos="fade-down"
-              dangerouslySetInnerHTML={{
-                __html: t('home.ukranian_developers_section.title')
-              }}
-            />
+            <Title as="h2" dataAos="fade-down" center>
+              {t('home.ukranian_developers_section.title')}
+            </Title>
           </div>
           <div className="col-12 col-lg-6">
-            <p className="subtitle-wrapper" data-aos="fade-right">
+            <Text description dataAos="fade-right" center>
               {t('home.ukranian_developers_section.description')}
-            </p>
+            </Text>
           </div>
         </div>
-        <div className="row">
-          {ADVANTAGES_UKRAINIAN_DEVELOPERS?.map(({ title, subtitle }) => (
-            <div
-              key={title}
-              className="advantage-item-wrapper col-12 col-lg-3"
-              data-aos="fade-right">
-              <h2>{t(title)}</h2>
-              <p className="body2">{t(subtitle)}</p>
-            </div>
-          ))}
-        </div>
+        <AdvantageList dataAos="fade-left" />
       </Section>
       <Section dark id="about-senseteq-section">
         <div className="row">
