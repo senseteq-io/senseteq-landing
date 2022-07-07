@@ -1,4 +1,4 @@
-const TECHNOLOGIES_ITEMS = [
+const TECHNOLOGIES = [
   {
     name: 'D3/C3',
     src: '/technologies/d3.svg'
@@ -141,4 +141,4 @@ const TECHNOLOGIES_ITEMS = [
   }
 ]
 
-export default TECHNOLOGIES_ITEMS
+export default TECHNOLOGIES

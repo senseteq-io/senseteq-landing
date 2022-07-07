@@ -26,12 +26,16 @@ export default function Team() {
       <Section dark id="prime-section">
         <Title>{t('team.prime_section.title')}</Title>
         <Text description>{t('team.prime_section.subtitle')}</Text>
-        <TeamMemberList data={EXPERIENCED} />
+        <TeamMemberList data={EXPERIENCED} dataAos="fade-left" />
       </Section>
       <Section id="rising-stars-section">
-        <Title>{t('team.rising_stars_section.title')}</Title>
-        <Text description> {t('team.rising_stars_section.subtitle')}</Text>
-        <TeamMemberList data={RISING_STARS} />
+        <Title dataAos="fade-down">
+          {t('team.rising_stars_section.title')}
+        </Title>
+        <Text dataAos="fade-down" description>
+          {t('team.rising_stars_section.subtitle')}
+        </Text>
+        <TeamMemberList data={RISING_STARS} dataAos="fade-left" />
       </Section>
     </PageWrapper>
   )
