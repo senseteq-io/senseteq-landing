@@ -1,10 +1,10 @@
 import {
   ADVANTAGES_UKRAINIAN_DEVELOPERS,
   COMPANIES_SUPPORT_ITEMS,
-  INDUSTRIES_ITEMS,
   PAGE_SECTIONS_CONFIG
 } from '../constants'
 import {
+  ArrowDown,
   Button,
   PageWrapper,
   ProjectCount,
@@ -17,7 +17,6 @@ import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
 import Image from 'next/image'
 import { IndustryList } from '../domains/Industry/components'
-import Link from 'next/link'
 import { ReasonList } from '../domains/Reason/components'
 import { ServiceList } from '../domains/Service/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -61,20 +60,11 @@ export default function Home() {
             <Text description>{t('home.prime_section.subtitle')}</Text>
           </div>
         </div>
-
-        <div className="down-arrow-wrapper">
-          <Link href="#how-we-do-it-section">
-            <a className="down-arrow-icon">
-              <Image
-                aria-label={t('home.prime_section.arrow_aria')}
-                src="/assets/down_arrow.svg"
-                alt={t('home.prime_section.arrow_alt')}
-                layout="fill"
-                className="down-arrow-icon"
-              />
-            </a>
-          </Link>
-        </div>
+        <ArrowDown
+          sectionId="how-we-do-it-section"
+          ariaLabel={t('home.prime_section.arrow_aria')}
+          alt={t('home.prime_section.arrow_alt')}
+        />
       </Section>
 
       <Section id="how-we-do-it-section">
