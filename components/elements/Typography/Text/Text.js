@@ -25,9 +25,9 @@ export default function Text(props) {
         [styles[cls]]: true,
         [styles.description]: description,
         [styles.caption]: caption,
-        ['data-aos']: dataAos,
         [className]: className
-      })
+      }),
+      ['data-aos']: dataAos
     },
     children
   )

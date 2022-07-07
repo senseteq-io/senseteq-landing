@@ -1,0 +1,25 @@
+.down-arrow-wrapper .down-arrow-icon {
+  width: 26px;
+  height: 14px;
+  position: relative;
+}
+.down-arrow-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: calc(100% / 2 - 13px);
+  -webkit-animation: arrrow-bottom-animation 1s infinite alternate;
+  animation: arrrow-bottom-animation 1s infinite alternate;
+}
+
+@media (min-width: 576px) {
+  .down-arrow-wrapper .down-arrow-icon {
+    width: 40px;
+    height: 20px;
+  }
+
+  .down-arrow-wrapper {
+    position: absolute;
+    bottom: 40px;
+    left: calc(100% / 2 - 20px);
+  }
+}
