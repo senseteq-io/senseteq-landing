@@ -18,7 +18,8 @@ export default function Text(props) {
     caption,
     dataAos,
     className,
-    center
+    center,
+    ariaLabel
   } = props
 
   // [COMPUTED PROPERTIES]
@@ -35,6 +36,7 @@ export default function Text(props) {
       'text-center': center
     }),
     dangerouslySetInnerHTML: { __html: children },
-    ['data-aos']: dataAos
+    ['data-aos']: dataAos,
+    ['aria-label']: ariaLabel
   })
 }

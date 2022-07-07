@@ -25,12 +25,6 @@
 .footer .contacts-wrapper .buttons-wrapper {
   display: flex;
 }
-.footer .contacts-wrapper .buttons-wrapper .button-icon {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  margin-right: 46px;
-}
 @media (min-width: 576px) {
   .footer .contacts-wrapper {
     display: flex;

@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import { IconButton, Text, Title } from '../../../components'
+
 import { useTranslation } from 'next-i18next'
 
 const Footer = () => {
@@ -9,46 +10,38 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="subtitle-wrapper">
-        <p className="subtitle">{t('footer.subtitle')}</p>
+        <Text caption className="subtitle">
+          {t('footer.subtitle')}
+        </Text>
       </div>
       <div className="title-wrapper">
-        <h4
-          data-aos="zoom-in"
-          dangerouslySetInnerHTML={{
-            __html: t('footer.title')
-          }}
-        />
+        <Title as="h3" dataAos="fade-down">
+          {t('footer.title')}
+        </Title>
       </div>
       <div className="contacts-wrapper">
         <div className="contact buttons-wrapper">
-          <a
-            className="button-icon"
+          <IconButton
             href="https://www.facebook.com/senseteq"
             target="_blank"
-            rel="noreferrer">
-            <Image
-              src="/assets/facebook.webp"
-              alt="Facebook"
-              layout="fill"
-              aria-label={t('footer.facebookAria')}
-            />
-          </a>
-          <a className="button-icon" href="tel:+4755181900" rel="noreferrer">
-            <Image
-              src="/assets/whatsApp.png"
-              alt="WhatsApp"
-              layout="fill"
-              aria-label={t('footer.whatsAppAria')}
-            />
-          </a>
+            src="/assets/facebook.webp"
+            alt="Facebook"
+            ariaLabel={t('footer.facebookAria')}
+          />
+          <IconButton
+            href="tel:+4755181900"
+            src="/assets/whatsApp.png"
+            alt="WhatsApp"
+            ariaLabel={t('footer.whatsAppAria')}
+          />
         </div>
-        <p aria-label={t('footer.emailAria')} className="contact">
+        <Text ariaLabel={t('footer.emailAria')} className="contact">
           hello@senseteq.io
-        </p>
+        </Text>
 
-        <p aria-label={t('footer.phoneAria')} className="contact">
+        <Text ariaLabel={t('footer.phoneAria')} className="contact">
           +47 55 18 19 00
-        </p>
+        </Text>
       </div>
     </footer>
   )
