@@ -396,22 +396,26 @@
         "aria": "Gå til Fractal Academy slide"
       }
     },
-    "pricing_packages_items": {
+    "packages": {
       "small": {
         "name": "Liten",
-        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>begrenset</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
-      },
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>begrenset</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android).",
+        "examples": "Eksempelapplikasjon som ville hatt dette prisleiet: <strong>blogg.no</strong>"
+    },
       "medium": {
         "name": "Medium",
-        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>medium</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>medium</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android).",
+        "examples": "Eksempelapplikasjon som ville hatt dette prisleiet: <strong>CanEat</strong>"
       },
       "big": {
         "name": "Stor",
-        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>stort</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>stort</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android).",
+        "examples": "Eksempelapplikasjon som ville hatt dette prisleiet: <strong>Finn.no, Booking.com, Getaraound</strong>"
       },
       "comprehensive": {
         "name": "Omfattende",
-        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>omfattende</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android)."
+        "description": "Få bygget en <strong>førsteversjon</strong> av en applikasjon med <strong>omfattende</strong> omfang og kompleksitet. Kan inkludere app for mobil (iOS og Android).",
+        "examples": "Eksempelapplikasjon som ville hatt dette prisleiet: <strong>Foodora, Wolt, Über</strong>"
       }
     },
     "roles_items": {

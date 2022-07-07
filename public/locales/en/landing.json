@@ -365,7 +365,7 @@
         "aria": "Go to Fractal Academy slide"
       }
     },
-    "pricing_packages_items": {
+    "packages": {
       "small": {
         "name": "Small",
         "description": "Creating a MVP version of an applikasjon that has  <strong>limited</strong> size and complexity."

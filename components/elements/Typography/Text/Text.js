@@ -25,19 +25,16 @@ export default function Text(props) {
   const tag = DEFAULT_TAG
   const cls = size || DEFAULT_SIZE
 
-  return createElement(
-    tag,
-    {
-      style,
-      className: cn({
-        [styles[cls]]: true,
-        [styles.description]: description,
-        [styles.caption]: caption,
-        [className]: className,
-        'text-center': center
-      }),
-      ['data-aos']: dataAos
-    },
-    children
-  )
+  return createElement(tag, {
+    style,
+    className: cn({
+      [styles[cls]]: true,
+      [styles.description]: description,
+      [styles.caption]: caption,
+      [className]: className,
+      'text-center': center
+    }),
+    dangerouslySetInnerHTML: { __html: children },
+    ['data-aos']: dataAos
+  })
 }
