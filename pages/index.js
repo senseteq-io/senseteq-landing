@@ -134,7 +134,7 @@ export default function Home() {
           {t('home.technologies_section.title')}
         </Title>
 
-        <Text description data-aos="fade-left">
+        <Text description dataAos="fade-left">
           {t('home.technologies_section.subtitle')}
         </Text>
         <div className="row">
@@ -153,7 +153,7 @@ export default function Home() {
         <Title as="h2" dataAos="fade-down">
           {t('home.how_it_works_section.title')}
         </Title>
-        <Text description data-aos="fade-left">
+        <Text description dataAos="fade-left">
           {t('home.how_it_works_section.subtitle')}
         </Text>
         <div className="row">
