@@ -51,7 +51,7 @@ export default function Home() {
           </video>,
           <div key="gradient-cover" className="prime-section-gradient-bg" />
         ]}>
-        <div className="row">
+        <div className="row g-0">
           <div className="col-12 col-lg-8 col-xl-10">
             <Title>{t('home.prime_section.title')}</Title>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
           title={t('home.project_support_section.subtitle2')}
           uptitle={t('home.project_support_section.uptitle')}
         />
-        <div className="row justify-content-center">
+        <div className="row justify-content-center g-0">
           <div className="col-auto">
             <Button
               aria-label={t('home.project_support_section.buttonText')}
@@ -136,7 +136,7 @@ export default function Home() {
         <Text description dataAos="fade-left">
           {t('home.technologies_section.subtitle')}
         </Text>
-        <div className="row">
+        <div className="row g-0">
           <div className="col-auto">
             <Button
               className="btn-dark"
@@ -155,7 +155,7 @@ export default function Home() {
         <Text description dataAos="fade-left">
           {t('home.how_it_works_section.subtitle')}
         </Text>
-        <div className="row">
+        <div className="row g-0">
           <div className="col-auto">
             <Button
               className="btn-dark"
@@ -174,7 +174,7 @@ export default function Home() {
         <CompanyList dataAos="fade-left" />
       </Section>
       <Section id="ukranian-developers-section">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center g-0">
           <div className="col-12">
             <Title as="h2" dataAos="fade-down" center>
               {t('home.ukranian_developers_section.title')}

@@ -46,3 +46,7 @@
   background: url("/backgrounds/ukranian-devs-cover.png") bottom center / cover
     no-repeat;
 }
+.main-page #about-senseteq-section .container {
+  padding-left: 0;
+  padding-right: 0;
+}
