@@ -1,4 +1,4 @@
-const COMPANIES_SUPPORT_ITEMS = [
+const SUPPORTING_COMPANIES = [
   {
     src: '/assets/innovation-norway.svg',
     name: 'constants.supporting_companies.innovation_norway.name'
@@ -9,4 +9,4 @@ const COMPANIES_SUPPORT_ITEMS = [
   }
 ]
 
-export default COMPANIES_SUPPORT_ITEMS
+export default SUPPORTING_COMPANIES

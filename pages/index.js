@@ -14,6 +14,7 @@ import {
 } from '../components'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
+import { CompanyList } from '../domains/Company/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
 import Image from 'next/image'
 import { IndustryList } from '../domains/Industry/components'
@@ -169,29 +170,10 @@ export default function Home() {
         </div>
       </Section>
       <Section dark id="companies-support-section">
-        <div className="row">
-          <div className="col-12">
-            <h2
-              data-aos="fade-left"
-              dangerouslySetInnerHTML={{
-                __html: t('home.companies_support_section.title')
-              }}
-            />
-          </div>
-        </div>
-        <div className="row">
-          {COMPANIES_SUPPORT_ITEMS?.map(({ src, name }) => (
-            <div
-              key={name}
-              className="company-support-wrapper col-12 col-lg-6"
-              data-aos="fade-right">
-              <div className="company-support-image">
-                <Image src={src} alt={t(name)} layout="fill" />
-              </div>
-              <p className="subtitle-wrapper">{t(name)}</p>
-            </div>
-          ))}
-        </div>
+        <Title as="h2" dataAos="fade-left">
+          {t('home.companies_support_section.title')}
+        </Title>
+        <CompanyList dataAos="fade-left" />
       </Section>
       <Section id="ukranian-developers-section">
         <div className="row justify-content-center">

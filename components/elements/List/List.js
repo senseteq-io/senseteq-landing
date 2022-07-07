@@ -18,8 +18,8 @@ const List = (props) => {
   })
   // get class names for list items wrapper
   const _listItemWrapperClassName = cn({
-    [listItemWrapperClassName]: listItemWrapperClassName,
-    [styles['list-item-wrapper']]: true
+    [styles['list-item-wrapper']]: true,
+    [listItemWrapperClassName]: listItemWrapperClassName
   })
 
   return (
