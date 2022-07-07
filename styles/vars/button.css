@@ -1,12 +1,4 @@
 :root {
-  /* FIXME: put in order */
-  /* Color scheme */
-  --dark: #000000;
-  --white: #ffffff;
-  --primary: #2db867;
-  --secondary: #7a7a7a;
-
-  /* ELEMENTS */
   /* BUTTON */
   /* Button default */
   --btn-default-height: 60px;
@@ -16,20 +8,18 @@
   --btn-default-font-weight: 700;
   --btn-default-border-radius: calc(var(--btn-default-height) / 2);
 
+  /* Button lg */
   --btn-lg-height: 80px;
   --btn-lg-horizontal-padding: 80px;
   --btn-lg-font-size: 26px;
   --btn-lg-line-height: 28px;
   --btn-lg-border-radius: calc(var(--btn-lg-height) / 2);
 
+  /* Button filled */
   --btn-filled-dark-bg: var(--dark);
   --btn-filled-dark-color: var(--white);
   --btn-filled-white-bg: var(--white);
   --btn-filled-white-color: var(--dark);
   --btn-filled-primary-bg: var(--primary);
   --btn-filled-primary-color: var(--white);
-
-  /* BORDER */
-  --border-radius-default: 2px;
-  --border-radius-lg: 8px;
 }

@@ -58,32 +58,7 @@
 .main-page #technologies-section .section-content {
   position: relative;
 }
-.main-page #companies-support-section .company-support-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 60px;
-}
-.main-page
-  #companies-support-section
-  .company-support-wrapper:nth-last-of-type(-n + 1) {
-  margin-bottom: 0;
-}
-.main-page
-  #companies-support-section
-  .company-support-wrapper
-  .company-support-image {
-  position: relative;
-  width: 120px;
-  height: 108px;
-  margin-bottom: 24px;
-}
-.main-page
-  #companies-support-section
-  .company-support-wrapper
-  .subtitle-wrapper {
-  font-weight: var(--bold-fw);
-}
+
 .main-page #ukranian-developers-section {
   background: url("/backgrounds/ukranian-devs-cover.png") bottom center / cover
     no-repeat;
@@ -232,10 +207,6 @@
 }
 
 @media (min-width: 992px) {
-  .main-page #companies-support-section .company-support-wrapper {
-    margin-bottom: 0;
-  }
-
   .main-page #ukranian-developers-section .advantage-item-wrapper {
     margin-bottom: 0;
   }
