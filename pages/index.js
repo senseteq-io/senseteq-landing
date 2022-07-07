@@ -1,6 +1,7 @@
 import {
   ArrowDown,
   Button,
+  Collage,
   PageWrapper,
   ProjectCount,
   Section,
@@ -190,55 +191,25 @@ export default function Home() {
       <Section dark id="about-senseteq-section">
         <div className="row">
           <div className="col-12 col-lg-6">
-            <div className="images-wrapper" data-aos="fade-down">
-              <div className="fractal2-image-wrapper">
-                <div className="fractal2-image">
-                  <Image
-                    src="/team/fractal2.webp"
-                    alt="Fractal"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              </div>
-              <div className="fractal-image-wrapper">
-                <div className="fractal-image">
-                  <Image
-                    src="/team/fractal.jpg"
-                    alt="Fractal"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              </div>
-              <div className="fractal2-prom-image-wrapper">
-                <div className="fractal2-prom-image">
-                  <Image
-                    src="/team/fractal2_prom.webp"
-                    alt="Fractal prom"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6">
-            <h2
-              data-aos="fade-left"
-              dangerouslySetInnerHTML={{
-                __html: t('home.about_senseteq_section.title')
-              }}
+            <Collage
+              images={[
+                { src: '/team/fractal2.webp', alt: 'Fractal' },
+                { src: '/team/fractal.jpg', alt: 'Fractal' },
+                { src: '/team/fractal2_prom.webp', alt: 'Fractal prom' }
+              ]}
             />
-            <p className="subtitle-wrapper" data-aos="fade-left">
+          </div>
+          <div className="col-12 col-lg-6" data-aos="fade-left">
+            <Title as="h2">{t('home.about_senseteq_section.title')}</Title>
+            <Text description>
               {t('home.about_senseteq_section.descriptionLine1')}
-            </p>
-            <p className="subtitle-wrapper" data-aos="fade-left">
+            </Text>
+            <Text description>
               {t('home.about_senseteq_section.descriptionLine2')}
-            </p>
-            <p data-aos="fade-left">
+            </Text>
+            <Text description>
               {t('home.about_senseteq_section.descriptionLine3')}
-            </p>
+            </Text>
           </div>
         </div>
       </Section>
