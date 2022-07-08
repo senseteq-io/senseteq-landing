@@ -27,8 +27,10 @@ const PackageView = (props) => {
           itemProp="offers"
           itemScope
           itemType="https://schema.org/Offer">
-          <Title as="h3" className="price" itemprop="price">
-            {price}
+          <meta itemProp="price" content={price} />
+          <meta itemProp="priceCurrency" content="NOK" />
+          <Title as="h3" className="price">
+            {price}-
           </Title>
         </div>
         <div className="advantages-wrapper">
