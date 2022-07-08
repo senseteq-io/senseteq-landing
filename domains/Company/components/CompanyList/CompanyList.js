@@ -12,7 +12,7 @@ const CompanyList = (props) => {
       data={SUPPORTING_COMPANIES}
       listItemComponent={CompanyView}
       listItemWrapperClassName="col-12 col-lg-6 company-wrapper"
-      {...prop}
+      {...props}
     />
   )
 }
