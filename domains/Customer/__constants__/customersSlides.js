@@ -1,4 +1,4 @@
-const CUSTOMERS_SLIDES_ITEMS = [
+const CUSTOMERS_SLIDES = [
   {
     name: 'Menta Helse',
     href: 'https://www.menta.no/',
@@ -34,4 +34,4 @@ const CUSTOMERS_SLIDES_ITEMS = [
     ariaLabel: 'constants.customers_slides.fractal.aria'
   }
 ]
-export default CUSTOMERS_SLIDES_ITEMS
+export default CUSTOMERS_SLIDES
