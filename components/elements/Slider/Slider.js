@@ -1,11 +1,16 @@
 import { useCallback, useEffect, useState } from 'react'
 
-import { Button } from '../../../components'
-import { CUSTOMERS_SLIDES_ITEMS } from '../../../constants'
 import Image from 'next/image'
+import { createElement } from 'react'
 import { useTranslation } from 'next-i18next'
 
-const CustomerSlider = () => {
+/**
+ * @returns Slider component that renders a slides by passed data and sliderComponent
+ */
+
+const Slider = (props) => {
+  const { data, sliderComponent } = props
+
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
@@ -14,7 +19,6 @@ const CustomerSlider = () => {
   const [slideIndex, setSlideIndex] = useState(1)
 
   // [HELPER_FUNCTIONS]
-
   /**
    * The function plusSlides() takes a number as an argument
    * and calls the function showSlide() with the argument slideIndex + count
@@ -39,7 +43,7 @@ const CustomerSlider = () => {
    */
   const showSlide = useCallback(
     (index) => {
-      let slides = document?.getElementsByClassName('slider-item')
+      let slides = document?.getElementsByClassName('customer-slide-wrapper')
       let dots = document?.getElementsByClassName('dot')
 
       if (slides?.length) {
@@ -65,36 +69,17 @@ const CustomerSlider = () => {
   useEffect(() => showSlide(slideIndex), [slideIndex, showSlide])
 
   return (
-    <div className="customers-slider-wrapper">
+    <div className="slider-wrapper">
       <div className="cover-gradient" />
-      {CUSTOMERS_SLIDES_ITEMS?.map(
-        ({ name, href, src, buttonText, description }) => (
-          <div
-            key={name}
-            className="slider-item"
-            style={{
-              background: `url(${src}) center center / cover no-repeat`
-            }}>
-            <div className="content-wrapper">
-              <div className="content">
-                <p className="description">{t(description)}</p>
-                {buttonText && (
-                  <Button
-                    target="_blank"
-                    href={href}
-                    className="btn-white go-to-site"
-                    aria-label={t(buttonText)}>
-                    {t(buttonText)}
-                  </Button>
-                )}
-              </div>
-            </div>
-          </div>
-        )
+      {data?.map((sliderData, index) =>
+        createElement(sliderComponent, {
+          ...sliderData,
+          key: `slider_${index}`
+        })
       )}
       <div className="dots-wrapper">
         <div className="dots" aria-label="navigation between slides">
-          {CUSTOMERS_SLIDES_ITEMS?.map(({ ariaLabel }, index) => (
+          {data?.map(({ ariaLabel }, index) => (
             <span
               key={`dot_${index}`}
               className="dot"
@@ -130,4 +115,4 @@ const CustomerSlider = () => {
   )
 }
 
-export default CustomerSlider
+export default Slider

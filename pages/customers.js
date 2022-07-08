@@ -1,5 +1,5 @@
-import { CustomerSlider, PageWrapper } from '../components'
-
+import { CustomerSlider } from '../domains/Customer/components'
+import { PageWrapper } from '../components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
