@@ -19,7 +19,8 @@ export default function Text(props) {
     dataAos,
     className,
     center,
-    ariaLabel
+    ariaLabel,
+    ...rest
   } = props
 
   // [COMPUTED PROPERTIES]
@@ -37,6 +38,7 @@ export default function Text(props) {
     }),
     dangerouslySetInnerHTML: { __html: children },
     ['data-aos']: dataAos,
-    ['aria-label']: ariaLabel
+    ['aria-label']: ariaLabel,
+    ...rest
   })
 }
