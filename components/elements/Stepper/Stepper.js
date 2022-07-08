@@ -1,5 +1,11 @@
+import { Text, Title } from '../../elements'
+
 import { useTranslation } from 'next-i18next'
 
+/**
+ * It takes in a list of steps and renders them
+ * @returns Stepper component by passed stepper config
+ */
 const Stepper = (props) => {
   const { stepperConfig } = props
 
@@ -10,12 +16,12 @@ const Stepper = (props) => {
   return (
     <div className="stepper">
       {stepperConfig?.map(({ name, description }, index) => (
-        <div key={name} className={'step-wrapper '}>
+        <div key={name} className="step-wrapper">
           <div className="step-content">
             <div className="step-tail" />
             <div className="step-number">{index + 1}</div>
-            <p className="name">{t(name)}</p>
-            <p className="body2 description">{t(description)}</p>
+            <Title as="h3">{t(name)}</Title>
+            <Text>{t(description)}</Text>
           </div>
         </div>
       ))}

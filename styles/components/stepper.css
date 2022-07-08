@@ -9,9 +9,6 @@
   padding-bottom: 20px;
 }
 
-.stepper .step-wrapper .step-content .name {
-  font-weight: 700;
-}
 .stepper .step-wrapper .step-content .step-number {
   position: absolute;
   width: 40px;
