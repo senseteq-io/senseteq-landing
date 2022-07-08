@@ -4,6 +4,10 @@ import Image from 'next/image'
 import { createElement } from 'react'
 import { useTranslation } from 'next-i18next'
 
+/**
+ * @returns Slider component that renders a slides by passed data and sliderComponent
+ */
+
 const Slider = (props) => {
   const { data, sliderComponent } = props
 
