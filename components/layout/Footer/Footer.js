@@ -8,11 +8,7 @@ const Footer = () => {
   const { t } = useTranslation('landing')
 
   return (
-    <footer
-      className="footer"
-      itemScope
-      itemType="https://schema.org/Organization">
-      <meta itemProp="name" content="Senseteq" />
+    <footer className="footer">
       <div className="container">
         <div className="row">
           <div className="col-12 subtitle-wrapper">
@@ -42,17 +38,11 @@ const Footer = () => {
               ariaLabel={t('footer.whatsAppAria')}
             />
           </div>
-          <Text
-            ariaLabel={t('footer.emailAria')}
-            className="contact"
-            itemProp="email">
+          <Text ariaLabel={t('footer.emailAria')} className="contact">
             hello@senseteq.io
           </Text>
 
-          <Text
-            ariaLabel={t('footer.phoneAria')}
-            className="contact"
-            itemProp="telephone">
+          <Text ariaLabel={t('footer.phoneAria')} className="contact">
             +47 55 18 19 00
           </Text>
         </div>

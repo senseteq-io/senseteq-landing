@@ -30,7 +30,7 @@ const PackageView = (props) => {
           <meta itemProp="price" content={price} />
           <meta itemProp="priceCurrency" content="NOK" />
           <Title as="h3" className="price">
-            {price}-
+            {`${price},-`}
           </Title>
         </div>
         <div className="advantages-wrapper">

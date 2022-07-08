@@ -1,7 +1,7 @@
 import { List } from '../../../../components'
 import { PACKAGES } from '../../__constants__'
 import { PackageView } from '../../components'
-console.log(PACKAGES)
+
 const PackageList = () => {
   return (
     <List
