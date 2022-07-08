@@ -4,21 +4,30 @@ import { useTranslation } from 'next-i18next'
 
 const PackageView = (props) => {
   const { name, description, examples, price } = props
-  console.log(examples)
+
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
 
   return (
-    <div className="package-item">
+    <div
+      className="package-item"
+      itemScope
+      itemType="https://schema.org/Product">
       <div className="package-item-content">
-        <Title as="h3" className="name">
+        <Title as="h3" className="name" itemprop="name">
           {t(name)}
         </Title>
-        <Text className="version-information">{t(description)}</Text>
-        <Text>{t(examples)}</Text>
-        <div className="price-wrapper">
-          <Title as="h3" className="price">
+        <Text className="version-information" itemprop="description">
+          {t(description)}
+        </Text>
+        <Text itemprop="description">{t(examples)}</Text>
+        <div
+          className="price-wrapper"
+          itemProp="offers"
+          itemScope
+          itemType="https://schema.org/Offer">
+          <Title as="h3" className="price" itemprop="price">
             {price}
           </Title>
         </div>
