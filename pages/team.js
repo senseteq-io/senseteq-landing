@@ -32,7 +32,7 @@ export default function Team() {
             <Text description>{t('team.prime_section.subtitle')}</Text>
           </div>
           <div className="col-12">
-            <TeamMemberList data={EXPERIENCED} data-aos="fade-left" />
+            <TeamMemberList data={EXPERIENCED} dataAos="fade-left" />
           </div>
         </div>
       </Section>
@@ -49,7 +49,7 @@ export default function Team() {
             </Text>
           </div>
           <div className="col-12">
-            <TeamMemberList data={RISING_STARS} data-aos="fade-left" />
+            <TeamMemberList data={RISING_STARS} dataAos="fade-left" />
           </div>
         </div>
       </Section>
