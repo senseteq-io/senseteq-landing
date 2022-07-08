@@ -19,9 +19,15 @@ const CustomerSlide = (props) => {
       style={{
         background: `url(${src}) center center / cover no-repeat`
       }}>
-      <div className="content-wrapper">
+      <div
+        className="content-wrapper"
+        itemScope
+        itemType="https://schema.org/Product">
+        <meta itemProp="name" content={name} />
+        <meta itemProp="image" content={src} />
+        {href && <meta itemProp="url" content={href} />}
         <div className="content">
-          <Text description className="description">
+          <Text description className="description" itemProp="description">
             {t(description)}
           </Text>
           {buttonText && (
