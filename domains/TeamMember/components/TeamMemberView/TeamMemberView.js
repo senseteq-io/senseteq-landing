@@ -10,15 +10,23 @@ const TeamMemberView = (props) => {
   const { t } = useTranslation('landing')
 
   return (
-    <div className="team-member-item">
+    <div
+      className="team-member-item"
+      itemScope
+      itemType="https://schema.org/Person">
       <div
         className="team-member-image"
         style={{
           background: `url(${src}) center center / cover no-repeat`
         }}
       />
-      <Title as="h4">{name}</Title>
-      <Text size="body2">{t(role)}</Text>
+      <meta itemProp="image" content={src} />
+      <Title as="h4" itemprop="name">
+        {name}
+      </Title>
+      <Text size="body2" itemprop="jobTitle">
+        {t(role)}
+      </Text>
     </div>
   )
 }
