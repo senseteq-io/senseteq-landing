@@ -24,18 +24,34 @@ export default function Team() {
       }}
       sectionsConfig={PAGE_SECTIONS_CONFIG?.TEAM_PAGE}>
       <Section dark id="prime-section">
-        <Title>{t('team.prime_section.title')}</Title>
-        <Text description>{t('team.prime_section.subtitle')}</Text>
-        <TeamMemberList data={EXPERIENCED} dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <Title>{t('team.prime_section.title')}</Title>
+          </div>
+          <div className="col-12">
+            <Text description>{t('team.prime_section.subtitle')}</Text>
+          </div>
+          <div className="col-12">
+            <TeamMemberList data={EXPERIENCED} dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
       <Section id="rising-stars-section">
-        <Title dataAos="fade-down">
-          {t('team.rising_stars_section.title')}
-        </Title>
-        <Text dataAos="fade-down" description>
-          {t('team.rising_stars_section.subtitle')}
-        </Text>
-        <TeamMemberList data={RISING_STARS} dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <Title dataAos="fade-down">
+              {t('team.rising_stars_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <Text dataAos="fade-down" description>
+              {t('team.rising_stars_section.subtitle')}
+            </Text>
+          </div>
+          <div className="col-12">
+            <TeamMemberList data={RISING_STARS} dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
     </PageWrapper>
   )

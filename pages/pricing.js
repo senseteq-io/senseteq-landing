@@ -21,18 +21,30 @@ export default function Pricing() {
       }}
       sectionsConfig={PAGE_SECTIONS_CONFIG?.PRICING_PAGE}>
       <Section dark id="prime-section">
-        <Title as="h2" dataAos="fade-down">
-          {t('pricing.prime_section.title')}
-        </Title>
-        <Text description className="description" dataAos="fade-right">
-          {t('pricing.prime_section.subtitleLine1')}
-        </Text>
-        <Text description className="description" dataAos="fade-right">
-          {t('pricing.prime_section.subtitleLine2')}
-        </Text>
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-down">
+              {t('pricing.prime_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <Text description className="description" dataAos="fade-right">
+              {t('pricing.prime_section.subtitleLine1')}
+            </Text>
+          </div>
+          <div className="col-12">
+            <Text description className="description" dataAos="fade-right">
+              {t('pricing.prime_section.subtitleLine2')}
+            </Text>
+          </div>
+        </div>
       </Section>
       <Section id="packages-section">
-        <PackageList />
+        <div className="row">
+          <div className="col-12">
+            <PackageList />
+          </div>
+        </div>
       </Section>
     </PageWrapper>
   )

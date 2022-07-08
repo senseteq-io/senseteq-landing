@@ -1,4 +1,4 @@
-import { PageWrapper, Section } from '../components'
+import { PageWrapper, Section, Title } from '../components'
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
@@ -17,14 +17,7 @@ export default function Apply() {
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
-            <div className="title-wrapper">
-              <h2
-                data-aos="fade-down"
-                dangerouslySetInnerHTML={{
-                  __html: t('apply.prime_section.title')
-                }}
-              />
-            </div>
+            <Title as="h2">{t('apply.prime_section.title')}</Title>
           </div>
         </div>
       </Section>

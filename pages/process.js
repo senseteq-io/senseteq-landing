@@ -16,11 +16,21 @@ export default function Process() {
         title: t('head.process.title')
       }}>
       <Section dark id="prime-section">
-        <Title as="h2">{t('process.prime_section.title')}</Title>
-        <Text description>{t('process.prime_section.subtitle')}</Text>
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2">{t('process.prime_section.title')}</Title>
+          </div>
+          <div className="col-12">
+            <Text description>{t('process.prime_section.subtitle')}</Text>
+          </div>
+        </div>
       </Section>
       <Section id="steps-section">
-        <ProcessStepper />
+        <div className="row">
+          <div className="col-12">
+            <ProcessStepper />
+          </div>
+        </div>
       </Section>
     </PageWrapper>
   )

@@ -51,7 +51,7 @@ export default function Home() {
           </video>,
           <div key="gradient-cover" className="prime-section-gradient-bg" />
         ]}>
-        <div className="row g-0">
+        <div className="row">
           <div className="col-12 col-lg-8 col-xl-10">
             <Title>{t('home.prime_section.title')}</Title>
           </div>
@@ -67,30 +67,52 @@ export default function Home() {
       </Section>
 
       <Section id="how-we-do-it-section">
-        <Title dataAos="fade-down" as="h2">
-          {t('home.how_we_do_it_section.title')}
-        </Title>
-        <AccessaryToolList dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <Title dataAos="fade-down" as="h2">
+              {t('home.how_we_do_it_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <AccessaryToolList dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
       <Section id="services-section">
-        <Title dataAos="fade-down" as="h2">
-          {t('home.services_section.title')}
-        </Title>
-        <ServiceList />
+        <div className="row">
+          <div className="col-12">
+            <Title dataAos="fade-down" as="h2">
+              {t('home.services_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <ServiceList />
+          </div>
+        </div>
       </Section>
       <Section id="project-support-section">
-        <Title dataAos="fade-down" as="h2">
-          {t('home.project_support_section.title')}
-        </Title>
-        <Text description dataAos="fade-right">
-          {t('home.project_support_section.subtitle')}
-        </Text>
-        <ReasonList dataAos="fade-left" />
-        <ProjectCount
-          title={t('home.project_support_section.subtitle2')}
-          uptitle={t('home.project_support_section.uptitle')}
-        />
-        <div className="row justify-content-center g-0">
+        <div className="row">
+          <div className="col-12">
+            <Title dataAos="fade-down" as="h2">
+              {t('home.project_support_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <Text description dataAos="fade-right">
+              {t('home.project_support_section.subtitle')}
+            </Text>
+          </div>
+          <div className="col-12">
+            <ReasonList dataAos="fade-left" />
+          </div>
+          <div className="col-12">
+            <ProjectCount
+              title={t('home.project_support_section.subtitle2')}
+              uptitle={t('home.project_support_section.uptitle')}
+            />
+          </div>
+        </div>
+        <div className="row justify-content-center">
           <div className="col-auto">
             <Button
               aria-label={t('home.project_support_section.buttonText')}
@@ -103,16 +125,28 @@ export default function Home() {
         </div>
       </Section>
       <Section dark id="guarantees-section">
-        <Title as="h2" dataAos="fade-down">
-          {t('home.guarantees_section.title')}
-        </Title>
-        <GuaranteeList dataAos="fade-right" />
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-down">
+              {t('home.guarantees_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <GuaranteeList dataAos="fade-right" />
+          </div>
+        </div>
       </Section>
       <Section id="industries-section">
-        <Title as="h2" dataAos="fade-down">
-          {t('home.industries_section.title')}
-        </Title>
-        <IndustryList dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-down">
+              {t('home.industries_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <IndustryList dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
       <Section
         id="technologies-section"
@@ -129,14 +163,17 @@ export default function Home() {
             />
           </video>
         }>
-        <Title as="h2" dataAos="fade-left">
-          {t('home.technologies_section.title')}
-        </Title>
-
-        <Text description dataAos="fade-left">
-          {t('home.technologies_section.subtitle')}
-        </Text>
-        <div className="row g-0">
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-left">
+              {t('home.technologies_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <Text description dataAos="fade-left">
+              {t('home.technologies_section.subtitle')}
+            </Text>
+          </div>
           <div className="col-auto">
             <Button
               className="btn-dark"
@@ -149,32 +186,42 @@ export default function Home() {
         </div>
       </Section>
       <Section id="how-it-works-section">
-        <Title as="h2" dataAos="fade-down">
-          {t('home.how_it_works_section.title')}
-        </Title>
-        <Text description dataAos="fade-left">
-          {t('home.how_it_works_section.subtitle')}
-        </Text>
-        <div className="row g-0">
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-right">
+              {t('home.how_it_works_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <Text description dataAos="fade-right">
+              {t('home.how_it_works_section.subtitle')}
+            </Text>
+          </div>
           <div className="col-auto">
             <Button
               className="btn-dark"
               href="/process"
               aria-label={t('home.how_it_works_section.buttonAria')}
-              data-aos="zoom-out">
+              data-aos="fade-right">
               {t('home.how_it_works_section.buttonText')}
             </Button>
           </div>
         </div>
       </Section>
       <Section dark id="companies-support-section">
-        <Title as="h2" dataAos="fade-left">
-          {t('home.companies_support_section.title')}
-        </Title>
-        <CompanyList dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2" dataAos="fade-left">
+              {t('home.companies_support_section.title')}
+            </Title>
+          </div>
+          <div className="col-12">
+            <CompanyList dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
       <Section id="ukranian-developers-section">
-        <div className="row justify-content-center g-0">
+        <div className="row justify-content-center">
           <div className="col-12">
             <Title as="h2" dataAos="fade-down" center>
               {t('home.ukranian_developers_section.title')}
@@ -185,8 +232,10 @@ export default function Home() {
               {t('home.ukranian_developers_section.description')}
             </Text>
           </div>
+          <div className="col-12">
+            <AdvantageList dataAos="fade-left" />
+          </div>
         </div>
-        <AdvantageList dataAos="fade-left" />
       </Section>
       <Section dark id="about-senseteq-section">
         <div className="row align-items-center">

@@ -22,11 +22,21 @@ export default function Technologies() {
         keywords: computedKeyWords
       }}>
       <Section dark id="prime-section">
-        <Title as="h2">{t('technologies.prime_section.title')}</Title>
-        <Text description>{t('technologies.prime_section.subtitle')}</Text>
+        <div className="row">
+          <div className="col-12">
+            <Title as="h2">{t('technologies.prime_section.title')}</Title>
+          </div>
+          <div className="col-12">
+            <Text description>{t('technologies.prime_section.subtitle')}</Text>
+          </div>
+        </div>
       </Section>
       <Section id="technologies-section">
-        <TechnologyList data={TECHNOLOGIES} />
+        <div className="row">
+          <div className="col-12">
+            <TechnologyList data={TECHNOLOGIES} />
+          </div>
+        </div>
       </Section>
       <Section dark id="secret-weapon-section">
         <div className="row align-items-center">

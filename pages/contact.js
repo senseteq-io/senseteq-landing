@@ -16,10 +16,18 @@ export default function Contact() {
         title: t('head.contact.title')
       }}>
       <Section dark id="prime-section">
-        <Title>{t('contact.prime_section.title')}</Title>
+        <div className="row">
+          <div className="col-12">
+            <Title>{t('contact.prime_section.title')}</Title>
+          </div>
+        </div>
       </Section>
       <Section id="contacts-section">
-        <ContactList dataAos="fade-left" />
+        <div className="row">
+          <div className="col-12">
+            <ContactList dataAos="fade-left" />
+          </div>
+        </div>
       </Section>
     </PageWrapper>
   )
