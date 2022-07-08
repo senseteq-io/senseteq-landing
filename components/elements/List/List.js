@@ -7,8 +7,13 @@ import styles from './List.module.css'
  * @returns A list of items
  */
 const List = (props) => {
-  const { data, listItemComponent, listItemWrapperClassName, listClassName } =
-    props
+  const {
+    data,
+    listItemComponent,
+    listItemWrapperClassName,
+    listClassName,
+    ...rest
+  } = props
 
   // [COMPUTED PROPERTIES]
   // get class names for list
@@ -23,7 +28,7 @@ const List = (props) => {
   })
 
   return (
-    <div className={_listClassName}>
+    <div className={_listClassName} {...rest}>
       {data?.map((item, index) => (
         <div
           key={item?.title || item?.name || index}
