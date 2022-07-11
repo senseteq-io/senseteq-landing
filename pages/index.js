@@ -52,7 +52,7 @@ export default function Home() {
           <div key="gradient-cover" className="prime-section-gradient-bg" />
         ]}>
         <div className="row">
-          <div className="col-12 col-lg-8 col-xl-10">
+          <div className="col-12 col-lg-8">
             <Title>{t('home.prime_section.title')}</Title>
           </div>
           <div className="col-12 col-lg-8">

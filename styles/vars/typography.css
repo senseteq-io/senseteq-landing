@@ -18,7 +18,7 @@
   --description-fs: 1.5rem;
 
   /* Line height */
-  --h1-lh: 8.5rem;
+  --h1-lh: 6.785rem;
   --h2-lh: 7.2rem;
   --h3-lh: 4.8rem;
   --h4-lh: 3.6rem;
@@ -159,7 +159,7 @@
     --description-fs: 1.375rem;
 
     /* Line height */
-    --h1-lh: 6.375rem;
+    --h1-lh: 5rem;
     --h2-lh: 4.6rem;
     --h3-lh: 3.6rem;
     --h4-lh: 2.8rem;
