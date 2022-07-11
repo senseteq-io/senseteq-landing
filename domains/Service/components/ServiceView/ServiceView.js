@@ -18,7 +18,7 @@ const ServiceView = (props) => {
       <div className="service-icon-wrapper">
         <Image src={src} alt={t(title)} layout="fill" />
       </div>
-      <Title as="h6" itemprop="description">
+      <Title as="h6" itemProp="description">
         {t(title)}
       </Title>
     </div>
