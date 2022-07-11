@@ -10,11 +10,17 @@ const ServiceView = (props) => {
   const { t } = useTranslation('landing')
 
   return (
-    <div className="service-item">
+    <div
+      className="service-item"
+      itemProp="orderedItem"
+      itemScope
+      itemType="https://schema.org/Service">
       <div className="service-icon-wrapper">
         <Image src={src} alt={t(title)} layout="fill" />
       </div>
-      <Title as="h6">{t(title)}</Title>
+      <Title as="h6" itemprop="description">
+        {t(title)}
+      </Title>
     </div>
   )
 }
