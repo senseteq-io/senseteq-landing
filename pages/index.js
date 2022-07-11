@@ -118,7 +118,7 @@ export default function Home() {
           <div className="col-auto">
             <Button
               aria-label={t('home.project_support_section.buttonText')}
-              className="btn-lg btn-dark"
+              className="btn-lg btn-primary"
               href="/apply"
               data-aos="zoom-out">
               {t('home.project_support_section.buttonText')}
@@ -134,7 +134,7 @@ export default function Home() {
             </Title>
           </div>
           <div className="col-12">
-            <GuaranteeList dataAos="fade-right" />
+            <GuaranteeList data-aos="fade-right" />
           </div>
         </div>
       </Section>
@@ -146,7 +146,7 @@ export default function Home() {
             </Title>
           </div>
           <div className="col-12">
-            <IndustryList dataAos="fade-left" />
+            <IndustryList data-aos="fade-left" />
           </div>
         </div>
       </Section>
@@ -178,7 +178,7 @@ export default function Home() {
           </div>
           <div className="col-auto">
             <Button
-              className="btn-dark"
+              className="btn-primary"
               href="/technologies"
               aria-label={t('home.technologies_section.buttonAria')}
               data-aos="fade-left">
@@ -201,7 +201,7 @@ export default function Home() {
           </div>
           <div className="col-auto">
             <Button
-              className="btn-dark"
+              className="btn-primary"
               href="/process"
               aria-label={t('home.how_it_works_section.buttonAria')}
               data-aos="fade-right">
@@ -218,7 +218,7 @@ export default function Home() {
             </Title>
           </div>
           <div className="col-12">
-            <CompanyList dataAos="fade-left" />
+            <CompanyList data-aos="fade-left" />
           </div>
         </div>
       </Section>
@@ -235,7 +235,7 @@ export default function Home() {
             </Text>
           </div>
           <div className="col-12">
-            <AdvantageList dataAos="fade-left" />
+            <AdvantageList data-aos="fade-left" />
           </div>
         </div>
       </Section>

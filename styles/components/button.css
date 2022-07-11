@@ -17,9 +17,9 @@
   line-height: var(--btn-lg-line-height);
   border-radius: var(--btn-lg-border-radius);
 }
-.btn.btn-dark {
-  color: var(--btn-filled-dark-color);
-  background-color: var(--btn-filled-dark-bg);
+.btn.btn-primary {
+  color: var(--btn-filled-primary-color);
+  background-color: var(--btn-filled-primary-bg);
 }
 .btn.btn-white {
   color: var(--btn-filled-white-color);

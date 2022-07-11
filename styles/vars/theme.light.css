@@ -1,0 +1,71 @@
+:root {
+  /* Colors */
+  /* Accent */
+  --accent-darken: #238f50;
+  --accent: #2db867;
+  --accent-lighten1: #6fdc9d;
+  --accent-lighten2: #eafaf1;
+
+  /* Secondary */
+  --secondary-darken: #0e7490;
+  --secondary: #06b6d4;
+  --secondary-lighten: #67e8f9;
+
+  /* Success */
+  --success-darken: #15803d;
+  --success: #22c55e;
+  --success-lighten: #86efac;
+
+  /* Warning */
+  --warning-darken: #c2410c;
+  --warning: #f97316;
+  --warning-lighten: #fdba74;
+
+  /* Danger */
+  --danger-darken: #b91c1c;
+  --danger: #ef4444;
+  --danger-lighten: #fca5a5;
+
+  /* Gray */
+  --gray-darken: #3f3f46;
+  --gray: #808080;
+  --gray-lighten1: #b3b3b3;
+  --gray-lighten2: #e6e6e6;
+
+  /* Singletons */
+  --black: #000000;
+  --white: #ffffff;
+
+  /* BODY */
+  --body-bg: var(--white);
+
+  /* TYPOGRAPHY */
+  --text-primary: var(--black);
+  --text-secondary: var(--gray);
+  --text-accent: var(--accent);
+  --text-white: var(--white);
+
+  /* BACKGROUNDS */
+  --bg-dark: var(--black);
+  --bg-white: var(--white);
+  --bg-accent: var(--accent);
+
+  /* BORDERS */
+  --border-accent-color: var(--accent);
+
+  /* ACTIONS */
+  --action-primary-bg: var(--bg-dark);
+  --action-primary-color: var(--text-white);
+  --action-accent-bg: var(--bg-accent);
+  --action-accent-color: var(--text-white);
+  --action-white-bg: var(--bg-white);
+  --action-white-color: var(--text-dark);
+
+  /* BUTTONS */
+  --btn-filled-primary-bg: var(--action-primary-bg);
+  --btn-filled-primary-color: var(--action-primary-color);
+  --btn-filled-white-bg: var(--action-white-bg);
+  --btn-filled-white-color: var(--action-white-color);
+  --btn-filled-accent-bg: var(--action-accent-bg);
+  --btn-filled-accent-color: var(--action-accent-color);
+}
