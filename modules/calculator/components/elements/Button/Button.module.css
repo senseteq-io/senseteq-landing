@@ -58,6 +58,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: var(--calc-module-btn-shape-circle-padding-y)
+    var(--calc-module-btn-shape-circle-padding-x);
 }
 
 .btn.btn-shape-rounded {

@@ -127,4 +127,21 @@
   --calc-module-text-caption2-margin-top: 0;
   --calc-module-text-caption2-margin-bottom: 0;
   --calc-module-text-caption2-letter-spacing: -0.6px;
+
+  /* BUTTON */
+  --calc-module-btn-font-family: var(--btn-font-family);
+  --calc-module-btn-border-width: 0px;
+  --calc-module-btn-border-radius: var(--btn-default-border-radius);
+  --calc-module-btn-rounded-border-radius: var(--btn-lg-border-radius);
+
+  --calc-module-btn-md-font-size: var(--btn-md-font-size);
+  --calc-module-btn-md-line-height: var(--btn-md-line-height);
+  --calc-module-btn-md-font-weight: var(--btn-md-font-weight);
+  --calc-module-btn-md-padding-x: var(--btn-md-horizontal-padding);
+  --calc-module-btn-md-padding-y: var(--btn-md-vertical-padding);
+
+  --calc-module-btn-lg-font-size: var(--btn-lg-font-size);
+  --calc-module-btn-lg-line-height: var(--btn-lg-line-height);
+  --calc-module-btn-lg-padding-x: var(--btn-lg-horizontal-padding);
+  --calc-module-btn-lg-padding-y: var(--btn-lg-vertical-padding);
 }
