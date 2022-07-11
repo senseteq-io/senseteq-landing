@@ -23,7 +23,7 @@
   width: 100%;
 }
 
-.industry-item-wrapper .industry-item .industry-item-content h4 {
+.industry-item-wrapper .industry-item .industry-item-content h5 {
   display: block;
   border-bottom: 1px solid var(--primary);
   padding-bottom: 8px;

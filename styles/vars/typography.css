@@ -7,32 +7,47 @@
   /* Font size */
   --h1-fs: 5.75rem;
   --h2-fs: 4.5rem;
-  --h3-fs: 2.25rem;
-  --h4-fs: 1.125rem;
+  --h3-fs: 3rem;
+  --h4-fs: 2.25rem;
+  --h5-fs: 1.5rem;
+  --h6-fs: 1.125rem;
   --body-fs: 1.125rem;
-  --body2-fs: 0.875rem;
+  --body2-fs: 1rem;
   --caption-fs: 0.875rem;
+  --caption2-fs: 0.75rem;
   --description-fs: 1.5rem;
 
   /* Line height */
-  --h1-lh: 6.75rem;
-  --h2-lh: 5.5rem;
-  --h3-lh: 3rem;
-  --h4-lh: 1.75rem;
-  --body-lh: 1.75rem;
-  --body2-lh: 1.125rem;
-  --caption-lh: 1.125rem;
-  --description-lh: 2.25rem;
+  --h1-lh: 8.5rem;
+  --h2-lh: 7.2rem;
+  --h3-lh: 4.8rem;
+  --h4-lh: 3.6rem;
+  --h5-lh: 2.4rem;
+  --h6-lh: 1.8rem;
+  --body-lh: 1.8rem;
+  --body2-lh: 1.6rem;
+  --caption-lh: 1.4rem;
+  --caption2-lh: 1.2rem;
+  --description-lh: 2.4rem;
 
   /* Font weight */
+  --black-fw: 900;
+  --bolder-fw: 800;
   --bold-fw: 700;
+  --semibold-fw: 600;
+  --medium-fw: 500;
   --regular-fw: 400;
+  --light-fw: 300;
+  --lighter-fw: 200;
+  --thin-fw: 100;
 
   /* Gutters */
-  --h1-mb: 32px;
-  --h2-mb: 24px;
-  --h3-mb: 12px;
-  --h4-mb: 8px;
+  --h1-mb: 34px;
+  --h2-mb: 28px;
+  --h3-mb: 22px;
+  --h4-mb: 16px;
+  --h5-mb: 8px;
+  --h6-mb: 0px;
   --description-mb: 32px;
 
   /* Text */
@@ -60,6 +75,15 @@
   --text-caption-margin-bottom: 0;
   --text-caption-font-family: var(--title-font-family);
   --text-caption-letter-spasing: 2px;
+
+  /* Caption2 */
+  --text-caption2-font-size: var(--caption2-fs);
+  --text-caption2-line-height: var(--caption2-lh);
+  --text-caption2-font-weight: var(--bold-fw);
+  --text-caption2-margin-top: 0;
+  --text-caption2-margin-bottom: 0;
+  --text-caption2-font-family: var(--title-font-family);
+  --text-caption2-letter-spasing: 2px;
 
   /* Description */
   --text-description-font-size: var(--description-fs);
@@ -101,66 +125,98 @@
   --title-h4-margin-top: 0;
   --title-h4-margin-bottom: var(--h4-mb);
   --title-h4-font-family: var(--title-font-family);
+
+  /* H5 */
+  --title-h5-font-size: var(--h5-fs);
+  --title-h5-line-height: var(--h5-lh);
+  --title-h5-font-weight: var(--bold-fw);
+  --title-h5-margin-top: 0;
+  --title-h5-margin-bottom: var(--h5-mb);
+  --title-h5-font-family: var(--title-font-family);
+
+  /* H6 */
+  --title-h6-font-size: var(--h6-fs);
+  --title-h6-line-height: var(--h6-lh);
+  --title-h6-font-weight: var(--bold-fw);
+  --title-h6-margin-top: 0;
+  --title-h6-margin-bottom: var(--h6-mb);
+  --title-h6-font-family: var(--title-font-family);
 }
 
 @media (max-width: 1200px) {
   :root {
     /* Font size */
     --h1-fs: 4.25rem;
-    --h2-fs: 2.375rem;
-    --h3-fs: 1.25rem;
-    --h4-fs: 1rem;
+    --h2-fs: 2.875rem;
+    --h3-fs: 2.25rem;
+    --h4-fs: 1.75rem;
+    --h5-fs: 1.25rem;
+    --h6-fs: 1rem;
     --body-fs: 1rem;
-    --body2-fs: 0.75rem;
+    --body2-fs: 0.875rem;
     --caption-fs: 0.75rem;
+    --caption2-fs: 0.625rem;
     --description-fs: 1.375rem;
 
     /* Line height */
-    --h1-lh: 5rem;
-    --h2-lh: 2.875rem;
-    --h3-lh: 1.75rem;
-    --h4-lh: 1.5rem;
-    --body-lh: 1.5rem;
-    --body2-lh: 0.875rem;
-    --caption-lh: 0.875rem;
-    --description-lh: 2.125rem;
+    --h1-lh: 6.375rem;
+    --h2-lh: 4.6rem;
+    --h3-lh: 3.6rem;
+    --h4-lh: 2.8rem;
+    --h5-lh: 2rem;
+    --h6-lh: 1.6rem;
+    --body-lh: 1.6rem;
+    --body2-lh: 1.4rem;
+    --caption-lh: 1.2rem;
+    --caption2-lh: 1rem;
+    --description-lh: 2.2rem;
 
     /* Gutters */
     --h1-mb: 28px;
     --h2-mb: 22px;
-    --h3-mb: 8px;
-    --h4-mb: 4px;
-    --description-mb: 28px;
+    --h3-mb: 18px;
+    --h4-mb: 12px;
+    --h5-mb: 6px;
+    --h6-mb: 0px;
+    --description-mb: 22px;
   }
 }
 
 @media (max-width: 575px) {
   :root {
     /* Font size */
-    --h1-fs: 2rem;
-    --h2-fs: 1.875rem;
-    --h3-fs: 1.125rem;
-    --h4-fs: 0.875rem;
+    --h1-fs: 2.25rem;
+    --h2-fs: 2rem;
+    --h3-fs: 1.725rem;
+    --h4-fs: 1.125rem;
+    --h5-fs: 1rem;
+    --h6-fs: 0.875rem;
     --body-fs: 0.875rem;
     --body2-fs: 0.75rem;
-    --caption-fs: 0.625rem;
-    --description-fs: 1rem;
+    --caption-fs: 0.75rem;
+    --caption2-fs: 0.625rem;
+    --description-fs: 1.125rem;
 
     /* Line height */
-    --h1-lh: 2.375rem;
-    --h2-lh: 2.25rem;
-    --h3-lh: 1.5rem;
-    --h4-lh: 1.25rem;
-    --body-lh: 1.25rem;
-    --body2-lh: 0.875rem;
-    --caption-lh: 0.75rem;
-    --description-lh: 1.5rem;
+    --h1-lh: 3.375rem;
+    --h2-lh: 3.2rem;
+    --h3-lh: 2.76rem;
+    --h4-lh: 1.8rem;
+    --h5-lh: 1.6rem;
+    --h6-lh: 1.4rem;
+    --body-lh: 1.4rem;
+    --body2-lh: 1.2rem;
+    --caption-lh: 1.2rem;
+    --caption2-lh: 1rem;
+    --description-lh: 1.8rem;
 
     /* Gutters */
     --h1-mb: 22px;
     --h2-mb: 16px;
-    --h3-mb: 6px;
-    --h4-mb: 4px;
-    --description-mb: 22px;
+    --h3-mb: 8px;
+    --h4-mb: 6px;
+    --h5-mb: 4px;
+    --h6-mb: 0px;
+    --description-mb: 18px;
   }
 }

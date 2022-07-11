@@ -2,6 +2,9 @@
   color: var(--white);
   height: 100vh;
 }
+.main-page #prime-section .description {
+  margin-bottom: 0;
+}
 .main-page #prime-section .prime-section-video-bg {
   object-fit: cover;
   width: 100%;

@@ -26,7 +26,7 @@ export default function Team() {
       <Section dark id="prime-section">
         <div className="row">
           <div className="col-12">
-            <Title>{t('team.prime_section.title')}</Title>
+            <Title as="h2">{t('team.prime_section.title')}</Title>
           </div>
           <div className="col-12">
             <Text description>{t('team.prime_section.subtitle')}</Text>

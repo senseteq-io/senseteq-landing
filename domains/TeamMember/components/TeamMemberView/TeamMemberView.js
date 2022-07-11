@@ -17,7 +17,7 @@ const TeamMemberView = (props) => {
           background: `url(${src}) center center / cover no-repeat`
         }}
       />
-      <Title as="h4">{name}</Title>
+      <Title as="h5">{name}</Title>
       <Text size="body2">{t(role)}</Text>
     </div>
   )

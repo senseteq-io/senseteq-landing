@@ -17,7 +17,7 @@ const AccessaryToolView = (props) => {
 
   return (
     <div className="accessary-tool">
-      <Title as="h3">{t(title)}</Title>
+      <Title as="h4">{t(title)}</Title>
       <Text>{t(description)}</Text>
     </div>
   )

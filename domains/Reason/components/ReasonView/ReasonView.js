@@ -15,7 +15,7 @@ const ReasonView = (props) => {
         <Text className="number">{index + 1}</Text>
       </div>
       <div className="reason-item">
-        <Title as="h4">{t(title)}</Title>
+        <Title as="h5">{t(title)}</Title>
         <Text>{t(description)}</Text>
       </div>
     </div>

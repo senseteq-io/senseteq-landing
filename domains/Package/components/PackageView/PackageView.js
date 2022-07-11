@@ -12,13 +12,13 @@ const PackageView = (props) => {
   return (
     <div className="package-item">
       <div className="package-item-content">
-        <Title as="h3" className="name">
+        <Title as="h4" className="name">
           {t(name)}
         </Title>
         <Text className="version-information">{t(description)}</Text>
         <Text>{t(examples)}</Text>
         <div className="price-wrapper">
-          <Title as="h3" className="price">
+          <Title as="h4" className="price">
             {price}
           </Title>
         </div>

@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-12 title-wrapper">
-          <Title as="h3" dataAos="fade-down">
+          <Title as="h4" dataAos="fade-down">
             {t('footer.title')}
           </Title>
         </div>

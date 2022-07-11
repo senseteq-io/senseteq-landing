@@ -10,7 +10,7 @@ const GuaranteeView = (props) => {
 
   return (
     <div className="guarantee-item">
-      <Title as="h4">{t(title)}</Title>
+      <Title as="h6">{t(title)}</Title>
     </div>
   )
 }

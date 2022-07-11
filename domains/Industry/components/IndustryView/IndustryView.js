@@ -17,7 +17,7 @@ const IndustryView = (props) => {
       }}>
       <div className="industry-item-blackout">
         <div className="industry-item-content">
-          <Title as="h4">{t(subtitle)}</Title>
+          <Title as="h5">{t(subtitle)}</Title>
           <Text>{t(description)}</Text>
         </div>
       </div>

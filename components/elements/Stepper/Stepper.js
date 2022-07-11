@@ -20,7 +20,7 @@ const Stepper = (props) => {
           <div className="step-content">
             <div className="step-tail" />
             <div className="step-number">{index + 1}</div>
-            <Title as="h3">{t(name)}</Title>
+            <Title as="h4">{t(name)}</Title>
             <Text>{t(description)}</Text>
           </div>
         </div>

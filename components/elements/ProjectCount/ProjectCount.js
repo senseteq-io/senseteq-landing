@@ -11,7 +11,7 @@ const ProjectCount = (props) => {
       <Text caption className="uptitle">
         {uptitle}
       </Text>
-      <Title as="h3" className="title">
+      <Title as="h4" className="title">
         {title}
       </Title>
     </div>

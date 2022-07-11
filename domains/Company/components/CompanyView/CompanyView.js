@@ -14,7 +14,7 @@ const CompanyView = (props) => {
       <div className="company-image">
         <Image src={src} alt={t(name)} layout="fill" />
       </div>
-      <Title as="h4">{t(name)}</Title>
+      <Title as="h6">{t(name)}</Title>
     </>
   )
 }

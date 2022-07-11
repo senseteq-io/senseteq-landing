@@ -56,7 +56,9 @@ export default function Home() {
             <Title>{t('home.prime_section.title')}</Title>
           </div>
           <div className="col-12 col-lg-8">
-            <Text description>{t('home.prime_section.subtitle')}</Text>
+            <Text className="description" description>
+              {t('home.prime_section.subtitle')}
+            </Text>
           </div>
         </div>
         <ArrowDown
@@ -74,7 +76,7 @@ export default function Home() {
             </Title>
           </div>
           <div className="col-12">
-            <AccessaryToolList dataAos="fade-left" />
+            <AccessaryToolList data-aos="fade-left" />
           </div>
         </div>
       </Section>
@@ -103,7 +105,7 @@ export default function Home() {
             </Text>
           </div>
           <div className="col-12">
-            <ReasonList dataAos="fade-left" />
+            <ReasonList data-aos="fade-left" />
           </div>
           <div className="col-12">
             <ProjectCount

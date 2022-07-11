@@ -33,3 +33,20 @@
   margin-bottom: var(--title-h4-margin-bottom);
   font-family: var(--title-h4-font-family);
 }
+
+.h5 {
+  font-size: var(--title-h5-font-size);
+  line-height: var(--title-h5-line-height);
+  font-weight: var(--title-h5-font-weight);
+  margin-top: var(--title-h5-margin-top);
+  margin-bottom: var(--title-h5-margin-bottom);
+  font-family: var(--title-h5-font-family);
+}
+.h6 {
+  font-size: var(--title-h6-font-size);
+  line-height: var(--title-h6-line-height);
+  font-weight: var(--title-h6-font-weight);
+  margin-top: var(--title-h6-margin-top);
+  margin-bottom: var(--title-h6-margin-bottom);
+  font-family: var(--title-h6-font-family);
+}
