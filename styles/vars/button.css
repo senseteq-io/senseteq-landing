@@ -1,19 +1,34 @@
 :root {
   /* BUTTON */
+  --btn-font-family: var(--body-font-family);
+
+  /* Button md */
+  --btn-md-font-size: var(--body-fs);
+  --btn-md-line-height: var(--body-lh);
+  --btn-md-font-weight: var(--bold-fw);
+  --btn-md-horizontal-padding: 60px;
+  --btn-md-vertical-padding: 18px;
+  --btn-md-border-radius: calc(
+    (var(--btn-default-vertical-padding) * 2 + var(--btn-default-line-height)) /
+      2
+  );
   /* Button default */
-  --btn-default-height: 60px;
-  --btn-default-horizontal-padding: 60px;
-  --btn-default-font-size: 16px;
-  --btn-default-font-weight: 700;
-  --btn-default-font-weight: 700;
-  --btn-default-border-radius: calc(var(--btn-default-height) / 2);
+  --btn-default-font-size: var(--btn-md-font-size);
+  --btn-default-line-height: var(--btn-md-line-height);
+  --btn-default-font-weight: var(--btn-md-font-weight);
+  --btn-default-horizontal-padding: var(--btn-md-horizontal-padding);
+  --btn-default-vertical-padding: var(--btn-md-vertical-padding);
+  --btn-default-border-radius: var(--btn-md-border-radius);
 
   /* Button lg */
-  --btn-lg-height: 80px;
+  --btn-lg-font-size: var(--description-fs);
+  --btn-lg-line-height: var(--description-lh);
+  --btn-lg-font-weight: var(--bold-fw);
   --btn-lg-horizontal-padding: 80px;
-  --btn-lg-font-size: 26px;
-  --btn-lg-line-height: 28px;
-  --btn-lg-border-radius: calc(var(--btn-lg-height) / 2);
+  --btn-lg-vertical-padding: 20px;
+  --btn-lg-border-radius: calc(
+    (var(--btn-lg-vertical-padding) * 2 + var(--btn-lg-line-height)) / 2
+  );
 
   /* Button filled */
   --btn-filled-dark-bg: var(--dark);

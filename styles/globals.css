@@ -1,13 +1,13 @@
+/* AOS library for animations */
+@import url("aos/dist/aos.css");
+/* styles from mvp-calculator */
+@import url("../modules/calculator/styles/globals.css");
+
 @import url("./vars/index.css");
 @import url("./components/index.css");
 @import url("./domains/index.css");
 @import url("./pages/index.css");
 @import url("./bootstrap-grid.css");
-
-/* AOS library for animations */
-@import url("aos/dist/aos.css");
-/* styles from mvp-calculator */
-@import url("../modules/calculator/styles/globals.css");
 
 /* FONTS */
 @font-face {

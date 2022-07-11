@@ -1,0 +1,58 @@
+:root {
+  /* TYPOGRAPHY */
+  --calc-module-root-font-size: var(--root-font-size);
+  --calc-module-title-font-family: var(--body-font-family);
+  --calc-module-body-font-family: var(--title-font-family);
+
+  /* Font size */
+  --calc-module-h1-fs: var(--h1-fs);
+  --calc-module-h2-fs: var(--h2-fs);
+  --calc-module-h3-fs: var(--h3-fs);
+  --calc-module-h4-fs: var(--h4-fs);
+  --calc-module-h5-fs: var(--h5-fs);
+  --calc-module-h6-fs: var(--h6-fs);
+  --calc-module-body1-fs: var(--body-fs);
+  --calc-module-body2-fs: var(--body2-fs);
+  --calc-module-caption1-fs: var(--caption-fs);
+  --calc-module-caption2-fs: var(--caption2-fs);
+
+  /* Line height */
+  --calc-module-h1-lh: var(--h1-lh);
+  --calc-module-h2-lh: var(--h2-lh);
+  --calc-module-h3-lh: var(--h3-lh);
+  --calc-module-h4-lh: var(--h4-lh);
+  --calc-module-h5-lh: var(--h5-lh);
+  --calc-module-h6-lh: var(--h6-lh);
+  --calc-module-body1-lh: var(--body-lh);
+  --calc-module-body2-lh: var(--body2-lh);
+  --calc-module-caption1-lh: var(--caption-lh);
+  --calc-module-caption2-lh: var(--caption2-lh);
+
+  /* Font weight */
+  --calc-module-fw-black: var(--black-fw);
+  --calc-module-fw-bolder: var(--bolder-fw);
+  --calc-module-fw-bold: var(--bold-fw);
+  --calc-module-fw-semibold: var(--semibold-fw);
+  --calc-module-fw-medium: var(--medium-fw);
+  --calc-module-fw-normal: var(--normal-fw);
+  --calc-module-fw-light: var(--light-fw);
+  --calc-module-fw-lighter: var(--lighter-fw);
+  --calc-module-fw-thin: var(--thin-fw);
+
+  /* BUTTON */
+  --calc-module-btn-font-family: var(--btn-font-family);
+  --calc-module-btn-border-width: 0px;
+  --calc-module-btn-border-radius: var(--btn-default-border-radius);
+  --calc-module-btn-rounded-border-radius: var(--btn-lg-border-radius);
+
+  --calc-module-btn-md-font-size: var(--btn-md-font-size);
+  --calc-module-btn-md-line-height: var(--btn-md-line-height);
+  --calc-module-btn-md-font-weight: var(--btn-md-font-weight);
+  --calc-module-btn-md-padding-x: var(--btn-md-horizontal-padding);
+  --calc-module-btn-md-padding-y: var(--btn-md-vertical-padding);
+
+  --calc-module-btn-lg-font-size: var(--btn-lg-font-size);
+  --calc-module-btn-lg-line-height: var(--btn-lg-line-height);
+  --calc-module-btn-lg-padding-x: var(--btn-lg-horizontal-padding);
+  --calc-module-btn-lg-padding-y: var(--btn-lg-vertical-padding);
+}

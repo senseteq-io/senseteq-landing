@@ -5,18 +5,14 @@
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-
-  height: var(--btn-default-height);
-  padding-left: var(--btn-default-horizontal-padding);
-  padding-right: var(--btn-default-horizontal-padding);
+  padding: var(--btn-default-vertical-padding)
+    var(--btn-default-horizontal-padding);
   font-size: var(--btn-default-font-size);
   font-weight: var(--btn-default-font-weight);
   border-radius: var(--btn-default-border-radius);
 }
 .btn.btn-lg {
-  height: var(--btn-lg-height);
-  padding-left: var(--btn-lg-horizontal-padding);
-  padding-right: var(--btn-lg-horizontal-padding);
+  padding: var(--btn-lg-vertical-padding) var(--btn-lg-horizontal-padding);
   font-size: var(--btn-lg-font-size);
   line-height: var(--btn-lg-line-height);
   border-radius: var(--btn-lg-border-radius);
