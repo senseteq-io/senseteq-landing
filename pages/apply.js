@@ -20,6 +20,15 @@ export default function Apply() {
             <Title as="h2">{t('apply.prime_section.title')}</Title>
           </div>
         </div>
+        <iframe
+          src="https://ask.senseteq.io/fmfxxanrj"
+          allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
+          width="100%"
+          height="600px"
+          style={{ border: 'none', borderRadius: '24px' }}
+          data-lf-yt-playback-inspected-xbp1oaebogq8edvj="true"
+          data-lf-yt-playback-inspected-jmvz8g0a90z72pod="true"
+        />
       </Section>
     </PageWrapper>
   )
