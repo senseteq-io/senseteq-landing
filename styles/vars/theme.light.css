@@ -59,7 +59,7 @@
   --action-accent-bg: var(--bg-accent);
   --action-accent-color: var(--text-white);
   --action-white-bg: var(--bg-white);
-  --action-white-color: var(--text-dark);
+  --action-white-color: var(--text-primary);
 
   /* BUTTONS */
   --btn-filled-primary-bg: var(--action-primary-bg);
