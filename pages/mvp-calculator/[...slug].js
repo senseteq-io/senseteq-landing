@@ -1,9 +1,4 @@
-import {
-  Content,
-  Footer,
-  Head,
-  Header
-} from '../../modules/calculator/components'
+import { Content, Head, Header } from '../../modules/calculator/components'
 import {
   useCalculatorData,
   useLS,
@@ -72,7 +67,7 @@ export default function CalculatorAll() {
           {page}
         </CalculatorProvider>
       </Content>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

@@ -1,6 +1,5 @@
 import {
   Content,
-  Footer,
   Head,
   Header,
   Welcome
@@ -77,7 +76,7 @@ export default function Calculator() {
           onClick={onGetStarted}
         />
       </Content>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
