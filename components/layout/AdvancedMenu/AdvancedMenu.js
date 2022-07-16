@@ -12,22 +12,26 @@ const AdvancedMenu = (props) => {
 
   return (
     <div id="advanced-menu">
-      <div className="advanced-menu-content row">
-        {Object.values(MENU_ITEMS)?.map(({ href, name, ariaLabel }) => (
-          <div key={href} className="menu-item-wrapper col-12">
-            <Link href={href}>
-              <a
-                className={`menu-item ${
-                  activeMenuItem === href ? 'menu-item-active' : ''
-                }`}
-                aria-label={t(ariaLabel)}>
-                {t(name)}
-              </a>
-            </Link>
+      <div className="advanced-menu-content">
+        <div className="container">
+          <div className="row">
+            {Object.values(MENU_ITEMS)?.map(({ href, name, ariaLabel }) => (
+              <div key={href} className="menu-item-wrapper col-12">
+                <Link href={href}>
+                  <a
+                    className={`menu-item ${
+                      activeMenuItem === href ? 'menu-item-active' : ''
+                    }`}
+                    aria-label={t(ariaLabel)}>
+                    {t(name)}
+                  </a>
+                </Link>
+              </div>
+            ))}
           </div>
-        ))}
-        <div className="col-12">
-          <LanguagesMenu />
+          <div className="col-12">
+            <LanguagesMenu />
+          </div>
         </div>
       </div>
     </div>
