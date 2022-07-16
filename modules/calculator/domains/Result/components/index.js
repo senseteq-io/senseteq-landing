@@ -1,1 +1,7 @@
 export { default as ResultSimpleView } from './ResultSimpleView'
+export { default as EmailForm } from './EmailForm'
+export { default as ResultsModal } from './ResultsModal'
+export { default as ResultActions } from './ResultActions'
+export { default as ResultDetails } from './ResultDetails'
+export { default as ResultEstimations } from './ResultEstimations'
+export { default as ResultHeader } from './ResultHeader'

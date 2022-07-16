@@ -1319,6 +1319,20 @@
           "another": "May integrate purchases",
           "not_sure": "May integrate purchases"
         }
+      },
+      "buttons": {
+        "save_and_share": "🔗 Save and share results",
+        "schedule_meeting": "📆 Schedule meeting with us"
+      },
+      "email_form": {
+        "placeholder": "Enter your e-mail here",
+        "buttons": {
+          "send": "Send 🚀"
+        }
+      },
+      "results_modal": {
+        "title": "🔗 Save and share results",
+        "subtitle": "Enter your e-mail below and we will send letter with link to your results"
       }
     }
   }
