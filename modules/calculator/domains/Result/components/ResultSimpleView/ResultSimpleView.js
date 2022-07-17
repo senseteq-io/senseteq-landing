@@ -23,7 +23,7 @@ const ResultSimpleView = () => {
           <ResultActions onOpenSaveModal={openSaveModal} />
           <Modal visible={isSaveModalVisible} onClose={closeSaveModal}>
             <ResultsModal>
-              <EmailForm />
+              <EmailForm onSend={closeSaveModal} />
             </ResultsModal>
           </Modal>
         </div>
