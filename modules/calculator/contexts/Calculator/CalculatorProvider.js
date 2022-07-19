@@ -7,6 +7,8 @@ import { useNavigator } from '../../hooks'
 const CalculatorProvider = ({
   calculatorData,
   updateCalculatorField,
+  loading,
+  savedResult,
   children
 }) => {
   /* 
@@ -29,10 +31,11 @@ const CalculatorProvider = ({
         onNext,
         onPrev,
         onSelect,
-        calculatorData
+        calculatorData,
+        savedResult
       }}>
       <Progress progress={progress} />
-      {children}
+      {loading ? <>Please, wait. Loading...</> : children}
     </CalculatorContext.Provider>
   )
 }

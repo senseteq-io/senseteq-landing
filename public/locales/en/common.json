@@ -1328,7 +1328,8 @@
         "placeholder": "Enter your e-mail here",
         "buttons": {
           "send": "Send 🚀"
-        }
+        },
+        "success": "🎉 Saved! Please check your e-mail now or call 55181900"
       },
       "results_modal": {
         "title": "🔗 Save and share results",

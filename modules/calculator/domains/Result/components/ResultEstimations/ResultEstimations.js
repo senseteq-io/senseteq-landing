@@ -29,7 +29,8 @@ const ResultEstimations = ({ weeks, price }) => {
             {t('calculator.result.approximate_cost')}
           </Text>
           <Title as="h3" align="center">
-            {price} NOK
+            {price?.toLocaleString('no', { currency: 'NOK' })}
+            {` `},- eks. mva
           </Title>
         </div>
       </div>

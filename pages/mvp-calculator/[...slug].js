@@ -11,6 +11,7 @@ import {
 
 import { CalculatorProvider } from '../../modules/calculator/contexts/Calculator'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
 
 export default function CalculatorAll() {
   /* Transforming the routes from the `routes.js` file into a format that is easier to work with. */
@@ -38,7 +39,10 @@ export default function CalculatorAll() {
   useLS(calculatorData)
 
   /* Using the `useParams` hook to get the params from the URL. geo - country, g - gender */
-  const { geo, g } = useParams()
+  const { geo, g, id } = useParams()
+
+  /* Fetching the data from the database and setting it to the `DBData` variable. */
+  const [DBData, loading] = useFetchResult(id)
 
   /* Returning the head, header, content, and footer components. */
   return (
@@ -62,7 +66,9 @@ export default function CalculatorAll() {
         <CalculatorProvider
           geo={geo}
           g={g}
-          calculatorData={calculatorData}
+          loading={loading}
+          savedResult={!!id}
+          calculatorData={DBData || calculatorData}
           updateCalculatorField={updateCalculatorField}>
           {page}
         </CalculatorProvider>

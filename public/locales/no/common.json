@@ -3,7 +3,7 @@
     "head": {
       "welcome": {
         "title": "Senseteq | App kalkulator",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "analogues": {
         "title": "Senseteq | Taxi app | App kalkulator",
@@ -17,745 +17,745 @@
               "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Taxi mobile app | App kalkulator",
+              "title": "Senseteq | Taxi mobil app | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Taxi web&mobile app | App kalkulator",
+              "title": "Senseteq | Taxi web&mobil app | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "uber_eats": {
-          "title": "Senseteq | Food delivery app calculator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "title": "Senseteq | Matleverings app kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Food delivery wed app | App kalkulator",
-              "description": "Want to know how much the development of web application for uber eats clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Matleverings wed app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Food delivery mobile app | App kalkulator",
-              "description": "Want to know how much the development of android, iOS app for uber clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Matleverings mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Food delivery app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for uber clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Matleverings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "airbnb": {
-          "title": "Senseteq | Lodging app | App kalkulator",
-          "description": "Want to know how much the development of a mobile (iOS, android) or web application for lodging industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Hotell app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Lodging web app | App kalkulator",
-              "description": "Want to know how much the development of a web application for airbnb clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Hotell web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Lodging mobile app | App kalkulator",
-              "description": "Want to know how much the development of a iOS and android application for airbnb clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Hotell mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Lodging app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for airbnb clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Hotell app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "tinder": {
           "title": "Senseteq | Dating app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
               "title": "Senseteq | Dating web app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
               "title": "Senseteq | Dating mobile app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
               "title": "Senseteq | Dating app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "linkedin": {
-          "title": "Senseteq | Professional network app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for linkedin clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Professjonelt nettverk app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Professional network mobile app | App kalkulator",
-              "description": "Want to know how much the development of a web application for linkedin clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Professjonelt nettverk web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Professional network app | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for linkedin clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Professjonelt nettverk mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Professional network app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for linkedin clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Professjonelt nettverk app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "facebook": {
-          "title": "Senseteq | Social network app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for facebook clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Sosialt nettverk app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Social network web app | App kalkulator",
-              "description": "Want to know how much the development of a web application for facebook clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosialt nettverk web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Social network mobile app | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for facebook clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosialt nettverk mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Social network app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for facebook clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosialt nettverk app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "instagram": {
-          "title": "Senseteq | Instagram for X | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for instagram clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Bildedelings app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Instagram for X | App kalkulator",
-              "description": "Want to know how much the development of a web application for instagram clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Bildedelings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Instagram for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for instagram clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Bildedelings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Instagram for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for instagram clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Bildedelings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "tiktok": {
-          "title": "Senseteq | Tiktok for X | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for tiktok clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Tiktok lignende app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Tiktok for X | App kalkulator",
-              "description": "Want to know how much the development of a web application for tiktok clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Tiktok lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Tiktok for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for tiktok clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Tiktok lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Tiktok for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for tiktok clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Tiktok lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "kickstarter": {
-          "title": "Senseteq | Crowdfunding app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for kickstarter clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Folkefinansierings app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Crowdfunding web app | App kalkulator",
-              "description": "Want to know how much the development of a web application for kickstarter clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Folkefinansierings web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Crowdfunding mobile app | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for kickstarter clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Folkefinansierings mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Crowdfunding app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for kickstarter clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Folkefinansierings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "amazon": {
-          "title": "Senseteq | E-commerce app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for amazone clone costs? Please use a unique price calculator",
+          "title": "Senseteq | E-handel app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | E-commerce web app | App kalkulator",
-              "description": "Want to know how much the development of a web application for amazone clone costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | E-commerce mobile app | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for amazone clone costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | E-commerce app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for amazone clone costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "whatsapp": {
-          "title": "Senseteq | Messenger app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Meldings app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Messenger web app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Meldings web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Messenger mobile app | App kalkulator",
-              "description": "Want to know how much the development of android and iOS application for whatsapp clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Meldings mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Messenger app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Meldings app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "youtube": {
-          "title": "Senseteq | Youtube for X | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for youtube clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Youtube lignende app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Youtube for X | App kalkulator",
-              "description": "Want to know how much the development of a web application for youtube clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Youtube lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Youtube for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for youtube clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Youtube lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Youtube for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for youtube clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Youtube lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "netflix": {
-          "title": "Senseteq | Netflix for X | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for netflix clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Netflix lignende app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Netflix for X | App kalkulator",
-              "description": "Want to know how much the development of a web application for netflix clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Netflix lignende app| App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Netflix for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for netflix clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Netflix lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Netflix for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for netflix clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Netflix lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "spotify": {
-          "title": "Senseteq | Spotify for X | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for spotify clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Spotify lignende app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Spotify for X | App kalkulator",
-              "description": "Want to know how much the development of a web application for spotify clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Spotify lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Spotify for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for spotify clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Spotify lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Spotify for X | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for spotify clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Spotify lignende app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "medium": {
-          "title": "Senseteq | Blogging app | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for medium clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Blogg app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Blogging web app | App kalkulator",
-              "description": "Want to know how much the development of a web application for medium clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Blogg web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Blogging mobile app | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for medium clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Blogg mobil app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Blogging app | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for medium clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Blogg app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "platforms": {
           "web": {
             "title": "Senseteq | Web app | App kalkulator",
-            "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           },
           "mobile": {
-            "title": "Senseteq | iOS and Android app | App kalkulator",
-            "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+            "title": "Senseteq | iOS og Android app | App kalkulator",
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           },
           "both": {
-            "title": "Senseteq | Web and mobile app | App kalkulator",
-            "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+            "title": "Senseteq | Web og mobil app | App kalkulator",
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           }
         }
       },
       "industries": {
         "title": "Senseteq | App kalkulator",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
         "e_commerce": {
-          "title": "Senseteq | E-commerce | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for e-commerce costs? Please use a unique price calculator",
+          "title": "Senseteq | E-handel | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | E-commerce | App kalkulator",
-              "description": "Want to know how much the development of a  web application for e-commerce costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | E-commerce | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for e-commerce costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | E-commerce | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for e-commerce costs? Please use a unique price calculator"
+              "title": "Senseteq | E-handel | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "sports_and_fitness": {
-          "title": "Senseteq | Sports and fitness | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for sports and fitness industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Sport og trening | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Sports and fitness | App kalkulator",
-              "description": "Want to know how much the development of a web application for sports and fitness industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Sport og trening | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Sports and fitness | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for sports and fitness industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Sport og trening | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Sports and fitness | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for sports and fitness industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Sport og trening | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "media_and_entertainment": {
-          "title": "Senseteq | Media and entertainment | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for media and entertainment industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Media og underholdning | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Media and entertainment | App kalkulator",
-              "description": "Want to know how much the development of a web application for media and entertainment industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Media og underholdning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Media and entertainment | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for media and entertainment industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Media og underholdning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Media and entertainment | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for media and entertainment industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Media og underholdning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "food": {
-          "title": "Senseteq | Food industry | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for food/food delivery industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Mat og restaurant | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Food industry | App kalkulator",
-              "description": "Want to know how much the development of a web application for food/food delivery industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Mat og restaurant | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Food industry | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for food/food delivery industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Mat og restaurant | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Food industry | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for food/food delivery industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Mat og restaurant | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "education_and_training": {
-          "title": "Senseteq | Edtech | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application ed-tech industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Utdannelse og undervisning | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Edtech | App kalkulator",
-              "description": "Want to know how much the development of a web application ed-tech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Utdannelse og undervisning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Edtech | App kalkulator",
-              "description": "Want to know how much the development of a mobile application ed-tech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Utdannelse og undervisning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Edtech | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application ed-tech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Utdannelse og undervisning | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "healthcare": {
-          "title": "Senseteq | Healthcare | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for healthcare industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Helse | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Healthcare | App kalkulator",
-              "description": "Want to know how much the development of a web application for healthcare industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Helse | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Healthcare | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for healthcare industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Helse | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Healthcare | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for healthcare industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Helse | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "automotive": {
-          "title": "Senseteq | Automotive | App kalkulator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "title": "Senseteq | Bil og motor | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Automotive | App kalkulator",
-              "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+              "title": "Senseteq | Bil og motor | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Automotive | App kalkulator",
-              "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+              "title": "Senseteq | Bil og motor | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Automotive | App kalkulator",
-              "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+              "title": "Senseteq | Bil og motor | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "finance_banking_insurance": {
           "title": "Senseteq | Fintech | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for fintech industry costs? Please use a unique price calculator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
               "title": "Senseteq | Fintech | App kalkulator",
-              "description": "Want to know how much the development of a web application for fintech industry costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
               "title": "Senseteq | Fintech | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for fintech industry costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
               "title": "Senseteq | Fintech | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for fintech industry costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "travel": {
-          "title": "Senseteq | Travel | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for travel costs? Please use a unique price calculator",
+          "title": "Senseteq | Reise | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Travel | App kalkulator",
-              "description": "Want to know how much the development of a web application for travel costs? Please use a unique price calculator"
+              "title": "Senseteq | Reise | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Travel | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for travel costs? Please use a unique price calculator"
+              "title": "Senseteq | Reise | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Travel | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for travel costs? Please use a unique price calculator"
+              "title": "Senseteq | Reise | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "real_estate": {
-          "title": "Senseteq | Real estate | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for real estate industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Eiendom | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Real estate | App kalkulator",
-              "description": "Want to know how much the development of a web application for real estate industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Eiendom | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Real estate | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for real estate industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Eiendom | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Real estate | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for real estate industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Eiendom | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "manufacturing": {
-          "title": "Senseteq | Manufacturing | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for manufacturing costs? Please use a unique price calculator",
+          "title": "Senseteq | Produksjon | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Manufacturing | App kalkulator",
-              "description": "Want to know how much the development of a web application for manufacturing costs? Please use a unique price calculator"
+              "title": "Senseteq | Produksjon | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Manufacturing | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for manufacturing costs? Please use a unique price calculator"
+              "title": "Senseteq | Produksjon | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Manufacturing | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for manufacturing costs? Please use a unique price calculator"
+              "title": "Senseteq | Produksjon | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "logistic": {
-          "title": "Senseteq | Logistics | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for logistics costs? Please use a unique price calculator",
+          "title": "Senseteq | Logistikk | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Logistics | App kalkulator",
-              "description": "Want to know how much the development of a web application for logistics costs? Please use a unique price calculator"
+              "title": "Senseteq | Logistikk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Logistics | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for logistics costs? Please use a unique price calculator"
+              "title": "Senseteq | Logistikk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Logistics | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for logistics costs? Please use a unique price calculator"
+              "title": "Senseteq | Logistikk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "agritech": {
-          "title": "Senseteq | Agritech | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for agritech industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Jordbruksteknologi | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Agritech | App kalkulator",
-              "description": "Want to know how much the development of a web application for agritech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Jordbruksteknologi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Agritech | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for agritech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Jordbruksteknologi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Agritech | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for agritech industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Jordbruksteknologi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "natural_resources": {
-          "title": "Senseteq | Oil and gas | App kalkulator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "title": "Senseteq | Olje og gass | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Oil and gas | App kalkulator",
-              "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+              "title": "Senseteq | Olje og gass | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Oil and gas | App kalkulator",
-              "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+              "title": "Senseteq | Olje og gass | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Oil and gas | App kalkulator",
-              "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+              "title": "Senseteq | Olje og gass | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "green_energy": {
-          "title": "Senseteq | Green energy | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for green energy industry costs? Please use a unique price calculator",
+          "title": "Senseteq | Grønn energi | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Green energy | App kalkulator",
-              "description": "Want to know how much the development of a web application for green energy industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Grønn energi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Green energy | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for green energy industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Grønn energi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Green energy | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for green energy industry costs? Please use a unique price calculator"
+              "title": "Senseteq | Grønn energi | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "internet_of_things": {
           "title": "Senseteq | IoT | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for IoT costs? Please use a unique price calculator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
               "title": "Senseteq | IoT | App kalkulator",
-              "description": "Want to know how much the development of a web application for IoT costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
               "title": "Senseteq | IoT | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for IoT costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
               "title": "Senseteq | IoT | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for IoT costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "robotics": {
           "title": "Senseteq | Robotics | App kalkulator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
               "title": "Senseteq | Robotics | App kalkulator",
-              "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
               "title": "Senseteq | Robotics | App kalkulator",
-              "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
               "title": "Senseteq | Robotics | App kalkulator",
-              "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "kids": {
-          "title": "Senseteq | Kids | App kalkulator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "title": "Senseteq | Barn | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Kids | App kalkulator",
-              "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+              "title": "Senseteq | Barn | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Kids | App kalkulator",
-              "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+              "title": "Senseteq | Barn | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Kids | App kalkulator",
-              "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+              "title": "Senseteq | Barn | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "social_networking": {
-          "title": "Senseteq | Social networking | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for social networking costs? Please use a unique price calculator",
+          "title": "Senseteq | Sosiale nettverk | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Social networking | App kalkulator",
-              "description": "Want to know how much the development of a web application for social networking costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosiale nettverk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Social networking | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for social networking costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosiale nettverk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Social networking | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for social networking costs? Please use a unique price calculator"
+              "title": "Senseteq | Sosiale nettverk | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "dating": {
           "title": "Senseteq | Dating | App kalkulator",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
               "title": "Senseteq | Dating | App kalkulator",
-              "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
               "title": "Senseteq | Dating | App kalkulator",
-              "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
               "title": "Senseteq | Dating | App kalkulator",
-              "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "productivity": {
-          "title": "Senseteq | Productivity | App kalkulator",
-          "description": "Want to know how much the development of a mobile or web application for productivity costs? Please use a unique price calculator",
+          "title": "Senseteq | Produktivitet | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Productivity | App kalkulator",
-              "description": "Want to know how much the development of a web application for productivity costs? Please use a unique price calculator"
+              "title": "Senseteq | Produktivitet | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Productivity | App kalkulator",
-              "description": "Want to know how much the development of a mobile application for productivity costs? Please use a unique price calculator"
+              "title": "Senseteq | Produktivitet | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Productivity | App kalkulator",
-              "description": "Want to know how much the development of a mobile or web application for productivity costs? Please use a unique price calculator"
+              "title": "Senseteq | Produktivitet | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
         "platforms": {
           "web": {
             "title": "Senseteq | Web app | App kalkulator",
-            "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           },
           "mobile": {
             "title": "Senseteq | Android and iOS app | App kalkulator",
-            "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           },
           "both": {
             "title": "Senseteq | Web and mobile app | App kalkulator",
-            "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+            "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
           }
         }
       },
       "platforms": {
-        "title": "App kalkulator | Platforms",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+        "title": "App kalkulator | Plattformer",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
         "web": {
-          "title": "App kalkulator | Platforms | Web",
-          "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
+          "title": "App kalkulator | Plattformer | Web",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
         },
         "mobile": {
-          "title": "App kalkulator | Platforms | Android and iOS",
-          "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
+          "title": "App kalkulator | Plattformer | Android and iOS",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
         },
         "both": {
-          "title": "App kalkulator | Platforms | Web and mobile",
-          "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+          "title": "App kalkulator | Plattformer | Web and mobile",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
         }
       },
       "administration": {
-        "title": "App kalkulator | Administration",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Administrasjonspanel",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "appearance": {
-        "title": "App kalkulator | Appearance",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Utseende",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "authentication": {
-        "title": "App kalkulator | Authentication",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Pålogging",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "brand": {
         "title": "App kalkulator | Brand",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "external_service": {
-        "title": "App kalkulator | External services",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Eksterne tjenester",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "localization": {
-        "title": "App kalkulator | Localization",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Språk",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "revenue": {
-        "title": "App kalkulator | Revenue streams",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Betalingsmodeller",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "result": {
-        "title": "App kalkulator | Result",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "App kalkulator | Resultat",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       }
     },
     "welcome": {
-      "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+      "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
       "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
       "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
       "buttonText": "Jeg er klar, kjør på!",
       "geo": {
         "nor": "🇳🇴"
       },
-      "fff": "* For Female Founders"
+      "fff": "* spesielt for kvinnelige entrepenører"
     },
     "paths": {
       "mvp_calculator": "mvp-calculator",
-      "platforms": "platforms",
-      "analogues": "analogues",
-      "industries": "industries",
+      "platforms": "plattformer",
+      "analogues": "liknende-applikasjoner",
+      "industries": "bransjer",
       "web": "web",
-      "mobile": "android-and-ios",
-      "web_and_mobile": "web-and-android-and-ios",
+      "mobile": "ios-og-android",
+      "web_and_mobile": "web-og-ios-og-android",
       "uber": "uber",
       "uber_eats": "uber-eats",
       "airbnb": "airbnb",
@@ -771,43 +771,43 @@
       "netflix": "netflix",
       "spotify": "spotify",
       "medium": "medium",
-      "e_commerce": "e-commerce",
-      "sports_and_fitness": "sports-and-fitness",
-      "media_and_entertainment": "media-and-entertainment",
-      "food": "food",
-      "education_and_training": "education-and-training",
-      "healthcare": "healthcare",
-      "automotive": "automotive",
-      "finance_banking_insurance": "finance-banking-and-insurance",
-      "travel": "travel",
-      "real_estate": "real-estate",
-      "manufacturing": "manufacturing",
-      "logistic": "logistic",
-      "agritech": "agritech",
-      "natural_resources": "natural-resources",
-      "green_energy": "green-energy",
+      "e_commerce": "e-handel",
+      "sports_and_fitness": "sport-og-trening",
+      "media_and_entertainment": "media-og-underholdning",
+      "food": "mat-og-restaurant",
+      "education_and_training": "utdannelse-og-undervisning",
+      "healthcare": "helse",
+      "automotive": "bil",
+      "finance_banking_insurance": "finans-bank-og-forsikring",
+      "travel": "reise",
+      "real_estate": "eiendom",
+      "manufacturing": "byggebransjen",
+      "logistic": "logistikk",
+      "agritech": "jordbruksteknologi",
+      "natural_resources": "olje-og-gass",
+      "green_energy": "grønn-energi",
       "internet_of_things": "internet-of-things",
       "robotics": "robotics",
-      "kids": "kids",
-      "social_networking": "social-networking",
+      "kids": "barn",
+      "social_networking": "sosiale-nettverk",
       "dating": "dating",
-      "productivity": "productivity",
-      "administration": "administration",
-      "localization": "localization",
-      "authentication": "authentication",
-      "external_services": "external-services",
-      "appearance": "appearance",
+      "productivity": "produktivitet",
+      "administration": "administrasjonspanel",
+      "localization": "sprak",
+      "authentication": "palogging",
+      "external_services": "eksterne-tjenester",
+      "appearance": "utseende",
       "brand": "brand",
-      "revenue": "revenue",
-      "result": "result",
+      "revenue": "betalingsmodell",
+      "result": "resultat",
       "mirror": {
         "mvp-calculator": "mvp_calculator",
-        "platforms": "platforms",
-        "analogues": "analogues",
-        "industries": "industries",
+        "plattformer": "platforms",
+        "liknende-applikasjoner": "analogues",
+        "bransjer": "industries",
         "web": "web",
-        "android-and-ios": "mobile",
-        "web-and-android-and-ios": "web_and_mobile",
+        "ios-og-android": "mobile",
+        "web-og-ios-og-android": "web_and_mobile",
         "uber": "uber",
         "uber-eats": "uber_eats",
         "airbnb": "airbnb",
@@ -823,63 +823,63 @@
         "netflix": "netflix",
         "spotify": "spotify",
         "medium": "medium",
-        "e-commerce": "e_commerce",
-        "sports-and-fitness": "sports_and_fitness",
-        "media-and-entertainment": "media_and_entertainment",
-        "food": "food",
-        "education-and-training": "education_and_training",
-        "healthcare": "healthcare",
-        "automotive": "automotive",
-        "finance-banking-insurance": "finance_banking_and_insurance",
-        "travel": "travel",
-        "real-estate": "real_estate",
-        "manufacturing": "manufacturing",
-        "logistic": "logistic",
-        "agritech": "agritech",
-        "natural-resources": "natural_resources",
-        "green-energy": "green_energy",
+        "e-handel": "e_commerce",
+        "sport-og-trening": "sports_and_fitness",
+        "media-og-underholdning": "media_and_entertainment",
+        "mat-og-restaurant": "food",
+        "utdannelse-og-undervisning": "education_and_training",
+        "helse": "healthcare",
+        "bil": "automotive",
+        "finans-bank-og-forsikring": "finance_banking_and_insurance",
+        "reise": "travel",
+        "eiendom": "real_estate",
+        "produksjon": "manufacturing",
+        "logistikk": "logistic",
+        "jordbruksteknologi": "agritech",
+        "olje-og-gass": "natural_resources",
+        "grønn-energi": "green_energy",
         "internet-of-things": "internet_of_things",
         "robotics": "robotics",
-        "kids": "kids",
-        "social-networking": "social_networking",
+        "barn": "kids",
+        "sosiale-nettverk": "social_networking",
         "dating": "dating",
-        "productivity": "productivity",
-        "administration": "administration",
-        "localization": "localization",
-        "authentication": "authentication",
-        "external-services": "external_services",
-        "appearance": "appearance",
+        "produktivitet": "productivity",
+        "administrasjonspanel": "administration",
+        "sprak": "localization",
+        "palogging": "authentication",
+        "eksterne-tjenester": "external_services",
+        "utseende": "appearance",
         "brand": "brand",
-        "revenue": "revenue",
-        "result": "result"
+        "betalingsmodell": "revenue",
+        "resultat": "result"
       }
     },
     "platforms": {
       "title": "Hvilke <strong>typer applikasjoner</strong> ønsker du å lage?",
       "subtitle": "Skal du ha nedlastbare apper for iPhone og Android, eller bare for nettleser?",
       "welcome": {
-        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
-        "buttonText": "Kjør på",
+        "buttonText": "Jeg er klar, kjør på!",
         "options": {
           "web": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web application for your idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "mobile": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of android and iOS application for your idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "both": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           }
         }
       },
@@ -893,118 +893,118 @@
       "title": "Hvilken av følgende applikasjoner har <strong>har din idé flest likhetstrekk med</strong>?",
       "subtitle": "Klikk på applikasjonen som du føler har likhetstrekk med din idé",
       "welcome": {
-        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
-        "buttonText": "Kjør på",
+        "buttonText": "Jeg er klar, kjør på!",
         "options": {
           "uber": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your uber clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Über / Lyft lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "uber_eats": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your uber eats clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Über Eats / Foodora lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "airbnb": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your airbnb clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Airbnb / Booking.com lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "tinder": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your tinder clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Tinder lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "linkedin": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your linkedin clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en LinkedIn lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "facebook": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your facebook clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Facebook lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "instagram": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your instagram clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Instagram lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "tiktok": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your tiktok clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en TikTok lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "kickstarter": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your kickstarter clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Kickstarter / IndieGoGo lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "amazon": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your amazon clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Amazon / Finn.no lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "whatsapp": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your whatsapp clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en WhatsApp lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "youtube": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your youtube clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en YouTube lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "netflix": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your netflix clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Netflix lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "spotify": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your spotify clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Spotify lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "medium": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
-            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your medium clone will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen på en Medium lignende applikasjon rett her i kalkulatoren i løpet av noen sekunder",
+            "buttonText": "Jeg er klar, kjør på!"
           }
         }
       },
       "options": {
-        "uber": "🚖 Uber",
-        "uber_eats": "🍕 Uber Eats",
-        "airbnb": "🏡 Airbnb",
+        "uber": "🚖 Uber / Lyft",
+        "uber_eats": "🍕 Uber Eats / Foodora",
+        "airbnb": "🏡 Airbnb / Booking.com",
         "tinder": "🥰 Tinder",
-        "linkedin": "👨‍💼 Linkedin",
+        "linkedin": "👨‍💼 LinkedIn",
         "facebook": "📰 Facebook",
         "instagram": "🤳 Instagram",
         "tiktok": "🕺 TikTok",
-        "kickstarter": "💰 Kickstarter",
-        "amazon": "🛒 Amazon",
+        "kickstarter": "💰 Kickstarter / IndieGoGo",
+        "amazon": "🛒 Amazon / Finn.no",
         "whatsapp": "💬 WhatsApp",
         "youtube": "📹 Youtube",
         "netflix": "🎥 Netflix",
-        "spotify": "🎸 Spotify",
+        "spotify": "🎸 Spotify / Apple music",
         "medium": "📄 Medium",
         "another": "🤷‍♂️ Ingen"
       }
@@ -1013,162 +1013,162 @@
       "title": "Hvilken <strong>bransje</strong> tenker du at din idé faller inn i?",
       "subtitle": "Velg den bransjen som du føler treffer best",
       "welcome": {
-        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
-        "buttonText": "Kjør på",
+        "buttonText": "Jeg er klar, kjør på!",
         "options": {
           "e_commerce": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your e-commerce app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "sports_and_fitness": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your sports and fitness app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "media_and_entertainment": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your media and entertainment app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "food": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your food app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "education_and_training": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your ed-tech app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "healthcare": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your healthcare app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "automotive": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your automotive app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "finance_banking_insurance": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your fintech app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "travel": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your travel app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "real_estate": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your real estate app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "manufacturing": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your manufacturing app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "logistic": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your logistics app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "agritech": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your agritech app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "natural_resources": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your oil and gas app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "green_energy": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your green energy app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "internet_of_things": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your IoT app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "robotics": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your robotics app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "kids": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your kids app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "social_networking": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your social networking app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "dating": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your dating app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           },
           "productivity": {
-            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your productivity app idea will cost in just 3 minutes",
-            "buttonText": "Kjør på"
+            "buttonText": "Jeg er klar, kjør på!"
           }
         }
       },
       "options": {
         "e_commerce": "🛍 Varehandel",
-        "sports_and_fitness": "🏋️‍♂️ Sports and fitness",
-        "media_and_entertainment": "📺 Media and entertainment",
-        "food": "🍏 Food",
-        "education_and_training": "👩‍🎓 Education and training",
-        "healthcare": "🏥 Healthcare",
-        "automotive": "🚙 Automotive",
-        "finance_banking_insurance": "💰 Finance, banking and insurance",
-        "travel": "✈️ Travel",
-        "real_estate": "🏡 Real estate",
-        "manufacturing": "🏭 Manufacturing",
-        "logistic": "🚖 Logistic",
-        "agritech": "🌽 Agritech",
-        "natural_resources": "🛢 Natural resources",
-        "green_energy": "♻️ Green energy",
+        "sports_and_fitness": "🏋️‍♂️ Sport og trening",
+        "media_and_entertainment": "📺 Media og underholdning",
+        "food": "🍏 Mat og restaurant",
+        "education_and_training": "👩‍🎓 Utdannelse og undervisning",
+        "healthcare": "🏥 Helse",
+        "automotive": "🚙 Bil",
+        "finance_banking_insurance": "💰 Finans, bank og forsikring",
+        "travel": "✈️ Reise",
+        "real_estate": "🏡 Eiendom",
+        "manufacturing": "🏭 Produksjon",
+        "logistic": "🚖 Logistikk",
+        "agritech": "🌽 Jordbruksteknologi",
+        "natural_resources": "🛢 Olje og gass",
+        "green_energy": "♻️ Grønn energi",
         "internet_of_things": "📲 Internet of things",
         "robotics": "🤖 Robotics",
-        "kids": "👶🏼 Kids",
-        "social_networking": "🕵🏾‍♀️ Social networking",
+        "kids": "👶🏼 Barn",
+        "social_networking": "🕵🏾‍♀️ Sosiale nettverk",
         "dating": "👩‍❤️‍👨 Dating",
-        "productivity": "✅ Productivity",
-        "another": "🤷‍♂️ Ingen"
+        "productivity": "✅ Produktivitet",
+        "another": "🤷‍♂️ Ingen / usikker"
       }
     },
     "administration": {
@@ -1266,36 +1266,36 @@
           "another": "Unik idé"
         },
         "industries": {
-          "e_commerce": "For e-commerce industry",
-          "sports_and_fitness": "For sports and fitness industry",
+          "e_commerce": "Bransje: E-handel",
+          "sports_and_fitness": "Bransje: Sport og trening",
           "media_and_entertainment": "For media and entertainment industry",
-          "food": "For food industry",
-          "education_and_training": "For ed-tech industry",
-          "healthcare": "For healthcare industry",
-          "automotive": "For automotive",
-          "finance_banking_insurance": "For fintech industry",
-          "travel": "For travel industry",
-          "real_estate": "For real estate industry",
-          "manufacturing": "For manufacturing industry",
-          "logistic": "For logistic industry",
-          "agritech": "For agritech industry",
-          "natural_resources": "For oil and gas industry",
-          "green_energy": "For green energy",
-          "internet_of_things": "For Internet of things",
-          "robotics": "For robotics",
-          "kids": "For kids",
-          "social_networking": "Social networking",
-          "dating": "For dating",
-          "productivity": "For productivity",
+          "food": "Bransje: Mat og restaurant",
+          "education_and_training": "Bransje: Utdannelse og undervisning",
+          "healthcare": "Bransje: Helse og omsorg",
+          "automotive": "Bransje: Bil og motor",
+          "finance_banking_insurance": "Bransje: Bank, finans og forsikring",
+          "travel": "Bransje: Reiseliv",
+          "real_estate": "Bransje: Eiendom",
+          "manufacturing": "Bransje: Produksjon",
+          "logistic": "Bransje: Logistikk",
+          "agritech": "Bransje: Jordbruksteknologi",
+          "natural_resources": "Bransje: Olje og gass",
+          "green_energy": "Bransje: Grønn energi",
+          "internet_of_things": "Bransje: Internet of things",
+          "robotics": "Bransje: Robotics",
+          "kids": "Bransje: Barn og ungdom",
+          "social_networking": "Bransje: Sosiale nettverk",
+          "dating": "Bransje: dating",
+          "productivity": "Bransje: Produktivitet",
           "another": "Annen bransje"
         },
         "administration": {
-          "yes": "Administrasjonspanel",
+          "yes": "Administrasjonspanel for styring av applikasjonen(e)",
           "not_sure": "Usikker på om administrasjonspanel er nødvendig"
         },
         "appearance": {
           "basic": "Standard design",
-          "fantastic": "Fantastisk design"
+          "fantastic": "Fantastisk design med animasjoner osv."
         },
         "authentication": {
           "yes": "Brukere skal kunne logge inn",
@@ -1306,7 +1306,7 @@
           "not_sure": "Usikker på om brand og profil trengs"
         },
         "external_service": {
-          "yes": "Integrasjon av 3djepartstjenester",
+          "yes": "Integrasjon av eksterne tjenester",
           "not_sure": "Usikker på om integrasjon er nødvendig"
         },
         "localization": {
@@ -1314,10 +1314,10 @@
           "not_sure": "Usikker på om språkvalg er nødvendig"
         },
         "revenue": {
-          "subscription": "Subscriptions",
-          "in_app": "In-app purchases",
-          "another": "May integrate purchases",
-          "not_sure": "May integrate purchases"
+          "subscription": "Abonnementløsning",
+          "in_app": "Betaling i app med Vipps, kort, faktura og lignende",
+          "another": "Annen ekstern betalingsløsning",
+          "not_sure": "Usikkert valg av betalingsløsning"
         }
       },
       "buttons": {
@@ -1328,7 +1328,8 @@
         "placeholder": "Skriv din epostadresse her",
         "buttons": {
           "send": "Sende 🚀"
-        }
+        },
+        "success": "🎉 Lagret! Vi har sendt link til din epostadresse. Ta gjerne kontakt på chat eller telefon 55181900"
       },
       "results_modal": {
         "title": "🔗 Lagre og dele prisestimatet",
