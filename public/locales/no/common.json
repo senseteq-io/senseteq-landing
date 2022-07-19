@@ -2,27 +2,27 @@
   "calculator": {
     "head": {
       "welcome": {
-        "title": "Senseteq | MVP calculator",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
+        "title": "Senseteq | App kalkulator",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
       },
       "analogues": {
-        "title": "Senseteq | Taxi app | MVP calculator",
-        "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
+        "title": "Senseteq | Taxi app | App kalkulator",
+        "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
         "uber": {
-          "title": "Senseteq | Taxi app | MVP calculator",
-          "description": "Want to know how much the development of uber clone costs? Please use a unique price calculator",
+          "title": "Senseteq | Taxi app | App kalkulator",
+          "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte",
           "platforms": {
             "web": {
-              "title": "Senseteq | Taxi web app | MVP calculator",
-              "description": "Want to know how much the development of web application for uber clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Taxi web app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "mobile": {
-              "title": "Senseteq | Taxi mobile app | MVP calculator",
-              "description": "Want to know how much the development of android, iOS app for uber clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Taxi mobile app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             },
             "both": {
-              "title": "Senseteq | Taxi web&mobile app | MVP calculator",
-              "description": "Want to know how much the development of a mobile or web application for uber clone costs? Please use a unique price calculator"
+              "title": "Senseteq | Taxi web&mobile app | App kalkulator",
+              "description": "Ønsker du å vite hvor mye det koster å utvikle en <strong>Taxi app slik som Über</strong>? Du kan bruke vår unike app kalkulator og se prisen direkte"
             }
           }
         },
@@ -31,718 +31,718 @@
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Food delivery wed app | MVP calculator",
+              "title": "Senseteq | Food delivery wed app | App kalkulator",
               "description": "Want to know how much the development of web application for uber eats clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Food delivery mobile app | MVP calculator",
+              "title": "Senseteq | Food delivery mobile app | App kalkulator",
               "description": "Want to know how much the development of android, iOS app for uber clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Food delivery app | MVP calculator",
+              "title": "Senseteq | Food delivery app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for uber clone costs? Please use a unique price calculator"
             }
           }
         },
         "airbnb": {
-          "title": "Senseteq | Lodging app | MVP calculator",
+          "title": "Senseteq | Lodging app | App kalkulator",
           "description": "Want to know how much the development of a mobile (iOS, android) or web application for lodging industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Lodging web app | MVP calculator",
+              "title": "Senseteq | Lodging web app | App kalkulator",
               "description": "Want to know how much the development of a web application for airbnb clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Lodging mobile app | MVP calculator",
+              "title": "Senseteq | Lodging mobile app | App kalkulator",
               "description": "Want to know how much the development of a iOS and android application for airbnb clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Lodging app | MVP calculator",
+              "title": "Senseteq | Lodging app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for airbnb clone costs? Please use a unique price calculator"
             }
           }
         },
         "tinder": {
-          "title": "Senseteq | Dating app | MVP calculator",
+          "title": "Senseteq | Dating app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Dating web app | MVP calculator",
+              "title": "Senseteq | Dating web app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Dating mobile app | MVP calculator",
+              "title": "Senseteq | Dating mobile app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Dating app | MVP calculator",
+              "title": "Senseteq | Dating app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for tinder clone costs? Please use a unique price calculator"
             }
           }
         },
         "linkedin": {
-          "title": "Senseteq | Professional network app | MVP calculator",
+          "title": "Senseteq | Professional network app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for linkedin clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Professional network mobile app | MVP calculator",
+              "title": "Senseteq | Professional network mobile app | App kalkulator",
               "description": "Want to know how much the development of a web application for linkedin clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Professional network app | MVP calculator",
+              "title": "Senseteq | Professional network app | App kalkulator",
               "description": "Want to know how much the development of a mobile application for linkedin clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Professional network app | MVP calculator",
+              "title": "Senseteq | Professional network app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for linkedin clone costs? Please use a unique price calculator"
             }
           }
         },
         "facebook": {
-          "title": "Senseteq | Social network app | MVP calculator",
+          "title": "Senseteq | Social network app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for facebook clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Social network web app | MVP calculator",
+              "title": "Senseteq | Social network web app | App kalkulator",
               "description": "Want to know how much the development of a web application for facebook clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Social network mobile app | MVP calculator",
+              "title": "Senseteq | Social network mobile app | App kalkulator",
               "description": "Want to know how much the development of a mobile application for facebook clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Social network app | MVP calculator",
+              "title": "Senseteq | Social network app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for facebook clone costs? Please use a unique price calculator"
             }
           }
         },
         "instagram": {
-          "title": "Senseteq | Instagram for X | MVP calculator",
+          "title": "Senseteq | Instagram for X | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for instagram clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Instagram for X | MVP calculator",
+              "title": "Senseteq | Instagram for X | App kalkulator",
               "description": "Want to know how much the development of a web application for instagram clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Instagram for X | MVP calculator",
+              "title": "Senseteq | Instagram for X | App kalkulator",
               "description": "Want to know how much the development of a mobile application for instagram clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Instagram for X | MVP calculator",
+              "title": "Senseteq | Instagram for X | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for instagram clone costs? Please use a unique price calculator"
             }
           }
         },
         "tiktok": {
-          "title": "Senseteq | Tiktok for X | MVP calculator",
+          "title": "Senseteq | Tiktok for X | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for tiktok clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Tiktok for X | MVP calculator",
+              "title": "Senseteq | Tiktok for X | App kalkulator",
               "description": "Want to know how much the development of a web application for tiktok clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Tiktok for X | MVP calculator",
+              "title": "Senseteq | Tiktok for X | App kalkulator",
               "description": "Want to know how much the development of a mobile application for tiktok clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Tiktok for X | MVP calculator",
+              "title": "Senseteq | Tiktok for X | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for tiktok clone costs? Please use a unique price calculator"
             }
           }
         },
         "kickstarter": {
-          "title": "Senseteq | Crowdfunding app | MVP calculator",
+          "title": "Senseteq | Crowdfunding app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for kickstarter clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Crowdfunding web app | MVP calculator",
+              "title": "Senseteq | Crowdfunding web app | App kalkulator",
               "description": "Want to know how much the development of a web application for kickstarter clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Crowdfunding mobile app | MVP calculator",
+              "title": "Senseteq | Crowdfunding mobile app | App kalkulator",
               "description": "Want to know how much the development of a mobile application for kickstarter clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Crowdfunding app | MVP calculator",
+              "title": "Senseteq | Crowdfunding app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for kickstarter clone costs? Please use a unique price calculator"
             }
           }
         },
         "amazon": {
-          "title": "Senseteq | E-commerce app | MVP calculator",
+          "title": "Senseteq | E-commerce app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for amazone clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | E-commerce web app | MVP calculator",
+              "title": "Senseteq | E-commerce web app | App kalkulator",
               "description": "Want to know how much the development of a web application for amazone clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | E-commerce mobile app | MVP calculator",
+              "title": "Senseteq | E-commerce mobile app | App kalkulator",
               "description": "Want to know how much the development of a mobile application for amazone clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | E-commerce app | MVP calculator",
+              "title": "Senseteq | E-commerce app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for amazone clone costs? Please use a unique price calculator"
             }
           }
         },
         "whatsapp": {
-          "title": "Senseteq | Messenger app | MVP calculator",
+          "title": "Senseteq | Messenger app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Messenger web app | MVP calculator",
+              "title": "Senseteq | Messenger web app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Messenger mobile app | MVP calculator",
+              "title": "Senseteq | Messenger mobile app | App kalkulator",
               "description": "Want to know how much the development of android and iOS application for whatsapp clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Messenger app | MVP calculator",
+              "title": "Senseteq | Messenger app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for whatsapp clone costs? Please use a unique price calculator"
             }
           }
         },
         "youtube": {
-          "title": "Senseteq | Youtube for X | MVP calculator",
+          "title": "Senseteq | Youtube for X | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for youtube clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Youtube for X | MVP calculator",
+              "title": "Senseteq | Youtube for X | App kalkulator",
               "description": "Want to know how much the development of a web application for youtube clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Youtube for X | MVP calculator",
+              "title": "Senseteq | Youtube for X | App kalkulator",
               "description": "Want to know how much the development of a mobile application for youtube clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Youtube for X | MVP calculator",
+              "title": "Senseteq | Youtube for X | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for youtube clone costs? Please use a unique price calculator"
             }
           }
         },
         "netflix": {
-          "title": "Senseteq | Netflix for X | MVP calculator",
+          "title": "Senseteq | Netflix for X | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for netflix clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Netflix for X | MVP calculator",
+              "title": "Senseteq | Netflix for X | App kalkulator",
               "description": "Want to know how much the development of a web application for netflix clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Netflix for X | MVP calculator",
+              "title": "Senseteq | Netflix for X | App kalkulator",
               "description": "Want to know how much the development of a mobile application for netflix clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Netflix for X | MVP calculator",
+              "title": "Senseteq | Netflix for X | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for netflix clone costs? Please use a unique price calculator"
             }
           }
         },
         "spotify": {
-          "title": "Senseteq | Spotify for X | MVP calculator",
+          "title": "Senseteq | Spotify for X | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for spotify clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Spotify for X | MVP calculator",
+              "title": "Senseteq | Spotify for X | App kalkulator",
               "description": "Want to know how much the development of a web application for spotify clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Spotify for X | MVP calculator",
+              "title": "Senseteq | Spotify for X | App kalkulator",
               "description": "Want to know how much the development of a mobile application for spotify clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Spotify for X | MVP calculator",
+              "title": "Senseteq | Spotify for X | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for spotify clone costs? Please use a unique price calculator"
             }
           }
         },
         "medium": {
-          "title": "Senseteq | Blogging app | MVP calculator",
+          "title": "Senseteq | Blogging app | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for medium clone costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Blogging web app | MVP calculator",
+              "title": "Senseteq | Blogging web app | App kalkulator",
               "description": "Want to know how much the development of a web application for medium clone costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Blogging mobile app | MVP calculator",
+              "title": "Senseteq | Blogging mobile app | App kalkulator",
               "description": "Want to know how much the development of a mobile application for medium clone costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Blogging app | MVP calculator",
+              "title": "Senseteq | Blogging app | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for medium clone costs? Please use a unique price calculator"
             }
           }
         },
         "platforms": {
           "web": {
-            "title": "Senseteq | Web app | MVP calculator",
+            "title": "Senseteq | Web app | App kalkulator",
             "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
           },
           "mobile": {
-            "title": "Senseteq | iOS and Android app | MVP calculator",
+            "title": "Senseteq | iOS and Android app | App kalkulator",
             "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
           },
           "both": {
-            "title": "Senseteq | Web and mobile app | MVP calculator",
+            "title": "Senseteq | Web and mobile app | App kalkulator",
             "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
           }
         }
       },
       "industries": {
-        "title": "Senseteq | MVP calculator",
+        "title": "Senseteq | App kalkulator",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
         "e_commerce": {
-          "title": "Senseteq | E-commerce | MVP calculator",
+          "title": "Senseteq | E-commerce | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for e-commerce costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | E-commerce | MVP calculator",
+              "title": "Senseteq | E-commerce | App kalkulator",
               "description": "Want to know how much the development of a  web application for e-commerce costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | E-commerce | MVP calculator",
+              "title": "Senseteq | E-commerce | App kalkulator",
               "description": "Want to know how much the development of a mobile application for e-commerce costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | E-commerce | MVP calculator",
+              "title": "Senseteq | E-commerce | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for e-commerce costs? Please use a unique price calculator"
             }
           }
         },
         "sports_and_fitness": {
-          "title": "Senseteq | Sports and fitness | MVP calculator",
+          "title": "Senseteq | Sports and fitness | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for sports and fitness industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Sports and fitness | MVP calculator",
+              "title": "Senseteq | Sports and fitness | App kalkulator",
               "description": "Want to know how much the development of a web application for sports and fitness industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Sports and fitness | MVP calculator",
+              "title": "Senseteq | Sports and fitness | App kalkulator",
               "description": "Want to know how much the development of a mobile application for sports and fitness industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Sports and fitness | MVP calculator",
+              "title": "Senseteq | Sports and fitness | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for sports and fitness industry costs? Please use a unique price calculator"
             }
           }
         },
         "media_and_entertainment": {
-          "title": "Senseteq | Media and entertainment | MVP calculator",
+          "title": "Senseteq | Media and entertainment | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for media and entertainment industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Media and entertainment | MVP calculator",
+              "title": "Senseteq | Media and entertainment | App kalkulator",
               "description": "Want to know how much the development of a web application for media and entertainment industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Media and entertainment | MVP calculator",
+              "title": "Senseteq | Media and entertainment | App kalkulator",
               "description": "Want to know how much the development of a mobile application for media and entertainment industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Media and entertainment | MVP calculator",
+              "title": "Senseteq | Media and entertainment | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for media and entertainment industry costs? Please use a unique price calculator"
             }
           }
         },
         "food": {
-          "title": "Senseteq | Food industry | MVP calculator",
+          "title": "Senseteq | Food industry | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for food/food delivery industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Food industry | MVP calculator",
+              "title": "Senseteq | Food industry | App kalkulator",
               "description": "Want to know how much the development of a web application for food/food delivery industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Food industry | MVP calculator",
+              "title": "Senseteq | Food industry | App kalkulator",
               "description": "Want to know how much the development of a mobile application for food/food delivery industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Food industry | MVP calculator",
+              "title": "Senseteq | Food industry | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for food/food delivery industry costs? Please use a unique price calculator"
             }
           }
         },
         "education_and_training": {
-          "title": "Senseteq | Edtech | MVP calculator",
+          "title": "Senseteq | Edtech | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application ed-tech industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Edtech | MVP calculator",
+              "title": "Senseteq | Edtech | App kalkulator",
               "description": "Want to know how much the development of a web application ed-tech industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Edtech | MVP calculator",
+              "title": "Senseteq | Edtech | App kalkulator",
               "description": "Want to know how much the development of a mobile application ed-tech industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Edtech | MVP calculator",
+              "title": "Senseteq | Edtech | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application ed-tech industry costs? Please use a unique price calculator"
             }
           }
         },
         "healthcare": {
-          "title": "Senseteq | Healthcare | MVP calculator",
+          "title": "Senseteq | Healthcare | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for healthcare industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Healthcare | MVP calculator",
+              "title": "Senseteq | Healthcare | App kalkulator",
               "description": "Want to know how much the development of a web application for healthcare industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Healthcare | MVP calculator",
+              "title": "Senseteq | Healthcare | App kalkulator",
               "description": "Want to know how much the development of a mobile application for healthcare industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Healthcare | MVP calculator",
+              "title": "Senseteq | Healthcare | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for healthcare industry costs? Please use a unique price calculator"
             }
           }
         },
         "automotive": {
-          "title": "Senseteq | Automotive | MVP calculator",
+          "title": "Senseteq | Automotive | App kalkulator",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Automotive | MVP calculator",
+              "title": "Senseteq | Automotive | App kalkulator",
               "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Automotive | MVP calculator",
+              "title": "Senseteq | Automotive | App kalkulator",
               "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Automotive | MVP calculator",
+              "title": "Senseteq | Automotive | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
             }
           }
         },
         "finance_banking_insurance": {
-          "title": "Senseteq | Fintech | MVP calculator",
+          "title": "Senseteq | Fintech | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for fintech industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Fintech | MVP calculator",
+              "title": "Senseteq | Fintech | App kalkulator",
               "description": "Want to know how much the development of a web application for fintech industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Fintech | MVP calculator",
+              "title": "Senseteq | Fintech | App kalkulator",
               "description": "Want to know how much the development of a mobile application for fintech industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Fintech | MVP calculator",
+              "title": "Senseteq | Fintech | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for fintech industry costs? Please use a unique price calculator"
             }
           }
         },
         "travel": {
-          "title": "Senseteq | Travel | MVP calculator",
+          "title": "Senseteq | Travel | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for travel costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Travel | MVP calculator",
+              "title": "Senseteq | Travel | App kalkulator",
               "description": "Want to know how much the development of a web application for travel costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Travel | MVP calculator",
+              "title": "Senseteq | Travel | App kalkulator",
               "description": "Want to know how much the development of a mobile application for travel costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Travel | MVP calculator",
+              "title": "Senseteq | Travel | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for travel costs? Please use a unique price calculator"
             }
           }
         },
         "real_estate": {
-          "title": "Senseteq | Real estate | MVP calculator",
+          "title": "Senseteq | Real estate | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for real estate industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Real estate | MVP calculator",
+              "title": "Senseteq | Real estate | App kalkulator",
               "description": "Want to know how much the development of a web application for real estate industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Real estate | MVP calculator",
+              "title": "Senseteq | Real estate | App kalkulator",
               "description": "Want to know how much the development of a mobile application for real estate industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Real estate | MVP calculator",
+              "title": "Senseteq | Real estate | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for real estate industry costs? Please use a unique price calculator"
             }
           }
         },
         "manufacturing": {
-          "title": "Senseteq | Manufacturing | MVP calculator",
+          "title": "Senseteq | Manufacturing | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for manufacturing costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Manufacturing | MVP calculator",
+              "title": "Senseteq | Manufacturing | App kalkulator",
               "description": "Want to know how much the development of a web application for manufacturing costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Manufacturing | MVP calculator",
+              "title": "Senseteq | Manufacturing | App kalkulator",
               "description": "Want to know how much the development of a mobile application for manufacturing costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Manufacturing | MVP calculator",
+              "title": "Senseteq | Manufacturing | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for manufacturing costs? Please use a unique price calculator"
             }
           }
         },
         "logistic": {
-          "title": "Senseteq | Logistics | MVP calculator",
+          "title": "Senseteq | Logistics | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for logistics costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Logistics | MVP calculator",
+              "title": "Senseteq | Logistics | App kalkulator",
               "description": "Want to know how much the development of a web application for logistics costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Logistics | MVP calculator",
+              "title": "Senseteq | Logistics | App kalkulator",
               "description": "Want to know how much the development of a mobile application for logistics costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Logistics | MVP calculator",
+              "title": "Senseteq | Logistics | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for logistics costs? Please use a unique price calculator"
             }
           }
         },
         "agritech": {
-          "title": "Senseteq | Agritech | MVP calculator",
+          "title": "Senseteq | Agritech | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for agritech industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Agritech | MVP calculator",
+              "title": "Senseteq | Agritech | App kalkulator",
               "description": "Want to know how much the development of a web application for agritech industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Agritech | MVP calculator",
+              "title": "Senseteq | Agritech | App kalkulator",
               "description": "Want to know how much the development of a mobile application for agritech industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Agritech | MVP calculator",
+              "title": "Senseteq | Agritech | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for agritech industry costs? Please use a unique price calculator"
             }
           }
         },
         "natural_resources": {
-          "title": "Senseteq | Oil and gas | MVP calculator",
+          "title": "Senseteq | Oil and gas | App kalkulator",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Oil and gas | MVP calculator",
+              "title": "Senseteq | Oil and gas | App kalkulator",
               "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Oil and gas | MVP calculator",
+              "title": "Senseteq | Oil and gas | App kalkulator",
               "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Oil and gas | MVP calculator",
+              "title": "Senseteq | Oil and gas | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
             }
           }
         },
         "green_energy": {
-          "title": "Senseteq | Green energy | MVP calculator",
+          "title": "Senseteq | Green energy | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for green energy industry costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Green energy | MVP calculator",
+              "title": "Senseteq | Green energy | App kalkulator",
               "description": "Want to know how much the development of a web application for green energy industry costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Green energy | MVP calculator",
+              "title": "Senseteq | Green energy | App kalkulator",
               "description": "Want to know how much the development of a mobile application for green energy industry costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Green energy | MVP calculator",
+              "title": "Senseteq | Green energy | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for green energy industry costs? Please use a unique price calculator"
             }
           }
         },
         "internet_of_things": {
-          "title": "Senseteq | IoT | MVP calculator",
+          "title": "Senseteq | IoT | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for IoT costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | IoT | MVP calculator",
+              "title": "Senseteq | IoT | App kalkulator",
               "description": "Want to know how much the development of a web application for IoT costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | IoT | MVP calculator",
+              "title": "Senseteq | IoT | App kalkulator",
               "description": "Want to know how much the development of a mobile application for IoT costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | IoT | MVP calculator",
+              "title": "Senseteq | IoT | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for IoT costs? Please use a unique price calculator"
             }
           }
         },
         "robotics": {
-          "title": "Senseteq | Robotics | MVP calculator",
+          "title": "Senseteq | Robotics | App kalkulator",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Robotics | MVP calculator",
+              "title": "Senseteq | Robotics | App kalkulator",
               "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Robotics | MVP calculator",
+              "title": "Senseteq | Robotics | App kalkulator",
               "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Robotics | MVP calculator",
+              "title": "Senseteq | Robotics | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
             }
           }
         },
         "kids": {
-          "title": "Senseteq | Kids | MVP calculator",
+          "title": "Senseteq | Kids | App kalkulator",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Kids | MVP calculator",
+              "title": "Senseteq | Kids | App kalkulator",
               "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Kids | MVP calculator",
+              "title": "Senseteq | Kids | App kalkulator",
               "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Kids | MVP calculator",
+              "title": "Senseteq | Kids | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
             }
           }
         },
         "social_networking": {
-          "title": "Senseteq | Social networking | MVP calculator",
+          "title": "Senseteq | Social networking | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for social networking costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Social networking | MVP calculator",
+              "title": "Senseteq | Social networking | App kalkulator",
               "description": "Want to know how much the development of a web application for social networking costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Social networking | MVP calculator",
+              "title": "Senseteq | Social networking | App kalkulator",
               "description": "Want to know how much the development of a mobile application for social networking costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Social networking | MVP calculator",
+              "title": "Senseteq | Social networking | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for social networking costs? Please use a unique price calculator"
             }
           }
         },
         "dating": {
-          "title": "Senseteq | Dating | MVP calculator",
+          "title": "Senseteq | Dating | App kalkulator",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Dating | MVP calculator",
+              "title": "Senseteq | Dating | App kalkulator",
               "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Dating | MVP calculator",
+              "title": "Senseteq | Dating | App kalkulator",
               "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Dating | MVP calculator",
+              "title": "Senseteq | Dating | App kalkulator",
               "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
             }
           }
         },
         "productivity": {
-          "title": "Senseteq | Productivity | MVP calculator",
+          "title": "Senseteq | Productivity | App kalkulator",
           "description": "Want to know how much the development of a mobile or web application for productivity costs? Please use a unique price calculator",
           "platforms": {
             "web": {
-              "title": "Senseteq | Productivity | MVP calculator",
+              "title": "Senseteq | Productivity | App kalkulator",
               "description": "Want to know how much the development of a web application for productivity costs? Please use a unique price calculator"
             },
             "mobile": {
-              "title": "Senseteq | Productivity | MVP calculator",
+              "title": "Senseteq | Productivity | App kalkulator",
               "description": "Want to know how much the development of a mobile application for productivity costs? Please use a unique price calculator"
             },
             "both": {
-              "title": "Senseteq | Productivity | MVP calculator",
+              "title": "Senseteq | Productivity | App kalkulator",
               "description": "Want to know how much the development of a mobile or web application for productivity costs? Please use a unique price calculator"
             }
           }
         },
         "platforms": {
           "web": {
-            "title": "Senseteq | Web app | MVP calculator",
+            "title": "Senseteq | Web app | App kalkulator",
             "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
           },
           "mobile": {
-            "title": "Senseteq | Android and iOS app | MVP calculator",
+            "title": "Senseteq | Android and iOS app | App kalkulator",
             "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
           },
           "both": {
-            "title": "Senseteq | Web and mobile app | MVP calculator",
+            "title": "Senseteq | Web and mobile app | App kalkulator",
             "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
           }
         }
       },
       "platforms": {
-        "title": "MVP Calculator | Platforms",
+        "title": "App kalkulator | Platforms",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator",
         "web": {
-          "title": "MVP Calculator | Platforms | Web",
+          "title": "App kalkulator | Platforms | Web",
           "description": "Want to know how much the development of a web application costs? Please use a unique price calculator"
         },
         "mobile": {
-          "title": "MVP Calculator | Platforms | Android and iOS",
+          "title": "App kalkulator | Platforms | Android and iOS",
           "description": "Want to know how much the development of a mobile application costs? Please use a unique price calculator"
         },
         "both": {
-          "title": "MVP Calculator | Platforms | Web and mobile",
+          "title": "App kalkulator | Platforms | Web and mobile",
           "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
         }
       },
       "administration": {
-        "title": "MVP Calculator | Administration",
+        "title": "App kalkulator | Administration",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "appearance": {
-        "title": "MVP Calculator | Appearance",
+        "title": "App kalkulator | Appearance",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "authentication": {
-        "title": "MVP Calculator | Authentication",
+        "title": "App kalkulator | Authentication",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "brand": {
-        "title": "MVP Calculator | Brand",
+        "title": "App kalkulator | Brand",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "external_service": {
-        "title": "MVP Calculator | External services",
+        "title": "App kalkulator | External services",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "localization": {
-        "title": "MVP Calculator | Localization",
+        "title": "App kalkulator | Localization",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "revenue": {
-        "title": "MVP Calculator | Revenue streams",
+        "title": "App kalkulator | Revenue streams",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       },
       "result": {
-        "title": "MVP Calculator | Result",
+        "title": "App kalkulator | Result",
         "description": "Ønsker du å vite hvor mye det koster å utvikle en mobil- eller webapplikasjon? Please use a unique price calculator"
       }
     },
     "welcome": {
-      "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+      "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
       "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
       "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
-      "buttonText": "Kjør på",
+      "buttonText": "Jeg er klar, kjør på!",
       "geo": {
         "nor": "🇳🇴"
       },
@@ -858,25 +858,25 @@
       "title": "Hvilke <strong>typer applikasjoner</strong> ønsker du å lage?",
       "subtitle": "Skal du ha nedlastbare apper for iPhone og Android, eller bare for nettleser?",
       "welcome": {
-        "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
         "buttonText": "Kjør på",
         "options": {
           "web": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web application for your idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "mobile": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of android and iOS application for your idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "both": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
             "buttonText": "Kjør på"
@@ -893,97 +893,97 @@
       "title": "Hvilken av følgende applikasjoner har <strong>har din idé flest likhetstrekk med</strong>?",
       "subtitle": "Klikk på applikasjonen som du føler har likhetstrekk med din idé",
       "welcome": {
-        "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
         "buttonText": "Kjør på",
         "options": {
           "uber": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your uber clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "uber_eats": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your uber eats clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "airbnb": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your airbnb clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "tinder": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your tinder clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "linkedin": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your linkedin clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "facebook": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your facebook clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "instagram": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your instagram clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "tiktok": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your tiktok clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "kickstarter": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your kickstarter clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "amazon": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your amazon clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "whatsapp": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your whatsapp clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "youtube": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your youtube clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "netflix": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your netflix clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "spotify": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your spotify clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "medium": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your medium clone will cost in just 3 minutes",
             "buttonText": "Kjør på"
@@ -1013,133 +1013,133 @@
       "title": "Hvilken <strong>bransje</strong> tenker du at din idé faller inn i?",
       "subtitle": "Velg den bransjen som du føler treffer best",
       "welcome": {
-        "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+        "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
         "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
         "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
         "buttonText": "Kjør på",
         "options": {
           "e_commerce": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your e-commerce app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "sports_and_fitness": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your sports and fitness app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "media_and_entertainment": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your media and entertainment app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "food": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your food app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "education_and_training": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your ed-tech app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "healthcare": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your healthcare app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "automotive": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your automotive app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "finance_banking_insurance": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your fintech app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "travel": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your travel app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "real_estate": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your real estate app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "manufacturing": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your manufacturing app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "logistic": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your logistics app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "agritech": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your agritech app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "natural_resources": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your oil and gas app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "green_energy": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your green energy app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "internet_of_things": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your IoT app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "robotics": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your robotics app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "kids": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your kids app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "social_networking": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your social networking app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "dating": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your dating app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
           },
           "productivity": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of web and a mobile application for your productivity app idea will cost in just 3 minutes",
             "buttonText": "Kjør på"
@@ -1181,10 +1181,10 @@
       }
     },
     "appearance": {
-      "title": "Hvor bra ønsker du at applikasjonen din <strong>skal se ut</strong>?",
-      "subtitle": "Et enkelt design eller design med avanserte animasjoner?",
+      "title": "Hvor <strong>avansert design</strong> skal applikasjonen din ha?",
+      "subtitle": "Skal applikasjonen ha et normalt design eller eksempelvis inneholde avanserte animasjoner?",
       "options": {
-        "basic": "Enkelt design",
+        "basic": "Normalt design",
         "fantastic": "Fantastisk design"
       }
     },
@@ -1198,8 +1198,8 @@
       }
     },
     "brand": {
-      "title": "Trenger du å få utviklet et <strong>brand</strong> og designprofil?",
-      "subtitle": "Trenger du logo, utvalg av fonter, farger, markedsføringsgrunnlag?",
+      "title": "Trenger du å et <strong>brand</strong> og en designprofil?",
+      "subtitle": "Trenger du logo, utvalg av fonter, farger og markedsføringsgrunnlag osv.?",
       "options": {
         "yes": "Ja",
         "no": "Nei",
@@ -1216,8 +1216,8 @@
       }
     },
     "localization": {
-      "title": "Ser du for deg at drømmeapplikasjonen din finnes på <strong>ulike språk</strong>?",
-      "subtitle": "Klikk av for det som passer din brukergruppe best",
+      "title": "Skal applikasjonen din være på <strong>ulike språk</strong>?",
+      "subtitle": "Skal applikasjonen kunne ha flere språk enn ett (engelsk eller norsk)?",
       "options": {
         "yes": "Ja",
         "no": "Nei",
@@ -1225,20 +1225,20 @@
       }
     },
     "revenue": {
-      "title": "Hvordan har du tenkt å <strong>tjene penger</strong> på appen?",
-      "subtitle": "Velg et av følgende alternativer",
+      "title": "Hvordan har du tenkt å <strong>tjene penger</strong>?",
+      "subtitle": "Skal betalingen foregå med Vipps, kredittkort osv? Er alt gratis? Får du betalt på annen måte?",
       "options": {
-        "subscription": "💳 Abonnement",
-        "in_app": "🏬 Kjøp i app",
-        "another": "💰 Annen måte",
-        "not_sure": "🤷‍♂️ Usikker"
+        "subscription": "💳 Abonnementsløsning",
+        "in_app": "🏬 Betaling i app",
+        "another": "💰 Tar betalt på annen måte",
+        "not_sure": "🤷‍♂️ Usikker foreløpig"
       }
     },
     "result": {
-      "title": "Supert! Her kan du se pris og leveringstid!",
+      "title": "Supert! Her er antatt pris og leveringstid!",
       "description": "Her er en kort beskrivelse av hva vi har inkludert i prisestimatet",
       "second_title": "Hvor lang utviklingstid regner vi med og hvor mye vil det koste?",
-      "approximate_estimation": "Omtrentlig estimat",
+      "approximate_estimation": "Omtrentlig utviklingstid",
       "approximate_cost": "Omtrentlig pris",
       "weeks": "uker",
       "options": {
@@ -1321,18 +1321,18 @@
         }
       },
       "buttons": {
-        "save_and_share": "🔗 Save and share results",
-        "schedule_meeting": "📆 Schedule meeting with us"
+        "save_and_share": "🔗 Lagre og dele prisestimatet",
+        "schedule_meeting": "📆 Book et 30 min avklaringsmøte med en av våre spesialister"
       },
       "email_form": {
-        "placeholder": "Enter your e-mail here",
+        "placeholder": "Skriv din epostadresse her",
         "buttons": {
-          "send": "Send 🚀"
+          "send": "Sende 🚀"
         }
       },
       "results_modal": {
-        "title": "🔗 Save and share results",
-        "subtitle": "Enter your e-mail below and we will send letter with link to your results"
+        "title": "🔗 Lagre og dele prisestimatet",
+        "subtitle": "Skriv inn din epostadresse, så sender vi deg en link med prisestimatet og litt mer info"
       }
     }
   }
