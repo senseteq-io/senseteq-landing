@@ -5,5 +5,5 @@ export default function get(type) {
   const json = ls?.getItem(LS_FIELD)
   const obj = JSON.parse(json)
 
-  return obj?.[type]
+  return type ? obj?.[type] : obj
 }

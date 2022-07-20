@@ -749,7 +749,7 @@
       "fff": "* spesielt for kvinnelige entrepenører"
     },
     "paths": {
-      "mvp_calculator": "mvp-calculator",
+      "mvp_calculator": "app-kalkulator",
       "platforms": "plattformer",
       "analogues": "liknende-applikasjoner",
       "industries": "bransjer",
@@ -801,7 +801,7 @@
       "revenue": "betalingsmodell",
       "result": "resultat",
       "mirror": {
-        "mvp-calculator": "mvp_calculator",
+        "app-kalkulator": "mvp_calculator",
         "plattformer": "platforms",
         "liknende-applikasjoner": "analogues",
         "bransjer": "industries",

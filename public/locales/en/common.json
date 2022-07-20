@@ -864,18 +864,18 @@
         "buttonText": "Get Started",
         "options": {
           "web": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Want to know how much the development of a <strong>web application costs</strong>?",
             "descriptionLine1": "Do you have a unique idea that you want to bring to life? But you have many questions and you do not know where to start?",
             "descriptionLine2": "Please, use our calculator! Find out how much the development of web application for your idea will cost in just 3 minutes",
             "buttonText": "Get Started"
           },
           "mobile": {
-            "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
+            "title": "Want to know how much the development of a <strong>mobile application costs</strong>?",
             "descriptionLine1": "Do you have a unique idea that you want to bring to life? But you have many questions and you do not know where to start?",
             "descriptionLine2": "Please, use our calculator! Find out how much the development of android and iOS application for your idea will cost in just 3 minutes",
             "buttonText": "Get Started"
           },
-          "both": {
+          "web_and_mobile": {
             "title": "Want to know how much the development of a <strong>mobile or web application costs</strong>?",
             "descriptionLine1": "Do you have a unique idea that you want to bring to life? But you have many questions and you do not know where to start?",
             "descriptionLine2": "Please, use our calculator! Find out how much the development of web and a mobile application for your idea will cost in just 3 minutes",

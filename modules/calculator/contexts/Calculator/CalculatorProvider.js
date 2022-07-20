@@ -1,6 +1,7 @@
+import { Progress, Spinner } from '../../components'
+import Router, { useRouter } from 'next/router'
+
 import CalculatorContext from './CalculatorContext'
-import { Progress } from '../../components'
-import Router from 'next/router'
 import { useNavigator } from '../../hooks'
 
 /* It's a React component that is wrapping the `<Calculator />` component. */
@@ -16,6 +17,7 @@ const CalculatorProvider = ({
     previous and next routes. 
   */
   const [prevRoute, nextRoute, progress] = useNavigator(calculatorData)
+  const router = useRouter()
 
   // ACTIONS
   const onNext = () => Router.push(nextRoute)
@@ -34,8 +36,8 @@ const CalculatorProvider = ({
         calculatorData,
         savedResult
       }}>
-      <Progress progress={progress} />
-      {loading ? <>Please, wait. Loading...</> : children}
+      {!router?.query?.id ? <Progress progress={progress} /> : null}
+      {loading ? <Spinner /> : children}
     </CalculatorContext.Provider>
   )
 }

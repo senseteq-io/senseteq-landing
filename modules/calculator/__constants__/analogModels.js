@@ -13,7 +13,8 @@ const ANALOG_MODELS = {
   YOUTUBE: 15,
   NETFLIX: 15,
   SPOTIFY: 15,
-  MEDIUM: 10
+  MEDIUM: 10,
+  ANOTHER: 15
 }
 
 export default ANALOG_MODELS

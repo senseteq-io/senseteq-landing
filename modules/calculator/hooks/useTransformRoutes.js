@@ -31,11 +31,13 @@ const useTransformRoutes = () => {
     /* It's checking if the current route is a calculator route. If it is, it's cleaning the route
     and splitting it into an array. Then, it's setting the state object with the values of the
     array. */
-    const calculatorPrefix = `/${t('calculator.paths.mvp_calculator')}/`
+    const calculatorPrefix = `/s/${t('calculator.paths.mvp_calculator')}`
 
     if (router.asPath.includes(calculatorPrefix)) {
       /* It's removing the `calculatorPrefix` from the `router.asPath` string. */
-      const cleanPath = router.asPath.replace(calculatorPrefix, '')
+      let cleanPath = router.asPath.replace(calculatorPrefix, '')
+
+      cleanPath = cleanPath[0] === '/' ? cleanPath.substring(1) : cleanPath
 
       /* It's splitting the `cleanPath` string into an array. */
       const cleanPathArr = cleanPath.split('/')

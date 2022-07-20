@@ -16,6 +16,7 @@ import { AdministrationQuestion } from '../domains/Administration/components'
 import { AppearanceQuestion } from '../domains/Appearance/components'
 import { AuthenticationQuestion } from '../domains/Authentication/components'
 import { BrandQuestion } from '../domains/Brand/components'
+import { CalculatorWelcome } from '../domains/Calculator/components'
 import { ExternalServiceQuestion } from '../domains/ExternalService/components'
 import { LocalizationQuestion } from '../domains/Localization/components'
 import { ResultSimpleView } from '../domains/Result/components'
@@ -42,7 +43,9 @@ const usePages = (routes) => {
       return {
         platforms: <PlatformWelcome {...options} />,
         industries: <IndustryWelcome {...options} />,
-        analogues: <AnalogueWelcome {...options} />
+        analogues: <AnalogueWelcome {...options} />,
+        welcome: <CalculatorWelcome />,
+        result: <ResultSimpleView />
       }
     } else {
       return {
@@ -66,6 +69,8 @@ const usePages = (routes) => {
     object. */
     if (routes?.baseRoute) {
       setIsWelcomeSeen(ls.get('welcome'))
+    } else {
+      setIsWelcomeSeen(false)
     }
   }, [routes?.baseRoute])
 
@@ -74,6 +79,8 @@ const usePages = (routes) => {
     `currentPage` to the value of the `baseRoute` in the `pagesMap` object. */
     if (routes?.baseRoute) {
       setCurrentPage(pagesMap[routes?.baseRoute])
+    } else {
+      setCurrentPage(pagesMap.welcome)
     }
   }, [routes, pagesMap])
 

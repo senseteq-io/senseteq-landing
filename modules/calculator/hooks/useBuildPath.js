@@ -28,22 +28,22 @@ const useBuildPath = (routes) => {
 
   /* It's a hook that allows us to use the `t` function to translate strings. */
   useEffect(() => {
-    let path = `/${t(`${T_PREFIX}.mvp_calculator`)}`
+    let path = `/s/${t(`${T_PREFIX}.mvp_calculator`)}`
 
     if (baseRoute) {
-      path += `/${t(`${T_PREFIX}.${baseRoute}`)}`
+      path += `/s/${t(`${T_PREFIX}.${baseRoute}`)}`
     }
     if (baseRouteValue) {
-      path += `/${t(`${T_PREFIX}.${baseRouteValue}`)}`
+      path += `/s/${t(`${T_PREFIX}.${baseRouteValue}`)}`
     }
     if (nestedRoute) {
-      path += `/${t(`${T_PREFIX}.${nestedRoute}`)}`
+      path += `/s/${t(`${T_PREFIX}.${nestedRoute}`)}`
     }
     if (nestedRouteValue) {
-      path += `/${t(`${T_PREFIX}.${nestedRouteValue}`)}`
+      path += `/s/${t(`${T_PREFIX}.${nestedRouteValue}`)}`
     }
     if (extraStepRoute) {
-      path += `/${t(`${T_PREFIX}.${extraStepRoute}`)}`
+      path += `/s/${t(`${T_PREFIX}.${extraStepRoute}`)}`
     }
 
     setPath(path)

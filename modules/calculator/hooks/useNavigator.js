@@ -1,58 +1,47 @@
 import { useMemo } from 'react'
+import usePageOrder from './usePageOrder'
+import useProgress from './useProgress'
 import { useTranslation } from 'next-i18next'
-
-const PAGE_ORDER = [
-  'welcome',
-  'analogues',
-  'industries',
-  'platforms',
-  'administration',
-  'localization',
-  'authentication',
-  'external_services',
-  'appearance',
-  'brand',
-  'revenue',
-  'result'
-]
 
 const useNavigator = (calculatorData) => {
   const { t } = useTranslation()
+  const pageOrder = usePageOrder(calculatorData)
+  const progress = useProgress(calculatorData)
 
   const paths = useMemo(
     () => ({
-      welcome: `/${t('calculator.paths.mvp_calculator')}`,
-      analogues: `/${t('calculator.paths.mvp_calculator')}/${t(
+      welcome: `/s/${t('calculator.paths.mvp_calculator')}`,
+      analogues: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.analogues'
       )}`,
-      industries: `/${t('calculator.paths.mvp_calculator')}/${t(
+      industries: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.industries'
       )}`,
-      platforms: `/${t('calculator.paths.mvp_calculator')}/${t(
+      platforms: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.platforms'
       )}`,
-      administration: `/${t('calculator.paths.mvp_calculator')}/${t(
+      administration: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.administration'
       )}`,
-      localization: `/${t('calculator.paths.mvp_calculator')}/${t(
+      localization: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.localization'
       )}`,
-      authentication: `/${t('calculator.paths.mvp_calculator')}/${t(
+      authentication: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.authentication'
       )}`,
-      external_services: `/${t('calculator.paths.mvp_calculator')}/${t(
+      external_services: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.external_services'
       )}`,
-      appearance: `/${t('calculator.paths.mvp_calculator')}/${t(
+      appearance: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.appearance'
       )}`,
-      brand: `/${t('calculator.paths.mvp_calculator')}/${t(
+      brand: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.brand'
       )}`,
-      revenue: `/${t('calculator.paths.mvp_calculator')}/${t(
+      revenue: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.revenue'
       )}`,
-      result: `/${t('calculator.paths.mvp_calculator')}/${t(
+      result: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.result'
       )}`
     }),
@@ -60,23 +49,12 @@ const useNavigator = (calculatorData) => {
   )
 
   const prev = useMemo(() => {
-    return PAGE_ORDER[PAGE_ORDER.indexOf(calculatorData?.currentRoute) - 1]
-  }, [calculatorData?.currentRoute])
+    return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) - 1]
+  }, [calculatorData?.currentRoute, pageOrder])
 
   const next = useMemo(() => {
-    return PAGE_ORDER[PAGE_ORDER.indexOf(calculatorData?.currentRoute) + 1]
-  }, [calculatorData?.currentRoute])
-
-  const progress = useMemo(() => {
-    if (
-      PAGE_ORDER.indexOf(calculatorData?.currentRoute) ===
-      PAGE_ORDER.length - 1
-    ) {
-      return 0
-    } else {
-      return PAGE_ORDER.indexOf(calculatorData?.currentRoute) * 9.09
-    }
-  }, [calculatorData?.currentRoute])
+    return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) + 1]
+  }, [calculatorData?.currentRoute, pageOrder])
 
   return [paths[prev], paths[next], progress]
 }

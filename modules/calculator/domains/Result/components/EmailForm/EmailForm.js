@@ -1,6 +1,7 @@
 import { Button, Input, Text } from '../../../../components'
 import { collection, doc, setDoc } from 'firebase/firestore'
 
+import { COLLECTIONS } from '../../../../__constants__'
 import { firestore } from '../../../../../../services/firebase'
 import { useCalculator } from '../../../../contexts/Calculator'
 import { useState } from 'react'
@@ -15,11 +16,14 @@ const EmailForm = ({ onSend }) => {
   const onChange = (e) => setEmail(e.target.value)
   const send = async () => {
     if (email) {
-      const resultRef = doc(collection(firestore, 'calculatorResults'))
+      const resultRef = doc(
+        collection(firestore, COLLECTIONS.CALCULATOR_RESULTS)
+      )
       await setDoc(resultRef, {
         id: resultRef.id,
         email,
-        calculatorData
+        calculatorData,
+        appLink: window?.location?.href + `?id=${resultRef.id}`
       })
       setIsSaved(true)
 
