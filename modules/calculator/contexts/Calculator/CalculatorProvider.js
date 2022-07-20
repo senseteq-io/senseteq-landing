@@ -10,7 +10,11 @@ const CalculatorProvider = ({
   updateCalculatorField,
   loading,
   savedResult,
-  children
+  children,
+  reset,
+  geo,
+  g,
+  adv
 }) => {
   /* 
     It's using the `useCalculatorNavigator` hook to get the 
@@ -34,7 +38,11 @@ const CalculatorProvider = ({
         onPrev,
         onSelect,
         calculatorData,
-        savedResult
+        savedResult,
+        reset,
+        geo,
+        g,
+        adv
       }}>
       {!router?.query?.id ? <Progress progress={progress} /> : null}
       {loading ? <Spinner /> : children}

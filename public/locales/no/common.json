@@ -1322,7 +1322,8 @@
       },
       "buttons": {
         "save_and_share": "🔗 Lagre og dele prisestimatet",
-        "schedule_meeting": "📆 Book et 30 min avklaringsmøte med en av våre spesialister"
+        "schedule_meeting": "📆 Book et 30 min avklaringsmøte med en av våre spesialister",
+        "start_again": "🥸 Start på nytt"
       },
       "email_form": {
         "placeholder": "Skriv din epostadresse her",

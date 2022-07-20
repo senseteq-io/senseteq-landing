@@ -43,9 +43,10 @@ const useTransformRoutes = () => {
       const cleanPathArr = cleanPath.split('/')
 
       setState({
-        baseRoute: cleanPathArr[0]
-          ? t(`calculator.paths.mirror.${cleanPathArr[0].split('?')[0]}`)
-          : null,
+        baseRoute:
+          cleanPathArr[0] && cleanPathArr[0][0] !== '?'
+            ? t(`calculator.paths.mirror.${cleanPathArr[0].split('?')[0]}`)
+            : null,
         baseRouteValue: cleanPathArr[1]
           ? t(`calculator.paths.mirror.${cleanPathArr[1].split('?')[0]}`)
           : null,

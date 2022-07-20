@@ -1,9 +1,4 @@
-import {
-  Content,
-  Head,
-  Header,
-  Spinner
-} from '../../modules/calculator/components'
+import { Content, Head, Header } from '../../modules/calculator/components'
 import {
   useCalculatorData,
   useLS,
@@ -15,7 +10,9 @@ import {
 } from '../../modules/calculator/hooks'
 
 import { CalculatorProvider } from '../../modules/calculator/contexts/Calculator'
+import ls from '../../modules/calculator/utils/ls'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useEffect } from 'react'
 import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
 
 export default function CalculatorAll() {
@@ -35,19 +32,26 @@ export default function CalculatorAll() {
 
   /* Destructuring the `calculatorData`, `updateCalculatorField`, and `updateCalculatorFields` from the
   `useCalculatorData` hook. */
-  const { calculatorData, updateCalculatorField } = useCalculatorData(
+  const { calculatorData, updateCalculatorField, reset } = useCalculatorData(
     routes,
     initialData
   )
 
   /* Using the `useParams` hook to get the params from the URL. geo - country, g - gender */
-  const { geo, g, id } = useParams()
+  const { geo, g, id, adv } = useParams()
 
   /* Fetching the data from the database and setting it to the `DBData` variable. */
   const [DBData, loading] = useFetchResult(id)
 
   /* Using the `useLS` hook to save the `calculatorData` to local storage. */
   useLS(DBData || calculatorData)
+
+  // FIXME
+  useEffect(() => {
+    if (geo) window?.localStorage.setItem('s_geo', geo)
+    if (g) window?.localStorage.setItem('s_g', g)
+    if (adv) window?.localStorage.setItem('s_adv', adv)
+  }, [geo, g, adv])
 
   /* Returning the head, header, content, and footer components. */
   return (
@@ -63,6 +67,7 @@ export default function CalculatorAll() {
       <Head
         title={title}
         description={description}
+        image="/assets/logo-senseteq-512.png"
         metaDescription={meta_description}
         keywords={keywords}
       />
@@ -71,10 +76,12 @@ export default function CalculatorAll() {
         <CalculatorProvider
           geo={geo}
           g={g}
+          adv={adv}
           loading={loading}
           savedResult={!!id}
           calculatorData={DBData || calculatorData}
-          updateCalculatorField={updateCalculatorField}>
+          updateCalculatorField={updateCalculatorField}
+          reset={reset}>
           {page}
         </CalculatorProvider>
       </Content>

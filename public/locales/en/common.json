@@ -1322,7 +1322,8 @@
       },
       "buttons": {
         "save_and_share": "🔗 Save and share results",
-        "schedule_meeting": "📆 Schedule meeting with us"
+        "schedule_meeting": "📆 Schedule meeting with us",
+        "start_again": "🥸 Start again"
       },
       "email_form": {
         "placeholder": "Enter your e-mail here",

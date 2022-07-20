@@ -3,6 +3,7 @@ import { collection, doc, setDoc } from 'firebase/firestore'
 
 import { COLLECTIONS } from '../../../../__constants__'
 import { firestore } from '../../../../../../services/firebase'
+import ls from '../../../../utils/ls'
 import { useCalculator } from '../../../../contexts/Calculator'
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
@@ -22,6 +23,9 @@ const EmailForm = ({ onSend }) => {
       await setDoc(resultRef, {
         id: resultRef.id,
         email,
+        adv: localStorage.getItem('s_adv') || 'EMPTY',
+        geo: localStorage.getItem('s_geo') || 'EMPTY',
+        gender: localStorage.getItem('s_g') || 'EMPTY',
         calculatorData,
         appLink: window?.location?.href + `?id=${resultRef.id}`
       })

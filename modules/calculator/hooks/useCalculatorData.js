@@ -42,6 +42,23 @@ const useCalculatorData = (routes, initialData) => {
     setCalculatorData((prev) => ({ ...prev, ...obj }))
   }
 
+  const reset = () => {
+    setCalculatorData({
+      platforms: null,
+      analogues: null,
+      industries: null,
+      administration: null,
+      localization: null,
+      authentication: null,
+      external_service: null,
+      appearance: null,
+      brand: null,
+      revenue: null,
+      currentRoute: null,
+      ...initialData
+    })
+  }
+
   useEffect(() => {
     setCalculatorData((prev) => ({ ...prev, ...initialData }))
   }, [initialData])
@@ -54,7 +71,8 @@ const useCalculatorData = (routes, initialData) => {
   return {
     calculatorData,
     updateCalculatorField,
-    updateCalculatorFields
+    updateCalculatorFields,
+    reset
   }
 }
 
