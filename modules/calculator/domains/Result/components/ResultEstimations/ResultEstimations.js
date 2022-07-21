@@ -30,7 +30,7 @@ const ResultEstimations = ({ weeks, price }) => {
           </Text>
           <Title as="h3" align="center">
             {price?.toLocaleString('no', { currency: 'NOK' })}
-            {` `},- eks. mva
+            ,- eks. mva
           </Title>
         </div>
       </div>

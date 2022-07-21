@@ -1,5 +1,8 @@
 {
   "calculator": {
+    "menu": {
+      "about_us": "Om oss"
+    },
     "head": {
       "welcome": {
         "title": "Senseteq | App kalkulator",
@@ -1006,7 +1009,7 @@
         "netflix": "🎥 Netflix",
         "spotify": "🎸 Spotify / Apple music",
         "medium": "📄 Medium",
-        "another": "🤷‍♂️ Ingen"
+        "another": "🤷‍♂️ Ingen som ligner / usikker"
       }
     },
     "industries": {
@@ -1147,7 +1150,7 @@
         }
       },
       "options": {
-        "e_commerce": "🛍 Varehandel",
+        "e_commerce": "🛍 E-handel",
         "sports_and_fitness": "🏋️‍♂️ Sport og trening",
         "media_and_entertainment": "📺 Media og underholdning",
         "food": "🍏 Mat og restaurant",

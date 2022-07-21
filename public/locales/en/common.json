@@ -1,5 +1,8 @@
 {
   "calculator": {
+    "menu": {
+      "about_us": "About us"
+    },
     "head": {
       "welcome": {
         "title": "Senseteq | MVP calculator",

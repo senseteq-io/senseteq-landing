@@ -20,6 +20,11 @@ const MENU_ITEMS = {
     href: '/team',
     ariaLabel: 'menu.team.aria'
   },
+  '/s/mvp-calculator': {
+    name: 'menu.calculator.name',
+    href: '/s/mvp-calculator',
+    ariaLabel: 'menu.calculator.aria'
+  },
   '/contact': {
     name: 'menu.contact.name',
     href: '/contact',

@@ -62,15 +62,34 @@
     }
   },
   "menu": {
-    "home": { "name": "Home", "aria": "Go to home page" },
+    "home": {
+      "name": "Home",
+      "aria": "Go to home page"
+    },
     "technologies": {
       "name": "Technologies",
       "aria": "Go to technologies page"
     },
-    "customers": { "name": "Customers", "aria": "Go to customers page" },
-    "prices": { "name": "Prices", "aria": "Go to prices page" },
-    "team": { "name": "Team", "aria": "Go to team page" },
-    "contact": { "name": "Contact", "aria": "Go to contact page" }
+    "customers": {
+      "name": "Customers",
+      "aria": "Go to customers page"
+    },
+    "prices": {
+      "name": "Prices",
+      "aria": "Go to prices page"
+    },
+    "team": {
+      "name": "Team",
+      "aria": "Go to team page"
+    },
+    "calculator": {
+      "name": "MVP calculator",
+      "aria": "Go to calculator page"
+    },
+    "contact": {
+      "name": "Contact",
+      "aria": "Go to contact page"
+    }
   },
   "language_menu": {
     "no": {
@@ -248,14 +267,30 @@
       }
     },
     "guarantees": {
-      "fast_mvp": { "title": "Fast creation of MVP version" },
-      "quickly_changes": { "title": "Quickly make any changes to the project" },
-      "scaling": { "title": "Easy scaling" },
-      "high_performance": { "title": "High app performance" },
-      "user_experience": { "title": "User experience" },
-      "security": { "title": "Serious about security and sensitive data" },
-      "quality": { "title": "Quality assurance" },
-      "technology_stack": { "title": "Best technology stack" }
+      "fast_mvp": {
+        "title": "Fast creation of MVP version"
+      },
+      "quickly_changes": {
+        "title": "Quickly make any changes to the project"
+      },
+      "scaling": {
+        "title": "Easy scaling"
+      },
+      "high_performance": {
+        "title": "High app performance"
+      },
+      "user_experience": {
+        "title": "User experience"
+      },
+      "security": {
+        "title": "Serious about security and sensitive data"
+      },
+      "quality": {
+        "title": "Quality assurance"
+      },
+      "technology_stack": {
+        "title": "Best technology stack"
+      }
     },
     "industries": {
       "healthcare": {
@@ -405,27 +440,55 @@
     },
     "page_sections_config": {
       "home": {
-        "prime_section": { "title": "First version in 19 days" },
-        "how_we_do_it_section": { "title": "How do we do it?" },
-        "services_section": { "title": "Our services" },
-        "project_support_section": { "title": "Number of projects" },
-        "guarantees_section": { "title": "We guarantee" },
-        "industries_section": { "title": "Industries" },
-        "technologies_section": { "title": "Technologies" },
-        "how_it_works_section": { "title": "The process" },
-        "companies_support_section": { "title": "Supported by" },
+        "prime_section": {
+          "title": "First version in 19 days"
+        },
+        "how_we_do_it_section": {
+          "title": "How do we do it?"
+        },
+        "services_section": {
+          "title": "Our services"
+        },
+        "project_support_section": {
+          "title": "Number of projects"
+        },
+        "guarantees_section": {
+          "title": "We guarantee"
+        },
+        "industries_section": {
+          "title": "Industries"
+        },
+        "technologies_section": {
+          "title": "Technologies"
+        },
+        "how_it_works_section": {
+          "title": "The process"
+        },
+        "companies_support_section": {
+          "title": "Supported by"
+        },
         "ukranian_developers_section": {
           "title": "About Ukrainian developers"
         },
-        "about_senseteq_section": { "title": "About Senseteq" }
+        "about_senseteq_section": {
+          "title": "About Senseteq"
+        }
       },
       "pricing": {
-        "prime_section": { "title": "Hourly rates" },
-        "packages-section": { "title": "Prices and packages" }
+        "prime_section": {
+          "title": "Hourly rates"
+        },
+        "packages-section": {
+          "title": "Prices and packages"
+        }
       },
       "team": {
-        "prime_section": { "title": "Who are we?" },
-        "rising_stars_section": { "title": "Rising stars" }
+        "prime_section": {
+          "title": "Who are we?"
+        },
+        "rising_stars_section": {
+          "title": "Rising stars"
+        }
       }
     }
   }
