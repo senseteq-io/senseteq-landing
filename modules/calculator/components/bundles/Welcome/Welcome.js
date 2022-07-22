@@ -57,7 +57,6 @@ export default function Welcome({
               <Button
                 variant="lg"
                 shape="rounded"
-                tabindex="0"
                 role="button"
                 onClick={onClick}>
                 {buttonText}

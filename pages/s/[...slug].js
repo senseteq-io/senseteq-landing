@@ -15,13 +15,17 @@ import {
 } from '../../modules/calculator/hooks'
 
 import { CalculatorProvider } from '../../modules/calculator/contexts/Calculator'
+import Router from 'next/router'
 import Script from 'next/script'
-import ls from '../../modules/calculator/utils/ls'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useEffect } from 'react'
 import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
+import { useTranslation } from 'next-i18next'
 
 export default function CalculatorAll() {
+  /* A hook that allows us to use the `t` function to translate our routes. */
+  const { t } = useTranslation()
+
   /* Transforming the routes from the `routes.js` file into a format that is easier to work with. */
   const routes = useTransformRoutes()
 
@@ -58,6 +62,36 @@ export default function CalculatorAll() {
     if (g) window?.localStorage.setItem('s_g', g)
     if (adv) window?.localStorage.setItem('s_adv', adv)
   }, [geo, g, adv])
+
+  // Redirect if page was reloaded on the deep route
+  useEffect(() => {
+    const deepRoutesArr = [
+      'administration',
+      'localization',
+      'authentication',
+      'external_services',
+      'appearance',
+      'brand',
+      'revenue',
+      'result'
+    ]
+    const isDeepPage = deepRoutesArr.includes(routes?.baseRoute)
+
+    if (
+      isDeepPage &&
+      (!calculatorData?.platforms ||
+        !calculatorData?.analogues ||
+        !calculatorData?.industries)
+    ) {
+      Router.push(`/s/${t('calculator.paths.mvp_calculator')}`)
+    }
+  }, [
+    t,
+    routes?.baseRoute,
+    calculatorData?.platforms,
+    calculatorData?.analogues,
+    calculatorData?.industries
+  ])
 
   /* Returning the head, header, content, and footer components. */
   return (

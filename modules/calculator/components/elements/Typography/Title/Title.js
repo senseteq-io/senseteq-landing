@@ -31,7 +31,7 @@ export default function Title({
         [helpers[`text-${variant}`]]: variant
       }),
       role: 'heading',
-      ariaLevel: 1,
+      'aria-level': 1,
       ...rest
     },
     children
