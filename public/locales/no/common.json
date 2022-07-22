@@ -878,7 +878,7 @@
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Find out how much the development of android and iOS application for your idea will cost in just 3 minutes",
             "buttonText": "Jeg er klar, kjør på!"
           },
-          "both": {
+          "web_and_mobile": {
             "title": "Ønsker du å vite hvor mye det koster å utvikle en <strong>skreddersydd mobil- eller webapplikasjon</strong>?",
             "descriptionLine1": "Har du en unik idè som du drømmer om å realisere? Men så har du noen spørsmål og vet ikke helt hvor du skal begynne?",
             "descriptionLine2": "Nå får du svarene rett i vår app kalkulator! Du får prisen rett her i kalkulatoren i løpet av noen sekunder",
