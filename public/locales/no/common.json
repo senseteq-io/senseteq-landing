@@ -1333,7 +1333,7 @@
         "buttons": {
           "send": "Sende 🚀"
         },
-        "success": "🎉 Lagret! Vi har sendt link til din epostadresse. Ta gjerne kontakt på chat eller telefon 55181900"
+        "success": "🎉 Lagret! Vi har sendt link til din epostadresse. Ta gjerne kontakt på chat eller telefon <a href='tel:55181900' style='display: inline; font-weight: bold;'>55181900</a>"
       },
       "results_modal": {
         "title": "🔗 Lagre og dele prisestimatet",

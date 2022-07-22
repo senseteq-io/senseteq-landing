@@ -1333,7 +1333,7 @@
         "buttons": {
           "send": "Send 🚀"
         },
-        "success": "🎉 Saved! Please check your e-mail now or call 55181900"
+        "success": "🎉 Saved! Please check your e-mail now or call <a href='tel:55181900' style='display: inline; font-weight: bold;'>55181900</a>"
       },
       "results_modal": {
         "title": "🔗 Save and share results",

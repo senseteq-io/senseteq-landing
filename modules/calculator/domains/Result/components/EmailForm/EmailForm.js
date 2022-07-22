@@ -42,7 +42,11 @@ const EmailForm = ({ onSend }) => {
       {isSaved ? (
         <div className="col-12 justify-content-center d-flex">
           <Text subtitle align="center">
-            {t('calculator.result.email_form.success')}
+            <span
+              dangerouslySetInnerHTML={{
+                __html: t('calculator.result.email_form.success')
+              }}
+            />
           </Text>
         </div>
       ) : (
