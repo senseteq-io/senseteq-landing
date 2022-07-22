@@ -15,10 +15,12 @@ const ResultDetails = ({ features }) => {
         </div>
       </div>
       <div className="col-12 col-md-6">
-        <div className="row">
+        <div role="list" className="row">
           {features.map((feature, index) => (
             <div key={feature.replace(' ', '-')} className="col-12 mb-2">
-              <Text variant="secondary">✅ {feature}</Text>
+              <Text variant="secondary" role="listitem">
+                ✅ {feature}
+              </Text>
             </div>
           ))}
         </div>

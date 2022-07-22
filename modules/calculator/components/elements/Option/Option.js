@@ -10,6 +10,8 @@ import styles from './Option.module.css'
 export default function Option({ src, label, selected, value, onSelect }) {
   return (
     <div
+      role="button"
+      aria-pressed={selected}
       onClick={() => onSelect(value)}
       className={cn({
         [styles.option]: true,

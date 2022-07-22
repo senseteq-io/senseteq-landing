@@ -49,6 +49,9 @@ const EmailForm = ({ onSend }) => {
         <>
           <div className="col-12 col-md justify-content-center d-flex">
             <Input
+              role="textbox"
+              contenteditable="true"
+              aria-placeholder={t('calculator.result.email_form.placeholder')}
               autoFocus
               type="email"
               value={email}

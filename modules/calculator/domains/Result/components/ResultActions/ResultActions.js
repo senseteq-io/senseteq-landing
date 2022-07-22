@@ -16,6 +16,8 @@ const ResultActions = ({ onOpenSaveModal, restart }) => {
           {!query?.id ? (
             <div className="d-flex col-12 mb-4 justify-content-center">
               <Button
+                role="button"
+                aria-haspopup="true"
                 block
                 variant="lg"
                 shape="rounded"
@@ -27,14 +29,19 @@ const ResultActions = ({ onOpenSaveModal, restart }) => {
           <div className="d-flex col-12 mb-4 justify-content-center">
             <Link href="https://senseteq.pipedrive.com/scheduler/J1A9amTK/mote-for-a-diskutere-prosjekt">
               <a target="_blank" style={{ width: '100%' }}>
-                <Button block variant="lg" shape="rounded">
+                <Button role="button" block variant="lg" shape="rounded">
                   {t('calculator.result.buttons.schedule_meeting')}
                 </Button>
               </a>
             </Link>
           </div>
           <div className="d-flex col-12 mb-4 justify-content-center">
-            <Button block variant="lg" shape="rounded" onClick={restart}>
+            <Button
+              role="button"
+              block
+              variant="lg"
+              shape="rounded"
+              onClick={restart}>
               {t('calculator.result.buttons.start_again')}
             </Button>
           </div>

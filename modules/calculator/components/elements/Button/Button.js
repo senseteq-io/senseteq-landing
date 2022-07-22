@@ -6,9 +6,17 @@ import styles from './Button.module.css'
  * styles.btn-{variant} and styles.btn-shape-{shape} classes
  * @returns A button element with the className of btn, btn-variant, and btn-shape-shape.
  */
-export default function Button({ children, variant, shape, block, onClick }) {
+export default function Button({
+  children,
+  variant,
+  shape,
+  block,
+  onClick,
+  ...rest
+}) {
   return (
     <button
+      {...rest}
       onClick={onClick}
       className={cn({
         [styles['full-width']]: block,

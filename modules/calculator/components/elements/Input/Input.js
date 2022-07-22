@@ -1,8 +1,9 @@
 import styles from './Input.module.css'
 
-const Input = ({ type, value, placeholder, autoFocus, onChange }) => {
+const Input = ({ type, value, placeholder, autoFocus, onChange, ...rest }) => {
   return (
     <input
+      {...rest}
       autoFocus={autoFocus}
       className={styles.input}
       type={type}

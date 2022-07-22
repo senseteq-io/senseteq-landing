@@ -16,7 +16,8 @@ export default function Title({
   align,
   regular,
   lighter,
-  variant
+  variant,
+  ...rest
 }) {
   const tag = as || DEFAULT_TAG
   return createElement(
@@ -28,7 +29,10 @@ export default function Title({
         [helpers['fw-regular']]: regular,
         [helpers['fw-lighter']]: lighter,
         [helpers[`text-${variant}`]]: variant
-      })
+      }),
+      role: 'heading',
+      ariaLevel: 1,
+      ...rest
     },
     children
   )

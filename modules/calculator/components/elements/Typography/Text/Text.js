@@ -18,7 +18,8 @@ export default function Text({
   semibold,
   subtitle,
   variant,
-  style
+  style,
+  ...rest
 }) {
   const tag = as || DEFAULT_TAG
   const cls = size || DEFAULT_SIZE
@@ -32,7 +33,8 @@ export default function Text({
         [helpers['fw-semibold']]: semibold,
         [helpers[`text-${variant}`]]: variant,
         [styles.subtitle]: subtitle
-      })
+      }),
+      ...rest
     },
     children
   )

@@ -21,7 +21,9 @@ export default function Welcome({
   return (
     <div className="container">
       <div className="row">
-        <div className="col-12 col-lg-6 align-items-center justify-content-center d-flex mb-4">
+        <div
+          role="img"
+          className="col-12 col-lg-6 align-items-center justify-content-center d-flex mb-4">
           <Image
             src="/assets/welcome.svg"
             width="380px"
@@ -29,7 +31,11 @@ export default function Welcome({
             alt="Build MVP"
           />
         </div>
-        <div className="col-12 col-lg-6">
+        <div
+          className="col-12 col-lg-6"
+          role="article"
+          itemScope
+          itemType="https://schema.org/CreativeWork">
           <div className="row">
             {g ? (
               <Text semibold style={{ color: '#9a1088' }}>
@@ -37,18 +43,23 @@ export default function Welcome({
               </Text>
             ) : null}
             <div className="col-12 mb-3">
-              <Title as="h3" regular>
+              <Title as="h3" regular itemProp="name">
                 {geo} {title}
               </Title>
             </div>
-            <div className="col-12 mb-2">
+            <div className="col-12 mb-2" itemProp="about">
               <Text>{descriptionLine1}</Text>
             </div>
-            <div className="col-12 mb-4">
+            <div className="col-12 mb-4" itemProp="about">
               <Text>{descriptionLine2}</Text>
             </div>
             <div className="col-12 mb-4">
-              <Button variant="lg" shape="rounded" onClick={onClick}>
+              <Button
+                variant="lg"
+                shape="rounded"
+                tabindex="0"
+                role="button"
+                onClick={onClick}>
                 {buttonText}
               </Button>
             </div>
