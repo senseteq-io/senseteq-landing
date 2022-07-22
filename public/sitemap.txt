@@ -1,4 +1,3 @@
-NO
 https://senseteq.io/
 https://senseteq.io/technologies
 https://senseteq.io/customers
@@ -9,14 +8,10 @@ https://senseteq.io/s/app-kalkulator
 https://senseteq.io/contact
 https://senseteq.io/apply
 https://senseteq.io/process
-
-[PLATFORMS]
 https://senseteq.io/s/app-kalkulator/plattformer
 https://senseteq.io/s/app-kalkulator/plattformer/web
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android
-
-[ANALOGUES]
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/uber
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/uber-eats
@@ -33,8 +28,6 @@ https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/youtube
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/netflix
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/spotify
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/medium
-
-[INDUSTRIES]
 https://senseteq.io/s/app-kalkulator/bransjer
 https://senseteq.io/s/app-kalkulator/bransjer/e-handel
 https://senseteq.io/s/app-kalkulator/bransjer/sport-og-trening
@@ -57,9 +50,6 @@ https://senseteq.io/s/app-kalkulator/bransjer/barn
 https://senseteq.io/s/app-kalkulator/bransjer/sosiale-nettverk
 https://senseteq.io/s/app-kalkulator/bransjer/dating
 https://senseteq.io/s/app-kalkulator/bransjer/produktivitet
-
-
-[COMBINATIONS]
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/uber
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/uber-eats
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/airbnb
@@ -75,7 +65,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/yout
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/netflix
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/spotify
 https://senseteq.io/s/app-kalkulator/plattformer/web/liknende-applikasjoner/medium
-
 https://senseteq.io/s/app-kalkulator/liknende-applikasjoner/plattformer/ios-og-android/uber
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applikasjoner/uber-eats
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applikasjoner/airbnb
@@ -91,7 +80,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applika
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applikasjoner/netflix
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applikasjoner/spotify
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/liknende-applikasjoner/medium
-
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/uber
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/uber-eats
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/airbnb
@@ -107,7 +95,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/netflix
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/spotify
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/liknende-applikasjoner/medium
-
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/e-handel
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/sport-og-trening
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/media-og-underholdning
@@ -129,7 +116,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/barn
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/sosiale-nettverk
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/dating
 https://senseteq.io/s/app-kalkulator/plattformer/web/bransjer/produktivitet
-
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/e-handel
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/sport-og-trening
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/media-og-underholdning
@@ -151,7 +137,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/barn
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/sosiale-nettverk
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/dating
 https://senseteq.io/s/app-kalkulator/plattformer/ios-og-android/bransjer/produktivitet
-
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/e-handel
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/sport-og-trening
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/media-og-underholdning
@@ -173,9 +158,6 @@ https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/sosiale-nettverk
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/dating
 https://senseteq.io/s/app-kalkulator/plattformer/web-og-ios-og-android/bransjer/produktivitet
-
-
-EN
 https://senseteq.io/en
 https://senseteq.io/en/technologies
 https://senseteq.io/en/customers
@@ -185,7 +167,6 @@ https://senseteq.io/en/s/mvp-calculator
 https://senseteq.io/en/contact
 https://senseteq.io/en/apply
 https://senseteq.io/en/process
-
 https://senseteq.io/en/s/mvp-calculator
 https://senseteq.io/en/s/mvp-calculator/analogues
 https://senseteq.io/en/s/mvp-calculator/industries
@@ -197,14 +178,10 @@ https://senseteq.io/en/s/mvp-calculator/external-services
 https://senseteq.io/en/s/mvp-calculator/appearance
 https://senseteq.io/en/s/mvp-calculator/brand
 https://senseteq.io/en/s/mvp-calculator/revenue
-
-[PLATFORMS]
 https://senseteq.io/en/s/mvp-calculator/platforms
 https://senseteq.io/en/s/mvp-calculator/platforms/web
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios
-
-[ANALOGUES]
 https://senseteq.io/en/s/mvp-calculator/analogues
 https://senseteq.io/en/s/mvp-calculator/analogues/uber
 https://senseteq.io/en/s/mvp-calculator/analogues/uber-eats
@@ -221,9 +198,6 @@ https://senseteq.io/en/s/mvp-calculator/analogues/youtube
 https://senseteq.io/en/s/mvp-calculator/analogues/netflix
 https://senseteq.io/en/s/mvp-calculator/analogues/spotify
 https://senseteq.io/en/s/mvp-calculator/analogues/medium
-
-
-[INDUSTRIES]
 https://senseteq.io/en/s/mvp-calculator/industries
 https://senseteq.io/en/s/mvp-calculator/industries/e-commerce
 https://senseteq.io/en/s/mvp-calculator/industries/sports-and-fitness
@@ -246,9 +220,6 @@ https://senseteq.io/en/s/mvp-calculator/industries/kids
 https://senseteq.io/en/s/mvp-calculator/industries/social-networking
 https://senseteq.io/en/s/mvp-calculator/industries/dating
 https://senseteq.io/en/s/mvp-calculator/industries/productivity
-
-
-[COMBINATIONS]
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/uber
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/uber-eats
@@ -265,7 +236,6 @@ https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/youtube
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/netflix
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/spotify
 https://senseteq.io/en/s/mvp-calculator/platforms/web/analogues/medium
-
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/uber
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/uber-eats
@@ -282,7 +252,6 @@ https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/yout
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/netflix
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/spotify
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/analogues/medium
-
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues/uber
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues/uber-eats
@@ -299,7 +268,6 @@ https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analog
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues/netflix
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues/spotify
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/analogues/medium
-
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/e-commerce
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/sports-and-fitness
@@ -322,7 +290,6 @@ https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/kids
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/social-networking
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/dating
 https://senseteq.io/en/s/mvp-calculator/platforms/web/industries/productivity
-
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/e-commerce
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/sports-and-fitness
@@ -345,7 +312,6 @@ https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/kid
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/social-networking
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/dating
 https://senseteq.io/en/s/mvp-calculator/platforms/android-and-ios/industries/productivity
-
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/industries
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/industries/e-commerce
 https://senseteq.io/en/s/mvp-calculator/platforms/web-and-android-and-ios/industries/sports-and-fitness
