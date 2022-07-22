@@ -5,9 +5,14 @@ import { useTranslation } from 'next-i18next'
 
 const useNavigator = (calculatorData) => {
   const { t } = useTranslation()
+
+  /* Returning an array of the pages in the order they should be displayed. */
   const pageOrder = usePageOrder(calculatorData)
+
+  /* Calculating the progress of the user in the calculator. */
   const progress = useProgress(calculatorData)
 
+  /* Creating an object with the paths to the pages of the calculator. */
   const paths = useMemo(
     () => ({
       welcome: `/s/${t('calculator.paths.mvp_calculator')}`,
@@ -48,10 +53,12 @@ const useNavigator = (calculatorData) => {
     [t]
   )
 
+  /* Returning the previous page in the pageOrder array. */
   const prev = useMemo(() => {
     return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) - 1]
   }, [calculatorData?.currentRoute, pageOrder])
 
+  /* Returning the next page in the pageOrder array. */
   const next = useMemo(() => {
     return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) + 1]
   }, [calculatorData?.currentRoute, pageOrder])

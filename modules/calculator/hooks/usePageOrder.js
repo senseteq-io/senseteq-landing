@@ -23,6 +23,8 @@ const usePageOrder = (calculatorData) => {
     ]
 
     const { analogues, industries, platforms } = data
+
+    /* Checking if the user has selected any of the options. */
     const isAnaloguesOnly = analogues && !industries && !platforms
     const isIndustriesOnly = !analogues && industries && !platforms
     const isPlatformsOnly = !analogues && !industries && platforms
@@ -30,6 +32,7 @@ const usePageOrder = (calculatorData) => {
     const isNoIndustriesOnly = analogues && !industries && platforms
     const isNoPlatformsOnly = analogues && industries && !platforms
 
+    /* Setting the order of the pages. */
     const DEFAULT_ORDER = ['analogues', 'industries', 'platforms']
     const INDUSTRIES_ONLY_ORDER = ['industries', 'analogues', 'platforms']
     const PLATFORMS_ONLY_ORDER = ['platforms', 'analogues', 'industries']
@@ -37,6 +40,7 @@ const usePageOrder = (calculatorData) => {
     const NO_INDUSTRIES_ORDER = ['analogues', 'platforms', 'industries']
     const NO_PLATFORMS_ORDER = ['analogues', 'industries', 'platforms']
 
+    /* Setting the order of the pages. */
     if (isAnaloguesOnly) {
       setPageOrder([...START, ...DEFAULT_ORDER, ...STATIC])
     } else if (isIndustriesOnly) {

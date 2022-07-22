@@ -9,6 +9,8 @@ const usePath = (routes, updateCalculatorFields) => {
   const [state, setState] = useState({})
 
   useEffect(() => {
+    /* Checking if the baseRoute and baseRouteValue exist. If they do, it will set the state to the
+    baseRouteValue. */
     if (routes?.baseRoute && routes?.baseRouteValue) {
       setState((prev) => ({
         ...prev,
@@ -16,6 +18,8 @@ const usePath = (routes, updateCalculatorFields) => {
       }))
     }
 
+    /* Checking if the nestedRoute and nestedRouteValue exist. If they do, it will set the state to the
+    nestedRouteValue. */
     if (routes?.nestedRoute && routes?.nestedRouteValue) {
       setState((prev) => ({
         ...prev,

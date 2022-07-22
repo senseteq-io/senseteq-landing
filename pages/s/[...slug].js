@@ -5,27 +5,23 @@ import {
   Header
 } from '../../modules/calculator/components'
 import {
+  useAdvDataLS,
   useCalculatorData,
   useLS,
   useMetaData,
   usePages,
   useParams,
   usePath,
+  useRedirectCondition,
   useTransformRoutes
 } from '../../modules/calculator/hooks'
 
 import { CalculatorProvider } from '../../modules/calculator/contexts/Calculator'
-import Router from 'next/router'
 import Script from 'next/script'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { useEffect } from 'react'
 import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
-import { useTranslation } from 'next-i18next'
 
 export default function CalculatorAll() {
-  /* A hook that allows us to use the `t` function to translate our routes. */
-  const { t } = useTranslation()
-
   /* Transforming the routes from the `routes.js` file into a format that is easier to work with. */
   const routes = useTransformRoutes()
 
@@ -56,44 +52,20 @@ export default function CalculatorAll() {
   /* Using the `useLS` hook to save the `calculatorData` to local storage. */
   useLS(DBData || calculatorData)
 
-  // FIXME
-  useEffect(() => {
-    if (geo) window?.localStorage.setItem('s_geo', geo)
-    if (g) window?.localStorage.setItem('s_g', g)
-    if (adv) window?.localStorage.setItem('s_adv', adv)
-  }, [geo, g, adv])
+  /* Saving the `geo`, `g`, and `adv` params to local storage. */
+  useAdvDataLS({ geo, g, adv })
 
-  // Redirect if page was reloaded on the deep route
-  useEffect(() => {
-    const deepRoutesArr = [
-      'administration',
-      'localization',
-      'authentication',
-      'external_services',
-      'appearance',
-      'brand',
-      'revenue',
-      'result'
-    ]
-    const isDeepPage = deepRoutesArr.includes(routes?.baseRoute)
-
-    if (
-      !id &&
-      isDeepPage &&
-      (!calculatorData?.platforms ||
-        !calculatorData?.analogues ||
-        !calculatorData?.industries)
-    ) {
-      Router.push(`/s/${t('calculator.paths.mvp_calculator')}`)
-    }
-  }, [
-    t,
+  /* 
+    Redirecting the user to the `/s/mvp-calculator` route if the user is on a deep route and the `id`
+    param is not present in the URL. 
+  */
+  useRedirectCondition({
     id,
-    routes?.baseRoute,
-    calculatorData?.platforms,
-    calculatorData?.analogues,
-    calculatorData?.industries
-  ])
+    baseRoute: routes?.baseRoute,
+    platforms: calculatorData?.platforms,
+    analogues: calculatorData?.analogues,
+    industries: calculatorData?.industries
+  })
 
   /* Returning the head, header, content, and footer components. */
   return (
