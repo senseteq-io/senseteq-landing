@@ -25,7 +25,7 @@ const ResultSimpleView = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mb-4">
-        <div className="col-9">
+        <div className="col-12 col-md-9">
           <ResultHeader />
           <ResultDetails features={features} />
           <ResultEstimations weeks={weeks} price={price} />

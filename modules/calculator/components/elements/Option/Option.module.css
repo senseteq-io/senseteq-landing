@@ -5,11 +5,12 @@
   cursor: pointer;
   transition: background 0.5s ease;
 }
-
-.option:hover {
-  border: var(--calc-module-option-default-hover-border);
-  background: var(--calc-module-option-default-hover-background);
-  color: var(--calc-module-option-default-hover-color);
+@media all and (min-width: 768px) {
+  .option:hover {
+    border: var(--calc-module-option-default-hover-border);
+    background: var(--calc-module-option-default-hover-background);
+    color: var(--calc-module-option-default-hover-color);
+  }
 }
 
 .option.option-selected {

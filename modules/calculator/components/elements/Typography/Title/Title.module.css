@@ -28,6 +28,18 @@
   font-family: var(--calc-module-title-h3-font-family);
 }
 
+@media all and (max-width: 768px) {
+  .h3 {
+    font-size: var(--calc-module-title-h4-font-size);
+    line-height: var(--calc-module-title-h4-line-height);
+    font-weight: var(--calc-module-title-h4-font-weight);
+    margin-top: var(--calc-module-title-h4-margin-top);
+    margin-bottom: var(--calc-module-title-h4-margin-bottom);
+    letter-spacing: var(--calc-module-title-h4-letter-spacing);
+    font-family: var(--calc-module-title-h4-font-family);
+  }
+}
+
 .h4 {
   font-size: var(--calc-module-title-h4-font-size);
   line-height: var(--calc-module-title-h4-line-height);
