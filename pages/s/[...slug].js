@@ -78,6 +78,7 @@ export default function CalculatorAll() {
     const isDeepPage = deepRoutesArr.includes(routes?.baseRoute)
 
     if (
+      !id &&
       isDeepPage &&
       (!calculatorData?.platforms ||
         !calculatorData?.analogues ||
@@ -87,6 +88,7 @@ export default function CalculatorAll() {
     }
   }, [
     t,
+    id,
     routes?.baseRoute,
     calculatorData?.platforms,
     calculatorData?.analogues,
