@@ -2,8 +2,8 @@ import { Button, Input, Text } from '../../../../components'
 import { collection, doc, setDoc } from 'firebase/firestore'
 
 import { COLLECTIONS } from '../../../../__constants__'
+import DeviceDetector from 'device-detector-js'
 import { firestore } from '../../../../../../services/firebase'
-import ls from '../../../../utils/ls'
 import { useCalculator } from '../../../../contexts/Calculator'
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
@@ -17,6 +17,8 @@ const EmailForm = ({ onSend }) => {
   const onChange = (e) => setEmail(e.target.value)
   const send = async () => {
     if (email) {
+      const deviceDetector = new DeviceDetector()
+      const device = deviceDetector.parse(window?.navigator?.userAgent)
       const resultRef = doc(
         collection(firestore, COLLECTIONS.CALCULATOR_RESULTS)
       )
@@ -26,8 +28,10 @@ const EmailForm = ({ onSend }) => {
         adv: localStorage.getItem('s_adv') || 'EMPTY',
         geo: localStorage.getItem('s_geo') || 'EMPTY',
         gender: localStorage.getItem('s_g') || 'EMPTY',
-        calculatorData,
-        appLink: window?.location?.href + `?id=${resultRef.id}`
+        calculatorData: calculatorData || null,
+        appLink: window?.location?.href + `?id=${resultRef.id}`,
+        device: device || null,
+        _createdAt: new Date().toISOString()
       })
       setIsSaved(true)
 
