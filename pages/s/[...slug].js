@@ -60,7 +60,6 @@ export default function CalculatorAll() {
     param is not present in the URL. 
   */
   useRedirectCondition({
-    id,
     baseRoute: routes?.baseRoute,
     platforms: calculatorData?.platforms,
     analogues: calculatorData?.analogues,

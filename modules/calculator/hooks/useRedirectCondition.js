@@ -1,9 +1,9 @@
 import Router from 'next/router'
 import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 
 const useRedirectCondition = ({
-  id,
   baseRoute,
   platforms,
   analogues,
@@ -11,6 +11,8 @@ const useRedirectCondition = ({
 }) => {
   /* A hook that allows us to use the `t` function to translate our routes. */
   const { t } = useTranslation()
+
+  const router = useRouter()
 
   useEffect(() => {
     const deepRoutesArr = [
@@ -25,10 +27,14 @@ const useRedirectCondition = ({
     ]
     const isDeepPage = deepRoutesArr.includes(baseRoute)
 
-    if (!id && isDeepPage && (!platforms || !analogues || !industries)) {
+    if (
+      !router?.query?.id &&
+      isDeepPage &&
+      (!platforms || !analogues || !industries)
+    ) {
       Router.push(`/s/${t('calculator.paths.mvp_calculator')}`)
     }
-  }, [t, id, baseRoute, platforms, analogues, industries])
+  }, [t, router?.query?.id, baseRoute, platforms, analogues, industries])
 }
 
 export default useRedirectCondition
