@@ -12,7 +12,6 @@ import {
   usePages,
   useParams,
   usePath,
-  useRedirectCondition,
   useTransformRoutes
 } from '../../modules/calculator/hooks'
 
@@ -59,12 +58,12 @@ export default function CalculatorAll() {
     Redirecting the user to the `/s/mvp-calculator` route if the user is on a deep route and the `id`
     param is not present in the URL. 
   */
-  useRedirectCondition({
-    baseRoute: routes?.baseRoute,
-    platforms: calculatorData?.platforms,
-    analogues: calculatorData?.analogues,
-    industries: calculatorData?.industries
-  })
+  // useRedirectCondition({
+  //   baseRoute: routes?.baseRoute,
+  //   platforms: calculatorData?.platforms,
+  //   analogues: calculatorData?.analogues,
+  //   industries: calculatorData?.industries
+  // })
 
   /* Returning the head, header, content, and footer components. */
   return (
