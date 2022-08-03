@@ -1,9 +1,8 @@
 import { Button } from '../../../../components'
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 
-const ResultActions = ({ onOpenSaveModal, restart }) => {
+const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
   const router = useRouter()
@@ -27,13 +26,14 @@ const ResultActions = ({ onOpenSaveModal, restart }) => {
             </div>
           ) : null}
           <div className="d-flex col-12 mb-4 justify-content-center">
-            <Link href="https://senseteq.pipedrive.com/scheduler/J1A9amTK/mote-for-a-diskutere-prosjekt">
-              <a target="_blank" style={{ width: '100%' }}>
-                <Button role="button" block variant="lg" shape="rounded">
-                  {t('calculator.result.buttons.schedule_meeting')}
-                </Button>
-              </a>
-            </Link>
+            <Button
+              role="button"
+              block
+              variant="lg"
+              shape="rounded"
+              onClick={onScheduleMeeting}>
+              {t('calculator.result.buttons.schedule_meeting')}
+            </Button>
           </div>
           <div className="d-flex col-12 mb-4 justify-content-center">
             <Button
