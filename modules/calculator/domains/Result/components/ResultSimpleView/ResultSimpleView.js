@@ -13,7 +13,7 @@ import ls from '../../../../utils/ls'
 import { useTranslation } from 'next-i18next'
 
 const ResultSimpleView = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const features = useFeatures()
   const { price, weeks } = usePrice()
   const [isSaveModalVisible, openSaveModal, closeSaveModal] = useModal()
@@ -32,7 +32,7 @@ const ResultSimpleView = () => {
       calculatorResultId = await saveResults()
     }
     window.open(
-      `${BOOKING_MODULE_LINK}?calculatorResultId=${calculatorResultId}`,
+      `${BOOKING_MODULE_LINK}/${i18n.language}?calculatorResultId=${calculatorResultId}`,
       '_blank'
     )
   }
