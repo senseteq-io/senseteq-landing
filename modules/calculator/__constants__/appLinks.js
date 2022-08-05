@@ -1,1 +1,1 @@
-export const BOOKING_MODULE_LINK = 'https://senseteq-booking-module.web.app/'
+export const BOOKING_MODULE_LINK = 'https://meet.senseteq.io'
