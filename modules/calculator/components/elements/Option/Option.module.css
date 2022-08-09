@@ -1,13 +1,12 @@
 .option {
-  border: var(--calc-module-option-default-border);
   border-radius: var(--calc-module-option-default-border-radius);
   padding: var(--calc-module-option-default-padding);
+  background:var(--calc-module-option-default-background) ;
   cursor: pointer;
   transition: background 0.5s ease;
 }
 @media all and (min-width: 768px) {
-  .option:hover {
-    border: var(--calc-module-option-default-hover-border);
+  .option:hover,.option.option-selected:hover {
     background: var(--calc-module-option-default-hover-background);
     color: var(--calc-module-option-default-hover-color);
   }
@@ -16,7 +15,6 @@
 .option.option-selected {
   animation: beat 0.2s 4 alternate;
   background: var(--calc-module-option-default-selected-background);
-  border: var(--calc-module-option-default-selected-border);
   color: var(--calc-module-option-default-selected-color);
 }
 

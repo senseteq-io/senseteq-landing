@@ -100,14 +100,13 @@
   /* OPTIONS */
   --calc-module-option-default-selected-background: var(
     --calc-module-bg-primary
+  ); --calc-module-option-default-background: var(
+        --calc-module-gray-lighten2
   );
   --calc-module-option-default-hover-background: var(--calc-module-bg-primary);
   --calc-module-option-default-selected-color: var(--calc-module-white);
   --calc-module-option-default-hover-color: var(--calc-module-white);
-  --calc-module-option-default-border: 1px solid
-    var(--calc-module-action-primary-default-border);
-  --calc-module-option-default-hover-border: 1px solid
-    var(--calc-module-action-primary-hover-border);
-  --calc-module-option-default-selected-border: 1px solid
-    var(--calc-module-action-primary-selected-border);
+
+  --calc-module-option-default-border-radius: 18px;
+  --calc-module-option-default-padding: 16px;
 }

@@ -41,26 +41,20 @@ export default function OptionList({
 
   /* Returning a component that renders a list of options. */
   return (
-    <div className={`container ${className}`}>
-      <div className="row justify-content-center">
-        <div className="col-12 col-md-9">
-          <div className="row justify-content-center" role="list">
-            {options?.map((option, index) => (
-              <div
-                key={`${option?.label}-${index}`}
-                className="col-12 col-md-4 justify-content-center align-items-center mb-3">
-                <Option
-                  src={option?.src}
-                  value={option?.value}
-                  label={option?.label}
-                  onSelect={handleSelect}
-                  selected={option?.value === selected}
-                />
-              </div>
-            ))}
-          </div>
+    <div className={`row justify-content-center ${className}`} role="list">
+      {options?.map((option, index) => (
+        <div
+          key={`${option?.label}-${index}`}
+          className="col-12 col-md-4 justify-content-center align-items-center mb-3">
+          <Option
+            src={option?.src}
+            value={option?.value}
+            label={option?.label}
+            onSelect={handleSelect}
+            selected={option?.value === selected}
+          />
         </div>
-      </div>
+      ))}
     </div>
   )
 }
