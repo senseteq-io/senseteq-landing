@@ -20,7 +20,9 @@ export default function Content({ title, subtitle, options, type }) {
       <Title title={title} subtitle={subtitle} />
       <div className="container">
         <div className="row">
-          <div className="col d-none d-sm-flex justify-content-end align-items-center mb-3">
+          <div
+            className="col d-none d-md-flex justify-content-end align-items-center"
+            style={{ marginBottom: 36 }}>
             <Button
               variant="outlined"
               shape="circle"
@@ -37,13 +39,15 @@ export default function Content({ title, subtitle, options, type }) {
               calculatorData={calculatorData}
             />
           </div>
-          <div className="col d-none d-sm-flex justify-content-start align-items-center  mb-3">
+          <div
+            className="col d-none d-md-flex justify-content-start align-items-center"
+            style={{ marginBottom: 36 }}>
             <Button variant="outlined" shape="circle" onClick={onNext}>
               <AiOutlineArrowRight />
             </Button>
           </div>
         </div>
-        <div className="d-block d-sm-none">
+        <div className="d-block d-md-none">
           <Navigation onPrev={onPrev} onNext={onNext} />
         </div>
       </div>
