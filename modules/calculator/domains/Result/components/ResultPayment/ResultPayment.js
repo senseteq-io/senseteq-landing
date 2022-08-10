@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'next-i18next'
 import Segmented from 'rc-segmented'
 import { Text, Title } from '../../../../components'
+import { useCalculator } from '../../../../contexts/Calculator'
 
 const PaymentSection = ({ text, price }) => (
   <div className="d-flex mb-2 justify-content-between">
@@ -15,14 +16,21 @@ const PaymentSection = ({ text, price }) => (
 
 const ResultPayment = ({ weeks, price }) => {
   // [ADDITIONAL_HOOKS]
+  const { updateCalculatorField } = useCalculator()
   const { t } = useTranslation()
 
   const OPTIONS = [
-    t('calculator.result.payments.options.part_payment'),
-    t('calculator.result.payments.options.cash')
+    {
+      label: t('calculator.result.payments.options.part_payment'),
+      value: 'PART_PAYMENT'
+    },
+    {
+      label: t('calculator.result.payments.options.cash'),
+      value: 'CASH'
+    }
   ]
   // [COMPONENT_STATE_HOOKS]
-  const [paymentOptions, setPaymentOptions] = useState(OPTIONS[0])
+  const [paymentOption, setPaymentOption] = useState(OPTIONS[0])
 
   // [COMPUTED_PROPERTIES]
   const thirtyPercentagePrice = price * 0.3
@@ -30,7 +38,7 @@ const ResultPayment = ({ weeks, price }) => {
   const totalLeasePrice = price * 1.2
 
   const layouts = {
-    [OPTIONS[0]]: (
+    [OPTIONS[0].value]: (
       <div>
         <div className="d-flex mb-2 justify-content-between">
           <Text semibold>{t('calculator.result.approximate_estimation')}</Text>
@@ -86,7 +94,7 @@ const ResultPayment = ({ weeks, price }) => {
         </div>
       </div>
     ),
-    [OPTIONS[1]]: (
+    [OPTIONS[1].value]: (
       <>
         <div className="d-flex justify-content-between">
           <Text semibold>{t('calculator.result.approximate_estimation')}</Text>
@@ -130,17 +138,24 @@ const ResultPayment = ({ weeks, price }) => {
     )
   }
 
+  // [USE_EFFECTS]
+  useEffect(() => {
+    updateCalculatorField('paymentOption', paymentOption.value)
+  }, [paymentOption])
+
   return (
     <>
       <div className="mb-3">
         <Segmented
-          value={paymentOptions}
-          onChange={setPaymentOptions}
+          value={paymentOption.value}
+          onChange={(string) =>
+            setPaymentOption(OPTIONS.find(({ value }) => value === string))
+          }
           className="finance-segmented"
           options={OPTIONS}
         />
       </div>
-      {layouts[paymentOptions]}
+      {layouts[paymentOption.value]}
     </>
   )
 }

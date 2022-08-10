@@ -27,7 +27,8 @@ const useFeatures = () => {
         (key) =>
           calculatorData[key] &&
           key !== 'currentRoute' &&
-          calculatorData[key] !== 'NO'
+          calculatorData[key] !== 'NO' &&
+          key !== 'paymentOption'
       )
       .map((key) =>
         t(

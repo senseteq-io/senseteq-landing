@@ -21,6 +21,7 @@ const useCalculatorData = (routes, initialData) => {
     brand: null,
     revenue: null,
     currentRoute: null,
+    paymentOption: null,
     ...initialData
   })
 

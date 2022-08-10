@@ -16,9 +16,9 @@ const CalculatorProvider = ({
   g,
   adv
 }) => {
-  /* 
-    It's using the `useCalculatorNavigator` hook to get the 
-    previous and next routes. 
+  /*
+    It's using the `useCalculatorNavigator` hook to get the
+    previous and next routes.
   */
   const [prevRoute, nextRoute, progress] = useNavigator(calculatorData)
   const router = useRouter()
@@ -40,6 +40,7 @@ const CalculatorProvider = ({
         calculatorData,
         savedResult,
         reset,
+        updateCalculatorField,
         geo,
         g,
         adv
