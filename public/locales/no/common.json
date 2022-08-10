@@ -1338,6 +1338,23 @@
       "results_modal": {
         "title": "🔗 Lagre og dele prisestimatet",
         "subtitle": "Skriv inn din epostadresse, så sender vi deg en link med prisestimatet og litt mer info"
+      },
+      "payments": {
+        "options": {
+          "part_payment": "Avbetaling",
+          "cash": "Kontant"
+        },
+        "sections": [
+          "Første betaling 3 dager etter oppstart ",
+          "Andre betaling etter demo av første større resultat",
+          "Tredje betaling etter ferdig produkt ",
+          "Siste betaling ved godkjenning fra kunde"
+        ],
+        "monthly_down":"Månedlig avbetaling",
+        "monthly_payments":"Månedlig avdrag",
+        "part_payment_info": "* Avbetaling vil bli tilbudt til utvalgte prosjekter, og vil bli bekreftet som en mulighet etter møte. Rettighetene (IP) til programvareproduktet vil bli overført til kunde på dagen for siste betaling.",
+        "total": "Total",
+        "months": "måneder"
       }
     }
   }

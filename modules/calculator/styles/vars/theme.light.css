@@ -109,4 +109,9 @@
 
   --calc-module-option-default-border-radius: 18px;
   --calc-module-option-default-padding: 16px;
+
+  /* SEGMENTED */
+  --calc-module-segmented-br:24px;
+  --calc-module-segmented-item-br:calc(var(--calc-module-segmented-br) - 1px);
+  --calc-module-segmented-box-shadow:0 4px 8px 0 rgba(0,0,0,0.08);
 }

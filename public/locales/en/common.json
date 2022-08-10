@@ -1338,6 +1338,23 @@
       "results_modal": {
         "title": "🔗 Save and share results",
         "subtitle": "Enter your e-mail below and we will send letter with link to your results"
+      },
+      "payments": {
+        "options": {
+          "part_payment": "Part payment",
+          "cash": "Cash"
+        },
+        "sections": [
+          "First payment 3 days after startup",
+          "Second payment after first big result",
+          "Third payment after finished product",
+          "Last payment on customer approval"
+        ],
+        "monthly_down":"Monthly down payment",
+        "monthly_payments":"Monthly payment",
+        "part_payment_info": "* Part payment will be offered to selected projects, and confirmed as a possibility after meeting. The intellectual property (IP) to the software product will be transferred on the day of final payment.",
+        "total": "Total",
+        "months": "months"
       }
     }
   }
