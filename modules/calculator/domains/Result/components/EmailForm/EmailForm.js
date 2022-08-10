@@ -7,13 +7,17 @@ const EmailForm = ({ onSend }) => {
   const { t } = useTranslation()
   const [email, setEmail] = useState('')
   const [isSaved, setIsSaved] = useState(false)
+  const [loading, setLoading] = useState(false)
   const saveResults = useSaveResults()
   const onChange = (e) => setEmail(e.target.value)
+
   const send = async () => {
     if (email) {
+      setLoading(true)
       await saveResults(email)
 
       setIsSaved(true)
+      setLoading(false)
 
       setTimeout(() => {
         onSend()
@@ -48,7 +52,11 @@ const EmailForm = ({ onSend }) => {
             />
           </div>
           <div className="col-12 col-md-auto justify-content-center d-flex">
-            <Button variant="lg" shape="rounded" onClick={send}>
+            <Button
+              variant="lg"
+              shape="rounded"
+              onClick={send}
+              disabled={loading}>
               {t('calculator.result.email_form.buttons.send')}
             </Button>
           </div>
