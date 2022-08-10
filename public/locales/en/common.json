@@ -1354,7 +1354,8 @@
         "monthly_payments":"Monthly payment",
         "part_payment_info": "* Part payment will be offered to selected projects, and confirmed as a possibility after meeting. The intellectual property (IP) to the software product will be transferred on the day of final payment.",
         "total": "Total",
-        "months": "months"
+        "months": "9 months",
+        "priceSuffix": "ex. VAT"
       }
     }
   }

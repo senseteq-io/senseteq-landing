@@ -4,15 +4,19 @@ import Segmented from 'rc-segmented'
 import { Text, Title } from '../../../../components'
 import { useCalculator } from '../../../../contexts/Calculator'
 
-const PaymentSection = ({ text, price }) => (
-  <div className="d-flex mb-2 justify-content-between">
-    <Text>{text}</Text>
-    <Text>
-      {price?.toLocaleString('no', { currency: 'NOK' })}
-      ,- ex. VAT
-    </Text>
-  </div>
-)
+const PaymentSection = ({ text, price }) => {
+  const { t } = useTranslation()
+
+  return (
+    <div className="d-flex mb-2 justify-content-between">
+      <Text>{text}</Text>
+      <Text>
+        {price?.toLocaleString('no', { currency: 'NOK' })}
+        ,- {t('calculator.result.payments.priceSuffix')}
+      </Text>
+    </div>
+  )
+}
 
 const ResultPayment = ({ weeks, price }) => {
   // [ADDITIONAL_HOOKS]
@@ -60,17 +64,17 @@ const ResultPayment = ({ weeks, price }) => {
         />
         <div className="d-flex mb-2 justify-content-between">
           <Text>{t('calculator.result.payments.monthly_down')}</Text>
-          <Text>9 {t('calculator.result.payments.months')}</Text>
+          <Text>{t('calculator.result.payments.months')}</Text>
         </div>
 
         <div className="col-12 mt-5">
           <div className="d-flex justify-content-between">
             <Title as="h5">
-              {t('calculator.result.payments.monthly_down')}
+              {t('calculator.result.payments.monthly_payments')}
             </Title>
             <Title as="h5" align="right">
               {tenPercentagePrice?.toLocaleString('no', { currency: 'NOK' })}
-              ,- ex. VAT/mo
+              ,-{t('calculator.result.payments.priceSuffix')}
             </Title>
           </div>
           <div
@@ -83,7 +87,7 @@ const ResultPayment = ({ weeks, price }) => {
             <Text as="h5">{t('calculator.result.payments.total')}</Text>
             <Text as="h5" align="right">
               {totalLeasePrice?.toLocaleString('no', { currency: 'NOK' })}
-              ,- ex. VAT
+              ,-{t('calculator.result.payments.priceSuffix')}
             </Text>
           </div>
           <div>
@@ -127,11 +131,11 @@ const ResultPayment = ({ weeks, price }) => {
           className="my-2"
           style={{ borderTop: '1px solid var(--calc-module-gray-lighten2)' }}
         />
-        <div className="d-flex  justify-content-between">
+        <div className="d-flex justify-content-between">
           <Title as="h5">{t('calculator.result.payments.total')}</Title>
           <Title as="h5">
             {price?.toLocaleString('no', { currency: 'NOK' })}
-            ,- ex. VAT
+            ,-{t('calculator.result.payments.priceSuffix')}
           </Title>
         </div>
       </>

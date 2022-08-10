@@ -1354,7 +1354,8 @@
         "monthly_payments":"Månedlig avdrag",
         "part_payment_info": "* Avbetaling vil bli tilbudt til utvalgte prosjekter, og vil bli bekreftet som en mulighet etter møte. Rettighetene (IP) til programvareproduktet vil bli overført til kunde på dagen for siste betaling.",
         "total": "Total",
-        "months": "måneder"
+        "months": "9 måneder",
+        "priceSuffix": "eks. mva."
       }
     }
   }
