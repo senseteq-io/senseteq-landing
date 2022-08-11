@@ -10,7 +10,7 @@ const PaymentSection = ({ text, price }) => {
   return (
     <div className="d-flex mb-2 justify-content-between">
       <Text>{text}</Text>
-      <Text>
+      <Text style={{ whiteSpace: 'nowrap' }}>
         {price?.toLocaleString('no', { currency: 'NOK' })}
         ,- {t('calculator.result.payments.priceSuffix')}
       </Text>
