@@ -24,3 +24,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.rc-segmented.finance-segmented {
+  overflow: hidden;
+padding:4px;
+}
+.finance-segmented, .finance-segmented .rc-segmented-group{
+  width: 100%;
+  border-radius:var(--calc-module-segmented-br);
+}
+.finance-segmented .rc-segmented-group .rc-segmented-item,
+.finance-segmented .rc-segmented-group .rc-segmented-thumb{
+  flex: 1;
+  border-radius:var(--calc-module-segmented-item-br);
+}
+.finance-segmented .rc-segmented-group .rc-segmented-item.rc-segmented-item-selected,
+.finance-segmented .rc-segmented-group .rc-segmented-thumb{
+  box-shadow: var(--calc-module-segmented-box-shadow);
+}

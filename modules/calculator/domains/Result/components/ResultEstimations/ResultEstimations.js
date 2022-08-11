@@ -1,38 +1,22 @@
-import { Text, Title } from '../../../../components'
+import { Title } from '../../../../components'
 
 import { useTranslation } from 'next-i18next'
+import ResultPayment from '../ResultPayment'
+import 'rc-segmented/assets/index.css'
 
 const ResultEstimations = ({ weeks, price }) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
 
   return (
-    <div className="row">
+    <div className="row  justify-content-center">
       <div className="col-12 mb-4">
         <Title as="h4" align="center">
           {t('calculator.result.second_title')}
         </Title>
       </div>
-      <div className="col-12 col-md-6 mb-4">
-        <div>
-          <Text variant="secondary" align="center">
-            {t('calculator.result.approximate_estimation')}
-          </Text>
-          <Title as="h3" align="center">
-            {weeks} {t('calculator.result.weeks')}
-          </Title>
-        </div>
-      </div>
-      <div className="col-12 col-md-6 mb-4">
-        <div>
-          <Text variant="secondary" align="center">
-            {t('calculator.result.approximate_cost')}
-          </Text>
-          <Title as="h3" align="center">
-            {price?.toLocaleString('no', { currency: 'NOK' })}
-            ,- eks. mva
-          </Title>
-        </div>
+      <div className="col-12 col-md-9 mb-4">
+        <ResultPayment weeks={weeks} price={price} />
       </div>
     </div>
   )
