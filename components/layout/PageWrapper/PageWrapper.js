@@ -113,6 +113,22 @@ const PageWrapper = (props) => {
           src="https://www.facebook.com/tr?id=444826330701945&ev=PageView&noscript=1"
         />
       </noscript>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-88MBKN1GZG"
+        async
+      />
+      <Script
+        id="google-tag-manager"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-88MBKN1GZG');
+            `
+        }}
+      />
     </>
   )
 }
