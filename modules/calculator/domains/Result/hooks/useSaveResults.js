@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import DeviceDetector from 'device-detector-js'
 import { collection, doc, setDoc } from 'firebase/firestore'
-import { firestore } from '../../../../../services'
+import { firestore, devFirestore } from '../../../../../services'
 import { BOOKING_MODULE_LINK, COLLECTIONS } from '../../../__constants__'
 import { useCalculator } from '../../../contexts/Calculator'
 
@@ -12,8 +12,12 @@ const useSaveResults = () => {
     async (email = null) => {
       const deviceDetector = new DeviceDetector()
       const device = deviceDetector.parse(window?.navigator?.userAgent)
+      const isDev = JSON.parse(localStorage.getItem('isDev'))
+
+      const firestoreInstance = isDev ? devFirestore : firestore
+
       const resultRef = doc(
-        collection(firestore, COLLECTIONS.CALCULATOR_RESULTS)
+        collection(firestoreInstance, COLLECTIONS.CALCULATOR_RESULTS)
       )
       await setDoc(resultRef, {
         id: resultRef.id,
