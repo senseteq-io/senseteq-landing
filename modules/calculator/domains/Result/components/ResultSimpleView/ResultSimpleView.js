@@ -1,5 +1,9 @@
-import { BOOKING_MODULE_LINK } from '../../../../__constants__'
+import {
+  BOOKING_MODULE_LINK,
+  BOOKING_MODULE_LINK_DEV
+} from '../../../../__constants__'
 import { Modal, useModal } from '../../../../components'
+import { useIsDev } from '../../../../hooks'
 import { useFeatures, usePrice, useSaveResults } from '../../hooks'
 
 import EmailForm from '../EmailForm'
@@ -20,7 +24,7 @@ const ResultSimpleView = () => {
   const router = useRouter()
   const { query } = router
   const saveResults = useSaveResults()
-
+  const isDev = useIsDev()
   const restart = () => {
     ls.clear()
     Router.push(`/s/${t('calculator.paths.mvp_calculator')}`)
@@ -32,7 +36,9 @@ const ResultSimpleView = () => {
       calculatorResultId = await saveResults()
     }
     window.open(
-      `${BOOKING_MODULE_LINK}/${i18n.language}?calculatorResultId=${calculatorResultId}`,
+      `${isDev ? BOOKING_MODULE_LINK_DEV : BOOKING_MODULE_LINK}/${
+        i18n.language
+      }?calculatorResultId=${calculatorResultId}`,
       '_blank'
     )
   }

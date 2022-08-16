@@ -1,1 +1,1 @@
-export { default as firebaseConfig } from './firebaseConfig'
+export { default as firebaseConfig, firebaseConfigDev } from './firebaseConfig'
