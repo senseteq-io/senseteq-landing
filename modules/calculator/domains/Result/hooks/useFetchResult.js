@@ -1,8 +1,5 @@
-import { doc, getDoc } from 'firebase/firestore'
 import { useEffect, useState } from 'react'
-
-import { COLLECTIONS } from '../../../__constants__'
-import { firestore } from '../../../../../services/firebase'
+import { DEV_URL, PROD_URL } from '../../../../../constants/backendUrls'
 
 /**
  * It fetches the calculator data from Firestore and returns it as an array
@@ -23,15 +20,14 @@ const useFetchResult = (id) => {
       try {
         /* It sets the loading state to true. */
         setLoading(true)
+        const isDev = JSON.parse(localStorage.getItem('isDev'))
 
         /* Creating a reference to the document in the firestore database. */
-        const docRef = doc(firestore, COLLECTIONS.CALCULATOR_RESULTS, id)
-
-        /* Fetching the document from the firestore database. */
-        const docSnap = await getDoc(docRef)
-
-        /* Getting the data from the document snapshot. */
-        const data = docSnap.data()
+        const res = await fetch(
+          `${isDev ? DEV_URL : PROD_URL}/calculatorResults/get/${id}`,
+          { method: 'GET' }
+        )
+        const data = await res.json()
 
         /* Checking if data is truthy and if it is, it sets the data to the state. */
         data && setData(data.calculatorData)
