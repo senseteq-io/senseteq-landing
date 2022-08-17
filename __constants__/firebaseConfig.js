@@ -10,7 +10,8 @@ export const firebaseConfig = {
 export const firebaseConfigDev = {
   apiKey: 'AIzaSyBvgVnsOv-wktldM5f2BUN8aqRX4yFrHqE',
   authDomain: 'senseteq-admin-app-dev.firebaseapp.com',
-  databaseURL: 'https://senseteq-admin-app-default-rtdb.firebaseio.com',
+  databaseURL:
+    'https://senseteq-admin-app-dev-default-rtdb.europe-west1.firebasedatabase.app',
   projectId: 'senseteq-admin-app-dev',
   storageBucket: 'senseteq-admin-app-dev.appspot.com',
   messagingSenderId: '627341849150',
