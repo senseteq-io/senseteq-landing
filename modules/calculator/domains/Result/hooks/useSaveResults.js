@@ -1,8 +1,7 @@
 import { useCallback } from 'react'
 import DeviceDetector from 'device-detector-js'
-import { collection, doc, setDoc } from 'firebase/firestore'
-import { firestore, devFirestore } from '../../../../../services'
-import { BOOKING_MODULE_LINK, COLLECTIONS } from '../../../__constants__'
+import { DEV_URL, PROD_URL } from '../../../../../constants/backendUrls'
+import { BOOKING_MODULE_LINK } from '../../../__constants__'
 import { useCalculator } from '../../../contexts/Calculator'
 
 const useSaveResults = () => {
@@ -14,24 +13,26 @@ const useSaveResults = () => {
       const device = deviceDetector.parse(window?.navigator?.userAgent)
       const isDev = JSON.parse(localStorage.getItem('isDev'))
 
-      const firestoreInstance = isDev ? devFirestore : firestore
+      const fetchUrl = `${isDev ? DEV_URL : PROD_URL}/calculatorResults/create`
 
-      const resultRef = doc(
-        collection(firestoreInstance, COLLECTIONS.CALCULATOR_RESULTS)
-      )
-      await setDoc(resultRef, {
-        id: resultRef.id,
-        email,
-        adv: localStorage.getItem('s_adv') || 'EMPTY',
-        geo: localStorage.getItem('s_geo') || 'EMPTY',
-        gender: localStorage.getItem('s_g') || 'EMPTY',
-        calculatorData: calculatorData || null,
-        appLink: window?.location?.href + `?id=${resultRef.id}`,
-        bookingModuleLink: `${BOOKING_MODULE_LINK}?calculatorResultId=${resultRef.id}`,
-        device: device || null,
-        _createdAt: new Date().toISOString()
+      const res = await fetch(fetchUrl, {
+        method: 'POST',
+        headers: { Origin: 'mvp-calculator' },
+        body: JSON.stringify({
+          email,
+          adv: localStorage.getItem('s_adv') || 'EMPTY',
+          geo: localStorage.getItem('s_geo') || 'EMPTY',
+          gender: localStorage.getItem('s_g') || 'EMPTY',
+          calculatorData: calculatorData || null,
+          appLink: window?.location?.href,
+          bookingModuleLink: BOOKING_MODULE_LINK,
+          device: device || null,
+          _createdAt: new Date().toISOString()
+        })
       })
-      return resultRef.id
+      const { calculatorResultId } = await res.json()
+
+      return calculatorResultId
     },
     [calculatorData]
   )
