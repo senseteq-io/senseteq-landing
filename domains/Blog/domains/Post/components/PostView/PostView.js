@@ -22,12 +22,12 @@ const PostView = (props) => {
     [publishingDate]
   )
   const hrefComputed = useMemo(
-    () => `${redirectPath || '/blog/post/'}${path}`,
+    () => `${redirectPath || './blog/post/'}${path}`,
     [redirectPath, path]
   )
 
   return (
-    <div className="post">
+    <div className="post" data-aos="fade-right">
       <Link href={hrefComputed}>
         <a>
           <div className="row wrapper">
