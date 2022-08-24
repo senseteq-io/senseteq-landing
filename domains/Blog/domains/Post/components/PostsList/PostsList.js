@@ -1,3 +1,4 @@
+import { Button } from '../../../../../../components'
 import { PostView } from '../..'
 import { useGetPosts } from '../../hooks'
 import { useTranslation } from 'next-i18next'
@@ -35,11 +36,9 @@ const PostsList = (props) => {
       </div>
 
       {loadMoreAvailable && withMore && (
-        <div className="row justify-content-center">
+        <div className="row justify-content-center posts-load-more">
           <div className="col-auto">
-            <a
-              onClick={next}
-              className="btn btn-lg btn-outlined btn-primary-blue">
+            <a onClick={next} className="btn btn-lg btn-primary">
               {t('blog.posts_list.load_more_text')}
             </a>
           </div>
