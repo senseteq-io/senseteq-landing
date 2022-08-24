@@ -46,12 +46,12 @@ export default function Post({ postJson }) {
           </div>
           <div className="row justify-content-between">
             <div className="col-auto">
-              <Text caption className="caption">
+              <Text caption italic>
                 {author}
               </Text>
             </div>
             <div className="col-auto">
-              <Text caption className="caption">
+              <Text caption italic>
                 {publishingDateFormatted}
               </Text>
             </div>

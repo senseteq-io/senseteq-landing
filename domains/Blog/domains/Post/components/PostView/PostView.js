@@ -39,13 +39,17 @@ const PostView = (props) => {
             <div className="content col-12 col-md-7">
               <div className="subtitle row ">
                 <div className="col-auto">
-                  <Text italic>{author}</Text>
+                  <Text italic caption>
+                    {author}
+                  </Text>
                 </div>
                 <div className="col-auto p-0">
-                  <Text>·</Text>
+                  <Text caption>·</Text>
                 </div>
                 <div className="col-auto">
-                  <Text italic>{publishingDateComputed}</Text>
+                  <Text italic caption>
+                    {publishingDateComputed}
+                  </Text>
                 </div>
               </div>
               <div className="row">
