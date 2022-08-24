@@ -31,18 +31,8 @@
   margin-bottom: 24px;
   width: 100%
 }
-.blog-page .p-0 {
-  padding: 0;
-}
-.blog-page .post .subtitle > div > p {
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 400;
-  font-style: italic;
+.blog-page .post .subtitle {
   margin-bottom: 8px;
-}
-.blog-page .post .title {
-  margin-bottom: 24px;
 }
 .blog-page .post .description {
   height: 72px;
@@ -86,19 +76,10 @@
 }
 @media (min-width: 550px) {
   .blog-page .post .thumb-wrapper {
-    height: 220px;
-  }
-}
-@media (min-width: 550px) {
-  .blog-page .post .thumb-wrapper {
     height: 240px;
   }
 }
-@media (min-width: 550px) {
-  .blog-page .post .thumb-wrapper {
-    height: 280px;
-  }
-}
+
 @media (min-width: 768px) {
   .blog-page .post .content {
     display: flex;
@@ -111,20 +92,16 @@
     border-radius: 40px;
   }
 
-  .blog-page .post .subtitle > div > p {
-    font-size: 16px;
-    line-height: 24px;
-  }
   .blog-page .post .description {
     margin-bottom: 0;
   }
 }
 @media (min-width: 1024px) {
   .blog-page .post .thumb-wrapper {
-    height: 300px;
+    height: 220px;
   }
   .blog-page .post .description {
-    height: 84px;
+    height: 80px;
   }
   .blog-page .section-prime .sort-input-wrapper {
     margin-bottom: 32px;
@@ -137,6 +114,15 @@
   }
   .blog-page .tags-carousel .tag-card {
     margin-right: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-page .post .thumb-wrapper {
+    height: 260px;
+  }
+  .blog-page .post .description {
+    height: 84px;
   }
 }
 
