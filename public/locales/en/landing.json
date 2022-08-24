@@ -26,6 +26,9 @@
     "contact": {
       "title": "Contact"
     },
+    "blog": {
+      "title": "Blog"
+    },
     "apply": {
       "title": "Apply"
     },
@@ -203,6 +206,21 @@
   "contact": {
     "prime_section": {
       "title": "Let's talk<span class='c-primary'>.</span>"
+    }
+  },
+  "blog": {
+    "prime_section": {
+      "title": "Blog<span class='c-primary'>.</span>",
+      "subtitle": "Find the information you're interested in using search, categories and tags.",
+      "results_title": "Results for "
+    },
+    "search": {
+      "placeholder": "Panic, Anxiety, etc..."
+    },
+    "advanced_search_section": {
+      "title": "Advanced Search",
+      "categories_title": "Categories",
+      "tags_title": "Tags"
     }
   },
   "apply": {

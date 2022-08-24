@@ -19,7 +19,6 @@ const PostsList = (props) => {
             <PostView
               key={post?._id}
               id={post?._id}
-              theme="light"
               author={post.author}
               thumb={post.previewImageUrl}
               publishingDate={post.publishingDate}
