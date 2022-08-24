@@ -52,10 +52,6 @@
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
-.blog-page .post .separator {
-  margin-right: 8px;
-  margin-left: 8px;
-}
 .blog-page .posts-load-more {
   margin-top: 48px;
 }
@@ -115,9 +111,6 @@
     border-radius: 40px;
   }
 
-  .blog-page .post .subtitle {
-    margin-left: 0;
-  }
   .blog-page .post .subtitle > div > p {
     font-size: 16px;
     line-height: 24px;
