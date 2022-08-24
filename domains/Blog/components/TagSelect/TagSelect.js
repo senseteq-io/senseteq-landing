@@ -1,6 +1,7 @@
+import { Text, Title } from '../../../../components'
+
 import PropTypes from 'prop-types'
 import Slider from 'react-slick'
-import { Text } from '../../../../components'
 
 const TagSelect = (props) => {
   const { title, onChange, tags, carousel } = props
@@ -16,7 +17,7 @@ const TagSelect = (props) => {
     <div className="row">
       {title && (
         <div className="col-12">
-          <p className="subtitle">{title}</p>
+          <Title as="h5">{title}</Title>
         </div>
       )}
       {carousel ? (

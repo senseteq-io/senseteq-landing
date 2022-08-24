@@ -221,6 +221,9 @@
       "title": "Advanced Search",
       "categories_title": "Categories",
       "tags_title": "Tags"
+    },
+    "posts_list": {
+      "load_more_text": "Load more"
     }
   },
   "apply": {

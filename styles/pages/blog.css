@@ -34,9 +34,6 @@
 .blog-page .p-0 {
   padding: 0;
 }
-.blog-page .post .subtitle {
-  margin-left: 0;
-}
 .blog-page .post .subtitle > div > p {
   font-size: 14px;
   line-height: 20px;
@@ -75,13 +72,6 @@
   width: 28px;
   height: 28px;
   cursor: pointer;
-}
-.blog-page .advanced-search .subtitle {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  color: var(--white);
 }
 .blog-page .advanced-search .sort-input-wrapper {
   margin-bottom: 40px;
@@ -145,14 +135,6 @@
   }
   .blog-page .advanced-search .sort-input-wrapper {
     margin-bottom: 48px;
-  }
-  .blog-page .advanced-search .sort-input-wrapper {
-    margin-bottom: 48px;
-  }
-  .blog-page .advanced-search .subtitle {
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 24px;
   }
   .blog-page .advanced-search .categories-select-wrapper {
     margin-bottom: 48px;

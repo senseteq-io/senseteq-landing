@@ -221,6 +221,9 @@
       "title": "Avansert Søk",
       "categories_title": "Kategorier",
       "tags_title": "Tagger"
+    },
+    "posts_list": {
+      "load_more_text": "Les mer"
     }
   },
   "apply": {
