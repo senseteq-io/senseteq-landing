@@ -26,6 +26,9 @@
     "contact": {
       "title": "Kontact"
     },
+    "blog": {
+      "title": "Blogg"
+    },
     "apply": {
       "title": "Søke om"
     },
@@ -203,6 +206,24 @@
   "contact": {
     "prime_section": {
       "title": "Snakk med oss<span class='c-primary'>.</span>"
+    }
+  },
+  "blog": {
+    "prime_section": {
+      "title": "Blogg<span class='c-primary'>.</span>",
+      "subtitle": "Finn informasjonen du er interessert i ved å bruke søk, kategorier og tagger.",
+      "results_title": "Resultater for "
+    },
+    "search": {
+      "placeholder": "Panikk, Angst, etc..."
+    },
+    "advanced_search_section": {
+      "title": "Avansert Søk",
+      "categories_title": "Kategorier",
+      "tags_title": "Tagger"
+    },
+    "posts_list": {
+      "load_more_text": "Les mer"
     }
   },
   "apply": {

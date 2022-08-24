@@ -20,6 +20,7 @@ export default function Text(props) {
     className,
     center,
     ariaLabel,
+    italic,
     ...rest
   } = props
 
@@ -33,6 +34,7 @@ export default function Text(props) {
       [styles[cls]]: true,
       [styles.description]: description,
       [styles.caption]: caption,
+      [styles.italic]: italic,
       [className]: className,
       'text-center': center
     }),

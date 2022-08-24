@@ -1,6 +1,8 @@
-import PropTypes from 'prop-types'
 import { useCallback, useEffect, useRef, useState } from 'react'
+
 import Image from 'next/image'
+import PropTypes from 'prop-types'
+import { useTranslation } from 'next-i18next'
 
 const PostSearchInput = (props) => {
   const {
@@ -16,6 +18,8 @@ const PostSearchInput = (props) => {
 
   // [ADDITIONAL HOOKS]
   const timeoutRef = useRef(null)
+  /* A hook that allows us to use the `t` function to translate strings. */
+  const { t } = useTranslation('landing')
 
   // [HELPER FUNCTIONS]
   const submitChanges = useCallback((value) => onChange?.(value), [onChange])
@@ -31,7 +35,11 @@ const PostSearchInput = (props) => {
   }, [onClear])
 
   // [LIFECYCLE]
-  useEffect(() => value !== undefined && setValue(value), [value]) // update
+  useEffect(() => {
+    let isMounted = true
+    isMounted && value !== undefined && setValue(value)
+    return () => (isMounted = false)
+  }, [value]) // update
   useEffect(() => {
     return () => {
       if (timeoutRef?.current) clearTimeout(timeoutRef.current)
@@ -43,7 +51,7 @@ const PostSearchInput = (props) => {
       <div className="search-icon-wrapper">
         <div className="search-icon">
           <Image
-            src="/search-placeholder-icon.svg"
+            src="/assets/search-placeholder-icon.svg"
             alt="Search"
             layout="fill"
           />
@@ -51,21 +59,20 @@ const PostSearchInput = (props) => {
       </div>
 
       <input
-        placeholder="Panic, Anxiety, etc..."
+        placeholder={t('blog.search.placeholder')}
         value={localValue}
         onChange={handleChange}
         className="sort-input"
       />
       {localValue ? (
         <div className="setting-icon" onClick={handleClear}>
-          <Image src="/close.svg" fill="red" alt="Settings" layout="fill" />
+          <Image src="/assets/close.svg" alt="Settings" layout="fill" />
         </div>
       ) : (
         !advancedSearchHidden && (
           <div className="setting-icon" onClick={onSettings}>
             <Image
-              src="/settings-adjust-placeholder-icon.svg"
-              fill="red"
+              src="/assets/settings-adjust-placeholder-icon.svg"
               alt="Settings"
               layout="fill"
             />
