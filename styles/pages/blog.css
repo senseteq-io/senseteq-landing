@@ -20,6 +20,7 @@
 
 .blog-page .post .wrapper {
   flex: 1;
+  max-width: -webkit-fill-available;
 }
 
 .blog-page .post .thumb-wrapper {
