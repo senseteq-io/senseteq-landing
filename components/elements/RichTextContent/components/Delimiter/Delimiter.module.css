@@ -1,0 +1,7 @@
+.delimiterWrapper {
+  padding: 32px 0 32px 0;
+}
+.delimiter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  line-height: 1.6em;
+}

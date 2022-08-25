@@ -92,6 +92,10 @@
     "contact": {
       "name": "Contact",
       "aria": "Go to contact page"
+    },
+    "blog": {
+      "name": "Blog",
+      "aria": "Go to blog page"
     }
   },
   "language_menu": {

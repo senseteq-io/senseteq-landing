@@ -29,6 +29,11 @@ const MENU_ITEMS = {
     name: 'menu.contact.name',
     href: '/contact',
     ariaLabel: 'menu.contact.aria'
+  },
+  '/blog': {
+    name: 'menu.blog.name',
+    href: '/blog',
+    ariaLabel: 'menu.blog.aria'
   }
 }
 
