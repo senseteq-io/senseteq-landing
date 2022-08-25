@@ -20,7 +20,6 @@ const ArrowDown = (props) => {
           src="/assets/down_arrow.svg"
           alt={alt}
           layout="fill"
-          className="down-arrow-icon"
         />
       </div>
     </div>

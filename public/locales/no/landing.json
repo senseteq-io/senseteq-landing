@@ -376,6 +376,11 @@
       "fractal": {
         "description": "Fractal Academy er et fremtidsrettet akademi som underviser unge utviklere i dagens og morgendagens utviklingsverktøy. Gratis.",
         "aria": "Gå til Fractal Academy slide"
+      },
+      "can_eat": {
+        "description": "CanEat er et økosystem for alle som trenger tilpasset mat, deres pårørende, matprodusenter og helsepersonell.",
+        "aria": "Gå til Can Eat slide",
+        "button_text": "Nedlasting"
       }
     },
     "packages": {

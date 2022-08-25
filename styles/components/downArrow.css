@@ -1,15 +1,18 @@
+.down-arrow-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: calc(100% / 2 - 13px);
+  cursor: pointer;
+  -webkit-animation: arrrow-bottom-animation 1s infinite alternate;
+  animation: arrrow-bottom-animation 1s infinite alternate;
+}
+
 .down-arrow-wrapper .down-arrow-icon {
   width: 26px;
   height: 14px;
   position: relative;
 }
-.down-arrow-wrapper {
-  position: absolute;
-  bottom: 20px;
-  left: calc(100% / 2 - 13px);
-  -webkit-animation: arrrow-bottom-animation 1s infinite alternate;
-  animation: arrrow-bottom-animation 1s infinite alternate;
-}
+
 @-webkit-keyframes arrrow-bottom-animation {
   0% {
     transform: translateY(0);

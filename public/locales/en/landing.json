@@ -376,6 +376,11 @@
       "fractal": {
         "description": "Fractal Academy is a future-oriented academy that teaches young developers today's and tomorrow's development tools. Free.",
         "aria": "Go to Fractal Academy slide"
+      },
+      "can_eat": {
+        "description": "CanEat is an ecosystem for everyone who needs customized food, their relatives, food producers and healthcare professionals.",
+        "aria": "Go to Can Eat slide",
+        "button_text": "Download"
       }
     },
     "packages": {
