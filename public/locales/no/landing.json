@@ -169,6 +169,9 @@
       "descriptionLine1": "Vi er et norsk-ukrainsk selskap som revolusjonerer måten webutvikling foregår. Vår misjon er å være med på å gjøre verden til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av mennesker. Vi vil gjøre en forskjell for våre kunder og for våre ansatte.",
       "descriptionLine2": "Vi krever det samme av våre kunder. De er dedikerte oppstartsbedrifter som vil gjøre en forskjell for mennesker, i alle deler av livet.",
       "descriptionLine3": "Vi inviterer alle til å bli med. Come join us and make Sense!"
+    },
+    "senseteq-blog-widget-section": {
+      "title": "Blogg"
     }
   },
   "technologies": {
@@ -501,6 +504,9 @@
         },
         "about_senseteq_section": {
           "title": "Om Senseteq"
+        },
+        "senseteq-blog-widget-section": {
+          "title": "Blogg"
         }
       },
       "pricing": {
