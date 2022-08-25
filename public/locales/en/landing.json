@@ -26,6 +26,9 @@
     "contact": {
       "title": "Contact"
     },
+    "blog": {
+      "title": "Blog"
+    },
     "apply": {
       "title": "Apply"
     },
@@ -89,6 +92,10 @@
     "contact": {
       "name": "Contact",
       "aria": "Go to contact page"
+    },
+    "blog": {
+      "name": "Blog",
+      "aria": "Go to blog page"
     }
   },
   "language_menu": {
@@ -162,6 +169,9 @@
       "descriptionLine1": "We are a Norwegian-Ukrainian company, which aims to revolutionize the approach to web development. Our mission is to make the world a better place through our contribution. We love people. We make a difference in the lives of our customers and our employees.",
       "descriptionLine2": "We set the same standard for our customers. They are dedicated startups that wants to make a difference for people, in any part of their lives.",
       "descriptionLine3": "We invite everyone to be part of it. Come join us and make Sense!"
+    },
+    "senseteq-blog-widget-section": {
+      "title": "Blog"
     }
   },
   "technologies": {
@@ -203,6 +213,24 @@
   "contact": {
     "prime_section": {
       "title": "Let's talk<span class='c-primary'>.</span>"
+    }
+  },
+  "blog": {
+    "prime_section": {
+      "title": "Blog<span class='c-primary'>.</span>",
+      "subtitle": "Find the information you're interested in using search, categories and tags.",
+      "results_title": "Results for "
+    },
+    "search": {
+      "placeholder": "Panic, Anxiety, etc..."
+    },
+    "advanced_search_section": {
+      "title": "Advanced Search",
+      "categories_title": "Categories",
+      "tags_title": "Tags"
+    },
+    "posts_list": {
+      "load_more_text": "Load more"
     }
   },
   "apply": {
@@ -477,6 +505,9 @@
         },
         "about_senseteq_section": {
           "title": "About Senseteq"
+        },
+        "senseteq-blog-widget-section": {
+          "title": "Blog"
         }
       },
       "pricing": {

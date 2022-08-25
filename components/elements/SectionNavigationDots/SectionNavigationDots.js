@@ -15,9 +15,7 @@ const SectionNavigationDots = (props) => {
    * @param id - The id of the section you want to scroll to.
    */
   const handleClickDot = (id) =>
-    document.getElementById(id).scrollIntoView({
-      behavior: 'smooth'
-    })
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
   const handleMouseMoveDot = (id) => {
     const dotElement = document.getElementById(`navigation-${id}`)
     dotElement.querySelector('.navigation-dot-tooltip').style.display = 'block'

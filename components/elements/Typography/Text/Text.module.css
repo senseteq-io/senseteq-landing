@@ -33,3 +33,7 @@
   margin-bottom: var(--text-description-margin-bottom);
   font-family: var(--text-description-font-family);
 }
+
+.italic {
+  font-style: italic;
+}

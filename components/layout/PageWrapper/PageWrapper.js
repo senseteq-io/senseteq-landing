@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import 'aos/dist/aos.css'
 
 import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
@@ -109,6 +110,7 @@ const PageWrapper = (props) => {
         <img
           height="1"
           width="1"
+          alt="Senseteq"
           style={{ display: 'none' }}
           src="https://www.facebook.com/tr?id=444826330701945&ev=PageView&noscript=1"
         />

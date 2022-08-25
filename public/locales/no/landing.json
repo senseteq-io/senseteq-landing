@@ -26,6 +26,9 @@
     "contact": {
       "title": "Kontact"
     },
+    "blog": {
+      "title": "Blogg"
+    },
     "apply": {
       "title": "Søke om"
     },
@@ -89,6 +92,10 @@
     "contact": {
       "name": "Kontakt",
       "aria": "Gå til kontaktsiden"
+    },
+    "blog": {
+      "name": "Blogg",
+      "aria": "Gå til bloggen"
     }
   },
   "language_menu": {
@@ -162,6 +169,9 @@
       "descriptionLine1": "Vi er et norsk-ukrainsk selskap som revolusjonerer måten webutvikling foregår. Vår misjon er å være med på å gjøre verden til et bedre sted for alle gjennom vårt bidrag. Vi er opptatt av mennesker. Vi vil gjøre en forskjell for våre kunder og for våre ansatte.",
       "descriptionLine2": "Vi krever det samme av våre kunder. De er dedikerte oppstartsbedrifter som vil gjøre en forskjell for mennesker, i alle deler av livet.",
       "descriptionLine3": "Vi inviterer alle til å bli med. Come join us and make Sense!"
+    },
+    "senseteq-blog-widget-section": {
+      "title": "Blogg"
     }
   },
   "technologies": {
@@ -203,6 +213,24 @@
   "contact": {
     "prime_section": {
       "title": "Snakk med oss<span class='c-primary'>.</span>"
+    }
+  },
+  "blog": {
+    "prime_section": {
+      "title": "Blogg<span class='c-primary'>.</span>",
+      "subtitle": "Finn informasjonen du er interessert i ved å bruke søk, kategorier og tagger.",
+      "results_title": "Resultater for "
+    },
+    "search": {
+      "placeholder": "Panikk, Angst, etc..."
+    },
+    "advanced_search_section": {
+      "title": "Avansert Søk",
+      "categories_title": "Kategorier",
+      "tags_title": "Tagger"
+    },
+    "posts_list": {
+      "load_more_text": "Les mer"
     }
   },
   "apply": {
@@ -481,6 +509,9 @@
         },
         "about_senseteq_section": {
           "title": "Om Senseteq"
+        },
+        "senseteq-blog-widget-section": {
+          "title": "Blogg"
         }
       },
       "pricing": {
