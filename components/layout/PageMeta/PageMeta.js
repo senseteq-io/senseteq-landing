@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const PageMeta = (props) => {
-  const { title, description, keywords, author } = props
+  const { title, description, keywords, author, image } = props
 
   return (
     <Head itemscope itemtype="http://schema.org/Organization">
@@ -13,7 +13,7 @@ const PageMeta = (props) => {
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta name="title" content={title} />
-      <meta name="image" content="/favicon.ico" />
+      <meta name="image" content={image || '/favicon.ico'} />
       <meta name="theme-color" content="var(--primary)" />
       {author && <meta name="author" content={author} />}
 

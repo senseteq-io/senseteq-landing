@@ -14,8 +14,14 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useMemo } from 'react'
 
 export default function Post({ postJson }) {
-  const { author, publishingDate, previewImageUrl, title, description } =
-    JSON.parse(postJson)
+  const {
+    author,
+    publishingDate,
+    previewImageUrl,
+    title,
+    description,
+    metaDescription
+  } = JSON.parse(postJson)
 
   // [COMPUTED PROPERTIES]
   const publishingDateFormatted = useMemo(
@@ -30,9 +36,18 @@ export default function Post({ postJson }) {
     () => previewImageUrl || DEFAULT_GRADIENT_IMAGE_URL,
     [previewImageUrl]
   )
+  const metaDescriptionComputed = useMemo(
+    () => metaDescription || `${title} | Menta Helse`,
+    [title, metaDescription]
+  )
 
   return (
-    <PageWrapper pageMetaProps={{ title }}>
+    <PageWrapper
+      pageMetaProps={{
+        title,
+        image: imageComputed,
+        description: metaDescriptionComputed
+      }}>
       <Section dark id="prime-section">
         <Title>{title}</Title>
       </Section>
