@@ -8,12 +8,15 @@ import {
   Text,
   Title
 } from '../components'
+import {
+  RecommendedPostsWidget,
+  getRecommendedPosts
+} from '../domains/Blog/domains/Post'
 
 import { AccessaryToolList } from '../domains/AccessaryTool/components'
 import { AdvantageList } from '../domains/Advantage/components'
 import { CompanyList } from '../domains/Company/components'
 import { GuaranteeList } from '../domains/Guarantee/components'
-import Image from 'next/image'
 import { IndustryList } from '../domains/Industry/components'
 import { PAGE_SECTIONS_CONFIG } from '../constants'
 import { ReasonList } from '../domains/Reason/components'
@@ -21,8 +24,19 @@ import { ServiceList } from '../domains/Service/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
-export default function Home() {
-  // [ADDITIONAL_HOOKS]
+const getHomePageSectionsConfig = (posts) => {
+  if (posts.length)
+    return [
+      ...PAGE_SECTIONS_CONFIG.HOME_PAGE,
+      ...PAGE_SECTIONS_CONFIG.HOME_PAGE_DYNAMIC.BLOG
+    ]
+  return PAGE_SECTIONS_CONFIG.HOME_PAGE
+}
+
+export default function Home({ recommendedPostsJson }) {
+  const posts = JSON.parse(recommendedPostsJson)
+  const sectionsConfig = getHomePageSectionsConfig(posts)
+
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation('landing')
 
@@ -34,7 +48,7 @@ export default function Home() {
         description: t('head.home.description'),
         keywords: t('head.home.keywords')
       }}
-      sectionsConfig={PAGE_SECTIONS_CONFIG?.HOME_PAGE}>
+      sectionsConfig={sectionsConfig}>
       <Section
         id="prime-section"
         sectionBackground={[
@@ -264,13 +278,21 @@ export default function Home() {
           </div>
         </div>
       </Section>
+      {/* RecommendedPostsWidget => Section id="senseteq-blog-widget-section" */}
+      <RecommendedPostsWidget posts={posts} />
     </PageWrapper>
   )
 }
 
-export async function getStaticProps({ locale }) {
+// This gets called on every request
+export async function getServerSideProps({ locale }) {
+  const recommendedPosts = await getRecommendedPosts()
+  const recommendedPostsJson = JSON.stringify(recommendedPosts || {})
+
+  // Pass data to the page via props
   return {
     props: {
+      recommendedPostsJson,
       ...(await serverSideTranslations(locale, ['landing']))
     }
   }

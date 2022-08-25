@@ -19,7 +19,7 @@ const Section = (props) => {
         Object.values(dots.querySelectorAll('li.navigation-dot')).map(
           (element) => element.classList.remove('active')
         )
-        document.getElementById(`navigation-${id}`).classList.add('active')
+        document.getElementById(`navigation-${id}`)?.classList.add('active')
       }
     }
   })

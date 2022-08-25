@@ -48,6 +48,15 @@ const PAGE_SECTIONS_CONFIG = {
       idSection: 'about-senseteq-section'
     }
   ],
+  HOME_PAGE_DYNAMIC: {
+    BLOG: [
+      {
+        title:
+          'constants.page_sections_config.home.senseteq-blog-widget-section.title',
+        idSection: 'senseteq-blog-widget-section'
+      }
+    ]
+  },
   PRICING_PAGE: [
     {
       title: 'constants.page_sections_config.pricing.prime-section.title',
