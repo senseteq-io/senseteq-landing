@@ -4,14 +4,13 @@
   object-fit: cover;
   width: -webkit-fill-available;
   height: inherit;
-  border-top-left-radius: 65px;
-  border-bottom-right-radius: 65px;
+  border-radius: var(--border-radius-default);
 }
 
 .blog-post-page .post .description {
   /* Inherit from text body */
-  font-size: var(--text-body-font-size);
-  line-height: var(--text-body-line-height);
+  font-size: var(--title-h5-font-size);
+  line-height: var(--title-h5-line-height);
   font-weight: var(--text-body-font-weight);
   margin-top: var(--text-body-margin-top);
   margin-bottom: var(--text-body-margin-bottom);
