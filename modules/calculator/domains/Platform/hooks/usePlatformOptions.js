@@ -14,6 +14,11 @@ const usePlatformOptions = () => {
   const options = useMemo(() => {
     return [
       {
+        label: t('calculator.platforms.options.both'),
+        src: '/assets/platform_web_mobile.svg',
+        value: PLATFORMS.WEB_MOBILE
+      },
+      {
         label: t('calculator.platforms.options.web'),
         src: '/assets/platform_web.svg',
         value: PLATFORMS.WEB
@@ -22,11 +27,6 @@ const usePlatformOptions = () => {
         label: t('calculator.platforms.options.mobile'),
         src: '/assets/platform_mobile.svg',
         value: PLATFORMS.MOBILE
-      },
-      {
-        label: t('calculator.platforms.options.both'),
-        src: '/assets/platform_web_mobile.svg',
-        value: PLATFORMS.WEB_MOBILE
       }
     ]
   }, [t])

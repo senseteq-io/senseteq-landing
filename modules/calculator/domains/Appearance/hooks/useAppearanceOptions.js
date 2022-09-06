@@ -13,14 +13,14 @@ const useAppearanceOptions = () => {
   const options = useMemo(() => {
     return [
       {
-        label: t('calculator.appearance.options.basic'),
-        src: '/assets/appearance_basic.svg',
-        value: 'BASIC'
-      },
-      {
         label: t('calculator.appearance.options.fantastic'),
         src: '/assets/appearance_fantastic.svg',
         value: 'FANTASTIC'
+      },
+      {
+        label: t('calculator.appearance.options.basic'),
+        src: '/assets/appearance_basic.svg',
+        value: 'BASIC'
       }
     ]
   }, [t])
