@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import { usePrice } from '../../../Price/hooks'
 import Navigation from '../Navigation'
 import { Button, OptionList } from '../../../../components'
 import Title from '../Title'
@@ -14,6 +15,8 @@ export default function Content({ title, subtitle, options, type }) {
   /* Destructuring the `onSelect`, `onNext`, and `onPrev` functions from the `useCalculator` hook. */
   const { onSelect, onNext, onPrev, calculatorData } = useCalculator()
   const router = useRouter()
+  const { price } = usePrice()
+
   /* Returning the content of the page. */
   return (
     <div className={styles.fadeIn}>
@@ -47,7 +50,9 @@ export default function Content({ title, subtitle, options, type }) {
             </Button>
           </div>
         </div>
-        <div className="d-block d-md-none">
+        <div
+          className="d-block d-md-none"
+          style={price ? { marginBottom: 64 } : null}>
           <Navigation onPrev={onPrev} onNext={onNext} />
         </div>
       </div>

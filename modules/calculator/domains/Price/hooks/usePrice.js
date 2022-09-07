@@ -8,7 +8,8 @@ import {
 import { useCalculator } from '../../../contexts/Calculator'
 
 const getApplicationAmount = (platforms, administration) => {
-  let applicationAmount = platforms === 'WEB' || platforms === 'MOBILE' ? 1 : 2
+  let applicationAmount =
+    platforms === 'WEB' || platforms === 'MOBILE' || !platforms ? 1 : 2
   if (administration === 'YES') applicationAmount++
   return applicationAmount
 }
@@ -29,7 +30,7 @@ const getPrice = ({
   maybeLocalization,
   maybeRevenue
 }) => {
-  let hours = applicationAmount * modelsAmount * MODEL_ESTIMATIONS
+  let hours = (applicationAmount || 1) * modelsAmount * MODEL_ESTIMATIONS
 
   if (appearance) hours += 80
   if (maybeAppearance) hours += 40

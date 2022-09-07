@@ -1,0 +1,33 @@
+.wrapper{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--calc-module-gray-lighten3);
+    border-top-left-radius: var(--calc-module-option-default-padding);
+    border-top-right-radius: var(--calc-module-option-default-padding)
+}
+
+@media (max-width: 576px) {
+.content-wrapper{
+    display: flex;
+    width:100%;
+    position:relative;
+    background: var(--calc-module-gray-lighten3);
+    border-top-left-radius: var(--calc-module-option-default-padding);
+    border-top-right-radius: var(--calc-module-option-default-padding)
+}
+
+}
+
+.text{
+    color: var(--calc-module-price-preview-text-color);
+    margin: 0 20px;
+}
