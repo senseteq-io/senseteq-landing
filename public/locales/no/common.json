@@ -1237,6 +1237,15 @@
         "not_sure": "🤷‍♂️ Usikker foreløpig"
       }
     },
+    "price_preview": {
+      "price_preview_modal": {
+        "title": "Finansalternativer"
+      },
+      "payment": {
+        "part_payment_suffix": " /må",
+        "description": "Søknadspris"
+      }
+    },
     "result": {
       "title": "Supert! Her er antatt pris og leveringstid!",
       "description": "Her er en kort beskrivelse av hva vi har inkludert i prisestimatet",
