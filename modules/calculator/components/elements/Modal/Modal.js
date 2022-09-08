@@ -11,20 +11,14 @@ const Modal = ({ children, visible, onClose }) => {
   }, [visible])
 
   return (
-    <>
-      {isVisible ? (
-        <>
-          <div className={styles.modal}>
-            <div className={styles.modalContent}>
-              <span className={styles.close} onClick={onClose}>
-                &times;
-              </span>
-              {children}
-            </div>
-          </div>
-        </>
-      ) : null}
-    </>
+    <div className={styles.modal} open={isVisible} onClick={onClose}>
+      <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+        <span className={styles.close} onClick={onClose}>
+          &times;
+        </span>
+        {children}
+      </div>
+    </div>
   )
 }
 

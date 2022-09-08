@@ -12,14 +12,34 @@
   }
 }
 
+
 .option.option-selected {
-  animation: beat 0.2s 4 alternate;
+  animation-name: beat;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: both;
   background: var(--calc-module-option-default-selected-background);
   color: var(--calc-module-option-default-selected-color);
 }
 
 @keyframes beat {
-  to {
+  0% {
+    transform: scale(1);
+  }
+
+  14% {
     transform: scale(1.05);
+  }
+
+  28% {
+    transform: scale(1);
+  }
+
+  42% {
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(1);
   }
 }

@@ -28,6 +28,10 @@
   font-size: var(--calc-module-btn-lg-font-size);
   line-height: var(--calc-module-btn-lg-line-height);
 }
+.btn.btn-sm.btn-shape-circle {
+  height: 32px;
+  width: 32px;
+}
 
 .btn.btn-primary {
   color: var(--calc-module-btn-primary-color);
@@ -37,6 +41,15 @@
 .btn.btn-primary:hover {
   color: var(--calc-module-btn-primary-hover-color);
   background-color: var(--calc-module-btn-primary-hover-bg);
+}
+.btn.btn-white {
+  color: var(--calc-module-btn-outlined-color);
+  transition: filter .33s ease;
+  filter:drop-shadow(0 2px 2px rgba(0,0,0,.2));
+  background-color: var(   --calc-module-white);
+}
+.btn.btn-white:hover {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,.2));
 }
 
 .btn.btn-outlined {

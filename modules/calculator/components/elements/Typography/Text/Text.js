@@ -19,6 +19,7 @@ export default function Text({
   subtitle,
   variant,
   style,
+  className,
   ...rest
 }) {
   const tag = as || DEFAULT_TAG
@@ -27,13 +28,16 @@ export default function Text({
     tag,
     {
       style,
-      className: cn({
-        [styles[cls]]: true,
-        [helpers[`text-${align}`]]: align,
-        [helpers['fw-semibold']]: semibold,
-        [helpers[`text-${variant}`]]: variant,
-        [styles.subtitle]: subtitle
-      }),
+      className: cn(
+        {
+          [styles[cls]]: true,
+          [helpers[`text-${align}`]]: align,
+          [helpers['fw-semibold']]: semibold,
+          [helpers[`text-${variant}`]]: variant,
+          [styles.subtitle]: subtitle
+        },
+        className
+      ),
       ...rest
     },
     children

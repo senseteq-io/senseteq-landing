@@ -4,6 +4,7 @@ import {
   Head,
   Header
 } from '../../modules/calculator/components'
+import PricePreviewTrigger from '../../modules/calculator/domains/Price/components/PricePreviewTrigger'
 import {
   useAdvDataLS,
   useCalculatorData,
@@ -54,9 +55,9 @@ export default function CalculatorAll() {
   /* Saving the `geo`, `g`, and `adv` params to local storage. */
   useAdvDataLS({ geo, g, adv })
 
-  /* 
+  /*
     Redirecting the user to the `/s/mvp-calculator` route if the user is on a deep route and the `id`
-    param is not present in the URL. 
+    param is not present in the URL.
   */
   // useRedirectCondition({
   //   baseRoute: routes?.baseRoute,
@@ -95,6 +96,7 @@ export default function CalculatorAll() {
           updateCalculatorField={updateCalculatorField}
           reset={reset}>
           {page}
+          {routes?.baseRoute !== 'result' && <PricePreviewTrigger />}
         </CalculatorProvider>
       </Content>
       <Footer />
@@ -117,10 +119,13 @@ export default function CalculatorAll() {
           __html: `(function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('JMvZ8g0A90z72pOd'); `
         }}
       />
+      <Script src="https://www.videoask.com/embed/embed.js" async />
+
       <Script
         id="VIDEOASK_EMBED_CONFIG"
         dangerouslySetInnerHTML={{
-          __html: `window.VIDEOASK_EMBED_CONFIG = {
+          __html: `
+          window.addEventListener('load', () => {const config = {
       "kind": "widget",
       "url": "https://www.videoask.com/fxat2tdbz",
       "options": {
@@ -128,12 +133,17 @@ export default function CalculatorAll() {
         "text": "",
         "backgroundColor": "#60DE74",
         "position": "bottom-left",
-        "dismissable": true
+        "dismissable": true,
+        "id":"test"
       }
-    }`
+    }
+     window.videoask.loadEmbed(config).then(
+     (element)=>element.setAttribute('id','videoask-widget'))
+     })
+
+    `
         }}
       />
-      <Script src="https://www.videoask.com/embed/embed.js" async />
       <Script
         id="fb-pixel"
         dangerouslySetInnerHTML={{

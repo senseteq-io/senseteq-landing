@@ -20,7 +20,10 @@ const PaymentSection = ({ text, price }) => {
 
 const ResultPayment = ({ weeks, price }) => {
   // [ADDITIONAL_HOOKS]
-  const { updateCalculatorField } = useCalculator()
+  const {
+    updateCalculatorField,
+    calculatorData: { paymentOption: selectedPaymentOption }
+  } = useCalculator()
   const { t } = useTranslation()
 
   const OPTIONS = [
@@ -33,8 +36,10 @@ const ResultPayment = ({ weeks, price }) => {
       value: 'CASH'
     }
   ]
+  const initialValue =
+    OPTIONS.find(({ value }) => value === selectedPaymentOption) || OPTIONS[0]
   // [COMPONENT_STATE_HOOKS]
-  const [paymentOption, setPaymentOption] = useState(OPTIONS[0])
+  const [paymentOption, setPaymentOption] = useState(initialValue)
 
   // [COMPUTED_PROPERTIES]
   const thirtyPercentagePrice = price * 0.3
@@ -151,7 +156,7 @@ const ResultPayment = ({ weeks, price }) => {
     <>
       <div className="mb-3">
         <Segmented
-          value={paymentOption.value}
+          value={selectedPaymentOption}
           onChange={(string) =>
             setPaymentOption(OPTIONS.find(({ value }) => value === string))
           }
@@ -159,7 +164,7 @@ const ResultPayment = ({ weeks, price }) => {
           options={OPTIONS}
         />
       </div>
-      {layouts[paymentOption.value]}
+      {layouts[selectedPaymentOption]}
     </>
   )
 }

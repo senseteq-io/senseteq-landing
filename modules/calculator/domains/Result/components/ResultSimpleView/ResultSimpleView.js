@@ -4,7 +4,8 @@ import {
 } from '../../../../__constants__'
 import { Modal, useModal } from '../../../../components'
 import { useIsDev } from '../../../../hooks'
-import { useFeatures, usePrice, useSaveResults } from '../../hooks'
+import { usePrice } from '../../../Price/hooks'
+import { useFeatures, useSaveResults } from '../../hooks'
 
 import EmailForm from '../EmailForm'
 import ResultActions from '../ResultActions'

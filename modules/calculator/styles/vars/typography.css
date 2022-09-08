@@ -1,7 +1,7 @@
 :root {
   /* TYPOGRAPHY */
-  --calc-module-title-font-family: "Public Sans", sans-serif;
-  --calc-module-body-font-family: "Public Sans", sans-serif;
+  --calc-module-title-font-family: "GalanoGrotesque", Arial, sans-serif;
+  --calc-module-body-font-family: "GalanoGrotesque", Arial, sans-serif;
   --calc-module-root-font-size: 16px;
 
   /* Font size */
@@ -90,7 +90,7 @@
 
   --calc-module-subtitle-font-size: var(--calc-module-h5-fs);
   --calc-module-subtitle-line-height: var(--calc-module-h5-lh);
-  --calc-module-subtitle-font-weight: var(--calc-module-fw-regular);
+  --calc-module-subtitle-font-weight: var(--calc-module-fw-normal);
   --calc-module-subtitle-margin-top: 0;
   --calc-module-subtitle-margin-bottom: 0;
   --calc-module-subtitle-letter-spacing: 1px;

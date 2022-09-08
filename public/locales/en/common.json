@@ -1237,6 +1237,15 @@
         "not_sure": "🤷‍♂️ Not sure"
       }
     },
+    "price_preview": {
+      "price_preview_modal": {
+        "title": "Finance Options"
+      },
+      "payment": {
+        "part_payment_suffix": " /mo",
+        "description": "Application Price"
+      }
+    },
     "result": {
       "title": "Nice! Sounds great!",
       "description": "Here is the short description of your MVP",
