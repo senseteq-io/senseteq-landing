@@ -125,22 +125,25 @@ export default function CalculatorAll() {
         id="VIDEOASK_EMBED_CONFIG"
         dangerouslySetInnerHTML={{
           __html: `
-          window.addEventListener('load', () => {const config = {
-      "kind": "widget",
-      "url": "https://www.videoask.com/fxat2tdbz",
-      "options": {
-        "widgetType": "VideoThumbnailSmall",
-        "text": "",
-        "backgroundColor": "#60DE74",
-        "position": "bottom-left",
-        "dismissable": true,
-        "id":"test"
+  // this code is initializing video ask image and adding "videoask-widget" id to video ask button.
+          
+  window.addEventListener('load', () => {
+    const config = {
+      kind: 'widget',
+      url: 'https://www.videoask.com/fxat2tdbz',
+      options: {
+        widgetType: 'VideoThumbnailSmall',
+        text: '',
+        backgroundColor: '#60DE74',
+        position: 'bottom-left',
+        dismissable: true,
+        id: 'test'
       }
     }
-     window.videoask.loadEmbed(config).then(
-     (element)=>element.setAttribute('id','videoask-widget'))
-     })
-
+    window.videoask
+      .loadEmbed(config)
+      .then((element) => element.setAttribute('id', 'videoask-widget'))
+  })
     `
         }}
       />

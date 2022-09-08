@@ -86,13 +86,10 @@ const PricePreviewTrigger = () => {
             </div>
             <div className="col d-flex align-items-center justify-content-center">
               <Text size="body2" semibold className={styles.text}>
-                {calculatedPrice?.toLocaleString('no', { currency: 'NOK' })}
-                ,-{t('calculator.result.payments.priceSuffix')}
+                {calculatedPrice?.toLocaleString('no', { currency: 'NOK' })},-{' '}
+                {t('calculator.result.payments.priceSuffix')}
                 {paymentOption === 'PART_PAYMENT' &&
                   t('calculator.price_preview.payment.part_payment_suffix')}
-                <span style={{ margin: '0 6px' }}>
-                  {t('calculator.price_preview.payment.description')}
-                </span>
               </Text>
             </div>
           </div>

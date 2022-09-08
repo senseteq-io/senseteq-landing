@@ -1242,8 +1242,7 @@
         "title": "Finansalternativer"
       },
       "payment": {
-        "part_payment_suffix": " /må",
-        "description": "Søknadspris"
+        "part_payment_suffix": " pr. mnd."
       }
     },
     "result": {

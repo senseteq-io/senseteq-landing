@@ -1242,8 +1242,7 @@
         "title": "Finance Options"
       },
       "payment": {
-        "part_payment_suffix": " /mo",
-        "description": "Application Price"
+        "part_payment_suffix": " /month"
       }
     },
     "result": {
