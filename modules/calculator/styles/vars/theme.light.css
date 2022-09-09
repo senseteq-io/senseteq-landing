@@ -64,39 +64,6 @@
   --calc-module-action-secondary-hover-color: var(--calc-module-white);
   --calc-module-action-secondary-hover-bg: var(--calc-module-black);
 
-  /* BUTTONS */
-  --calc-module-btn-default-bg: var(--calc-module-action-primary-bg);
-  --calc-module-btn-default-hover-bg: var(
-    --calc-module-action-primary-hover-bg
-  );
-  --calc-module-btn-default-color: var(--calc-module-action-primary-color);
-  --calc-module-btn-default-hover-color: var(
-    --calc-module-action-primary-hover-color
-  );
-
-  --calc-module-btn-primary-bg: var(--calc-module-action-primary-bg);
-  --calc-module-btn-primary-hover-bg: var(
-    --calc-module-action-primary-hover-bg
-  );
-  --calc-module-btn-primary-color: var(--calc-module-action-primary-color);
-  --calc-module-btn-primary-hover-color: var(
-    --calc-module-action-primary-hover-color
-  );
-
-  --calc-module-btn-outlined-bg: transparent;
-  --calc-module-btn-outlined-color: var(--calc-module-action-secondary-color);
-  --calc-module-btn-outlined-border-color: var(
-    --calc-module-action-secondary-default-border
-  );
-  --calc-module-btn-outlined-hover-border-color: var(
-    --calc-module-action-secondary-hover-border
-  );
-  --calc-module-btn-outlined-hover-color: var(
-    --calc-module-action-secondary-hover-color
-  );
-  --calc-module-btn-outlined-hover-bg: var(
-    --calc-module-action-secondary-hover-bg
-  );
 
   /* OPTIONS */
   --calc-module-option-default-selected-background: var(

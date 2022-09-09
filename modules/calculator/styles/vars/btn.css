@@ -1,12 +1,63 @@
 :root {
+
+  /***** BASE *****/
   --calc-module-btn-font-family: var(--calc-module-body-font-family);
   --calc-module-btn-border-width: 1px;
   --calc-module-btn-border-color: transparent;
   --calc-module-btn-border-radius: 0.375rem;
 
+  /***** VARIANTS *****/
+  --calc-module-btn-default-bg: var(--calc-module-action-primary-bg);
+  --calc-module-btn-default-hover-bg: var(
+          --calc-module-action-primary-hover-bg
+  );
+  --calc-module-btn-default-color: var(--calc-module-action-primary-color);
+  --calc-module-btn-default-hover-color: var(
+          --calc-module-action-primary-hover-color
+  );
+  --calc-module-btn-default-font-size: var(--calc-module-btn-md-font-size);
+  --calc-module-btn-default-line-height: var(--calc-module-btn-md-line-height);
+  --calc-module-btn-default-font-weight: var(--calc-module-btn-md-font-weight);
+  --calc-module-btn-default-padding-x: var(--calc-module-btn-md-padding-x);
+  --calc-module-btn-default-padding-y: var(--calc-module-btn-md-padding-y);
+
+
+  --calc-module-btn-dark-bg: #253037;
+  --calc-module-btn-dark-color: var(--calc-module-text-white);
+
+  --calc-module-btn-secondary-bg: var(--calc-module-gray-lighten2);
+  --calc-module-btn-secondary-color: var(--calc-module-action-primary-color);
+
+  --calc-module-btn-primary-bg: var(--calc-module-action-primary-bg);
+  --calc-module-btn-primary-hover-bg: var(
+          --calc-module-action-primary-hover-bg
+  );
+  --calc-module-btn-primary-color: var(--calc-module-action-primary-color);
+  --calc-module-btn-primary-hover-color: var(
+          --calc-module-action-primary-hover-color
+  );
+
+  --calc-module-btn-outlined-bg: transparent;
+  --calc-module-btn-outlined-color: var(--calc-module-action-secondary-color);
+  --calc-module-btn-outlined-border-color: var(
+          --calc-module-action-secondary-default-border
+  );
+  --calc-module-btn-outlined-hover-border-color: var(
+          --calc-module-action-secondary-hover-border
+  );
+  --calc-module-btn-outlined-hover-color: var(
+          --calc-module-action-secondary-hover-color
+  );
+  --calc-module-btn-outlined-hover-bg: var(
+          --calc-module-action-secondary-hover-bg
+  );
+
+
+
+  /***** SIZES *****/
   --calc-module-btn-md-font-size: var(--calc-module-body1-fs);
   --calc-module-btn-md-line-height: var(--calc-module-body1-lh);
-  --calc-module-btn-md-font-weight: var(--calc-module-fw-normal);
+  --calc-module-btn-md-font-weight: var(--calc-module-fw-semibold);
   --calc-module-btn-md-padding-x: 0.75rem;
   --calc-module-btn-md-padding-y: 0.375rem;
 
@@ -15,14 +66,24 @@
   --calc-module-btn-lg-padding-x: 1rem;
   --calc-module-btn-lg-padding-y: 0.75rem;
 
-  --calc-module-btn-default-font-size: var(--calc-module-btn-md-font-size);
-  --calc-module-btn-default-line-height: var(--calc-module-btn-md-line-height);
-  --calc-module-btn-default-font-weight: var(--calc-module-btn-md-font-weight);
-  --calc-module-btn-default-padding-x: var(--calc-module-btn-md-padding-x);
-  --calc-module-btn-default-padding-y: var(--calc-module-btn-md-padding-y);
+  --calc-module-btn-xl-font-size: var(--calc-module-body1-fs);
+  --calc-module-btn-xl-line-height: var(--calc-module-body1-lh);
+  --calc-module-btn-xl-padding-x: 3rem;
+  --calc-module-btn-xl-padding-y: 1.5rem;
 
+
+
+  /***** SHAPES *****/
   --calc-module-btn-shape-circle-padding-y: 0.75rem;
   --calc-module-btn-shape-circle-padding-x: 0.375rem;
 
   --calc-module-btn-rounded-border-radius: 32px;
+  --calc-module-btn-lg-rounded-border-radius:calc((var(--calc-module-btn-md-padding-y) +  var(--calc-module-body1-lh)) * 2);
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    --calc-module-btn-md-font-weight: var(--calc-module-fw-medium);
+  }
 }

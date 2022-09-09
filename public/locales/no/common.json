@@ -3,6 +3,10 @@
     "menu": {
       "about_us": "Om oss"
     },
+    "navigation": {
+      "next": "Neste",
+      "previous": "Tidligere"
+    },
     "head": {
       "welcome": {
         "title": "Senseteq | App kalkulator",
