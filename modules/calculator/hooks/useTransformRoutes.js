@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
@@ -23,6 +23,7 @@ const useTransformRoutes = () => {
     nestedRouteValue: '',
     extraStepRoute: ''
   })
+  const [loading, setLoading] = useState(true)
 
   /* It's a hook that allows us to use the `router` object. */
   const router = useRouter()
@@ -32,7 +33,6 @@ const useTransformRoutes = () => {
     and splitting it into an array. Then, it's setting the state object with the values of the
     array. */
     const calculatorPrefix = `/s/${t('calculator.paths.mvp_calculator')}`
-
     if (router.asPath.includes(calculatorPrefix)) {
       /* It's removing the `calculatorPrefix` from the `router.asPath` string. */
       let cleanPath = router.asPath.replace(calculatorPrefix, '')
@@ -41,10 +41,10 @@ const useTransformRoutes = () => {
 
       /* It's splitting the `cleanPath` string into an array. */
       const cleanPathArr = cleanPath.split('/')
-
+      const isNotStartingWithQueryParam = cleanPathArr[0][0] !== '?'
       setState({
         baseRoute:
-          cleanPathArr[0] && cleanPathArr[0][0] !== '?'
+          cleanPathArr[0] && isNotStartingWithQueryParam
             ? t(`calculator.paths.mirror.${cleanPathArr[0].split('?')[0]}`)
             : null,
         baseRouteValue: cleanPathArr[1]
@@ -60,10 +60,11 @@ const useTransformRoutes = () => {
           ? t(`calculator.paths.mirror.${cleanPathArr[4]}`)
           : null
       })
+      setLoading(false)
     }
-  }, [router, t])
+  }, [router.asPath])
 
-  return state
+  return useMemo(() => [state, loading], [state, loading])
 }
 
 export default useTransformRoutes

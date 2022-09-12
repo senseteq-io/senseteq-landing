@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
  * It takes a routes object as an argument, and then returns an object that contains the calculatorData
  * state, and two functions that can be used to update the calculatorData state
  * @param routes - The routes object that is passed to the component.
+ * @param initialData - The initial data that can be passed from url.
  * @returns An object with three properties: calculatorData, updateCalculatorField, and
  * updateCalculatorFields.
  */

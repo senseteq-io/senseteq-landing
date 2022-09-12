@@ -98,7 +98,7 @@ const usePages = (routes) => {
     }
   }, [routes])
 
-  return currentPage
+  return { currentPage, isWelcomeSeen }
 }
 
 export default usePages

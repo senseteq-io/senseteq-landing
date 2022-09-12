@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { useTranslation } from 'next-i18next'
-
 const usePath = (routes, updateCalculatorFields) => {
-  /* A hook that allows us to use the `t` function to translate strings. */
-  const { t } = useTranslation()
-
   const [state, setState] = useState({})
 
   useEffect(() => {
@@ -27,7 +22,6 @@ const usePath = (routes, updateCalculatorFields) => {
       }))
     }
   }, [
-    t,
     updateCalculatorFields,
     routes?.baseRoute,
     routes?.baseRouteValue,

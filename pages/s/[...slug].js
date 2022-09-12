@@ -14,6 +14,7 @@ import {
   usePages,
   useParams,
   usePath,
+  useRedirectCondition,
   useTransformRoutes
 } from '../../modules/calculator/hooks'
 
@@ -24,16 +25,15 @@ import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
 
 export default function CalculatorAll() {
   /* Transforming the routes from the `routes.js` file into a format that is easier to work with. */
-  const routes = useTransformRoutes()
+  const [routes, routesLoading] = useTransformRoutes()
 
   /* Using the `useMetaData` hook to get the meta data for the current page. */
   const metaData = useMetaData(routes)
-
   /* Destructuring the metaData object. */
   const { title, description, meta_description, keywords } = metaData
 
   /* Using the `usePages` hook to get the current page. */
-  const page = usePages(routes)
+  const { currentPage, isWelcomeSeen } = usePages(routes)
 
   const initialData = usePath(routes)
 
@@ -60,12 +60,13 @@ export default function CalculatorAll() {
     Redirecting the user to the `/s/mvp-calculator` route if the user is on a deep route and the `id`
     param is not present in the URL.
   */
-  // useRedirectCondition({
-  //   baseRoute: routes?.baseRoute,
-  //   platforms: calculatorData?.platforms,
-  //   analogues: calculatorData?.analogues,
-  //   industries: calculatorData?.industries
-  // })
+  useRedirectCondition({
+    routesLoading,
+    routerData: routes,
+    platforms: calculatorData?.platforms,
+    analogues: calculatorData?.analogues,
+    industries: calculatorData?.industries
+  })
 
   /* Returning the head, header, content, and footer components. */
   return (
@@ -78,13 +79,15 @@ export default function CalculatorAll() {
           font-size: var(--calc-module-root-font-size);
         }
         @media (min-width: 576px) {
-          html body .leadbooster#LeadboosterContainer {
+          html body .leadbooster#LeadboosterContainer,
+          html body .proactiveChat#LeadboosterContainer {
             bottom: 12px !important;
             right: 12px !important;
           }
         }
         @media (max-width: 576px) {
-          html body .leadbooster#LeadboosterContainer {
+          html body .leadbooster#LeadboosterContainer,
+          html body .proactiveChat#LeadboosterContainer {
             right: 0 !important;
           }
         }
@@ -107,8 +110,10 @@ export default function CalculatorAll() {
           calculatorData={DBData || calculatorData}
           updateCalculatorField={updateCalculatorField}
           reset={reset}>
-          {page}
-          {routes?.baseRoute !== 'result' && <PricePreviewTrigger />}
+          {currentPage}
+          {routes?.baseRoute !== 'result' && isWelcomeSeen && (
+            <PricePreviewTrigger />
+          )}
         </CalculatorProvider>
       </Content>
       <Footer />
