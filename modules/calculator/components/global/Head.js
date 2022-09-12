@@ -10,9 +10,7 @@ export default function PageHead({ title, description, image }) {
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <link rel="icon" href="/favicon.ico" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* <!-- Schema.org markup for Google+ --> */}
       <meta itemProp="name" content={title} />
