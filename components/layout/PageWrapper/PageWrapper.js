@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import 'aos/dist/aos.css'
+import { addClassToLeadBooster } from '../../../helpers'
 
 import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
 import { useEffect, useState } from 'react'
@@ -65,6 +66,7 @@ const PageWrapper = (props) => {
       <Script
         src="https://leadbooster-chat.pipedrive.com/assets/loader.js"
         async
+        onLoad={addClassToLeadBooster}
       />
       <Script
         id="function"

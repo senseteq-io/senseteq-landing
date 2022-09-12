@@ -1,7 +1,10 @@
 import { useCallback } from 'react'
 import DeviceDetector from 'device-detector-js'
 import { DEV_URL, PROD_URL } from '../../../../../constants/backendUrls'
-import { BOOKING_MODULE_LINK } from '../../../__constants__'
+import {
+  BOOKING_MODULE_LINK,
+  BOOKING_MODULE_LINK_DEV
+} from '../../../__constants__'
 import { useCalculator } from '../../../contexts/Calculator'
 
 const useSaveResults = () => {
@@ -25,7 +28,9 @@ const useSaveResults = () => {
           gender: localStorage.getItem('s_g') || 'EMPTY',
           calculatorData: calculatorData || null,
           appLink: window?.location?.href,
-          bookingModuleLink: BOOKING_MODULE_LINK,
+          bookingModuleLink: isDev
+            ? BOOKING_MODULE_LINK_DEV
+            : BOOKING_MODULE_LINK,
           device: device || null,
           _createdAt: new Date().toISOString()
         })

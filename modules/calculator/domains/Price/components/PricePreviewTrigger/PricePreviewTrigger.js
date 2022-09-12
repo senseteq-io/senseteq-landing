@@ -1,57 +1,31 @@
 import { useTranslation } from 'next-i18next'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AiOutlineUp } from 'react-icons/ai'
 import { Button, Modal, Text, Title } from '../../../../components'
 import { useCalculator } from '../../../../contexts/Calculator'
 import ResultPayment from '../../../Result/components/ResultPayment'
+import useChangeWidgetPosition from '../../hooks/useChangeWidgetPosition'
 import usePrice from '../../hooks/usePrice'
 import styles from './PricePreviewTrigger.module.css'
+
 const PricePreviewTrigger = () => {
   // [ADDITIONAL_HOOKS]
   const { t } = useTranslation()
   const { calculatorData } = useCalculator()
   const { price, weeks } = usePrice()
+  useChangeWidgetPosition(price)
 
   const { paymentOption } = calculatorData
 
   // [COMPONENT_STATE_HOOKS]
   const [isModalVisible, setIsModalVisible] = useState(false)
+
   // [CALCULATED_PROPERTIES]
   const calculatedPrice = paymentOption === 'PART_PAYMENT' ? price * 0.1 : price
+
   // [HELPER_FUNCTIONS]
   const showModal = () => setIsModalVisible(true)
   const closeModal = () => setIsModalVisible(false)
-
-  // [USE_EFFECTS]
-  useEffect(() => {
-    const rightElement = document.getElementById('LeadboosterContainer')
-    const videoaskButton = document.getElementById('videoask-widget')
-
-    const isMobile = window.matchMedia('(max-width: 576px)').matches
-
-    if (price && isMobile) {
-      if (rightElement) {
-        rightElement.style.setProperty('bottom', '64px', 'important')
-        rightElement.style.setProperty('z-index', '1', 'important')
-      }
-      if (videoaskButton) {
-        videoaskButton.style.setProperty(
-          'bottom',
-          'calc(64px + 20px)',
-          'important'
-        )
-        videoaskButton.style.setProperty('z-index', '1', 'important')
-      }
-    }
-    return () => {
-      if (rightElement) {
-        rightElement.style.setProperty('bottom', '0', 'important')
-      }
-      if (videoaskButton) {
-        videoaskButton.style.setProperty('bottom', '20', 'important')
-      }
-    }
-  }, [price])
 
   return price ? (
     <>

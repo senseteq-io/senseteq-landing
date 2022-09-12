@@ -3,6 +3,10 @@
     "menu": {
       "about_us": "About us"
     },
+    "navigation": {
+      "next": "Next",
+      "previous": "Previous"
+    },
     "head": {
       "welcome": {
         "title": "Senseteq | MVP calculator",

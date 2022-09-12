@@ -13,6 +13,7 @@ export default function Button({
   block,
   onClick,
   size,
+  bordered,
   ...rest
 }) {
   return (
@@ -21,6 +22,7 @@ export default function Button({
       onClick={onClick}
       className={cn({
         [styles['full-width']]: block,
+        [styles['bordered']]: bordered,
         [styles['btn']]: true,
         [styles[`btn-${size}`]]: size,
         [styles[`btn-${variant}`]]: !!variant,

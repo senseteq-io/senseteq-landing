@@ -1,3 +1,4 @@
+import { addClassToLeadBooster } from '../../helpers'
 import {
   Content,
   Footer,
@@ -76,6 +77,17 @@ export default function CalculatorAll() {
           font-family: var(--calc-module-body-font-family);
           font-size: var(--calc-module-root-font-size);
         }
+        @media (min-width: 576px) {
+          html body .leadbooster#LeadboosterContainer {
+            bottom: 12px !important;
+            right: 12px !important;
+          }
+        }
+        @media (max-width: 576px) {
+          html body .leadbooster#LeadboosterContainer {
+            right: 0 !important;
+          }
+        }
       `}</style>
       <Head
         title={title}
@@ -112,6 +124,7 @@ export default function CalculatorAll() {
       <Script
         src="https://leadbooster-chat.pipedrive.com/assets/loader.js"
         async
+        onLoad={addClassToLeadBooster}
       />
       <Script
         id="function"
