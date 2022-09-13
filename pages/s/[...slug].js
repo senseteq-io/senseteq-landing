@@ -45,8 +45,8 @@ export default function CalculatorAll() {
   )
 
   /* Using the `useParams` hook to get the params from the URL. geo - country, g - gender */
-  const { geo, g, id, adv, way } = useParams()
-  console.log(way)
+  const { geo, g, id, adv } = useParams()
+
   /* Fetching the data from the database and setting it to the `DBData` variable. */
   const [DBData, loading] = useFetchResult(id)
 
