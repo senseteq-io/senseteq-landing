@@ -1,3 +1,4 @@
+import { InnerEmailForm } from '../../../domains/Result/components'
 import Button from '../../elements/Button'
 import Image from 'next/image'
 import Text from '../../elements/Typography/Text'
@@ -11,6 +12,7 @@ import Title from '../../elements/Typography/Title'
  */
 export default function Welcome({
   title,
+  isEmailShow,
   descriptionLine1,
   descriptionLine2,
   buttonText,
@@ -54,13 +56,17 @@ export default function Welcome({
               <Text>{descriptionLine2}</Text>
             </div>
             <div className="col-12 mb-4">
-              <Button
-                variant="lg"
-                shape="rounded"
-                role="button"
-                onClick={onClick}>
-                {buttonText}
-              </Button>
+              {isEmailShow ? (
+                <InnerEmailForm buttonText={buttonText} onClick={onClick} />
+              ) : (
+                <Button
+                  variant="lg"
+                  shape="rounded"
+                  role="button"
+                  onClick={onClick}>
+                  {buttonText}
+                </Button>
+              )}
             </div>
           </div>
         </div>

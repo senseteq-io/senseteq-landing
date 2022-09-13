@@ -44,6 +44,7 @@
   --calc-module-text-primary: var(--calc-module-black);
   --calc-module-text-secondary: var(--calc-module-gray);
   --calc-module-text-white: var(--calc-module-white);
+  --calc-module-text-danger: var(--calc-module-danger);
 
   /* BACKGROUNDS */
   --calc-module-bg-primary: var(--calc-module-accent);

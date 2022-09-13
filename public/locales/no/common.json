@@ -1345,6 +1345,10 @@
         "buttons": {
           "send": "Sende 🚀"
         },
+        "error_messages": {
+          "exists": "Vennligst skriv inn e-postadressen din.",
+          "valid": "Vennligst skriv inn gyldig e-post."
+        },
         "success": "🎉 Lagret! Vi har sendt link til din epostadresse. Ta gjerne kontakt på chat eller telefon <a href='tel:55181900' style='display: inline; font-weight: bold;'>55181900</a>"
       },
       "results_modal": {

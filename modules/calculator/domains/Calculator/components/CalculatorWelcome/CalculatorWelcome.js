@@ -13,7 +13,7 @@ import { useTranslation } from 'next-i18next'
  */
 export default function CalculatorWelcome() {
   /* It's destructuring the `geo` and `g` values from the `useParams` hook. */
-  const { geo, g } = useParams()
+  const { geo, g, way } = useParams()
 
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
@@ -32,6 +32,7 @@ export default function CalculatorWelcome() {
           dangerouslySetInnerHTML={{ __html: t('calculator.welcome.title') }}
         />
       }
+      isEmailShow={+way === 2}
       descriptionLine1={t('calculator.welcome.descriptionLine1')}
       descriptionLine2={t('calculator.welcome.descriptionLine2')}
       buttonText={t('calculator.welcome.buttonText')}

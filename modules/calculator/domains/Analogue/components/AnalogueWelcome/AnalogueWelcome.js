@@ -13,7 +13,7 @@ import { useTranslation } from 'next-i18next'
 
 export default function AnalogueWelcome({ analogues }) {
   /* It's destructuring the `geo` and `g` values from the `useParams` hook. */
-  const { geo, g } = useParams()
+  const { geo, g, way } = useParams()
 
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
@@ -30,6 +30,7 @@ export default function AnalogueWelcome({ analogues }) {
   /* It's returning a `Welcome` component with the text and `onGetStarted` function passed in as props. */
   return (
     <Welcome
+      isEmailShow={+way === 2}
       title={<span dangerouslySetInnerHTML={{ __html: title }} />}
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}

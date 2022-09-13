@@ -26,9 +26,8 @@ const useFeatures = () => {
       .filter(
         (key) =>
           calculatorData[key] &&
-          key !== 'currentRoute' &&
           calculatorData[key] !== 'NO' &&
-          key !== 'paymentOption'
+          !['paymentOption', 'currentRoute', 'userEmail'].includes(key)
       )
       .map((key) =>
         t(

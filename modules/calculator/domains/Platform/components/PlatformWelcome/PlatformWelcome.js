@@ -12,7 +12,7 @@ import { useTranslation } from 'next-i18next'
  */
 export default function PlatformWelcome({ platforms }) {
   /* It's destructuring the `geo` and `g` values from the `useParams` hook. */
-  const { geo, g } = useParams()
+  const { geo, g, way } = useParams()
 
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
@@ -28,6 +28,7 @@ export default function PlatformWelcome({ platforms }) {
 
   return (
     <Welcome
+      isEmailShow={+way === 2}
       title={<span dangerouslySetInnerHTML={{ __html: title }} />}
       descriptionLine1={descriptionLine1}
       descriptionLine2={descriptionLine2}
