@@ -41,11 +41,20 @@ const InnerEmailForm = (props) => {
       setEmail(e.target.value)
     }
   }
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault()
+      e.stopPropagation()
+      setEmail(e.target.value)
+      onEmailSubmit()
+    }
+  }
 
   return (
     <div className="row">
       <div className="col">
         <Input
+          onKeyPress={handleKeyPress}
           variant={inputVariant}
           required
           contentEditable="true"
