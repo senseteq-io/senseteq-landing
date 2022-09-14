@@ -31,7 +31,7 @@ const useRedirectCondition = ({
     const isDeepPage = deepRoutesArr.includes(routerData?.baseRoute)
     const isWelcomeScreenPassed = ls.get('welcome')
     // When we don't id with results and when routes state loaded check other conditions.
-    if (!router?.query?.id && !routesLoading) {
+    if (router?.isReady && !router?.query?.id && !routesLoading) {
       /* In case when current route is deep, and we don't have initial data - redirect to welcome.
        * In case when we have base route when welcome screen not passed and don't have base route value - redirect to welcome.
        */
