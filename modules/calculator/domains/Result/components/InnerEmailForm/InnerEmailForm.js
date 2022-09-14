@@ -7,7 +7,7 @@ import Text from '../../../../components/elements/Typography/Text'
 import { useCalculator } from '../../../../contexts/Calculator'
 
 const InnerEmailForm = (props) => {
-  const { buttonText, onClick, defaultValue, loading } = props
+  const { buttonText, onClick, defaultValue, loading, inputVariant } = props
 
   // [ADDITIONAL_HOOKS]
   const { t } = useTranslation()
@@ -46,11 +46,11 @@ const InnerEmailForm = (props) => {
     <div className="row">
       <div className="col">
         <Input
+          variant={inputVariant}
           required
           contentEditable="true"
           aria-placeholder={t('calculator.result.email_form.placeholder')}
           autoFocus
-          withHorizontalPaddings={false}
           value={email}
           onChange={onInputChange}
           type="email"

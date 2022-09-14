@@ -1,3 +1,4 @@
+import cn from 'classnames'
 import styles from './Input.module.css'
 
 const Input = ({
@@ -6,6 +7,7 @@ const Input = ({
   placeholder,
   autoFocus,
   onChange,
+  variant,
   withHorizontalPaddings = true,
   ...rest
 }) => {
@@ -13,7 +15,11 @@ const Input = ({
     <input
       {...rest}
       autoFocus={autoFocus}
-      className={`${styles.input} ${!withHorizontalPaddings && styles['px-0']}`}
+      className={cn({
+        [styles['px-0']]: !withHorizontalPaddings,
+        [styles['input']]: true,
+        [styles[`input-${variant}`]]: !!variant
+      })}
       type={type}
       value={value}
       placeholder={placeholder}

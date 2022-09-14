@@ -6,6 +6,13 @@
   font-size: 16px;
   outline: none;
   width: 100%;
+  background: var(--calc-module-input-background);
+  border-radius: var(--calc-module-input-border-radius);
+}
+
+.input-transparent{
+  border: 0;
+  background: transparent;
 }
 
 .px-0{

@@ -87,4 +87,9 @@
 
   /* PRICE PREVIEW */
   --calc-module-price-preview-text-color: #393c41;
+
+
+    /* INPUT */
+  --calc-module-input-border-radius:28px;
+  --calc-module-input-background:var(--calc-module-gray-lighten2)
 }

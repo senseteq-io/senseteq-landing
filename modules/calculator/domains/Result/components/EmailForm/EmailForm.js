@@ -41,6 +41,7 @@ const EmailForm = ({ onSend }) => {
     </div>
   ) : (
     <InnerEmailForm
+      inputVariant="transparent"
       defaultValue={calculatorData?.userEmail}
       loading={loading}
       onClick={send}
