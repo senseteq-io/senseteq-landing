@@ -1,8 +1,13 @@
-import { collection, query, getDocs, where } from 'firebase/firestore'
+import { collection, getDocs, query, where } from 'firebase/firestore'
+
+import { ARTIQLE_COLLECTIONS } from '../../../../../__constants__'
 import { firestore } from '../../../../../services'
 
 const getTag = async (path) => {
-  const q = query(collection(firestore, 'tags'), where('path', '==', path))
+  const q = query(
+    collection(firestore, ARTIQLE_COLLECTIONS.TAGS),
+    where('path', '==', path)
+  )
   const querySnapshot = await getDocs(q)
   const data = querySnapshot?.docs?.[0]?.data()
 

@@ -1,12 +1,11 @@
 export const firebaseConfig = {
-  apiKey: 'AIzaSyBdIZNkdHEcdnli9lSTLJfKqBDRBS_jjkw',
-  authDomain: 'senseteq-admin-blog.firebaseapp.com',
-  databaseURL:
-    'https://senseteq-admin-blog-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'senseteq-admin-blog',
-  storageBucket: 'senseteq-admin-blog.appspot.com',
-  messagingSenderId: '611445282175',
-  appId: '1:611445282175:web:8f2f016afd8a311bbaf64a'
+  apiKey: 'AIzaSyCdd-r5e-D97fUcvKK9v0kYA8FxqF7upIE',
+  authDomain: 'senseteq-admin-app.firebaseapp.com',
+  databaseURL: 'https://senseteq-admin-app-default-rtdb.firebaseio.com',
+  projectId: 'senseteq-admin-app',
+  storageBucket: 'senseteq-admin-app.appspot.com',
+  messagingSenderId: '182906666646',
+  appId: '1:182906666646:web:10a6c30a0da2c6edb7ccb7'
 }
 
 export default firebaseConfig

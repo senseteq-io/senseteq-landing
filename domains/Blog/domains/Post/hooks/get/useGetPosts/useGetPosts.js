@@ -1,13 +1,15 @@
 import {
   collection,
-  limit,
   getDocs,
+  limit,
   orderBy,
   query,
   startAfter,
   where
 } from 'firebase/firestore'
-import { useEffect, useState, useCallback, useMemo } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+
+import { ARTIQLE_COLLECTIONS } from '../../../../../__constants__'
 import { firestore } from '../../../../../services'
 
 const useGetPosts = (max = 7, filter, start = null, withPagination = true) => {
@@ -51,7 +53,7 @@ const useGetPosts = (max = 7, filter, start = null, withPagination = true) => {
           : [where('isDraft', '==', false)]
 
       const queryRef = query(
-        collection(firestore, 'posts'),
+        collection(firestore, ARTIQLE_COLLECTIONS.POSTS),
         orderBy('publishingDate', 'desc'),
         ...whereFilter,
         ...startFilter,
