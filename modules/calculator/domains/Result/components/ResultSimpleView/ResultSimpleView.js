@@ -3,6 +3,7 @@ import {
   BOOKING_MODULE_LINK_DEV
 } from '../../../../__constants__'
 import { Modal, useModal } from '../../../../components'
+import { useCalculator } from '../../../../contexts/Calculator'
 import { useIsDev } from '../../../../hooks'
 import { usePrice } from '../../../Price/hooks'
 import { useFeatures, useSaveResults } from '../../hooks'
@@ -22,10 +23,12 @@ const ResultSimpleView = () => {
   const features = useFeatures()
   const { price, weeks } = usePrice()
   const [isSaveModalVisible, openSaveModal, closeSaveModal] = useModal()
-  const router = useRouter()
-  const { query } = router
+  const { query } = useRouter()
   const saveResults = useSaveResults()
+  const { calculatorData } = useCalculator()
   const isDev = useIsDev()
+
+  // [HELPER_FUNCTIONS]
   const restart = () => {
     ls.clear()
     Router.push(`/s/${t('calculator.paths.mvp_calculator')}`)
@@ -43,6 +46,12 @@ const ResultSimpleView = () => {
       '_blank'
     )
   }
+  const onShareResults = async () => {
+    if (calculatorData?.userEmail) {
+      await saveResults(calculatorData?.userEmail)
+    }
+    openSaveModal()
+  }
 
   return (
     <div className="container">
@@ -52,7 +61,7 @@ const ResultSimpleView = () => {
           <ResultDetails features={features} />
           <ResultEstimations weeks={weeks} price={price} />
           <ResultActions
-            onOpenSaveModal={openSaveModal}
+            onOpenSaveModal={onShareResults}
             restart={restart}
             onScheduleMeeting={onScheduleMeeting}
           />

@@ -44,6 +44,7 @@
   --calc-module-text-primary: var(--calc-module-black);
   --calc-module-text-secondary: var(--calc-module-gray);
   --calc-module-text-white: var(--calc-module-white);
+  --calc-module-text-danger: var(--calc-module-danger);
 
   /* BACKGROUNDS */
   --calc-module-bg-primary: var(--calc-module-accent);
@@ -86,4 +87,9 @@
 
   /* PRICE PREVIEW */
   --calc-module-price-preview-text-color: #393c41;
+
+
+    /* INPUT */
+  --calc-module-input-border-radius:28px;
+  --calc-module-input-background:var(--calc-module-gray-lighten2)
 }

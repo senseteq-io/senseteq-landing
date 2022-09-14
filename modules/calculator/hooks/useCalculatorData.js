@@ -23,6 +23,7 @@ const useCalculatorData = (routes, initialData) => {
     revenue: null,
     currentRoute: null,
     paymentOption: null,
+    userEmail: null,
     ...initialData
   })
 
@@ -57,6 +58,7 @@ const useCalculatorData = (routes, initialData) => {
       brand: null,
       revenue: null,
       currentRoute: null,
+      userEmail: null,
       ...initialData
     })
   }

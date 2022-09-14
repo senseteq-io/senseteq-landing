@@ -29,6 +29,9 @@
 .text-secondary {
   color: var(--calc-module-text-secondary);
 }
+.text-danger {
+  color: var(--calc-module-text-danger);
+}
 
 .text-white {
   color: var(--calc-module-text-white);

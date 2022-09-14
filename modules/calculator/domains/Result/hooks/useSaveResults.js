@@ -18,15 +18,18 @@ const useSaveResults = () => {
 
       const fetchUrl = `${isDev ? DEV_URL : PROD_URL}/calculatorResults/create`
 
+      const { userEmail, ...restCalculatorData } = calculatorData
+      const customerEmail = email || userEmail || null
+
       const res = await fetch(fetchUrl, {
         method: 'POST',
         headers: { Origin: 'mvp-calculator' },
         body: JSON.stringify({
-          email,
+          email: customerEmail,
           adv: localStorage.getItem('s_adv') || 'EMPTY',
           geo: localStorage.getItem('s_geo') || 'EMPTY',
           gender: localStorage.getItem('s_g') || 'EMPTY',
-          calculatorData: calculatorData || null,
+          calculatorData: restCalculatorData || null,
           appLink: window?.location?.href,
           bookingModuleLink: isDev
             ? BOOKING_MODULE_LINK_DEV

@@ -1345,6 +1345,10 @@
         "buttons": {
           "send": "Send 🚀"
         },
+        "error_messages": {
+          "exists": "Please, enter your email.",
+          "valid": "Please, enter valid email."
+        },
         "success": "🎉 Saved! Please check your e-mail now or call <a href='tel:55181900' style='display: inline; font-weight: bold;'>55181900</a>"
       },
       "results_modal": {
