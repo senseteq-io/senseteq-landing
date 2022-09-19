@@ -1,3 +1,4 @@
+import useWriteInitialSelectedOption from '../../../../hooks/useWriteInitialSelectedOption'
 import { useActions, useWelcomeText } from '../../hooks'
 
 import { Welcome } from '../../../../components'
@@ -27,6 +28,12 @@ export default function AnalogueWelcome({ analogues }) {
   /* Destructuring the `onGetStarted` function from the `useActions` hook. */
   const { onGetStarted } = useActions()
 
+  const writeInitialSelectedOption = useWriteInitialSelectedOption()
+
+  const onGetStartedClick = () => {
+    onGetStarted()
+    writeInitialSelectedOption()
+  }
   /* It's returning a `Welcome` component with the text and `onGetStarted` function passed in as props. */
   return (
     <Welcome
@@ -37,7 +44,7 @@ export default function AnalogueWelcome({ analogues }) {
       buttonText={buttonText}
       geo={geo ? t(`calculator.welcome.geo.${geo}`) : null}
       g={g === 'f' ? t('calculator.welcome.fff') : null}
-      onClick={onGetStarted}
+      onClick={onGetStartedClick}
     />
   )
 }
