@@ -8,7 +8,8 @@ export const CALCULATOR_FIELDS = [
   'external_services',
   'appearance',
   'brand',
-  'revenue'
+  'revenue',
+  'paymentOption'
 ]
 
 export default { CALCULATOR_FIELDS }

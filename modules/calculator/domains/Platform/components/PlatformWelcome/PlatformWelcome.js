@@ -1,4 +1,3 @@
-import useWriteInitialSelectedOption from '../../../../hooks/useWriteInitialSelectedOption'
 import { useActions, useWelcomeText } from '../../hooks'
 
 import { Welcome } from '../../../../components'
@@ -27,13 +26,6 @@ export default function PlatformWelcome({ platforms }) {
   /* Destructuring the `onGetStarted` function from the `useActions` hook. */
   const { onGetStarted } = useActions()
 
-  const writeInitialSelectedOption = useWriteInitialSelectedOption()
-
-  const onGetStartedClick = () => {
-    onGetStarted()
-    writeInitialSelectedOption()
-  }
-
   return (
     <Welcome
       isEmailShow={+way === 2}
@@ -43,7 +35,7 @@ export default function PlatformWelcome({ platforms }) {
       buttonText={buttonText}
       geo={geo ? t(`calculator.welcome.geo.${geo}`) : null}
       g={g === 'f' ? t('calculator.welcome.fff') : null}
-      onClick={onGetStartedClick}
+      onClick={onGetStarted}
     />
   )
 }

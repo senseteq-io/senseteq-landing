@@ -1,6 +1,6 @@
 import { Progress, Spinner } from '../../components'
 import Router, { useRouter } from 'next/router'
-import writeOptionSelectStatistic from '../../helpers/writeOptionSelectStatistic'
+import useWriteSelectedOption from '../../hooks/useWriteSelectedOption'
 import CalculatorContext from './CalculatorContext'
 import { useNavigator } from '../../hooks'
 
@@ -29,11 +29,9 @@ const CalculatorProvider = ({
   const onSelect = (type, value) => {
     updateCalculatorField(type, value)
     Router.push(nextRoute)
-
-    writeOptionSelectStatistic({ type, value }).catch((error) => {
-      console.error('error on option select while running transaction:', error)
-    })
   }
+
+  useWriteSelectedOption(calculatorData)
 
   return (
     <CalculatorContext.Provider
