@@ -28,12 +28,14 @@ const Header = (props) => {
     const progressIndicatorWidth =
       (scrollPosition / (document.body.scrollHeight - window.innerHeight)) * 100
     // set width and background for progress
-    headerProgressElenemt.style.width = `${progressIndicatorWidth}%`
-    headerProgressElenemt.style.background = 'var(--primary)'
+    if (headerProgressElenemt?.style) {
+      headerProgressElenemt.style.width = `${progressIndicatorWidth}%`
+      headerProgressElenemt.style.background = 'var(--primary)'
+    }
 
     /* check previous position of scroll
        (help to prevent a lot of excessive rerenders),
-       if previous position is > 0 and current position is 0 - 
+       if previous position is > 0 and current position is 0 -
         set UNinverse header layout,
        else (if previous position of scroll is 0)
         if current position is 0 - set UNinverse header layout,

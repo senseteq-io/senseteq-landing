@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next'
 import { useCallback } from 'react'
 import DeviceDetector from 'device-detector-js'
 import { DEV_URL, PROD_URL } from '../../../../../constants/backendUrls'
@@ -8,7 +9,9 @@ import {
 import { useCalculator } from '../../../contexts/Calculator'
 
 const useSaveResults = () => {
+  // [ADDITIONAL_HOOKS]
   const { calculatorData } = useCalculator()
+  const { i18n } = useTranslation()
 
   return useCallback(
     async (email = null) => {
@@ -31,9 +34,9 @@ const useSaveResults = () => {
           gender: localStorage.getItem('s_g') || 'EMPTY',
           calculatorData: restCalculatorData || null,
           appLink: window?.location?.href,
-          bookingModuleLink: isDev
-            ? BOOKING_MODULE_LINK_DEV
-            : BOOKING_MODULE_LINK,
+          bookingModuleLink: `${
+            isDev ? BOOKING_MODULE_LINK_DEV : BOOKING_MODULE_LINK
+          }/${i18n.language}`,
           device: device || null,
           _createdAt: new Date().toISOString()
         })
