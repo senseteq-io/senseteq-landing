@@ -1,6 +1,6 @@
 import { Progress, Spinner } from '../../components'
 import Router, { useRouter } from 'next/router'
-
+import useWriteSelectedOption from '../../hooks/useWriteSelectedOption'
 import CalculatorContext from './CalculatorContext'
 import { useNavigator } from '../../hooks'
 
@@ -30,6 +30,8 @@ const CalculatorProvider = ({
     updateCalculatorField(type, value)
     Router.push(nextRoute)
   }
+
+  useWriteSelectedOption(calculatorData)
 
   return (
     <CalculatorContext.Provider
