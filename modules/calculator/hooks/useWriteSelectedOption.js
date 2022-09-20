@@ -61,7 +61,7 @@ const useWriteSelectedOption = (calculatorData) => {
 
         // write total calculator passes statistic into RTDB.
         increaseCounter({
-          path: `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/totalNumberOfPasses`
+          path: `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/totalNumberOfStarting`
         })?.catch((error) =>
           console.error(
             'error in useWriteSelectedOption while totalNumberOfPasses incrementing transaction:',
