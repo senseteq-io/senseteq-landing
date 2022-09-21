@@ -1,10 +1,5 @@
-import {
-  BOOKING_MODULE_LINK,
-  BOOKING_MODULE_LINK_DEV
-} from '../../../../__constants__'
 import { Modal, useModal } from '../../../../components'
 import { useCalculator } from '../../../../contexts/Calculator'
-import { useIsDev } from '../../../../hooks'
 import { usePrice } from '../../../Price/hooks'
 import { useFeatures, useSaveResults } from '../../hooks'
 
@@ -26,7 +21,6 @@ const ResultSimpleView = () => {
   const { query } = useRouter()
   const saveResults = useSaveResults()
   const { calculatorData } = useCalculator()
-  const isDev = useIsDev()
 
   // [HELPER_FUNCTIONS]
   const restart = () => {
@@ -40,9 +34,7 @@ const ResultSimpleView = () => {
       calculatorResultId = await saveResults()
     }
     window.open(
-      `${isDev ? BOOKING_MODULE_LINK_DEV : BOOKING_MODULE_LINK}/${
-        i18n.language
-      }?calculatorResultId=${calculatorResultId}`,
+      `${process.env.NEXT_PUBLIC_BOOKING_MODULE_LINK}/${i18n.language}?calculatorResultId=${calculatorResultId}`,
       '_blank'
     )
   }
