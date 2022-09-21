@@ -31,6 +31,12 @@
   position: relative;
 }
 
+@media (max-width: 992px) {
+  .modalContent {
+    width: 64%;
+    padding: 32px 16px;
+  }
+}
 @media (max-width: 768px) {
   .modalContent {
     width: 96%;

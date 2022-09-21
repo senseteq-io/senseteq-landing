@@ -72,10 +72,10 @@ const InnerEmailForm = (props) => {
 
       <div className="col-auto">
         <Button
-          disabled={loading}
           variant="lg"
           shape="rounded"
           role="button"
+          loading={loading}
           onClick={onEmailSubmit}>
           {buttonText}
         </Button>

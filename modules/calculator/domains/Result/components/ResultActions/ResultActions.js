@@ -1,12 +1,32 @@
+import { useState } from 'react'
 import { Button } from '../../../../components'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
+import { useCalculator } from '../../../../contexts/Calculator'
 
 const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
-  const router = useRouter()
-  const { query } = router
+  const { query } = useRouter()
+  const { calculatorData } = useCalculator()
+
+  const [scheduleButtonLoading, setScheduleButtonLoading] = useState(false)
+  const [openModalButtonLoading, setOpenModalButtonLoading] = useState(false)
+
+  const handleOnScheduleMeeting = async () => {
+    setScheduleButtonLoading(true)
+    await onScheduleMeeting()
+    setScheduleButtonLoading(false)
+  }
+  const handleOpenModal = async () => {
+    if (calculatorData?.userEmail) {
+      setOpenModalButtonLoading(true)
+      await onOpenSaveModal()
+      setOpenModalButtonLoading(false)
+    } else {
+      onOpenSaveModal()
+    }
+  }
 
   return (
     <div className="row align-items-center justify-content-center">
@@ -20,7 +40,8 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
                 block
                 variant="lg"
                 shape="rounded"
-                onClick={onOpenSaveModal}>
+                loading={openModalButtonLoading}
+                onClick={handleOpenModal}>
                 {t('calculator.result.buttons.save_and_share')}
               </Button>
             </div>
@@ -31,7 +52,8 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
               block
               variant="lg"
               shape="rounded"
-              onClick={onScheduleMeeting}>
+              loading={scheduleButtonLoading}
+              onClick={handleOnScheduleMeeting}>
               {t('calculator.result.buttons.schedule_meeting')}
             </Button>
           </div>

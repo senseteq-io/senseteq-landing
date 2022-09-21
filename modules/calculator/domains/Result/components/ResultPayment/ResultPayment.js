@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'next-i18next'
 import Segmented from 'rc-segmented'
 import { Text, Title } from '../../../../components'
@@ -25,17 +26,28 @@ const ResultPayment = ({ weeks, price }) => {
     calculatorData: { paymentOption: selectedPaymentOption }
   } = useCalculator()
   const { t } = useTranslation()
+  const { query } = useRouter()
 
-  const OPTIONS = [
-    {
-      label: t('calculator.result.payments.options.part_payment'),
-      value: 'PART_PAYMENT'
-    },
-    {
-      label: t('calculator.result.payments.options.cash'),
-      value: 'CASH'
+  const OPTIONS = useMemo(() => {
+    const initialValue = [
+      {
+        label: t('calculator.result.payments.options.part_payment'),
+        value: 'PART_PAYMENT'
+      },
+      {
+        label: t('calculator.result.payments.options.cash'),
+        value: 'CASH'
+      }
+    ]
+    if (query?.id) {
+      return initialValue.map((item) => ({
+        ...item,
+        disabled: selectedPaymentOption !== item.value
+      }))
     }
-  ]
+    return initialValue
+  }, [selectedPaymentOption, query, t])
+
   const initialValue =
     OPTIONS.find(({ value }) => value === selectedPaymentOption) || OPTIONS[0]
   // [COMPONENT_STATE_HOOKS]
