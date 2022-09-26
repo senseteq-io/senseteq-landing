@@ -1,7 +1,5 @@
 import { Welcome } from '../../../../components'
-import ls from '../../../../utils/ls'
 import { useActions } from '../../hooks'
-import { useEffect } from 'react'
 import { useParams } from '../../../../hooks'
 import { useTranslation } from 'next-i18next'
 
@@ -20,10 +18,6 @@ export default function CalculatorWelcome() {
 
   /* Destructuring the `onGetStarted` function from the `useActions` hook. */
   const { onGetStarted } = useActions()
-
-  useEffect(() => {
-    ls.clear()
-  }, [])
 
   return (
     <Welcome

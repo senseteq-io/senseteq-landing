@@ -23,9 +23,28 @@ const useWriteSelectedOption = (calculatorData) => {
 
   // [HELPER_FUNCTIONS]
   const writeStatisticData = useCallback(() => {
+    const isWelcomeScreenPassed = ls.get('welcome')
+
+    const preparedCalculatorData = {
+      ...calculatorData,
+      isWelcomeScreenPassed
+    }
+    if (isWelcomeScreenPassed) {
+      preparedCalculatorData.enteredEmail = calculatorData?.userEmail
+        ? 'YES'
+        : 'NO'
+    }
+
     // Filter calculator data to use only valid calculator fields
-    const filteredCalculatorDataEntries = Object.entries(calculatorData).filter(
-      ([key, value]) => CALCULATOR_FIELDS.includes(key) && value
+    const filteredCalculatorDataEntries = Object.entries(
+      preparedCalculatorData
+    ).filter(
+      ([key, value]) =>
+        [
+          'isWelcomeScreenPassed',
+          'enteredEmail',
+          ...CALCULATOR_FIELDS
+        ].includes(key) && value
     )
 
     /* Get difference between previous and current calculator data
@@ -34,13 +53,11 @@ const useWriteSelectedOption = (calculatorData) => {
       Object.fromEntries(filteredCalculatorDataEntries),
       cashedCalculatorData.current
     )
-    const isWelcomeScreenPassed = ls.get('welcome')
-    if (Object.keys(difference)?.length > 0 && isWelcomeScreenPassed) {
-      const today = moment().format('YYYY-MM-DD')
+    const today = moment().format('YYYY-MM-DD')
 
+    if (Object.keys(difference)?.length > 0 && isWelcomeScreenPassed) {
       // get current statistic document id from localstorage.
       let statisticDocumentId = ls.get('statisticId')
-
       // if statistic document id is not exist, that mean this is first attempt.
       if (!statisticDocumentId) {
         statisticDocumentId = getDocId(STATISTIC_COLLECTIONS.SELECTION_SEQUENCE)
@@ -82,17 +99,23 @@ const useWriteSelectedOption = (calculatorData) => {
         )
       }
       // Increment total number of option selects for current day in RTDB.
-      Object.entries(difference).forEach(([option, value]) => {
-        const counterPath = `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/${option}/${value}`
+      Object.entries(difference)
+        .filter(([option]) => option !== 'isWelcomeScreenPassed')
+        .forEach(([option, value]) => {
+          const counterPath = `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/${option}/${value}`
 
-        increaseCounter({ path: counterPath }).catch((error) =>
-          console.error(
-            'error in useWriteSelectedOption while transaction:',
-            error
+          increaseCounter({ path: counterPath }).catch((error) =>
+            console.error(
+              'error in useWriteSelectedOption while transaction:',
+              error
+            )
           )
-        )
-      })
-      cashedCalculatorData.current = calculatorData
+        })
+
+      cashedCalculatorData.current = preparedCalculatorData
+    }
+    if (!isWelcomeScreenPassed) {
+      cashedCalculatorData.current = null
     }
   }, [calculatorData])
 

@@ -77,12 +77,13 @@ const usePages = (routes) => {
   useEffect(() => {
     /* It's checking if the `baseRoute` exists in the `routes` object. If it does, it sets the
     `currentPage` to the value of the `baseRoute` in the `pagesMap` object. */
+
     if (routes?.baseRoute) {
       setCurrentPage(pagesMap[routes?.baseRoute])
     } else {
       setCurrentPage(pagesMap.welcome)
     }
-  }, [routes, pagesMap])
+  }, [pagesMap])
 
   useEffect(() => {
     /* It's setting the `options` state to the values of the `baseRoute` and `nestedRoute` in the

@@ -58,6 +58,8 @@ const InnerEmailForm = (props) => {
           variant={inputVariant}
           required
           contentEditable="true"
+          autocomplete="on"
+          name="email"
           aria-placeholder={t('calculator.result.email_form.placeholder')}
           autoFocus
           value={email}
@@ -65,6 +67,7 @@ const InnerEmailForm = (props) => {
           type="email"
           placeholder={t('calculator.result.email_form.placeholder')}
         />
+
         <Text style={{ opacity: !error && 0 }} variant="danger">
           {error || t('calculator.result.email_form.error_messages.valid')}
         </Text>
