@@ -5,7 +5,7 @@ export const CALCULATOR_FIELDS = [
   'administration',
   'localization',
   'authentication',
-  'external_services',
+  'external_service',
   'appearance',
   'brand',
   'revenue',
