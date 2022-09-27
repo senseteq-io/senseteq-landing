@@ -1,11 +1,15 @@
+import moment from 'moment'
+import { useEffect } from 'react'
 import {
   ANALOG_MODELS,
   HOUR_RATE,
   MODEL_ESTIMATIONS,
+  STATISTIC_COLLECTIONS,
   USD_TO_NOK
 } from '../../../__constants__'
-
 import { useCalculator } from '../../../contexts/Calculator'
+import { setValue } from '../../../services/database'
+import ls from '../../../utils/ls'
 
 const getApplicationAmount = (platforms, administration) => {
   let applicationAmount =
@@ -83,6 +87,25 @@ const usePrice = () => {
     revenue: revenue === 'SUBSCRIPTION' || revenue === 'IN_APP',
     maybeRevenue: revenue === 'NOT_SURE'
   })
+
+  const { paymentOption } = calculatorData
+
+  useEffect(() => {
+    let statisticDocumentId = ls.get('statisticId')
+    if (statisticDocumentId && !isNaN(price) && paymentOption) {
+      const today = moment().startOf('day').valueOf()
+
+      setValue({
+        path: `${STATISTIC_COLLECTIONS.PRICE_STATISTIC}/${today}/${statisticDocumentId}`,
+        value: {
+          price: paymentOption === 'PART_PAYMENT' ? price * 1.2 : price,
+          paymentOption
+        }
+      }).catch((error) => {
+        console.error('error in usePrice while setting price value:', error)
+      })
+    }
+  }, [price, paymentOption])
 
   return { price, weeks }
 }

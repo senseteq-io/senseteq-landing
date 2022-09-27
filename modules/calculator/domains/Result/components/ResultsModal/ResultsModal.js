@@ -18,7 +18,7 @@ const ResultsModal = ({ children }) => {
           </div>
         </div>
       </div>
-      <div className="col-12 col-md-6">{children}</div>
+      <div className="col-12 col-md-9 col-xl-8 col-xxl-6">{children}</div>
     </div>
   )
 }

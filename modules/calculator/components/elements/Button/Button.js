@@ -1,4 +1,5 @@
 import cn from 'classnames'
+import Loading from '../../../assets/loading'
 import styles from './Button.module.css'
 
 /**
@@ -13,6 +14,8 @@ export default function Button({
   block,
   onClick,
   size,
+  loading,
+  disabled,
   bordered,
   ...rest
 }) {
@@ -20,14 +23,23 @@ export default function Button({
     <button
       {...rest}
       onClick={onClick}
+      disabled={loading}
       className={cn({
         [styles['full-width']]: block,
+        [styles['disabled']]: disabled || loading,
         [styles['bordered']]: bordered,
         [styles['btn']]: true,
         [styles[`btn-${size}`]]: size,
         [styles[`btn-${variant}`]]: !!variant,
         [styles[`btn-shape-${shape}`]]: !!shape
       })}>
+      {loading && (
+        <Loading
+          fill="var(--calc-module-text-white)"
+          style={{ marginRight: '8px' }}
+        />
+      )}
+
       {children}
     </button>
   )

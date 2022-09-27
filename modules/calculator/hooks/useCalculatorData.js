@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useLayoutEffect } from 'react'
+import ls from '../utils/ls'
 
 /**
  * It takes a routes object as an argument, and then returns an object that contains the calculatorData
@@ -67,8 +68,13 @@ const useCalculatorData = (routes, initialData) => {
     setCalculatorData((prev) => ({ ...prev, ...initialData }))
   }, [initialData])
 
-  // FIXME
-  useEffect(() => {
+  /* useLayoutEffect is using here to clear LS before useWriteSelectedOption hook will be called and wrote statistic
+   with previous data from LS. */
+  useLayoutEffect(() => {
+    if (!routes?.baseRoute) {
+      ls.clear()
+      reset()
+    }
     updateCalculatorField('currentRoute', routes?.baseRoute)
   }, [routes?.baseRoute])
 
