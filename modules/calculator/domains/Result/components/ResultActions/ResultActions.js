@@ -3,12 +3,14 @@ import { Button } from '../../../../components'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import { useCalculator } from '../../../../contexts/Calculator'
+import { useIncreaseStatisticCounter } from '../../../../hooks'
 
 const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
   /* A hook that allows us to use the `t` function to translate strings. */
   const { t } = useTranslation()
   const { query } = useRouter()
   const { calculatorData } = useCalculator()
+  const writeStatistic = useIncreaseStatisticCounter()
 
   const [scheduleButtonLoading, setScheduleButtonLoading] = useState(false)
   const [openModalButtonLoading, setOpenModalButtonLoading] = useState(false)
@@ -17,6 +19,10 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
     setScheduleButtonLoading(true)
     await onScheduleMeeting()
     setScheduleButtonLoading(false)
+    writeStatistic({
+      field: 'totalRedirectingToBooking',
+      functionName: 'handleOnScheduleMeeting'
+    })
   }
   const handleOpenModal = async () => {
     if (calculatorData?.userEmail) {
@@ -26,6 +32,10 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
     } else {
       onOpenSaveModal()
     }
+    writeStatistic({
+      field: 'totalNumberShareResultClick',
+      functionName: 'handleOpenModal'
+    })
   }
 
   return (

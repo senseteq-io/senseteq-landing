@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react'
 import moment from 'moment'
 import { useCallback } from 'react'
 import { CALCULATOR_FIELDS, STATISTIC_COLLECTIONS } from '../__constants__'
-import increaseCounter from '../services/database/increaseCounter'
 import { createDocument, getDocId, updateDocument } from '../services/firestore'
 import ls from '../utils/ls'
+import useIncreaseStatisticCounter from './useIncreaseStatisticCounter'
 
 const getDifference = (obj1, obj2) => {
   const differentKeys = Object.keys(obj1).filter(
@@ -20,6 +20,8 @@ const useWriteSelectedOption = (calculatorData) => {
   // [COMPONENT_STATE_HOOKS]
   // this ref need to save previous calculator data to compare with current
   const cashedCalculatorData = useRef(null)
+  const incrementTotalNumberOfStarting = useIncreaseStatisticCounter()
+  const incrementOption = useIncreaseStatisticCounter()
 
   // [HELPER_FUNCTIONS]
   const writeStatisticData = useCallback(() => {
@@ -77,14 +79,10 @@ const useWriteSelectedOption = (calculatorData) => {
         })
 
         // write total calculator passes statistic into RTDB.
-        increaseCounter({
-          path: `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/totalNumberOfStarting`
-        })?.catch((error) =>
-          console.error(
-            'error in useWriteSelectedOption while totalNumberOfPasses incrementing transaction:',
-            error
-          )
-        )
+        incrementTotalNumberOfStarting({
+          field: 'totalNumberOfStarting',
+          functionName: 'useWriteSelectedOption'
+        })
       } else {
         // update sequence statistic document.
         updateDocument({
@@ -101,15 +99,14 @@ const useWriteSelectedOption = (calculatorData) => {
       // Increment total number of option selects for current day in RTDB.
       Object.entries(difference)
         .filter(([option]) => option !== 'isWelcomeScreenPassed')
-        .forEach(([option, value]) => {
-          const counterPath = `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/${option}/${value}`
+        .forEach(([option, field]) => {
+          const counterPath = `${STATISTIC_COLLECTIONS.OPTION_SELECT_COUNT}/${today}/${option}/${field}`
 
-          increaseCounter({ path: counterPath }).catch((error) =>
-            console.error(
-              'error in useWriteSelectedOption while transaction:',
-              error
-            )
-          )
+          incrementOption({
+            path: counterPath,
+            field,
+            functionName: 'useWriteSelectedOption'
+          })
         })
 
       cashedCalculatorData.current = preparedCalculatorData
@@ -117,7 +114,7 @@ const useWriteSelectedOption = (calculatorData) => {
     if (!isWelcomeScreenPassed) {
       cashedCalculatorData.current = null
     }
-  }, [calculatorData])
+  }, [calculatorData, incrementTotalNumberOfStarting, incrementOption])
 
   // This useEffect triggered on calculatorData state change
   useEffect(() => {

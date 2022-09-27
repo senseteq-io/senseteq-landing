@@ -22,6 +22,7 @@ import { LocalizationQuestion } from '../domains/Localization/components'
 import { ResultSimpleView } from '../domains/Result/components'
 import { RevenueQuestion } from '../domains/Revenue/components'
 import ls from '../utils/ls'
+import useIncreaseStatisticCounter from './useIncreaseStatisticCounter'
 
 /**
  * It's a React hook that allows us to use state in a functional component
@@ -37,6 +38,8 @@ const usePages = (routes) => {
 
   /* It's a React hook that allows us to use state in a functional component. */
   const [options, setOptions] = useState({})
+
+  const increaseViewCounter = useIncreaseStatisticCounter()
 
   const pagesMap = useMemo(() => {
     if (!isWelcomeSeen) {
@@ -98,6 +101,25 @@ const usePages = (routes) => {
       })
     }
   }, [routes])
+
+  useEffect(() => {
+    if (routes?.baseRoute === 'result') {
+      increaseViewCounter({
+        field: 'totalNumberOfResultPageViews',
+        functionName: 'usePages'
+      })
+    }
+  }, [routes?.baseRoute])
+
+  // This code will run twice in dev env, but in prod everything will run correctly(once).
+  useEffect(() => {
+    if (isWelcomeSeen === false) {
+      increaseViewCounter({
+        field: 'totalNumberOfWelcomePageViews',
+        functionName: 'usePages'
+      })
+    }
+  }, [isWelcomeSeen])
 
   return { currentPage, isWelcomeSeen }
 }

@@ -2,12 +2,14 @@ import { Text } from '../../../../components'
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
 import { useCalculator } from '../../../../contexts/Calculator'
+import { useIncreaseStatisticCounter } from '../../../../hooks'
 import { useSaveResults } from '../../hooks'
 import InnerEmailForm from '../InnerEmailForm'
 
 const EmailForm = ({ onSend }) => {
   const { t } = useTranslation()
   const { calculatorData } = useCalculator()
+  const writeStatistic = useIncreaseStatisticCounter()
 
   const [isSaved, setIsSaved] = useState(!!calculatorData?.userEmail || false)
   const [loading, setLoading] = useState(false)
@@ -17,7 +19,10 @@ const EmailForm = ({ onSend }) => {
     if (email) {
       setLoading(true)
       await saveResults(email)
-
+      writeStatistic({
+        field: 'totalNumberOfSendingResultsToEmail',
+        functionName: 'EmailForm'
+      })
       setIsSaved(true)
       setLoading(false)
 

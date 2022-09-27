@@ -4,6 +4,7 @@ import DeviceDetector from 'device-detector-js'
 import { COLLECTIONS } from '../../../__constants__'
 import { useCalculator } from '../../../contexts/Calculator'
 import { createDocument, getDocId } from '../../../services/firestore'
+import ls from '../../../utils/ls'
 
 const useSaveResults = () => {
   // [ADDITIONAL_HOOKS]
@@ -15,7 +16,8 @@ const useSaveResults = () => {
       const deviceDetector = new DeviceDetector()
       const device = deviceDetector.parse(window?.navigator?.userAgent)
 
-      const calculatorResultId = getDocId(COLLECTIONS.CALCULATOR_RESULTS)
+      const calculatorResultId =
+        ls.get('calculatorResultId') || getDocId(COLLECTIONS.CALCULATOR_RESULTS)
 
       const { userEmail, ...restCalculatorData } = calculatorData
       const customerEmail = email || userEmail || null
@@ -34,7 +36,7 @@ const useSaveResults = () => {
           device: device || null
         }
       })
-
+      ls.save('calculatorResultId', calculatorResultId)
       return calculatorResultId
     },
     [calculatorData]
