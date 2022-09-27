@@ -1,12 +1,10 @@
 import { useTranslation } from 'next-i18next'
 import { useCallback } from 'react'
 import DeviceDetector from 'device-detector-js'
-import { DEV_URL, PROD_URL } from '../../../../../constants/backendUrls'
-import {
-  BOOKING_MODULE_LINK,
-  BOOKING_MODULE_LINK_DEV
-} from '../../../__constants__'
+import { COLLECTIONS } from '../../../__constants__'
 import { useCalculator } from '../../../contexts/Calculator'
+import { createDocument, getDocId } from '../../../services/firestore'
+import ls from '../../../utils/ls'
 
 const useSaveResults = () => {
   // [ADDITIONAL_HOOKS]
@@ -17,32 +15,28 @@ const useSaveResults = () => {
     async (email = null) => {
       const deviceDetector = new DeviceDetector()
       const device = deviceDetector.parse(window?.navigator?.userAgent)
-      const isDev = JSON.parse(localStorage.getItem('isDev'))
 
-      const fetchUrl = `${isDev ? DEV_URL : PROD_URL}/calculatorResults/create`
+      const calculatorResultId =
+        ls.get('calculatorResultId') || getDocId(COLLECTIONS.CALCULATOR_RESULTS)
 
       const { userEmail, ...restCalculatorData } = calculatorData
       const customerEmail = email || userEmail || null
 
-      const res = await fetch(fetchUrl, {
-        method: 'POST',
-        headers: { Origin: 'mvp-calculator' },
-        body: JSON.stringify({
+      await createDocument({
+        collection: COLLECTIONS.CALCULATOR_RESULTS,
+        id: calculatorResultId,
+        data: {
           email: customerEmail,
           adv: localStorage.getItem('s_adv') || 'EMPTY',
           geo: localStorage.getItem('s_geo') || 'EMPTY',
           gender: localStorage.getItem('s_g') || 'EMPTY',
           calculatorData: restCalculatorData || null,
-          appLink: window?.location?.href,
-          bookingModuleLink: `${
-            isDev ? BOOKING_MODULE_LINK_DEV : BOOKING_MODULE_LINK
-          }/${i18n.language}`,
-          device: device || null,
-          _createdAt: new Date().toISOString()
-        })
+          appLink: `${window?.location?.href}?id=${calculatorResultId}`,
+          bookingModuleLink: `${process.env.NEXT_PUBLIC_BOOKING_MODULE_LINK}/${i18n.language}?calculatorResultId=${calculatorResultId}`,
+          device: device || null
+        }
       })
-      const { calculatorResultId } = await res.json()
-
+      ls.save('calculatorResultId', calculatorResultId)
       return calculatorResultId
     },
     [calculatorData]

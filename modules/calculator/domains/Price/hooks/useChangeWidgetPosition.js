@@ -12,7 +12,7 @@ const useChangeWidgetPosition = (trigger) => {
 
     const isMobile = window.matchMedia('(max-width: 576px)').matches
 
-    if (leadboosterContainer) {
+    if (leadboosterContainer && !isMobile) {
       leadboosterContainer?.style?.setProperty('right', '12px', 'important')
     }
     if (trigger && isMobile) {
@@ -32,7 +32,8 @@ const useChangeWidgetPosition = (trigger) => {
     }
     return () => {
       if (leadboosterContainer) {
-        leadboosterContainer?.style?.setProperty('right', '28px', 'important')
+        leadboosterContainer?.style?.setProperty('right', '0px', 'important')
+        leadboosterContainer?.style?.setProperty('bottom', '0px', 'important')
       }
       if (videoaskButton) {
         videoaskButton.style.setProperty('bottom', '20px', 'important')

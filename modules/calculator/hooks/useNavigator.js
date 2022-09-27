@@ -55,12 +55,14 @@ const useNavigator = (calculatorData) => {
 
   /* Returning the previous page in the pageOrder array. */
   const prev = useMemo(() => {
-    return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) - 1]
+    const pageIndex = pageOrder.indexOf(calculatorData?.currentRoute)
+    return pageOrder[(pageIndex > 0 ? pageIndex : 0) - 1]
   }, [calculatorData?.currentRoute, pageOrder])
 
   /* Returning the next page in the pageOrder array. */
   const next = useMemo(() => {
-    return pageOrder[pageOrder.indexOf(calculatorData?.currentRoute) + 1]
+    const pageIndex = pageOrder.indexOf(calculatorData?.currentRoute)
+    return pageOrder[(pageIndex > 0 ? pageIndex : 0) + 1]
   }, [calculatorData?.currentRoute, pageOrder])
 
   return [paths[prev], paths[next], progress]

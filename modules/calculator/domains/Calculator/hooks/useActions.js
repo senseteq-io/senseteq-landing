@@ -1,10 +1,10 @@
 import Router from 'next/router'
+import { useNavigator } from '../../../hooks'
 import ls from '../../../utils/ls'
-import { useTranslation } from 'next-i18next'
 
 const useActions = () => {
   /* A hook that allows us to use the `t` function to translate our text. */
-  const { t } = useTranslation()
+  const next = useNavigator(ls.get())[1]
 
   /**
    * It saves a value to the local storage and then redirects the user to the next page
@@ -14,11 +14,7 @@ const useActions = () => {
     ls.save('welcome', true)
 
     /* Redirecting the user to the next page. */
-    Router.push(
-      `/s/${t('calculator.paths.mvp_calculator')}/${t(
-        'calculator.paths.analogues'
-      )}`
-    )
+    Router.push(next)
   }
 
   return { onGetStarted }

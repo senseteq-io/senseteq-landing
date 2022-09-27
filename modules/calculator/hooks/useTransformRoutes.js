@@ -36,13 +36,13 @@ const useTransformRoutes = () => {
     if (router.asPath.includes(calculatorPrefix)) {
       /* It's removing the `calculatorPrefix` from the `router.asPath` string. */
       let cleanPath = router.asPath.replace(calculatorPrefix, '')
-
       cleanPath = cleanPath[0] === '/' ? cleanPath.substring(1) : cleanPath
 
       /* It's splitting the `cleanPath` string into an array. */
       const cleanPathArr = cleanPath.split('/')
       const isNotStartingWithQueryParam = cleanPathArr[0][0] !== '?'
-      setState({
+
+      const preparedState = {
         baseRoute:
           cleanPathArr[0] && isNotStartingWithQueryParam
             ? t(`calculator.paths.mirror.${cleanPathArr[0].split('?')[0]}`)
@@ -59,10 +59,11 @@ const useTransformRoutes = () => {
         extraStepRoute: cleanPathArr[4]
           ? t(`calculator.paths.mirror.${cleanPathArr[4]}`)
           : null
-      })
+      }
+      setState(preparedState)
       setLoading(false)
     }
-  }, [router.asPath])
+  }, [router.asPath, t])
 
   return useMemo(() => [state, loading], [state, loading])
 }
