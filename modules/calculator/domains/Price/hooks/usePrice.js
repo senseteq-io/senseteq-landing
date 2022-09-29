@@ -93,7 +93,7 @@ const usePrice = () => {
   useEffect(() => {
     let statisticDocumentId = ls.get('statisticId')
     if (statisticDocumentId && !isNaN(price) && paymentOption) {
-      const today = moment().startOf('day').valueOf()
+      const today = moment().utc().startOf('day').valueOf()
 
       setValue({
         path: `${STATISTIC_COLLECTIONS.PRICE_STATISTIC}/${today}/${statisticDocumentId}`,

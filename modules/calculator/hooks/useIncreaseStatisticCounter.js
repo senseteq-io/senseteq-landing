@@ -5,7 +5,7 @@ import increaseCounter from '../services/database/increaseCounter'
 
 const useIncreaseStatisticCounter = () =>
   useCallback(({ field, functionName, path }) => {
-    const today = moment().startOf('day').valueOf()
+    const today = moment().utc().startOf('day').valueOf()
 
     increaseCounter({
       path:
