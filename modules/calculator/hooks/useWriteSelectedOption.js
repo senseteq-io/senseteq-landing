@@ -55,7 +55,7 @@ const useWriteSelectedOption = (calculatorData) => {
       Object.fromEntries(filteredCalculatorDataEntries),
       cashedCalculatorData.current
     )
-    const today = moment().startOf('day').valueOf()
+    const today = moment().utc().startOf('day').valueOf()
 
     if (Object.keys(difference)?.length > 0 && isWelcomeScreenPassed) {
       // get current statistic document id from localstorage.
