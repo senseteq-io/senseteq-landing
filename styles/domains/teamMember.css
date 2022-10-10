@@ -1,7 +1,9 @@
 .team-member-wrapper {
   padding-bottom: 12px;
 }
-
+.team-member-wrapper h5 {
+  margin-bottom: 0;
+}
 .team-member-wrapper:nth-last-of-type(1) {
   margin-bottom: 0;
 }
