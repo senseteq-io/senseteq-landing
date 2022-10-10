@@ -1,104 +1,104 @@
 const TEAM_MEMBERS = {
   EXPERIENCED: [
     {
-      name: 'Trond Klæboe',
+      name: 'Trond',
       role: 'constants.roles_items.ceo',
       src: '/team/persons/Trond_Kleboe.webp'
     },
     {
-      name: 'Oleksiy Pastukhov',
+      name: 'Oleksiy',
       role: 'constants.roles_items.senior_full_stack_and_team_lead',
       src: '/team/persons/Oleksiy_Pastukhov.webp'
     },
     {
-      name: 'Oleg Makhynia',
+      name: 'Oleg',
       role: 'constants.roles_items.senior_backend',
       src: '/team/persons/Oleg_Makhynia.webp'
     },
     {
-      name: 'Evgeniy Bogdanov',
+      name: 'Evgeniy',
       role: 'constants.roles_items.designer',
       src: '/team/persons/Evgeniy_Bogdanov.webp'
     },
     {
-      name: 'Arthur Pochinok',
+      name: 'Arthur',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Arthur_Pochinok.webp'
     },
     {
-      name: 'Vlad Bogach',
+      name: 'Vlad',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Vlad_Bogach.webp'
     },
     {
-      name: 'Slava Shamrelyuk',
+      name: 'Slava',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Slava_Shamrelyuk.webp'
     },
     {
-      name: 'Maxim Makarov',
+      name: 'Maxim',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Maxim_Makarov.webp'
     },
     {
-      name: 'Rostyslav Marchuk',
+      name: 'Rostyslav',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Rostyslav_Marchuk.webp'
     },
     {
-      name: 'Olena Shevchuk',
+      name: 'Olena',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Olena_Shevchuk.webp'
     },
     {
-      name: 'Ruslana Halkina',
+      name: 'Ruslana',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Ruslana_Halkina.webp'
     },
     {
-      name: 'Oleksandr Holyk',
+      name: 'Oleksandr',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Oleksandr_Holyk.webp'
     },
     {
-      name: 'Dmytro Okrushko',
+      name: 'Dmytro',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Dmytro_Okrushko.webp'
     },
     {
-      name: 'Oleksandr Kazhuro',
+      name: 'Oleksandr',
       role: 'constants.roles_items.full_stask',
       src: '/team/persons/Oleksandr_Kazhuro.webp'
     }
   ],
   RISING_STARS: [
     {
-      name: 'Anhelina Bohdanova',
+      name: 'Anhelina',
       src: '/team/persons/Anhelina_Bohdanova.webp',
       role: 'constants.roles_items.junior'
     },
     {
-      name: 'Oleksandr Mushtyn',
+      name: 'Oleksandr',
       src: '/team/persons/Oleksandr_Mushtyn.webp',
       role: 'constants.roles_items.junior'
     },
     {
-      name: 'Anastasia Shapovalova',
+      name: 'Anastasia',
       src: '/team/persons/Anastasia_Shapovalova.webp',
       role: 'constants.roles_items.junior'
     },
     {
-      name: 'Oleksandr Voichyshyn',
+      name: 'Oleksandr',
       src: '/team/persons/Oleksandr_Voichyshyn.webp',
       role: 'constants.roles_items.junior'
     },
     {
-      name: 'Andrii Myrovitskyi',
+      name: 'Andrii',
       src: '/team/persons/Andrii_Myrovitskyi.webp',
       role: 'constants.roles_items.junior'
     },
     {
-      name: 'Artem Sukhiy',
+      name: 'Artem',
       src: '/team/persons/Artem_Sukhiy.webp',
       role: 'constants.roles_items.junior'
     }
