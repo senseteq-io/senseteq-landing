@@ -42,13 +42,25 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md-9 mb-4">
         <div className="row align-items-center justify-content-center">
+          <div className="d-flex col-12 mb-4 justify-content-center">
+            <Button
+              role="button"
+              block
+              size="lg"
+              shape="rounded"
+              loading={scheduleButtonLoading}
+              onClick={handleOnScheduleMeeting}>
+              {t('calculator.result.buttons.schedule_meeting')}
+            </Button>
+          </div>
           {!query?.id ? (
             <div className="d-flex col-12 mb-4 justify-content-center">
               <Button
                 role="button"
                 aria-haspopup="true"
                 block
-                variant="lg"
+                variant="secondary"
+                size="lg"
                 shape="rounded"
                 loading={openModalButtonLoading}
                 onClick={handleOpenModal}>
@@ -60,19 +72,9 @@ const ResultActions = ({ onOpenSaveModal, restart, onScheduleMeeting }) => {
             <Button
               role="button"
               block
-              variant="lg"
+              variant="secondary"
               shape="rounded"
-              loading={scheduleButtonLoading}
-              onClick={handleOnScheduleMeeting}>
-              {t('calculator.result.buttons.schedule_meeting')}
-            </Button>
-          </div>
-          <div className="d-flex col-12 mb-4 justify-content-center">
-            <Button
-              role="button"
-              block
-              variant="lg"
-              shape="rounded"
+              size="lg"
               onClick={restart}>
               {t('calculator.result.buttons.start_again')}
             </Button>

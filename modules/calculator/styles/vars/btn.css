@@ -26,7 +26,7 @@
   --calc-module-btn-dark-color: var(--calc-module-text-white);
 
   --calc-module-btn-secondary-bg: var(--calc-module-gray-lighten2);
-  --calc-module-btn-secondary-color: var(--calc-module-action-primary-color);
+  --calc-module-btn-secondary-color: var(--calc-module-action-secondary-color);
 
   --calc-module-btn-primary-bg: var(--calc-module-action-primary-bg);
   --calc-module-btn-primary-hover-bg: var(
