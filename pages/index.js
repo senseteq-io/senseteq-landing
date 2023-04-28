@@ -236,7 +236,7 @@ export default function Home({ recommendedPostsJson }) {
           </div>
         </div>
       </Section>
-      <Section id="ukranian-developers-section">
+      {/* <Section id="ukranian-developers-section">
         <div className="row justify-content-center">
           <div className="col-12">
             <Title as="h2" dataAos="fade-down" center>
@@ -252,7 +252,7 @@ export default function Home({ recommendedPostsJson }) {
             <AdvantageList data-aos="fade-left" />
           </div>
         </div>
-      </Section>
+      </Section> */}
       <Section dark id="about-senseteq-section">
         <div className="row align-items-center">
           <div className="col-12 col-lg-6">

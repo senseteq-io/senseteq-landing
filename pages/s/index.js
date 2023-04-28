@@ -44,7 +44,7 @@ export default function Calculator() {
 
   return (
     <>
-      <style global jsx>{`
+      <style>{`
         body {
           height: 100vh;
           width: 100vw;
