@@ -1,11 +1,9 @@
-import { addClassToLeadBooster } from '../../helpers'
 import {
   Content,
   Footer,
   Head,
   Header
 } from '../../modules/calculator/components'
-import PricePreviewTrigger from '../../modules/calculator/domains/Price/components/PricePreviewTrigger'
 import {
   useAdvDataLS,
   useCalculatorData,
@@ -19,7 +17,9 @@ import {
 } from '../../modules/calculator/hooks'
 
 import { CalculatorProvider } from '../../modules/calculator/contexts/Calculator'
+import PricePreviewTrigger from '../../modules/calculator/domains/Price/components/PricePreviewTrigger'
 import Script from 'next/script'
+import { addClassToLeadBooster } from '../../helpers'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useFetchResult } from '../../modules/calculator/domains/Result/hooks'
 
@@ -71,7 +71,7 @@ export default function CalculatorAll() {
   /* Returning the head, header, content, and footer components. */
   return (
     <>
-      <style global jsx>{`
+      <style>{`
         body {
           height: 100vh;
           width: 100vw;
