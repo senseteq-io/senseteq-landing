@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import 'aos/dist/aos.css'
-import { addClassToLeadBooster } from '../../../helpers'
 
 import { AdvancedMenu, Footer, Header, PageMeta } from '../../layout'
 import { useEffect, useState } from 'react'
@@ -8,6 +7,7 @@ import { useEffect, useState } from 'react'
 import AOS from 'aos'
 import Script from 'next/script'
 import { SectionNavigationDots } from '../../elements'
+import { addClassToLeadBooster } from '../../../helpers'
 import { useRouter } from 'next/router'
 
 const PageWrapper = (props) => {
@@ -72,6 +72,17 @@ const PageWrapper = (props) => {
         id="function"
         dangerouslySetInnerHTML={{
           __html: `(function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('JMvZ8g0A90z72pOd'); `
+        }}
+      />
+      <Script
+        id="clarity"
+        dangerouslySetInnerHTML={{
+          __html: `(function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "gvme9s7uss");
+          `
         }}
       />
       <Script
