@@ -55,6 +55,13 @@ const PageWrapper = (props) => {
         <Footer />
       </div>
       <Script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src="//js-eu1.hs-scripts.com/139582962.js"
+      />
+      <Script
         id="pipedriveLeadboosterConfig"
         dangerouslySetInnerHTML={{
           __html: `window.pipedriveLeadboosterConfig = {

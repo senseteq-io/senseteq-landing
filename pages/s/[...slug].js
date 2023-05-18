@@ -126,6 +126,15 @@ export default function CalculatorAll() {
         version: 2};(function () {var w = window;if (w.LeadBooster) {console.warn('LeadBooster already exists');} else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();`
         }}
       />
+
+      <Script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src="//js-eu1.hs-scripts.com/139582962.js"
+      />
+
       <Script
         src="https://leadbooster-chat.pipedrive.com/assets/loader.js"
         async
