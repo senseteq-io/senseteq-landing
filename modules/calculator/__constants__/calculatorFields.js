@@ -1,4 +1,5 @@
 export const CALCULATOR_FIELDS = [
+  'ai',
   'industries',
   'analogues',
   'platforms',

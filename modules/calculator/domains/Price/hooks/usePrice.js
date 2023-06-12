@@ -23,12 +23,14 @@ const getPrice = ({
   modelsAmount,
   appearance,
   authentication,
+  AI,
   brand,
   externalService,
   localization,
   revenue,
   maybeAppearance,
   maybeAuthentication,
+  maybeAI,
   maybeBrand,
   maybeExternalService,
   maybeLocalization,
@@ -37,6 +39,8 @@ const getPrice = ({
   let hours = (applicationAmount || 1) * modelsAmount * MODEL_ESTIMATIONS
 
   if (appearance) hours += 80
+  if (AI) hours += 160
+  if (maybeAI) hours += 80
   if (maybeAppearance) hours += 40
   if (authentication) hours += 20
   if (maybeAuthentication) hours += 10
@@ -67,7 +71,8 @@ const usePrice = () => {
     brand,
     external_service,
     localization,
-    revenue
+    revenue,
+    ai
   } = calculatorData
   const applicationAmount = getApplicationAmount(platforms, administration)
   const modelsAmount = ANALOG_MODELS[analogues]
@@ -78,6 +83,8 @@ const usePrice = () => {
     maybeAppearance: appearance === 'NOT_SURE',
     authentication: authentication === 'YES',
     maybeAuthentication: authentication === 'NOT_SURE',
+    AI: ai === 'YES',
+    maybeAI: ai === 'NOT_SURE',
     brand: brand === 'YES',
     maybeBrand: brand === 'NOT_SURE',
     externalService: external_service === 'YES',

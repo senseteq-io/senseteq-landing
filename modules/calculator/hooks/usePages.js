@@ -23,6 +23,7 @@ import { ResultSimpleView } from '../domains/Result/components'
 import { RevenueQuestion } from '../domains/Revenue/components'
 import ls from '../utils/ls'
 import useIncreaseStatisticCounter from './useIncreaseStatisticCounter'
+import { AIQuestion } from '../domains/AI/components'
 
 /**
  * It's a React hook that allows us to use state in a functional component
@@ -57,6 +58,7 @@ const usePages = (routes) => {
         analogues: <AnalogueQuestion />,
         administration: <AdministrationQuestion />,
         localization: <LocalizationQuestion />,
+        ai: <AIQuestion />,
         authentication: <AuthenticationQuestion />,
         external_services: <ExternalServiceQuestion />,
         appearance: <AppearanceQuestion />,

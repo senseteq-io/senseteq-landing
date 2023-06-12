@@ -12,6 +12,7 @@ const usePageOrder = (calculatorData) => {
 
     const START = ['welcome']
     const STATIC = [
+      'ai',
       'administration',
       'localization',
       'authentication',

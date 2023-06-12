@@ -25,6 +25,9 @@ const useNavigator = (calculatorData) => {
       platforms: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.platforms'
       )}`,
+      ai: `/s/${t('calculator.paths.mvp_calculator')}/${t(
+        'calculator.paths.ai'
+      )}`,
       administration: `/s/${t('calculator.paths.mvp_calculator')}/${t(
         'calculator.paths.administration'
       )}`,

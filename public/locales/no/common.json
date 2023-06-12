@@ -760,6 +760,7 @@
       "platforms": "plattformer",
       "analogues": "liknende-applikasjoner",
       "industries": "bransjer",
+      "ai": "ai",
       "web": "web",
       "mobile": "ios-og-android",
       "web_and_mobile": "web-og-ios-og-android",
@@ -812,6 +813,7 @@
         "plattformer": "platforms",
         "liknende-applikasjoner": "analogues",
         "bransjer": "industries",
+        "ai": "ai",
         "web": "web",
         "ios-og-android": "mobile",
         "web-og-ios-og-android": "web_and_mobile",
@@ -1204,6 +1206,15 @@
         "not_sure": "Usikker"
       }
     },
+    "ai": {
+      "title": "Hvor mye ønsker du å bruke <strong>AI (kunstig intelligens)</strong> i applikasjonene?",
+      "subtitle": "Trenger du en AI i applikasjonen?",
+      "options": {
+        "yes": "Mye bruk av AI",
+        "no": "Skal ikke bruke AI ennå",
+        "not_sure": "Noe bruk av AI"
+      }
+    },
     "brand": {
       "title": "Trenger du å et <strong>brand</strong> og en designprofil?",
       "subtitle": "Trenger du logo, utvalg av fonter, farger og markedsføringsgrunnlag osv.?",
@@ -1307,6 +1318,10 @@
         "administration": {
           "yes": "Administrasjonspanel for styring av applikasjonen(e)",
           "not_sure": "Usikker på om administrasjonspanel er nødvendig"
+        },
+        "ai":  {
+          "yes": "Utstrakt bruk av AI (kunstig intelligens)",
+          "not_sure": "kan bruke AI (kunstig intelligens)"
         },
         "appearance": {
           "basic": "Standard design",

@@ -18,6 +18,7 @@ const useRedirectCondition = ({
 
   useEffect(() => {
     const deepRoutesArr = [
+      'ai',
       'administration',
       'localization',
       'authentication',
