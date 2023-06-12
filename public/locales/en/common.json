@@ -760,6 +760,7 @@
       "platforms": "platforms",
       "analogues": "analogues",
       "industries": "industries",
+      "ai": "ai",
       "web": "web",
       "mobile": "android-and-ios",
       "web_and_mobile": "web-and-android-and-ios",
@@ -779,6 +780,7 @@
       "spotify": "spotify",
       "medium": "medium",
       "e_commerce": "e-commerce",
+
       "sports_and_fitness": "sports-and-fitness",
       "media_and_entertainment": "media-and-entertainment",
       "food": "food",
@@ -812,6 +814,7 @@
         "platforms": "platforms",
         "analogues": "analogues",
         "industries": "industries",
+        "ai": "ai",
         "web": "web",
         "android-and-ios": "mobile",
         "web-and-android-and-ios": "web_and_mobile",
@@ -1204,6 +1207,15 @@
         "not_sure": "Not sure"
       }
     },
+    "ai": {
+      "title": "Do you want to make use of <strong>AI</strong> in your application?",
+      "subtitle": "Will you need an AI in the application?",
+      "options": {
+        "yes": "Yes, extensive use of AI",
+        "no": "No, not yet anyway",
+        "not_sure": "Yes, of course"
+      }
+    },
     "brand": {
       "title": "Do you need <strong>brand</strong> development?",
       "subtitle": "Do you need a logo, selection of fonts, colors, advertising products?",
@@ -1303,6 +1315,10 @@
           "dating": "For dating",
           "productivity": "For productivity",
           "another": "For X industry"
+        },
+        "ai":  {
+           "yes": "Extensive use of AI",
+            "not_sure": "May use of AI"
         },
         "administration": {
           "yes": "Admin panel",

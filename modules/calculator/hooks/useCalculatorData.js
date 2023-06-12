@@ -1,6 +1,22 @@
 import { useEffect, useState, useLayoutEffect } from 'react'
 import ls from '../utils/ls'
 
+const initialState = {
+  platforms: null,
+  analogues: null,
+  industries: null,
+  administration: null,
+  localization: null,
+  ai: null,
+  authentication: null,
+  external_service: null,
+  appearance: null,
+  brand: null,
+  revenue: null,
+  currentRoute: null,
+  paymentOption: null,
+  userEmail: null
+}
 /**
  * It takes a routes object as an argument, and then returns an object that contains the calculatorData
  * state, and two functions that can be used to update the calculatorData state
@@ -12,19 +28,7 @@ import ls from '../utils/ls'
 const useCalculatorData = (routes, initialData) => {
   /* Setting the initial state of the data object. */
   const [calculatorData, setCalculatorData] = useState({
-    platforms: null,
-    analogues: null,
-    industries: null,
-    administration: null,
-    localization: null,
-    authentication: null,
-    external_service: null,
-    appearance: null,
-    brand: null,
-    revenue: null,
-    currentRoute: null,
-    paymentOption: null,
-    userEmail: null,
+    ...initialState,
     ...initialData
   })
 
@@ -48,18 +52,7 @@ const useCalculatorData = (routes, initialData) => {
 
   const reset = () => {
     setCalculatorData({
-      platforms: null,
-      analogues: null,
-      industries: null,
-      administration: null,
-      localization: null,
-      authentication: null,
-      external_service: null,
-      appearance: null,
-      brand: null,
-      revenue: null,
-      currentRoute: null,
-      userEmail: null,
+      ...initialState,
       ...initialData
     })
   }
