@@ -31,7 +31,7 @@ const useWriteSelectedOption = (calculatorData) => {
       ...calculatorData,
       isWelcomeScreenPassed
     }
-    if (isWelcomeScreenPassed) {
+    if (isWelcomeScreenPassed && !cashedCalculatorData?.enteredEmail) {
       preparedCalculatorData.enteredEmail = calculatorData?.userEmail
         ? 'YES'
         : 'NO'
