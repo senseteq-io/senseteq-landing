@@ -38,6 +38,7 @@ const PageWrapper = (props) => {
     setActiveMenuItem(pathname)
   }, [router])
 
+  console.log(process.env.NODE_ENV)
   return (
     <>
       <PageMeta {...pageMetaProps} />
