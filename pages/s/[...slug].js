@@ -117,7 +117,7 @@ export default function CalculatorAll() {
         </CalculatorProvider>
       </Content>
       <Footer />
-      {process.env.NODE_ENV === 'production' && (
+      {process.env.NEXT_PUBLIC_ENVIRONMENT === 'PRODUCTION' && (
         <>
           <Script
             id="pipedriveLeadboosterConfig"
@@ -204,7 +204,7 @@ export default function CalculatorAll() {
               src="https://www.googletagmanager.com/ns.html?id=GTM-THSKD5F"
               height="0"
               width="0"
-              style="display:none;visibility:hidden"></iframe>
+              style={{ display: 'none', visibility: 'hidden' }}></iframe>
           </noscript>
 
           <Script

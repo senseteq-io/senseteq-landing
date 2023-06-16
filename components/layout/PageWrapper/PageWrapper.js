@@ -38,7 +38,6 @@ const PageWrapper = (props) => {
     setActiveMenuItem(pathname)
   }, [router])
 
-  console.log(process.env.NODE_ENV)
   return (
     <>
       <PageMeta {...pageMetaProps} />
@@ -55,7 +54,7 @@ const PageWrapper = (props) => {
         {children}
         <Footer />
       </div>
-      {process.env.NODE_ENV === 'production' && (
+      {process.env.NEXT_PUBLIC_ENVIRONMENT === 'PRODUCTION' && (
         <>
           <Script
             type="text/javascript"
@@ -130,7 +129,7 @@ const PageWrapper = (props) => {
               src="https://www.googletagmanager.com/ns.html?id=GTM-THSKD5F"
               height="0"
               width="0"
-              style="display:none;visibility:hidden"></iframe>
+              style={{ display: 'none', visibility: 'hidden' }}></iframe>
           </noscript>
 
           <Script
