@@ -54,37 +54,39 @@ const PageWrapper = (props) => {
         {children}
         <Footer />
       </div>
-      <Script
-        type="text/javascript"
-        id="hs-script-loader"
-        async
-        defer
-        src="//js-eu1.hs-scripts.com/139582962.js"
-      />
-      <Script
-        id="pipedriveLeadboosterConfig"
-        dangerouslySetInnerHTML={{
-          __html: `window.pipedriveLeadboosterConfig = {
+      {process.env.NODE_ENV === 'production' && (
+        <>
+          <Script
+            type="text/javascript"
+            id="hs-script-loader"
+            async
+            defer
+            src="//js-eu1.hs-scripts.com/139582962.js"
+          />
+          <Script
+            id="pipedriveLeadboosterConfig"
+            dangerouslySetInnerHTML={{
+              __html: `window.pipedriveLeadboosterConfig = {
         base: 'leadbooster-chat.pipedrive.com',
         companyId: 10552104,playbookUuid: 'f467b8c0-118f-4e92-90de-213f5ac7c5e9',
         version: 2};(function () {var w = window;if (w.LeadBooster) {console.warn('LeadBooster already exists');} else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();`
-        }}
-      />
-      <Script
-        src="https://leadbooster-chat.pipedrive.com/assets/loader.js"
-        async
-        onLoad={addClassToLeadBooster}
-      />
-      <Script
-        id="function"
-        dangerouslySetInnerHTML={{
-          __html: `(function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('JMvZ8g0A90z72pOd'); `
-        }}
-      />
-      <Script
-        id="VIDEOASK_EMBED_CONFIG"
-        dangerouslySetInnerHTML={{
-          __html: `window.VIDEOASK_EMBED_CONFIG = {
+            }}
+          />
+          <Script
+            src="https://leadbooster-chat.pipedrive.com/assets/loader.js"
+            async
+            onLoad={addClassToLeadBooster}
+          />
+          <Script
+            id="function"
+            dangerouslySetInnerHTML={{
+              __html: `(function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('JMvZ8g0A90z72pOd'); `
+            }}
+          />
+          <Script
+            id="VIDEOASK_EMBED_CONFIG"
+            dangerouslySetInnerHTML={{
+              __html: `window.VIDEOASK_EMBED_CONFIG = {
       "kind": "widget",
       "url": "https://www.videoask.com/fxat2tdbz",
       "options": {
@@ -95,13 +97,13 @@ const PageWrapper = (props) => {
         "dismissable": true
       }
     }`
-        }}
-      />
-      <Script src="https://www.videoask.com/embed/embed.js" async />
-      <Script
-        id="fb-pixel"
-        dangerouslySetInnerHTML={{
-          __html: `
+            }}
+          />
+          <Script src="https://www.videoask.com/embed/embed.js" async />
+          <Script
+            id="fb-pixel"
+            dangerouslySetInnerHTML={{
+              __html: `
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -113,33 +115,35 @@ const PageWrapper = (props) => {
             fbq('init', '444826330701945');
             fbq('track', 'PageView');
           `
-        }}
-      />
-      <noscript>
-        <img
-          height="1"
-          width="1"
-          alt="Senseteq"
-          style={{ display: 'none' }}
-          src="https://www.facebook.com/tr?id=444826330701945&ev=PageView&noscript=1"
-        />
-      </noscript>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-88MBKN1GZG"
-        async
-      />
-      <Script
-        id="google-tag-manager"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+            }}
+          />
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              alt="Senseteq"
+              style={{ display: 'none' }}
+              src="https://www.facebook.com/tr?id=444826330701945&ev=PageView&noscript=1"
+            />
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-THSKD5F"
+              height="0"
+              width="0"
+              style="display:none;visibility:hidden"></iframe>
+          </noscript>
 
-            gtag('config', 'G-88MBKN1GZG');
-            `
-        }}
-      />
+          <Script
+            id="GOOGLE_TAG_MANAGER"
+            dangerouslySetInnerHTML={{
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'(https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f))https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)
+})(window,document,'script','dataLayer','GTM-THSKD5F');`
+            }}
+          />
+        </>
+      )}
     </>
   )
 }
