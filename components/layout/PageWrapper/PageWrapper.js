@@ -56,7 +56,8 @@ const PageWrapper = (props) => {
       </div>
       {process.env.NEXT_PUBLIC_ENVIRONMENT === 'PRODUCTION' && (
         <>
-          <Script
+        {/* TEMPORARY HIDDEN */}
+          {/* <Script
             type="text/javascript"
             id="hs-script-loader"
             async
@@ -99,7 +100,7 @@ const PageWrapper = (props) => {
     }`
             }}
           />
-          <Script src="https://www.videoask.com/embed/embed.js" async />
+          <Script src="https://www.videoask.com/embed/embed.js" async /> */}
           <Script
             id="fb-pixel"
             dangerouslySetInnerHTML={{

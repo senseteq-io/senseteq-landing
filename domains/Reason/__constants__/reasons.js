@@ -4,12 +4,12 @@ const REASONS = [
     description: 'constants.reasons.startup.description'
   },
   {
-    title: 'constants.reasons.difference.title',
-    description: 'constants.reasons.difference.description'
+    title: 'constants.reasons.purpose.title',
+    description: 'constants.reasons.purpose.description'
   },
   {
-    title: 'constants.reasons.care.title',
-    description: 'constants.reasons.care.description'
+    title: 'constants.reasons.trust.title',
+    description: 'constants.reasons.trust.description'
   }
 ]
 

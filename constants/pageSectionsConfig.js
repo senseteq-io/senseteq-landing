@@ -4,10 +4,10 @@ const PAGE_SECTIONS_CONFIG = {
       title: 'constants.page_sections_config.home.prime_section.title',
       idSection: 'prime-section'
     },
-    {
-      title: 'constants.page_sections_config.home.how_we_do_it_section.title',
-      idSection: 'how-we-do-it-section'
-    },
+    // {
+    //   title: 'constants.page_sections_config.home.how_we_do_it_section.title',
+    //   idSection: 'how-we-do-it-section'
+    // },
     {
       title: 'constants.page_sections_config.home.services_section.title',
       idSection: 'services-section'
@@ -18,7 +18,7 @@ const PAGE_SECTIONS_CONFIG = {
       idSection: 'project-support-section'
     },
     {
-      title: 'constants.page_sections_config.home.guarantees_section.title',
+      title: 'constants.page_sections_config.home.delivery_section.title',
       idSection: 'guarantees-section'
     },
     {
@@ -38,11 +38,12 @@ const PAGE_SECTIONS_CONFIG = {
         'constants.page_sections_config.home.companies_support_section.title',
       idSection: 'companies-support-section'
     },
-    {
-      title:
-        'constants.page_sections_config.home.ukranian_developers_section.title',
-      idSection: 'ukranian-developers-section'
-    },
+    // This section is not used and provide a link error
+    // {
+    //   title:
+    //     'constants.page_sections_config.home.ukranian_developers_section.title',
+    //   idSection: 'ukranian-developers-section'
+    // },
     {
       title: 'constants.page_sections_config.home.about_senseteq_section.title',
       idSection: 'about-senseteq-section'

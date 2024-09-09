@@ -7,7 +7,7 @@ const ContactList = (props) => {
     <List
       data={CONTACTS}
       listItemComponent={ContactView}
-      listItemWrapperClassName="col-12 col-lg-4 contact-item-wrapper"
+      listItemWrapperClassName="col-12 col-lg-6 contact-item-wrapper"
       itemScope
       itemType="https://schema.org/Organization"
       {...props}

@@ -1,7 +1,7 @@
-import { PAGE_SECTIONS_CONFIG, PRICES_AND_PACKAGES_ITEMS } from '../constants'
-import { PageWrapper, Section, Text, Title } from '../components'
+import { PAGE_SECTIONS_CONFIG, PRICES_AND_PACKAGES_ITEMS } from '../../constants'
+import { PageWrapper, Section, Text, Title } from '../../components'
 
-import { PackageList } from '../domains/Package/components'
+import { PackageList } from '../../domains/Package/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 

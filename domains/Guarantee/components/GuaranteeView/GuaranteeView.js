@@ -1,8 +1,9 @@
-import { Title } from '../../../../components'
+import { Text, Title } from '../../../../components'
+
 import { useTranslation } from 'next-i18next'
 
 const GuaranteeView = (props) => {
-  const { title } = props
+  const { title, subtitle } = props
 
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
@@ -10,7 +11,8 @@ const GuaranteeView = (props) => {
 
   return (
     <div className="guarantee-item">
-      <Title as="h6">{t(title)}</Title>
+      <Title as="h5">{t(title)}</Title>
+      <Text>{t(subtitle)}</Text>
     </div>
   )
 }

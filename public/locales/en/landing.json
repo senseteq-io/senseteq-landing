@@ -121,8 +121,8 @@
   },
   "home": {
     "prime_section": {
-      "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days<span class='c-primary'>.</span>",
-      "subtitle": "Do you think this is impossible? Scroll down to see how we do it.",
+      "title": "<span class='regular'>Transform Your Vision into </span>Cutting-Edge Apps<span class='c-primary'>.</span>",
+      "subtitle": "At Senseteq, we build powerful web, mobile, and server applications, integrate AI systems, and craft user-centered designs—solving complex problems for startups and established businesses alike.",
       "arrow_alt": "Arrow",
       "arrow_aria": "Go to next section"
     },
@@ -130,17 +130,19 @@
       "title": "<span class='regular'>How do we</span> do it<span class='c-primary'>?</span>"
     },
     "services_section": {
-      "title": "<span class='regular'>Our</span> Services<span class='c-primary'>.</span>"
+      "title": "<span class='regular'>Our</span> Services<span class='c-primary'>.</span>",
+      "subtitle": "We offer a full suite of services designed to bring your ideas to life and scale your business:"
     },
     "project_support_section": {
-      "title": "<span class='regular'>We can develop and support no more than</span> 24 projects per year<span class='c-primary'>.</span>",
-      "subtitle": "We will take your if:",
+      "title": "Who We Work With<span class='c-primary'>.</span>",
+      "subtitle": "We partner with startups and established companies that share our passion for innovation, impact, and trust.",
       "uptitle": "LEFT IN 2023",
       "subtitle2": "18 projects<span class='c-primary'>.</span>",
       "buttonText": "Apply now"
     },
-    "guarantees_section": {
-      "title": "<span class='regular'>We </span>guarantee<span class='c-primary'>.</span>"
+    "delivery_section": {
+      "title": "What We Deliver<span class='c-primary'>.</span>",
+      "subtitle": "At Senseteq, we don't just build apps—we deliver high-performance solutions that scale with your business. Here's what you can expect:"
     },
     "industries_section": {
       "title": "Industries<span class='c-primary'>.</span>"
@@ -152,7 +154,7 @@
       "buttonAria": "Learn more technologies"
     },
     "how_it_works_section": {
-      "title": "<span class='regular'>How does </span>it work<span class='c-primary'>?</span>",
+      "title": "<span class='regular'>How we </span>work<span class='c-primary'>?</span>",
       "subtitle": "How is the process? What happens when I am taken on as a customer?",
       "buttonText": "Learn more",
       "buttonAria": "Learn more how it works"
@@ -162,7 +164,7 @@
     },
     "ukranian_developers_section": {
       "title": "<span class='regular'>Why </span>Ukraine developers<span class='c-primary'>?</span>",
-      "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries’ top the list for most advanced software development skillset."
+      "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries' top the list for most advanced software development skillset."
     },
     "about_senseteq_section": {
       "title": "<span class='regular'>About </span>Senseteq<span class='c-primary'>.</span>",
@@ -240,8 +242,8 @@
   },
   "process": {
     "prime_section": {
-      "title": "How is the process<span class='c-primary'>?</span>",
-      "subtitle": "What can you expect when you are selected as a customer with us?"
+      "title": "How We Work<span class='c-primary'>?</span>",
+      "subtitle": "We take a structured, transparent approach to ensure your project's success from start to finish:"
     }
   },
   "constants": {
@@ -272,52 +274,73 @@
       }
     },
     "services": {
-      "back-end": "Complex back-end apps",
-      "front-end": "Front-end web apps",
-      "mobile_apps": "Mobile apps",
-      "consulting": "Custom technology consulting",
-      "prototyping": "Prototyping",
-      "design": "UI/UX design",
-      "management": "Project management"
+      "ai": {
+        "title": "AI-Powered Applications",
+        "subtitle": "Seamlessly integrate AI to enhance user experience, automate tasks, and boost decision-making"
+      },
+      "back-end": {
+        "title": "Complex Back-End Development",
+        "subtitle": "Build robust, scalable server-side systems that support your business"
+      },
+      "front-end": {
+        "title": "Front-End Web Development",
+        "subtitle": "Create responsive and visually stunning web applications"
+      },
+      "mobile_apps": {
+        "title": "Mobile App Development",
+        "subtitle": "Design sleek, user-friendly apps for iOS and Android"
+      },
+      "consulting": {
+        "title": "Custom Technology Consulting",
+        "subtitle": "Tailored advice to tackle your unique technical challenges"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "subtitle": "Turn your ideas into interactive prototypes quickly and efficiently"
+      },
+      "design": {
+        "title": "UI/UX design",
+        "subtitle": "Deliver exceptional user experiences through thoughtful design"
+      },
+      "management": {
+        "title": "Project management",
+        "subtitle": "Ensure seamless execution with agile project management"
+      }
     },
     "reasons": {
       "startup": {
-        "title": "Your are a startup",
-        "description": "You are an entrepeneur in a startup, or you are head of a new project within an established company."
+        "title": "Innovative Startups",
+        "description": "Whether you're a founder or leading a new project within a larger organization, we collaborate with ventures that push boundaries."
       },
-      "difference": {
-        "title": "You make a difference",
-        "description": "Your idea or project will make a positive impact on peoples lives, in any part of their wellbeing."
+      "purpose": {
+        "title": "Purpose-Driven Projects",
+        "description": "We're drawn to ideas that make a meaningful difference in people's lives, whether in health, education, or overall well-being."
       },
-      "care": {
-        "title": "You care",
-        "description": "Business is done between people, not companies. We are a high trust company and we work together with companies that also take care of their employees and trust them."
+      "trust": {
+        "title": "High-Trust Companies",
+        "description": "We believe in building relationships with companies that value their teams and foster an environment of mutual respect and trust."
       }
     },
     "guarantees": {
-      "fast_mvp": {
-        "title": "Fast creation of MVP version"
+      "tailored_solutions": {
+        "title": "Tailored Solutions",
+        "subtitle": "We craft solutions that fit your business needs, whether it's a complex enterprise system or a mobile app"
       },
-      "quickly_changes": {
-        "title": "Quickly make any changes to the project"
+      "scalable_architectures": {
+        "title": "Scalable Architectures",
+        "subtitle": "Built for growth, your app will easily adapt as your user base expands"
       },
-      "scaling": {
-        "title": "Easy scaling"
-      },
-      "high_performance": {
-        "title": "High app performance"
+      "performance_security": {
+        "title": "High Performance & Security",
+        "subtitle": "Our apps are optimized for speed and designed with the highest security standards in mind"
       },
       "user_experience": {
-        "title": "User experience"
-      },
-      "security": {
-        "title": "Serious about security and sensitive data"
-      },
-      "quality": {
-        "title": "Quality assurance"
+        "title": "Seamless User Experience",
+        "subtitle": "Intuitive interfaces that delight users and keep them engaged"
       },
       "technology_stack": {
-        "title": "Best technology stack"
+        "title": "Flexible & Future-Proof Technology Stack",
+        "subtitle": "We use cutting-edge technology to ensure long-term success and adaptability"
       }
     },
     "industries": {
@@ -386,28 +409,33 @@
     },
     "customers_slides": {
       "menta": {
-        "description": "Menta Health is an international initiative to improve and streamline the treatment of anxiety and depression.",
+        "description": " An online clinic that provides accessible mental health services for a range of conditions.",
         "aria": "Go to Menta slide"
       },
-      "worktube": {
-        "description": "Worktube is an automated recruitment and staffing service.",
-        "aria": "Go to Menta slide"
+      "wib": {
+        "description": "A platform connecting women entrepreneurs with investors, empowering the next wave of business leaders.",
+        "aria": "Go to Woman in Business slide"
       },
-      "b2g": {
-        "description": "Buy2gether is an app that makes it easy and safe to buy an apartment with others.",
-        "aria": "Go to Buy2gether slide"
+      "letme": {
+        "description": "A staff management app designed specifically for the fast-paced restaurant industry.",
+        "aria": "Go to Letme slide"
       },
-      "qonsoll": {
-        "description": "Qonsoll is a toolbox for developers, which automates, simplifies and increases the quality of development work.",
-        "aria": "Go to Qonsoll slide"
+      "tipps": {
+        "description": "A unique platform that lets users report incidents to the media and receive rewards.",
+        "aria": "Go to Tipps slide",
+        "button_text": "Download"
       },
-      "fractal": {
-        "description": "Fractal Academy is a future-oriented academy that teaches young developers today's and tomorrow's development tools. Free.",
-        "aria": "Go to Fractal Academy slide"
+      "alfa_bolig": {
+        "description": "A tool that ensures apartments meet all safety standards with ease.",
+        "aria": "Go to Alfa Bolig slide"
+      },
+      "kapitall": {
+        "description": "A rental project calculator that helps real estate investors maximize their returns and make informed decisions faster.",
+        "aria": "Go to Kapitall slide"
       },
       "can_eat": {
-        "description": "CanEat is an ecosystem for everyone who needs customized food, their relatives, food producers and healthcare professionals.",
-        "aria": "Go to Can Eat slide",
+        "description": "A barcode-scanning app that allows users to instantly know if a product fits their dietary needs.",
+        "aria": "Go to CanEat slide",
         "button_text": "Download"
       }
     },
@@ -450,31 +478,39 @@
       }
     },
     "process_steps": {
-      "selections": {
-        "title": "Selection",
-        "description": "After the first contact and having received a description of the project, we make an assessment to ensure that it is a good match for our development teams and that the project has a positive impact on people's lives."
+      "consultation": {
+        "title": "Initial Consultation",
+        "description": "We meet to understand your project's vision and objectives."
       },
-      "offer": {
-        "title": "Offer and specification",
-        "description": "After agreeing on the different personas and scenarios for them, we specify an offer at a fixed price for a well-defined scope."
+      "requirements_gathering": {
+        "title": "Requirements Gathering",
+        "description": "Together, we define the key requirements and scope of the project, ensuring we're aligned on the end goals."
       },
-      "start-up": {
-        "title": "Start-up",
-        "description": "Upon approval of the offer, a dedicated development team will be assigned. It is optional how much you as a customer want to be involved along the way."
+      "documentation_design": {
+        "title": "Technical Documentation & UI/UX Design",
+        "description": "We create a detailed technical plan and design wireframes to visualize the user journey."
+      },
+      "project_estimation": {
+        "title": "Project Estimation",
+        "description": "We provide a clear timeline and cost estimate based on the scope of work."
+      },
+      "roadmap_planning": {
+        "title": "Roadmap & Planning",
+        "description": "A comprehensive project roadmap is prepared, outlining all phases of development."
       },
       "development": {
-        "title": "Development",
-        "description": "In this phase, you as a customer will see very fast progress, and it will be exciting to follow from day to day, if you wish."
+        "title": "Development (Agile/SCRUM)",
+        "description": "Our development team gets to work, delivering updates regularly and incorporating your feedback throughout the process."
       },
       "launch": {
-        "title": "Launch",
-        "description": "We recommend that the application is launched and tested on real customers as soon as possible. Although both bug fixes and even better functionality are planned. You get the best feedback from users. Always."
+        "title": "Launch & Support",
+        "description": "Once ready, we launch the app and offer ongoing support to ensure smooth performance and continuous improvement."
       }
     },
     "page_sections_config": {
       "home": {
         "prime_section": {
-          "title": "First version in 19 days"
+          "title": "Transform your vision"
         },
         "how_we_do_it_section": {
           "title": "How do we do it?"
@@ -483,10 +519,10 @@
           "title": "Our services"
         },
         "project_support_section": {
-          "title": "Number of projects"
+          "title": "Who we work with"
         },
-        "guarantees_section": {
-          "title": "We guarantee"
+        "delivery_section": {
+          "title": "What we deliver"
         },
         "industries_section": {
           "title": "Industries"
@@ -495,7 +531,7 @@
           "title": "Technologies"
         },
         "how_it_works_section": {
-          "title": "The process"
+          "title": "How we work"
         },
         "companies_support_section": {
           "title": "Supported by"

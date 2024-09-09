@@ -121,8 +121,8 @@
   },
   "home": {
     "prime_section": {
-      "title": "<span class='regular'>Vi leverer en </span>førsteversjon<span class='regular'> av din applikasjon </span> på 19 dager<span class='c-primary'>.</span>",
-      "subtitle": "Tenker du at det er umulig? Les videre for å se hvordan vi jobber.",
+      "title": "<span class='regular'>Forvandle din visjon til </span>banebrytende apper<span class='c-primary'>.</span>",
+      "subtitle": "Hos Senseteq bygger vi kraftige web-, mobil- og serverapplikasjoner, integrerer AI-systemer, og skaper brukersentrerte design – vi løser komplekse problemer for både startups og etablerte selskaper.",
       "arrow_alt": "Pil",
       "arrow_aria": "Gå til neste avsnitt"
     },
@@ -130,17 +130,19 @@
       "title": "<span class='regular'>Hvordan er det</span> mulig<span class='c-primary'>?</span>"
     },
     "services_section": {
-      "title": "<span class='regular'>Våre</span> tjenester<span class='c-primary'>.</span>"
+      "title": "<span class='regular'>Våre</span> tjenester<span class='c-primary'>.</span>",
+      "subtitle": "Vi tilbyr et komplett spekter av tjenester som er utformet for å bringe dine ideer til live og skalere din virksomhet:"
     },
     "project_support_section": {
-      "title": "<span class='regular'>Vi utvikler og supporterer maksimalt</span> 24 prosjekter i året<span class='c-primary'>.</span>",
-      "subtitle": "Du kan bli vår kunde dersom:",
+      "title": "Hvem Vi Samarbeider Med<span class='c-primary'>.</span>",
+      "subtitle": "Vi samarbeider med startups og etablerte selskaper som deler vår lidenskap for innovasjon, innvirkning og tillit.",
       "uptitle": "LEDIG I 2023",
       "subtitle2": "18 prosjekter<span class='c-primary'>.</span>",
       "buttonText": "Søk nå"
     },
-    "guarantees_section": {
-      "title": "<span class='regular'>Vi </span>garanterer<span class='c-primary'>.</span>"
+    "delivery_section": {
+      "title": "Hva Vi Leverer<span class='c-primary'>.</span>",
+      "subtitle": "Hos Senseteq bygger vi ikke bare apper – vi leverer høyytelsesløsninger som skalerer med din virksomhet. Her er hva du kan forvente:"
     },
     "industries_section": {
       "title": "Bransjer<span class='c-primary'>.</span>"
@@ -152,7 +154,7 @@
       "buttonAria": "Lær flere teknologier"
     },
     "how_it_works_section": {
-      "title": "<span class='regular'>Hvordan er det </span>mulig<span class='c-primary'>?</span>",
+      "title": "<span class='regular'>Hvordan Vi </span>Arbeider<span class='c-primary'>?</span>",
       "subtitle": "Hvordan er prosessen? Hva skjer når jeg blir akseptert som kunde?",
       "buttonText": "Klikk for å lære mer",
       "buttonAria": "Finn ut mer hvordan det fungerer"
@@ -240,8 +242,8 @@
   },
   "process": {
     "prime_section": {
-      "title": "Hvordan er prosessen<span class='c-primary'>?</span>",
-      "subtitle": "Hva kan du forvente når du blir utvalgt som kunde hos oss?"
+      "title": "Hvordan Vi Arbeider<span class='c-primary'>?</span>",
+      "subtitle": "Vi følger en strukturert, transparent tilnærming for å sikre prosjektets suksess fra start til slutt:"
     }
   },
   "constants": {
@@ -272,52 +274,73 @@
       }
     },
     "services": {
-      "back-end": "Komplekse back-end applikasjoner",
-      "front-end": "Front-end web applikasjoner",
-      "mobile_apps": "Mobilapplikasjoner",
-      "consulting": "Invividuell teknologikonsultasjon",
-      "prototyping": "Utvikling av prototype",
-      "design": "UI/UX design",
-      "management": "Prosjektstyring"
+      "ai": {
+        "title": "AI-drevne applikasjoner",
+        "subtitle": "Integrer AI sømløst for å forbedre brukeropplevelsen, automatisere oppgaver og styrke beslutningstakingen"
+      },
+      "back-end": {
+        "title": "Kompleks back-end utvikling",
+        "subtitle": "Bygg robuste og skalerbare serverløsninger som støtter din virksomhet"
+      },
+      "front-end": {
+        "title": "Front-end webutvikling",
+        "subtitle": "Lag responsive og visuelt imponerende webapplikasjoner"
+      },
+      "mobile_apps": {
+        "title": "Mobilapplikasjoner",
+        "subtitle": "Design elegante, brukervennlige apper for iOS og Android"
+      },
+      "consulting": {
+        "title": "Skreddersydd teknologirådgivning",
+        "subtitle": "Tilpassede råd for å løse dine unike tekniske utfordringer"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "subtitle": "Gjør dine ideer om til interaktive prototyper raskt og effektivt"
+      },
+      "design": {
+        "title": "UI/UX-design",
+        "subtitle": "Lever enestående brukeropplevelser gjennom gjennomtenkt design"
+      },
+      "management": {
+        "title": "Prosjektledelse",
+        "subtitle": "Sikre sømløs gjennomføring med smidig prosjektledelse"
+      }
     },
     "reasons": {
       "startup": {
-        "title": "Du er gründer",
-        "description": "Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma."
+        "title": "Innovative startups",
+        "description": "Enten du er en gründer eller leder et nytt prosjekt i en større organisasjon, samarbeider vi med prosjekter som utfordrer status quo."
       },
-      "difference": {
-        "title": "Du vil gjøre en forskjell",
-        "description": "Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv."
+      "purpose": {
+        "title": "Formålsdrevne prosjekter",
+        "description": "Vi tiltrekkes av ideer som gjør en meningsfull forskjell i menneskers liv, enten det er innen helse, utdanning eller velvære."
       },
-      "care": {
-        "title": "Du bryr deg",
-        "description": "Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem."
+      "trust": {
+        "title": "Høytillitsselskaper",
+        "description": "Vi tror på å bygge relasjoner med selskaper som verdsetter sine ansatte og fremmer et miljø av gjensidig respekt og tillit."
       }
     },
     "guarantees": {
-      "fast_mvp": {
-        "title": "Lynrask utvikling av en førsteversjon"
+      "tailored_solutions": {
+        "title": "Skreddersydde løsninger",
+        "subtitle": "Vi utvikler løsninger som passer dine forretningsbehov, enten det er et komplekst system eller en mobilapp"
       },
-      "quickly_changes": {
-        "title": "Raskt og enkelt å gjøre endringer i prosjektet"
+      "scalable_architectures": {
+        "title": "Skalerbare arkitekturer",
+        "subtitle": "Bygget for vekst, vil din app enkelt tilpasse seg et voksende brukerantall"
       },
-      "scaling": {
-        "title": "Enkel oppskalering"
-      },
-      "high_performance": {
-        "title": "Applikasjoner med høy ytelse"
+      "performance_security": {
+        "title": "Høy ytelse og sikkerhet",
+        "subtitle": "Våre apper er optimalisert for hastighet og designet med de høyeste sikkerhetsstandardene"
       },
       "user_experience": {
-        "title": "Fokus på brukeropplevelse"
-      },
-      "security": {
-        "title": "Fokus på sikkerhet og verning av sensitive data"
-      },
-      "quality": {
-        "title": "Kvalitetssikring"
+        "title": "Sømløs brukeropplevelse",
+        "subtitle": "Intuitive grensesnitt som gleder brukerne og holder dem engasjert"
       },
       "technology_stack": {
-        "title": "Beste utvalg av teknologier"
+        "title": "Fleksibel og fremtidssikker teknologi",
+        "subtitle": "Vi bruker toppmoderne teknologi for å sikre langsiktig suksess og tilpasningsevne"
       }
     },
     "industries": {
@@ -386,28 +409,33 @@
     },
     "customers_slides": {
       "menta": {
-        "description": "Menta Helse er en internasjonal satsing for å forbedre og effektivisere behandling av angst - og depresjonslidelser.",
+        "description": "En nettklinikk som tilbyr tilgjengelige mentale helsetjenester for ulike tilstander.",
         "aria": "Gå til Menta slide"
       },
-      "worktube": {
-        "description": "Worktube er en automatisert rekrutterings- og bemanningstjeneste.",
-        "aria": "Gå til Worktube slide"
+      "wib": {
+        "description": "En plattform som kobler kvinnelige gründere med investorer, og styrker neste generasjon ledere.",
+        "aria": "Gå til Woman in Business slide"
       },
-      "b2g": {
-        "description": "Buy2gether er en app som gjør det enkelt og trygt å kjøpe leilighet sammen med andre.",
-        "aria": "Gå til Buy2gether slide"
+      "letme": {
+        "description": "En personaladministrasjonsapp spesielt designet for den hektiske restaurantbransjen.",
+        "aria": "Gå til Letme slide"
       },
-      "qonsoll": {
-        "description": "Qonsoll er en verktøykasse for utviklere, som automatiserer, forenkler og øker kvaliteten på utviklingsarbeid.",
-        "aria": "Gå til Qonsoll slide"
+      "tipps": {
+        "description": "En plattform som lar brukerne rapportere hendelser til media og motta belønninger.",
+        "aria": "Gå til Tipps slide",
+        "button_text": "Nedlasting"
       },
-      "fractal": {
-        "description": "Fractal Academy er et fremtidsrettet akademi som underviser unge utviklere i dagens og morgendagens utviklingsverktøy. Gratis.",
-        "aria": "Gå til Fractal Academy slide"
+      "alfa_bolig": {
+        "description": "Et verktøy som sikrer at leiligheter oppfyller alle sikkerhetsstandarder enkelt.",
+        "aria": "Gå til Alfa Bolig slide"
+      },
+      "kapitall": {
+        "description": "En kalkulator for utleieprosjekter som hjelper eiendomsinvestorer med å maksimere avkastningen og ta informerte beslutninger raskere.",
+        "aria": "Gå til Kapitall slide"
       },
       "can_eat": {
-        "description": "CanEat er et økosystem for alle som trenger tilpasset mat, deres pårørende, matprodusenter og helsepersonell.",
-        "aria": "Gå til Can Eat slide",
+        "description": "En app som skanner strekkoder og lar brukerne umiddelbart vite om et produkt passer deres kosthold.",
+        "aria": "Gå til CanEat slide",
         "button_text": "Nedlasting"
       }
     },
@@ -454,31 +482,39 @@
       }
     },
     "process_steps": {
-      "selections": {
-        "title": "Utvelgelse",
-        "description": "Etter den første kontakten og å ha fått en beskrivelse av prosjektet, gjør vi en vurdering for å sikre at det er en god match for våre utviklerteam og at prosjektet har positiv innvirkning på menneskers liv."
+      "consultation": {
+        "title": "Første konsultasjon",
+        "description": "Vi møtes for å forstå din visjon og dine mål for prosjektet."
       },
-      "offer": {
-        "title": "Tilbud og spesifikasjon",
-        "description": "Etter å ha blitt enige om de ulike personas og scenarioer for dem, spesifiserer vi et tilbud til fast pris for et godt definert scope."
+      "requirements_gathering": {
+        "title": "Kravinnsamling",
+        "description": "Sammen definerer vi de viktigste kravene og omfanget av prosjektet, slik at vi er på samme linje med sluttresultatet."
       },
-      "start-up": {
-        "title": "Oppstart",
-        "description": "Ved godkjenning av tilbud vil et dedikert utviklerteam bli tildelt. Det er valgfritt hvor mye dere som kunde ønsker å være delaktig underveis."
+      "documentation_design": {
+        "title": "Teknisk dokumentasjon & UI/UX-design",
+        "description": "Vi lager en detaljert teknisk plan og designer wireframes for å visualisere brukerreisen."
+      },
+      "project_estimation": {
+        "title": "Prosjektestimering",
+        "description": "Vi gir en klar tidslinje og kostnadsestimat basert på prosjektets omfang."
+      },
+      "roadmap_planning": {
+        "title": "Veikart & planlegging",
+        "description": "En omfattende prosjektplan legges frem, som beskriver alle utviklingsfaser."
       },
       "development": {
-        "title": "Utvikling",
-        "description": "I denne fasen vil du som kunde se veldig rask fremdrift, og det vil oppleves spennende å følge med fra dag til dag, dersom du ønsker det."
+        "title": "Utvikling (Agile/SCRUM)",
+        "description": "Vårt utviklingsteam setter i gang, leverer regelmessige oppdateringer og integrerer din tilbakemelding underveis."
       },
       "launch": {
-        "title": "Lansering",
-        "description": "Vi anbefaler at applikasjonen lanseres og prøves på ekte kunder så raskt som mulig. Selv om det er planlagt både feilrettinger og enda bedre funksjonalitet. Den beste tilbakemeldingen får du hos brukerne. Alltid."
+        "title": "Lansering & støtte",
+        "description": "Når appen er klar, lanserer vi den og tilbyr løpende støtte for å sikre jevn ytelse og kontinuerlige forbedringer."
       }
     },
     "page_sections_config": {
       "home": {
         "prime_section": {
-          "title": "Førsteversjon på 19 dager"
+          "title": "Forvandle din visjon"
         },
         "how_we_do_it_section": {
           "title": "Hvordan er det mulig?"
@@ -487,10 +523,10 @@
           "title": "Våre tjenester"
         },
         "project_support_section": {
-          "title": "Antall prosjekter"
+          "title": "Hvem vi samarbeider med"
         },
-        "guarantees_section": {
-          "title": "Vi garanterer"
+        "delivery_section": {
+          "title": "Hva vi leverer"
         },
         "industries_section": {
           "title": "Bransjer"
@@ -499,7 +535,7 @@
           "title": "Teknologier"
         },
         "how_it_works_section": {
-          "title": "Prosessen"
+          "title": "Hvordan vi arbeider"
         },
         "companies_support_section": {
           "title": "Støttet av"

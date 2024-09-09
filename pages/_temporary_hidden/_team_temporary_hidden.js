@@ -1,8 +1,8 @@
-import { PageWrapper, Section, Text, Title } from '../components'
+import { PageWrapper, Section, Text, Title } from '../../components'
 
-import { PAGE_SECTIONS_CONFIG } from '../constants'
-import { TEAM_MEMBERS } from '../domains/TeamMember/__constants__'
-import { TeamMemberList } from '../domains/TeamMember/components'
+import { PAGE_SECTIONS_CONFIG } from '../../constants'
+import { TEAM_MEMBERS } from '../../domains/TeamMember/__constants__'
+import { TeamMemberList } from '../../domains/TeamMember/components'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
