@@ -154,7 +154,7 @@
       "buttonAria": "Learn more technologies"
     },
     "how_it_works_section": {
-      "title": "<span class='regular'>How does </span>it work<span class='c-primary'>?</span>",
+      "title": "<span class='regular'>How we </span>work<span class='c-primary'>?</span>",
       "subtitle": "How is the process? What happens when I am taken on as a customer?",
       "buttonText": "Learn more",
       "buttonAria": "Learn more how it works"
@@ -242,8 +242,8 @@
   },
   "process": {
     "prime_section": {
-      "title": "How is the process<span class='c-primary'>?</span>",
-      "subtitle": "What can you expect when you are selected as a customer with us?"
+      "title": "How We Work<span class='c-primary'>?</span>",
+      "subtitle": "We take a structured, transparent approach to ensure your project's success from start to finish:"
     }
   },
   "constants": {
@@ -478,25 +478,33 @@
       }
     },
     "process_steps": {
-      "selections": {
-        "title": "Selection",
-        "description": "After the first contact and having received a description of the project, we make an assessment to ensure that it is a good match for our development teams and that the project has a positive impact on people's lives."
+      "consultation": {
+        "title": "Initial Consultation",
+        "description": "We meet to understand your project's vision and objectives."
       },
-      "offer": {
-        "title": "Offer and specification",
-        "description": "After agreeing on the different personas and scenarios for them, we specify an offer at a fixed price for a well-defined scope."
+      "requirements_gathering": {
+        "title": "Requirements Gathering",
+        "description": "Together, we define the key requirements and scope of the project, ensuring we're aligned on the end goals."
       },
-      "start-up": {
-        "title": "Start-up",
-        "description": "Upon approval of the offer, a dedicated development team will be assigned. It is optional how much you as a customer want to be involved along the way."
+      "documentation_design": {
+        "title": "Technical Documentation & UI/UX Design",
+        "description": "We create a detailed technical plan and design wireframes to visualize the user journey."
+      },
+      "project_estimation": {
+        "title": "Project Estimation",
+        "description": "We provide a clear timeline and cost estimate based on the scope of work."
+      },
+      "roadmap_planning": {
+        "title": "Roadmap & Planning",
+        "description": "A comprehensive project roadmap is prepared, outlining all phases of development."
       },
       "development": {
-        "title": "Development",
-        "description": "In this phase, you as a customer will see very fast progress, and it will be exciting to follow from day to day, if you wish."
+        "title": "Development (Agile/SCRUM)",
+        "description": "Our development team gets to work, delivering updates regularly and incorporating your feedback throughout the process."
       },
       "launch": {
-        "title": "Launch",
-        "description": "We recommend that the application is launched and tested on real customers as soon as possible. Although both bug fixes and even better functionality are planned. You get the best feedback from users. Always."
+        "title": "Launch & Support",
+        "description": "Once ready, we launch the app and offer ongoing support to ensure smooth performance and continuous improvement."
       }
     },
     "page_sections_config": {
@@ -523,7 +531,7 @@
           "title": "Technologies"
         },
         "how_it_works_section": {
-          "title": "The process"
+          "title": "How we work"
         },
         "companies_support_section": {
           "title": "Supported by"

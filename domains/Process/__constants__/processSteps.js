@@ -1,15 +1,23 @@
 const PROCESS_STEPS = [
   {
-    name: 'constants.process_steps.selections.title',
-    description: 'constants.process_steps.selections.description'
+    name: 'constants.process_steps.consultation.title',
+    description: 'constants.process_steps.consultation.description'
   },
   {
-    name: 'constants.process_steps.offer.title',
-    description: 'constants.process_steps.offer.description'
+    name: 'constants.process_steps.requirements_gathering.title',
+    description: 'constants.process_steps.requirements_gathering.description'
   },
   {
-    name: 'constants.process_steps.start-up.title',
-    description: 'constants.process_steps.start-up.description'
+    name: 'constants.process_steps.documentation_design.title',
+    description: 'constants.process_steps.documentation_design.description'
+  },
+  {
+    name: 'constants.process_steps.project_estimation.title',
+    description: 'constants.process_steps.project_estimation.description'
+  },
+  {
+    name: 'constants.process_steps.roadmap_planning.title',
+    description: 'constants.process_steps.roadmap_planning.description'
   },
   {
     name: 'constants.process_steps.development.title',

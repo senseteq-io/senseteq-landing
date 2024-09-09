@@ -38,11 +38,11 @@ const PAGE_SECTIONS_CONFIG = {
         'constants.page_sections_config.home.companies_support_section.title',
       idSection: 'companies-support-section'
     },
-    {
-      title:
-        'constants.page_sections_config.home.ukranian_developers_section.title',
-      idSection: 'ukranian-developers-section'
-    },
+    // {
+    //   title:
+    //     'constants.page_sections_config.home.ukranian_developers_section.title',
+    //   idSection: 'ukranian-developers-section'
+    // },
     {
       title: 'constants.page_sections_config.home.about_senseteq_section.title',
       idSection: 'about-senseteq-section'

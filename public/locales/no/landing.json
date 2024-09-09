@@ -154,7 +154,7 @@
       "buttonAria": "Lær flere teknologier"
     },
     "how_it_works_section": {
-      "title": "<span class='regular'>Hvordan er det </span>mulig<span class='c-primary'>?</span>",
+      "title": "<span class='regular'>Hvordan Vi </span>Arbeider<span class='c-primary'>?</span>",
       "subtitle": "Hvordan er prosessen? Hva skjer når jeg blir akseptert som kunde?",
       "buttonText": "Klikk for å lære mer",
       "buttonAria": "Finn ut mer hvordan det fungerer"
@@ -242,8 +242,8 @@
   },
   "process": {
     "prime_section": {
-      "title": "Hvordan er prosessen<span class='c-primary'>?</span>",
-      "subtitle": "Hva kan du forvente når du blir utvalgt som kunde hos oss?"
+      "title": "Hvordan Vi Arbeider<span class='c-primary'>?</span>",
+      "subtitle": "Vi følger en strukturert, transparent tilnærming for å sikre prosjektets suksess fra start til slutt:"
     }
   },
   "constants": {
@@ -482,25 +482,33 @@
       }
     },
     "process_steps": {
-      "selections": {
-        "title": "Utvelgelse",
-        "description": "Etter den første kontakten og å ha fått en beskrivelse av prosjektet, gjør vi en vurdering for å sikre at det er en god match for våre utviklerteam og at prosjektet har positiv innvirkning på menneskers liv."
+      "consultation": {
+        "title": "Første konsultasjon",
+        "description": "Vi møtes for å forstå din visjon og dine mål for prosjektet."
       },
-      "offer": {
-        "title": "Tilbud og spesifikasjon",
-        "description": "Etter å ha blitt enige om de ulike personas og scenarioer for dem, spesifiserer vi et tilbud til fast pris for et godt definert scope."
+      "requirements_gathering": {
+        "title": "Kravinnsamling",
+        "description": "Sammen definerer vi de viktigste kravene og omfanget av prosjektet, slik at vi er på samme linje med sluttresultatet."
       },
-      "start-up": {
-        "title": "Oppstart",
-        "description": "Ved godkjenning av tilbud vil et dedikert utviklerteam bli tildelt. Det er valgfritt hvor mye dere som kunde ønsker å være delaktig underveis."
+      "documentation_design": {
+        "title": "Teknisk dokumentasjon & UI/UX-design",
+        "description": "Vi lager en detaljert teknisk plan og designer wireframes for å visualisere brukerreisen."
+      },
+      "project_estimation": {
+        "title": "Prosjektestimering",
+        "description": "Vi gir en klar tidslinje og kostnadsestimat basert på prosjektets omfang."
+      },
+      "roadmap_planning": {
+        "title": "Veikart & planlegging",
+        "description": "En omfattende prosjektplan legges frem, som beskriver alle utviklingsfaser."
       },
       "development": {
-        "title": "Utvikling",
-        "description": "I denne fasen vil du som kunde se veldig rask fremdrift, og det vil oppleves spennende å følge med fra dag til dag, dersom du ønsker det."
+        "title": "Utvikling (Agile/SCRUM)",
+        "description": "Vårt utviklingsteam setter i gang, leverer regelmessige oppdateringer og integrerer din tilbakemelding underveis."
       },
       "launch": {
-        "title": "Lansering",
-        "description": "Vi anbefaler at applikasjonen lanseres og prøves på ekte kunder så raskt som mulig. Selv om det er planlagt både feilrettinger og enda bedre funksjonalitet. Den beste tilbakemeldingen får du hos brukerne. Alltid."
+        "title": "Lansering & støtte",
+        "description": "Når appen er klar, lanserer vi den og tilbyr løpende støtte for å sikre jevn ytelse og kontinuerlige forbedringer."
       }
     },
     "page_sections_config": {
@@ -527,7 +535,7 @@
           "title": "Teknologier"
         },
         "how_it_works_section": {
-          "title": "Prosessen"
+          "title": "Hvordan vi arbeider"
         },
         "companies_support_section": {
           "title": "Støttet av"

@@ -79,7 +79,7 @@ export default function Home({ recommendedPostsJson }) {
           </div>
         </div>
         <ArrowDown
-          sectionId="how-we-do-it-section"
+          sectionId="services-section"
           ariaLabel={t("home.prime_section.arrow_aria")}
           alt={t("home.prime_section.arrow_alt")}
         />
