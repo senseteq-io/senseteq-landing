@@ -10,21 +10,23 @@ const MENU_ITEMS = {
     href: '/customers',
     ariaLabel: 'menu.customers.aria'
   },
-  '/pricing': {
-    name: 'menu.prices.name',
-    href: '/pricing',
-    ariaLabel: 'menu.prices.aria'
-  },
-  '/team': {
-    name: 'menu.team.name',
-    href: '/team',
-    ariaLabel: 'menu.team.aria'
-  },
-  '/s/mvp-calculator': {
-    name: 'menu.calculator.name',
-    href: '/s/mvp-calculator',
-    ariaLabel: 'menu.calculator.aria'
-  },
+    // Temporarily hidden
+  // '/pricing': {
+  //   name: 'menu.prices.name',
+  //   href: '/pricing',
+  //   ariaLabel: 'menu.prices.aria'
+  // },
+  // Temporarily disabled
+  // '/team': {
+  //   name: 'menu.team.name',
+  //   href: '/team',
+  //   ariaLabel: 'menu.team.aria'
+  // },
+  // '/s/mvp-calculator': {
+  //   name: 'menu.calculator.name',
+  //   href: '/s/mvp-calculator',
+  //   ariaLabel: 'menu.calculator.aria'
+  // },
   '/contact': {
     name: 'menu.contact.name',
     href: '/contact',

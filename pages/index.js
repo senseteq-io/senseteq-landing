@@ -102,6 +102,11 @@ export default function Home({ recommendedPostsJson }) {
             </Title>
           </div>
           <div className="col-12">
+            <Text description dataAos="fade-right">
+              {t('home.services_section.subtitle')}
+            </Text>
+          </div>
+          <div className="col-12">
             <ServiceList />
           </div>
         </div>

@@ -121,8 +121,8 @@
   },
   "home": {
     "prime_section": {
-      "title": "<span class='regular'>We will make the </span>MVP<span class='regular'> version </span> in 19 working days<span class='c-primary'>.</span>",
-      "subtitle": "Do you think this is impossible? Scroll down to see how we do it.",
+      "title": "<span class='regular'>Transform Your Vision into </span>Cutting-Edge Apps<span class='c-primary'>.</span>",
+      "subtitle": "At Senseteq, we build powerful web, mobile, and server applications, integrate AI systems, and craft user-centered designs—solving complex problems for startups and established businesses alike.",
       "arrow_alt": "Arrow",
       "arrow_aria": "Go to next section"
     },
@@ -130,7 +130,8 @@
       "title": "<span class='regular'>How do we</span> do it<span class='c-primary'>?</span>"
     },
     "services_section": {
-      "title": "<span class='regular'>Our</span> Services<span class='c-primary'>.</span>"
+      "title": "<span class='regular'>Our</span> Services<span class='c-primary'>.</span>",
+      "subtitle": "We offer a full suite of services designed to bring your ideas to life and scale your business:"
     },
     "project_support_section": {
       "title": "<span class='regular'>We can develop and support no more than</span> 24 projects per year<span class='c-primary'>.</span>",
@@ -386,28 +387,33 @@
     },
     "customers_slides": {
       "menta": {
-        "description": "Menta Health is an international initiative to improve and streamline the treatment of anxiety and depression.",
+        "description": " An online clinic that provides accessible mental health services for a range of conditions.",
         "aria": "Go to Menta slide"
       },
-      "worktube": {
-        "description": "Worktube is an automated recruitment and staffing service.",
-        "aria": "Go to Menta slide"
+      "wib": {
+        "description": "A platform connecting women entrepreneurs with investors, empowering the next wave of business leaders.",
+        "aria": "Go to Woman in Business slide"
       },
-      "b2g": {
-        "description": "Buy2gether is an app that makes it easy and safe to buy an apartment with others.",
-        "aria": "Go to Buy2gether slide"
+      "letme": {
+        "description": "A staff management app designed specifically for the fast-paced restaurant industry.",
+        "aria": "Go to Letme slide"
       },
-      "qonsoll": {
-        "description": "Qonsoll is a toolbox for developers, which automates, simplifies and increases the quality of development work.",
-        "aria": "Go to Qonsoll slide"
+      "tipps": {
+        "description": "A unique platform that lets users report incidents to the media and receive rewards.",
+        "aria": "Go to Tipps slide",
+        "button_text": "Download"
       },
-      "fractal": {
-        "description": "Fractal Academy is a future-oriented academy that teaches young developers today's and tomorrow's development tools. Free.",
-        "aria": "Go to Fractal Academy slide"
+      "alfa_bolig": {
+        "description": "A tool that ensures apartments meet all safety standards with ease.",
+        "aria": "Go to Alfa Bolig slide"
+      },
+      "kapitall": {
+        "description": "A rental project calculator that helps real estate investors maximize their returns and make informed decisions faster.",
+        "aria": "Go to Kapitall slide"
       },
       "can_eat": {
-        "description": "CanEat is an ecosystem for everyone who needs customized food, their relatives, food producers and healthcare professionals.",
-        "aria": "Go to Can Eat slide",
+        "description": "A barcode-scanning app that allows users to instantly know if a product fits their dietary needs.",
+        "aria": "Go to CanEat slide",
         "button_text": "Download"
       }
     },
@@ -474,7 +480,7 @@
     "page_sections_config": {
       "home": {
         "prime_section": {
-          "title": "First version in 19 days"
+          "title": "Transform your yision"
         },
         "how_we_do_it_section": {
           "title": "How do we do it?"

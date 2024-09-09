@@ -15,7 +15,7 @@ const ContactView = (props) => {
       className="contact-item"
       itemScope
       itemType="https://schema.org/Organization">
-      <div className="contact-image-wrapper">
+      <div className="contact-image-wrapper 11111">
         <Image src={src} alt={t(name)} layout="fill" />
       </div>
       <Title as="h6" itemProp="name">
