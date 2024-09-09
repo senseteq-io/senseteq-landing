@@ -134,14 +134,15 @@
       "subtitle": "We offer a full suite of services designed to bring your ideas to life and scale your business:"
     },
     "project_support_section": {
-      "title": "<span class='regular'>We can develop and support no more than</span> 24 projects per year<span class='c-primary'>.</span>",
-      "subtitle": "We will take your if:",
+      "title": "Who We Work With<span class='c-primary'>.</span>",
+      "subtitle": "We partner with startups and established companies that share our passion for innovation, impact, and trust.",
       "uptitle": "LEFT IN 2023",
       "subtitle2": "18 projects<span class='c-primary'>.</span>",
       "buttonText": "Apply now"
     },
-    "guarantees_section": {
-      "title": "<span class='regular'>We </span>guarantee<span class='c-primary'>.</span>"
+    "delivery_section": {
+      "title": "What We Deliver<span class='c-primary'>.</span>",
+      "subtitle": "At Senseteq, we don't just build apps—we deliver high-performance solutions that scale with your business. Here's what you can expect:"
     },
     "industries_section": {
       "title": "Industries<span class='c-primary'>.</span>"
@@ -163,7 +164,7 @@
     },
     "ukranian_developers_section": {
       "title": "<span class='regular'>Why </span>Ukraine developers<span class='c-primary'>?</span>",
-      "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries’ top the list for most advanced software development skillset."
+      "description": "Ukraine developers rank as the most proficient and experienced practitioners in custom software, web and app development. On TopCoder and Hackerrank, Ukraine feature in a high ranking system that saw the countries' top the list for most advanced software development skillset."
     },
     "about_senseteq_section": {
       "title": "<span class='regular'>About </span>Senseteq<span class='c-primary'>.</span>",
@@ -273,52 +274,73 @@
       }
     },
     "services": {
-      "back-end": "Complex back-end apps",
-      "front-end": "Front-end web apps",
-      "mobile_apps": "Mobile apps",
-      "consulting": "Custom technology consulting",
-      "prototyping": "Prototyping",
-      "design": "UI/UX design",
-      "management": "Project management"
+      "ai": {
+        "title": "AI-Powered Applications",
+        "subtitle": "Seamlessly integrate AI to enhance user experience, automate tasks, and boost decision-making"
+      },
+      "back-end": {
+        "title": "Complex Back-End Development",
+        "subtitle": "Build robust, scalable server-side systems that support your business"
+      },
+      "front-end": {
+        "title": "Front-End Web Development",
+        "subtitle": "Create responsive and visually stunning web applications"
+      },
+      "mobile_apps": {
+        "title": "Mobile App Development",
+        "subtitle": "Design sleek, user-friendly apps for iOS and Android"
+      },
+      "consulting": {
+        "title": "Custom Technology Consulting",
+        "subtitle": "Tailored advice to tackle your unique technical challenges"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "subtitle": "Turn your ideas into interactive prototypes quickly and efficiently"
+      },
+      "design": {
+        "title": "UI/UX design",
+        "subtitle": "Deliver exceptional user experiences through thoughtful design"
+      },
+      "management": {
+        "title": "Project management",
+        "subtitle": "Ensure seamless execution with agile project management"
+      }
     },
     "reasons": {
       "startup": {
-        "title": "Your are a startup",
-        "description": "You are an entrepeneur in a startup, or you are head of a new project within an established company."
+        "title": "Innovative Startups",
+        "description": "Whether you're a founder or leading a new project within a larger organization, we collaborate with ventures that push boundaries."
       },
-      "difference": {
-        "title": "You make a difference",
-        "description": "Your idea or project will make a positive impact on peoples lives, in any part of their wellbeing."
+      "purpose": {
+        "title": "Purpose-Driven Projects",
+        "description": "We're drawn to ideas that make a meaningful difference in people's lives, whether in health, education, or overall well-being."
       },
-      "care": {
-        "title": "You care",
-        "description": "Business is done between people, not companies. We are a high trust company and we work together with companies that also take care of their employees and trust them."
+      "trust": {
+        "title": "High-Trust Companies",
+        "description": "We believe in building relationships with companies that value their teams and foster an environment of mutual respect and trust."
       }
     },
     "guarantees": {
-      "fast_mvp": {
-        "title": "Fast creation of MVP version"
+      "tailored_solutions": {
+        "title": "Tailored Solutions",
+        "subtitle": "We craft solutions that fit your business needs, whether it's a complex enterprise system or a mobile app"
       },
-      "quickly_changes": {
-        "title": "Quickly make any changes to the project"
+      "scalable_architectures": {
+        "title": "Scalable Architectures",
+        "subtitle": "Built for growth, your app will easily adapt as your user base expands"
       },
-      "scaling": {
-        "title": "Easy scaling"
-      },
-      "high_performance": {
-        "title": "High app performance"
+      "performance_security": {
+        "title": "High Performance & Security",
+        "subtitle": "Our apps are optimized for speed and designed with the highest security standards in mind"
       },
       "user_experience": {
-        "title": "User experience"
-      },
-      "security": {
-        "title": "Serious about security and sensitive data"
-      },
-      "quality": {
-        "title": "Quality assurance"
+        "title": "Seamless User Experience",
+        "subtitle": "Intuitive interfaces that delight users and keep them engaged"
       },
       "technology_stack": {
-        "title": "Best technology stack"
+        "title": "Flexible & Future-Proof Technology Stack",
+        "subtitle": "We use cutting-edge technology to ensure long-term success and adaptability"
       }
     },
     "industries": {
@@ -480,7 +502,7 @@
     "page_sections_config": {
       "home": {
         "prime_section": {
-          "title": "Transform your yision"
+          "title": "Transform your vision"
         },
         "how_we_do_it_section": {
           "title": "How do we do it?"
@@ -489,10 +511,10 @@
           "title": "Our services"
         },
         "project_support_section": {
-          "title": "Number of projects"
+          "title": "Who we work with"
         },
-        "guarantees_section": {
-          "title": "We guarantee"
+        "delivery_section": {
+          "title": "What we deliver"
         },
         "industries_section": {
           "title": "Industries"

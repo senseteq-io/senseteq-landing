@@ -7,7 +7,7 @@ const GuaranteeList = (props) => {
     <List
       data={GUARANTEES}
       listItemComponent={GuaranteeView}
-      listItemWrapperClassName="col-12 col-lg-3 guarantee-item-wrapper"
+      listItemWrapperClassName="col-12 col-md-6 col-xxl-4 guarantee-item-wrapper"
       {...props}
     />
   )

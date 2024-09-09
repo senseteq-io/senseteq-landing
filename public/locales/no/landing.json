@@ -134,14 +134,15 @@
       "subtitle": "Vi tilbyr et komplett spekter av tjenester som er utformet for å bringe dine ideer til live og skalere din virksomhet:"
     },
     "project_support_section": {
-      "title": "<span class='regular'>Vi utvikler og supporterer maksimalt</span> 24 prosjekter i året<span class='c-primary'>.</span>",
-      "subtitle": "Du kan bli vår kunde dersom:",
+      "title": "Hvem Vi Samarbeider Med<span class='c-primary'>.</span>",
+      "subtitle": "Vi samarbeider med startups og etablerte selskaper som deler vår lidenskap for innovasjon, innvirkning og tillit.",
       "uptitle": "LEDIG I 2023",
       "subtitle2": "18 prosjekter<span class='c-primary'>.</span>",
       "buttonText": "Søk nå"
     },
-    "guarantees_section": {
-      "title": "<span class='regular'>Vi </span>garanterer<span class='c-primary'>.</span>"
+    "delivery_section": {
+      "title": "Hva Vi Leverer<span class='c-primary'>.</span>",
+      "subtitle": "Hos Senseteq bygger vi ikke bare apper – vi leverer høyytelsesløsninger som skalerer med din virksomhet. Her er hva du kan forvente:"
     },
     "industries_section": {
       "title": "Bransjer<span class='c-primary'>.</span>"
@@ -273,52 +274,73 @@
       }
     },
     "services": {
-      "back-end": "Komplekse back-end applikasjoner",
-      "front-end": "Front-end web applikasjoner",
-      "mobile_apps": "Mobilapplikasjoner",
-      "consulting": "Invividuell teknologikonsultasjon",
-      "prototyping": "Utvikling av prototype",
-      "design": "UI/UX design",
-      "management": "Prosjektstyring"
+      "ai": {
+        "title": "AI-drevne applikasjoner",
+        "subtitle": "Integrer AI sømløst for å forbedre brukeropplevelsen, automatisere oppgaver og styrke beslutningstakingen"
+      },
+      "back-end": {
+        "title": "Kompleks back-end utvikling",
+        "subtitle": "Bygg robuste og skalerbare serverløsninger som støtter din virksomhet"
+      },
+      "front-end": {
+        "title": "Front-end webutvikling",
+        "subtitle": "Lag responsive og visuelt imponerende webapplikasjoner"
+      },
+      "mobile_apps": {
+        "title": "Mobilapplikasjoner",
+        "subtitle": "Design elegante, brukervennlige apper for iOS og Android"
+      },
+      "consulting": {
+        "title": "Skreddersydd teknologirådgivning",
+        "subtitle": "Tilpassede råd for å løse dine unike tekniske utfordringer"
+      },
+      "prototyping": {
+        "title": "Prototyping",
+        "subtitle": "Gjør dine ideer om til interaktive prototyper raskt og effektivt"
+      },
+      "design": {
+        "title": "UI/UX-design",
+        "subtitle": "Lever enestående brukeropplevelser gjennom gjennomtenkt design"
+      },
+      "management": {
+        "title": "Prosjektledelse",
+        "subtitle": "Sikre sømløs gjennomføring med smidig prosjektledelse"
+      }
     },
     "reasons": {
       "startup": {
-        "title": "Du er gründer",
-        "description": "Du er en gründer i et oppstartsfirma, eller du leder et nytt prosjekt i et etablert firma."
+        "title": "Innovative startups",
+        "description": "Enten du er en gründer eller leder et nytt prosjekt i en større organisasjon, samarbeider vi med prosjekter som utfordrer status quo."
       },
-      "difference": {
-        "title": "Du vil gjøre en forskjell",
-        "description": "Din idé eller ditt prosjekt vil ha en positiv effekt på menneskers liv."
+      "purpose": {
+        "title": "Formålsdrevne prosjekter",
+        "description": "Vi tiltrekkes av ideer som gjør en meningsfull forskjell i menneskers liv, enten det er innen helse, utdanning eller velvære."
       },
-      "care": {
-        "title": "Du bryr deg",
-        "description": "Forretninger gjøres mellom mennesker, ikke mellom bedrifter. Vi er et selskap som bygger på høy tillit og vi jobber sammen med bedrifter som også tar vare på sine ansatte og har tillit til dem."
+      "trust": {
+        "title": "Høytillitsselskaper",
+        "description": "Vi tror på å bygge relasjoner med selskaper som verdsetter sine ansatte og fremmer et miljø av gjensidig respekt og tillit."
       }
     },
     "guarantees": {
-      "fast_mvp": {
-        "title": "Lynrask utvikling av en førsteversjon"
+      "tailored_solutions": {
+        "title": "Skreddersydde løsninger",
+        "subtitle": "Vi utvikler løsninger som passer dine forretningsbehov, enten det er et komplekst system eller en mobilapp"
       },
-      "quickly_changes": {
-        "title": "Raskt og enkelt å gjøre endringer i prosjektet"
+      "scalable_architectures": {
+        "title": "Skalerbare arkitekturer",
+        "subtitle": "Bygget for vekst, vil din app enkelt tilpasse seg et voksende brukerantall"
       },
-      "scaling": {
-        "title": "Enkel oppskalering"
-      },
-      "high_performance": {
-        "title": "Applikasjoner med høy ytelse"
+      "performance_security": {
+        "title": "Høy ytelse og sikkerhet",
+        "subtitle": "Våre apper er optimalisert for hastighet og designet med de høyeste sikkerhetsstandardene"
       },
       "user_experience": {
-        "title": "Fokus på brukeropplevelse"
-      },
-      "security": {
-        "title": "Fokus på sikkerhet og verning av sensitive data"
-      },
-      "quality": {
-        "title": "Kvalitetssikring"
+        "title": "Sømløs brukeropplevelse",
+        "subtitle": "Intuitive grensesnitt som gleder brukerne og holder dem engasjert"
       },
       "technology_stack": {
-        "title": "Beste utvalg av teknologier"
+        "title": "Fleksibel og fremtidssikker teknologi",
+        "subtitle": "Vi bruker toppmoderne teknologi for å sikre langsiktig suksess og tilpasningsevne"
       }
     },
     "industries": {
@@ -493,10 +515,10 @@
           "title": "Våre tjenester"
         },
         "project_support_section": {
-          "title": "Antall prosjekter"
+          "title": "Hvem vi samarbeider med"
         },
-        "guarantees_section": {
-          "title": "Vi garanterer"
+        "delivery_section": {
+          "title": "Hva vi leverer"
         },
         "industries_section": {
           "title": "Bransjer"
