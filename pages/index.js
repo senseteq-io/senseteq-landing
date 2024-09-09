@@ -137,7 +137,7 @@ export default function Home({ recommendedPostsJson }) {
             />
           </div> */}
         </div>
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-auto">
             <Button
               aria-label={t("home.project_support_section.buttonText")}
@@ -148,7 +148,7 @@ export default function Home({ recommendedPostsJson }) {
               {t("home.project_support_section.buttonText")}
             </Button>
           </div>
-        </div>
+        </div> */}
       </Section>
       <Section dark id="guarantees-section">
         <div className="row">

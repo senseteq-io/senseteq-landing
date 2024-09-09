@@ -38,6 +38,7 @@ const PAGE_SECTIONS_CONFIG = {
         'constants.page_sections_config.home.companies_support_section.title',
       idSection: 'companies-support-section'
     },
+    // This section is not used and provide a link error
     // {
     //   title:
     //     'constants.page_sections_config.home.ukranian_developers_section.title',
