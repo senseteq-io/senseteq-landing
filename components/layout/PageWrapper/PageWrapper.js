@@ -56,7 +56,7 @@ const PageWrapper = (props) => {
       </div>
       {process.env.NEXT_PUBLIC_ENVIRONMENT === 'PRODUCTION' && (
         <>
-        {/* TEMPORARY HIDDEN */}
+          {/* TEMPORARY HIDDEN */}
           {/* <Script
             type="text/javascript"
             id="hs-script-loader"

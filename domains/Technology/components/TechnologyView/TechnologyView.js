@@ -12,7 +12,7 @@ const TechnologyView = (props) => {
       <div className="technology-image-wrapper">
         <Image src={src} alt={name} layout="fill" />
       </div>
-      <Title as="h6" itemprop="name">
+      <Title as="h6" itemProp="name">
         {name}
       </Title>
     </div>
