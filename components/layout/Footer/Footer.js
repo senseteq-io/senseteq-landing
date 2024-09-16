@@ -1,12 +1,12 @@
-import { Text, Title } from "../../../components";
+import { Text, Title } from '../../../components'
 
-import Link from "next/link";
-import { useTranslation } from "next-i18next";
+import Link from 'next/link'
+import { useTranslation } from 'next-i18next'
 
 const Footer = () => {
   // [ADDITIONAL_HOOKS]
   /* A hook that allows us to use the `t` function to translate strings. */
-  const { t } = useTranslation("landing");
+  const { t } = useTranslation('landing')
 
   return (
     <footer className="footer">
@@ -14,13 +14,13 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 subtitle-wrapper">
             <Text caption className="subtitle">
-              {t("footer.subtitle")}
+              {t('footer.subtitle')}
             </Text>
           </div>
         </div>
         <div className="col-12 title-wrapper">
           <Title as="h4" dataAos="fade-down">
-            {t("footer.title")}
+            {t('footer.title')}
           </Title>
         </div>
         <div className="col-12 contacts-wrapper">
@@ -41,9 +41,8 @@ const Footer = () => {
           </div> */}
           <Link
             href="mailto:hello@senseteq.io"
-            ariaLabel={t("footer.emailAria")}
-            className="contact"
-          >
+            ariaLabel={t('footer.emailAria')}
+            className="contact">
             hello@senseteq.io
           </Link>
           {/* Temporary hidden */}
@@ -53,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
