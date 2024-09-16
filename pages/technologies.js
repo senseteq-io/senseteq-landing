@@ -38,7 +38,7 @@ export default function Technologies() {
           </div>
         </div>
       </Section>
-      <Section dark id="secret-weapon-section">
+      {/* <Section dark id="secret-weapon-section">
         <div className="row align-items-center">
           <div className="description-wrapper col-12 offset-md-1 col-md-7">
             <Text className="caption" caption dataAos="fade-down">
@@ -55,7 +55,7 @@ export default function Technologies() {
             <div className="qonsoll-logo-wrapper" aria-label="Qonsoll logo" />
           </div>
         </div>
-      </Section>
+      </Section> */}
     </PageWrapper>
   )
 }
